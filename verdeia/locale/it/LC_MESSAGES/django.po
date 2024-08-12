@@ -1,0 +1,4606 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-30 20:45+0200\n"
+"PO-Revision-Date: 2024-07-30 21:35+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: .\templates\blogs\10-simple-ways.html:25
+#: .\templates\blogs\10-simple-ways.html:106 .\templates\blogs\blog.html:25
+#: .\templates\blogs\blog.html:105
+#: .\templates\blogs\corporate-social-responsibility.html:25
+#: .\templates\blogs\corporate-social-responsibility.html:106
+#: .\templates\blogs\guide-to-carbon-certificate.html:25
+#: .\templates\blogs\guide-to-carbon-certificate.html:106
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:25
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:106
+#: .\templates\blogs\top-renewable-energy-sources.html:25
+#: .\templates\blogs\top-renewable-energy-sources.html:106
+#: .\templates\blogs\understanding-your-carbon-footprint.html:25
+#: .\templates\blogs\understanding-your-carbon-footprint.html:106
+#: .\templates\pages\contact.html:24 .\templates\pages\contact.html:104
+#: .\templates\pages\faq.html:25 .\templates\pages\faq.html:105
+#: .\templates\pages\home.html:25 .\templates\pages\home.html:105
+#: .\templates\pages\pricing.html:25 .\templates\pages\pricing.html:106
+#: .\templates\pages\privacy.html:25 .\templates\pages\privacy.html:106
+#: .\templates\pages\start.html:89 .\templates\pages\start.html:170
+#: .\templates\pages\terms.html:25 .\templates\pages\terms.html:106
+#: .\templates\pages\unava.html:25 .\templates\pages\unava.html:106
+msgid "Pricing"
+msgstr "Prezzi"
+
+#: .\templates\blogs\10-simple-ways.html:41
+#: .\templates\blogs\10-simple-ways.html:115 .\templates\blogs\blog.html:41
+#: .\templates\blogs\blog.html:114
+#: .\templates\blogs\corporate-social-responsibility.html:41
+#: .\templates\blogs\corporate-social-responsibility.html:115
+#: .\templates\blogs\guide-to-carbon-certificate.html:41
+#: .\templates\blogs\guide-to-carbon-certificate.html:115
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:41
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:115
+#: .\templates\blogs\top-renewable-energy-sources.html:41
+#: .\templates\blogs\top-renewable-energy-sources.html:115
+#: .\templates\blogs\understanding-your-carbon-footprint.html:41
+#: .\templates\blogs\understanding-your-carbon-footprint.html:115
+#: .\templates\pages\contact.html:40 .\templates\pages\contact.html:113
+#: .\templates\pages\faq.html:41 .\templates\pages\faq.html:114
+#: .\templates\pages\home.html:41 .\templates\pages\home.html:114
+#: .\templates\pages\pricing.html:41 .\templates\pages\pricing.html:115
+#: .\templates\pages\privacy.html:41 .\templates\pages\privacy.html:115
+#: .\templates\pages\start.html:105 .\templates\pages\start.html:179
+#: .\templates\pages\terms.html:41 .\templates\pages\terms.html:115
+#: .\templates\pages\unava.html:41 .\templates\pages\unava.html:115
+msgid "Community"
+msgstr "Comunità"
+
+#: .\templates\blogs\10-simple-ways.html:78
+#: .\templates\blogs\10-simple-ways.html:141 .\templates\blogs\blog.html:78
+#: .\templates\blogs\blog.html:140
+#: .\templates\blogs\corporate-social-responsibility.html:78
+#: .\templates\blogs\corporate-social-responsibility.html:141
+#: .\templates\blogs\guide-to-carbon-certificate.html:78
+#: .\templates\blogs\guide-to-carbon-certificate.html:141
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:78
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:141
+#: .\templates\blogs\top-renewable-energy-sources.html:78
+#: .\templates\blogs\top-renewable-energy-sources.html:141
+#: .\templates\blogs\understanding-your-carbon-footprint.html:78
+#: .\templates\blogs\understanding-your-carbon-footprint.html:141
+#: .\templates\pages\contact.html:77 .\templates\pages\contact.html:139
+#: .\templates\pages\faq.html:78 .\templates\pages\faq.html:140
+#: .\templates\pages\home.html:78 .\templates\pages\home.html:140
+#: .\templates\pages\pricing.html:78 .\templates\pages\pricing.html:141
+#: .\templates\pages\privacy.html:78 .\templates\pages\privacy.html:141
+#: .\templates\pages\start.html:142 .\templates\pages\start.html:205
+#: .\templates\pages\terms.html:78 .\templates\pages\terms.html:141
+#: .\templates\pages\unava.html:78 .\templates\pages\unava.html:141
+msgid "Log In"
+msgstr "Accedi"
+
+#: .\templates\blogs\10-simple-ways.html:80
+#: .\templates\blogs\10-simple-ways.html:143 .\templates\blogs\blog.html:80
+#: .\templates\blogs\blog.html:142
+#: .\templates\blogs\corporate-social-responsibility.html:80
+#: .\templates\blogs\corporate-social-responsibility.html:143
+#: .\templates\blogs\guide-to-carbon-certificate.html:80
+#: .\templates\blogs\guide-to-carbon-certificate.html:143
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:80
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:143
+#: .\templates\blogs\top-renewable-energy-sources.html:80
+#: .\templates\blogs\top-renewable-energy-sources.html:143
+#: .\templates\blogs\understanding-your-carbon-footprint.html:80
+#: .\templates\blogs\understanding-your-carbon-footprint.html:143
+#: .\templates\pages\contact.html:79 .\templates\pages\contact.html:141
+#: .\templates\pages\faq.html:80 .\templates\pages\faq.html:142
+#: .\templates\pages\home.html:80 .\templates\pages\home.html:142
+#: .\templates\pages\pricing.html:80 .\templates\pages\pricing.html:143
+#: .\templates\pages\privacy.html:80 .\templates\pages\privacy.html:143
+#: .\templates\pages\start.html:144 .\templates\pages\start.html:207
+#: .\templates\pages\terms.html:80 .\templates\pages\terms.html:143
+#: .\templates\pages\unava.html:80 .\templates\pages\unava.html:143
+msgid "Get Started"
+msgstr "Iniziamo"
+
+#: .\templates\blogs\10-simple-ways.html:151
+#: .\templates\blogs\top-renewable-energy-sources.html:151
+#: .\templates\blogs\understanding-your-carbon-footprint.html:151
+msgid "July"
+msgstr "Luglio"
+
+#: .\templates\blogs\10-simple-ways.html:153
+msgid ""
+"10 Simple Ways To Reduce Your Carbon\n"
+"        <br>Emissions At Home"
+msgstr ""
+"10 semplici modi per ridurre le tue emissioni di carbonio <br>della casa"
+
+#: .\templates\blogs\10-simple-ways.html:159
+msgid ""
+"In today's world, reducing our carbon footprint is more\n"
+"            important than\n"
+"            ever. Each of us has the power to make a significant impact by "
+"making small, sustainable changes in our\n"
+"            daily lives."
+msgstr ""
+"Nel mondo di oggi, ridurre la nostra impronta di carbonio è molto "
+"importante . Ognuno di noi ha il potere di avere un impatto significativo "
+"apportando piccoli cambiamenti sostenibili nella propria vita quotidiana."
+
+#: .\templates\blogs\10-simple-ways.html:163
+msgid ""
+"O</span>ur homes are a major source of\n"
+"            carbon\n"
+"            emissions, but with some thoughtful adjustments, we can "
+"significantly lower the impact. Whether you're\n"
+"            looking to save money on energy bills, live a more sustainable "
+"lifestyle, or leave a better world for future\n"
+"            generations, every small change adds up. Here are ten simple yet "
+"effective ways to reduce your carbon\n"
+"            emissions at home."
+msgstr ""
+"L</span>e nostre case sono una fonte importante di carbonio ma con alcuni "
+"accorgimenti possiamo ridurne significativamente l'impatto. Che si tratti di "
+"risparmiare sulle bollette energetiche, vivere uno stile di vita più "
+"sostenibile o lasciare un mondo migliore per le future generazioni future, "
+"ogni piccolo cambiamento ha un valore aggiunto. Ecco dieci modi semplici ma "
+"efficaci per ridurre le emissioni di anidride carbonica in casa a casa."
+
+#: .\templates\blogs\10-simple-ways.html:170
+msgid "Switch to LED Bulbs"
+msgstr "Passare alle lampadine a LED"
+
+#: .\templates\blogs\10-simple-ways.html:171
+#, python-format
+msgid ""
+"Lighting accounts for a substantial part of our energy consumption.\n"
+"                By switching to LED bulbs, you can cut down on this energy "
+"use dramatically. LED bulbs use up to 85%% less energy than\n"
+"                traditional incandescent bulbs and 40%% less than CFLs. "
+"Plus, they last much longer, meaning fewer\n"
+"                replacements and less waste. Start by replacing the most "
+"frequently used bulbs in your home and work\n"
+"                your way through the rest."
+msgstr ""
+"L'illuminazione rappresenta una parte sostanziale del nostro consumo "
+"energetico.\n"
+"                Passando alle lampadine\n"
+"                Lampadine a LED, è possibile ridurre drasticamente il "
+"consumo energetico. Le lampadine a LED consumano fino all'85%% in meno "
+"rispetto alle tradizionali lampadine a incandescenza e fino al 40%% in meno "
+"rispetto alle CFL tradizionali a incandescenza e 40%% in meno rispetto alle "
+"CFL. Inoltre, durano molto più a lungo, il che significa meno sostituzioni e "
+"meno sprechi\n"
+"                sostituzioni e meno sprechi. Iniziate a sostituire le "
+"lampadine utilizzate più di frequente in casa vostra e poi procedete con le "
+"altre\n"
+"                e poi procedere con le altre."
+
+#: .\templates\blogs\10-simple-ways.html:180
+msgid "Unplug Electronics"
+msgstr "Scollegare Apparecchiature eletriche"
+
+#: .\templates\blogs\10-simple-ways.html:181
+#, python-format
+msgid ""
+"Even when turned off, many electronics continue to draw power. This\n"
+"                “phantom” energy\n"
+"                can account for up to 10%% of your household energy use. To "
+"combat this, unplug devices when they’re not\n"
+"                in use or use smart power strips that cut power to devices "
+"when they’re not needed. It’s a simple step\n"
+"                that can lead to significant energy savings over time."
+msgstr ""
+"Anche quando sono spenti, molti dispositivi elettronici continuano ad "
+"assorbire energia. Questa\n"
+"                \"energia \"fantasma\n"
+"                può rappresentare fino al 10%% del consumo energetico "
+"domestico. Per contrastare questo fenomeno, scollegate i dispositivi \n"
+"                quando non sono in uso o utilizzare ciabatte intelligenti "
+"che interrompono l'alimentazione dei dispositivi quando non sono necessari. "
+"Si tratta di un semplice passo\n"
+"                che può portare a un significativo risparmio energetico nel "
+"tempo."
+
+#: .\templates\blogs\10-simple-ways.html:190
+msgid "Use Energy-Efficient Appliances"
+msgstr "Utilizzare elettrodomestici a basso consumo energetico"
+
+#: .\templates\blogs\10-simple-ways.html:191
+msgid ""
+"When it’s time to replace old appliances, opt for models with high\n"
+"                energy efficiency\n"
+"                ratings. Look for the Energy Star label, which indicates "
+"that the appliance meets strict energy\n"
+"                efficiency guidelines. These appliances use less energy, "
+"which not only helps the environment but can\n"
+"                also lower your utility bills."
+msgstr ""
+"Quando è il momento di sostituire i vecchi elettrodomestici, optate per "
+"modelli ad alta efficienza energetica\n"
+"                \n"
+"                . Cercate l'etichetta Energy Star, che indica che "
+"l'elettrodomestico soddisfa le severe linee guida in materia di efficienza "
+"energetica\n"
+"                . Questi elettrodomestici consumano meno energia, il che non "
+"solo aiuta l'ambiente, ma può anche ridurre le bollette\n"
+"                ."
+
+#: .\templates\blogs\10-simple-ways.html:200
+msgid "Install a Programmable Thermostat"
+msgstr "Installare un termostato programmabile"
+
+#: .\templates\blogs\10-simple-ways.html:201
+msgid ""
+"Heating and cooling are among the biggest energy expenses in a home.\n"
+"                A programmable\n"
+"                thermostat can help you manage this more efficiently by "
+"adjusting the temperature based on your\n"
+"                schedule. Set it to lower the heat or air conditioning when "
+"you’re asleep or away, and you’ll save\n"
+"                energy without sacrificing comfort. Smart thermostats can "
+"even learn your habits and make adjustments\n"
+"                automatically."
+msgstr ""
+"Il riscaldamento e il raffreddamento sono tra le principali spese "
+"energetiche di una casa.\n"
+"                Un \n"
+"                termostato programmabile può aiutarvi a gestire questo "
+"aspetto in modo più efficiente, regolando la temperatura in base ai vostri \n"
+"                orari. Impostandolo per abbassare il riscaldamento o l'aria "
+"condizionata quando si dorme o si è fuori casa, si risparmierà energia senza "
+"sacrificare il comfort\n"
+"                . I termostati intelligenti possono persino apprendere le "
+"vostre abitudini e apportare automaticamente le regolazioni\n"
+"                automaticamente."
+
+#: .\templates\blogs\10-simple-ways.html:211
+msgid "Improve Home Insulation"
+msgstr "Migliorare l'isolamento della casa"
+
+#: .\templates\blogs\10-simple-ways.html:212
+msgid ""
+"Proper insulation is crucial for maintaining a comfortable home\n"
+"                temperature without\n"
+"                excessive heating or cooling. Check for drafts around "
+"windows and doors and seal them with\n"
+"                weatherstripping or caulk. Adding or upgrading insulation in "
+"your attic, walls, and floors can make a\n"
+"                huge difference. Double-glazed windows or thermal curtains "
+"can also help keep the heat in during winter\n"
+"                and out during summer."
+msgstr ""
+"Un isolamento adeguato è fondamentale per mantenere una temperatura\n"
+"                confortevole senza\n"
+"                riscaldamento o raffreddamento eccessivo. Controllate che "
+"non ci siano correnti d'aria intorno alle finestre e alle porte e "
+"sigillatele con\n"
+"                guarnizioni o calafataggio. Aggiungere o migliorare "
+"l'isolamento del sottotetto, delle pareti e dei pavimenti può fare un'enorme "
+"differenza\n"
+"                . Anche le finestre con doppi vetri o le tende termiche "
+"possono contribuire a mantenere il calore all'interno in inverno e "
+"all'esterno in estate."
+
+#: .\templates\blogs\10-simple-ways.html:222
+msgid "Wash Clothes in Cold Water"
+msgstr "Lavare i vestiti in acqua fredda"
+
+#: .\templates\blogs\10-simple-ways.html:223
+msgid ""
+"Heating water for laundry is energy-intensive. Most clothes can be "
+"effectively\n"
+"                cleaned in cold water, saving you money and reducing energy "
+"use. Modern detergents are designed to work\n"
+"                well in cold water, so switch your washing machine settings "
+"and enjoy the benefits"
+msgstr ""
+"Il riscaldamento dell'acqua per il bucato richiede un elevato consumo di "
+"energia. La maggior parte degli indumenti può essere\n"
+"                puliti efficacemente in acqua fredda, risparmiando denaro e "
+"riducendo il consumo di energia. I moderni detersivi sono progettati per "
+"funzionare\n"
+"                acqua fredda, quindi modificate le impostazioni della vostra "
+"lavatrice e godetevi i vantaggi di questo tipo di lavaggio"
+
+#: .\templates\blogs\10-simple-ways.html:230
+msgid "Dry Clothes Naturally"
+msgstr "Asciugare i vestiti in modo naturale"
+
+#: .\templates\blogs\10-simple-ways.html:231
+msgid ""
+"Clothes dryers are among the most energy-consuming appliances in the home. "
+"By air\n"
+"                drying your clothes, either on a line or a drying rack, you "
+"can cut down significantly on your energy\n"
+"                use. If you must use a dryer, opt for lower heat settings "
+"and clean the lint filter regularly to\n"
+"                maintain efficiency."
+msgstr ""
+"Le asciugatrici sono tra gli elettrodomestici che consumano più energia in "
+"casa. Asciugando all'aria\n"
+"                asciugare i vestiti sia su un filo che su uno stendino, si "
+"può ridurre notevolmente il consumo di energia\n"
+"                 .Se dovete usare un'asciugatrice, optate per impostazioni "
+"di calore più basse e pulite regolarmente il filtro della lanugine per "
+"mantenere l'efficienza."
+
+#: .\templates\blogs\10-simple-ways.html:239
+msgid "Reduce Water Usage"
+msgstr "Ridurre il consumo di acqua"
+
+#: .\templates\blogs\10-simple-ways.html:240
+msgid ""
+"Reducing water consumption not only conserves a vital resource but also cuts "
+"down on\n"
+"                the energy needed to heat water. Install low-flow "
+"showerheads and faucet aerators to reduce water flow\n"
+"                without sacrificing pressure. Fix leaks promptly—those drips "
+"add up over time. Simple habits like taking\n"
+"                shorter showers and turning off the tap while brushing your "
+"teeth can make a big difference."
+msgstr ""
+"Ridurre il consumo di acqua non solo permette di preservare una risorsa "
+"vitale, ma anche di ridurre l'energia necessaria per riscaldare l'acqua\n"
+"                .Installate soffioni a basso flusso e aeratori per rubinetti "
+"per ridurre il flusso d'acqua senza sacrificare la pressione\n"
+"                . Riparare tempestivamente le perdite: quei gocciolamenti si "
+"accumulano nel tempo. Semplici abitudini come fare\n"
+"                doccia più breve e chiudere il rubinetto mentre ci si lava i "
+"denti possono fare una grande differenza."
+
+#: .\templates\blogs\10-simple-ways.html:248
+msgid "Adopt a Plant-Based Diet"
+msgstr "Adottare una dieta a base vegetale"
+
+#: .\templates\blogs\10-simple-ways.html:249
+msgid ""
+"The production of meat and dairy products generates significantly more "
+"greenhouse\n"
+"                gases than plant-based foods. By reducing your meat and "
+"dairy consumption, you can lower your carbon\n"
+"                footprint. Start by incorporating more plant-based meals "
+"into your diet. Try “Meatless Mondays” or\n"
+"                experiment with vegetarian and vegan recipes to see what you "
+"enjoy."
+msgstr ""
+"La produzione di carne e prodotti lattiero-caseari genera una quantità "
+"significativamente maggiore di gas serra rispetto agli alimenti di origine "
+"vegetale\n"
+"                . Riducendo il consumo di carne e latticini, è possibile "
+"ridurre l'impronta \n"
+"                di carbonio. Iniziate a integrare nella vostra dieta un "
+"maggior numero di pasti a base vegetale. Provate i \"lunedì senza carne\" o\n"
+"                sperimentate ricette vegetariane e vegane per vedere cosa vi "
+"piace."
+
+#: .\templates\blogs\10-simple-ways.html:257
+msgid "Compost Food Waste"
+msgstr "Compost degli scarti alimentari"
+
+#: .\templates\blogs\10-simple-ways.html:258
+msgid ""
+"When organic waste decomposes in landfills, it produces methane, a potent "
+"greenhouse\n"
+"                gas. Composting your kitchen scraps reduces methane "
+"emissions and provides nutrient-rich soil for\n"
+"                gardening. Set up a compost bin in your backyard or use a "
+"worm composting system for indoor composting.\n"
+"                Composting items like vegetable peels, coffee grounds, and "
+"eggshells can turn waste into a valuable\n"
+"                resource for your garden."
+msgstr ""
+"Quando i rifiuti organici si decompongono nelle discariche, producono "
+"metano, un potente gas serra\n"
+"                . Il compostaggio degli scarti di cucina riduce le emissioni "
+"di metano e fornisce un terreno ricco di nutrienti per il giardinaggio\n"
+"                . Preparate un contenitore per il compost nel vostro "
+"giardino o utilizzate un sistema di compostaggio a vermi per il compostaggio "
+"in casa.\n"
+"                Il compostaggio di elementi come bucce di verdure, fondi di "
+"caffè e gusci d'uovo può trasformare i rifiuti in una preziosa risorsa per "
+"il giardino."
+
+#: .\templates\blogs\10-simple-ways.html:267
+#: .\templates\blogs\corporate-social-responsibility.html:246
+#: .\templates\blogs\guide-to-carbon-certificate.html:206
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:245
+#: .\templates\blogs\top-renewable-energy-sources.html:250
+#: .\templates\blogs\understanding-your-carbon-footprint.html:226
+msgid "Conclusion"
+msgstr "Conclusione"
+
+#: .\templates\blogs\10-simple-ways.html:268
+msgid ""
+"Each of these changes might seem small on its own, but together they can add "
+"up to a\n"
+"                significant reduction in your home’s carbon emissions. By "
+"making these adjustments, you not only\n"
+"                contribute to a healthier planet but often find that you "
+"save money in the process. Start with a few\n"
+"                changes and gradually incorporate more, and you’ll be well "
+"on your way to a more sustainable lifestyle."
+msgstr ""
+"Ognuno di questi cambiamenti può sembrare piccolo da solo, ma insieme "
+"possono contribuire a una significativa riduzione delle emissioni di "
+"anidride carbonica\n"
+"                della vostra casa. Facendo queste modifiche, non solo "
+"contribuite a un pianeta più sano, ma spesso vi accorgete anche che\n"
+"                contribuire a un pianeta più sano, ma spesso si scopre anche "
+"che si risparmia denaro. Iniziate con qualche\n"
+"                e gradualmente altri, e sarete sulla buona strada per uno "
+"stile di vita più sostenibile."
+
+#: .\templates\blogs\10-simple-ways.html:273
+msgid ""
+"Remember, every step counts when it comes to protecting our environment. "
+"Let’s make\n"
+"                a difference, one small change at a time."
+msgstr ""
+"Ricordate che ogni passo conta quando si tratta di proteggere il nostro "
+"ambiente. Facciamo la\n"
+"                la differenza, un piccolo cambiamento alla volta."
+
+#: .\templates\blogs\10-simple-ways.html:280
+#: .\templates\blogs\corporate-social-responsibility.html:261
+#: .\templates\blogs\guide-to-carbon-certificate.html:221
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:261
+#: .\templates\blogs\top-renewable-energy-sources.html:265
+#: .\templates\blogs\understanding-your-carbon-footprint.html:240
+msgid "By"
+msgstr "Scritto da"
+
+#: .\templates\blogs\10-simple-ways.html:281
+#: .\templates\blogs\corporate-social-responsibility.html:262
+#: .\templates\blogs\guide-to-carbon-certificate.html:222
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:262
+#: .\templates\blogs\top-renewable-energy-sources.html:266
+#: .\templates\blogs\understanding-your-carbon-footprint.html:241
+msgid "Content Writer"
+msgstr "Scrittore di contenuti"
+
+#: .\templates\blogs\10-simple-ways.html:289
+#: .\templates\blogs\10-simple-ways.html:303
+#: .\templates\blogs\10-simple-ways.html:317
+#: .\templates\blogs\10-simple-ways.html:332 .\templates\blogs\blog.html:163
+#: .\templates\blogs\blog.html:172 .\templates\blogs\blog.html:181
+#: .\templates\blogs\blog.html:190 .\templates\blogs\blog.html:199
+#: .\templates\blogs\blog.html:208
+#: .\templates\blogs\corporate-social-responsibility.html:270
+#: .\templates\blogs\corporate-social-responsibility.html:284
+#: .\templates\blogs\corporate-social-responsibility.html:298
+#: .\templates\blogs\corporate-social-responsibility.html:313
+#: .\templates\blogs\guide-to-carbon-certificate.html:230
+#: .\templates\blogs\guide-to-carbon-certificate.html:244
+#: .\templates\blogs\guide-to-carbon-certificate.html:258
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:270
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:284
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:298
+#: .\templates\blogs\top-renewable-energy-sources.html:274
+#: .\templates\blogs\top-renewable-energy-sources.html:288
+#: .\templates\blogs\top-renewable-energy-sources.html:302
+#: .\templates\blogs\top-renewable-energy-sources.html:317
+#: .\templates\blogs\understanding-your-carbon-footprint.html:249
+#: .\templates\blogs\understanding-your-carbon-footprint.html:263
+#: .\templates\blogs\understanding-your-carbon-footprint.html:277
+#: .\templates\blogs\understanding-your-carbon-footprint.html:292
+msgid "Read More"
+msgstr "Leggi di più"
+
+#: .\templates\blogs\10-simple-ways.html:299
+#: .\templates\blogs\corporate-social-responsibility.html:280
+#: .\templates\blogs\guide-to-carbon-certificate.html:240
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:280
+#: .\templates\blogs\top-renewable-energy-sources.html:284
+msgid ""
+"Understanding Your Carbon Footprint: A Beginner's\n"
+"                                Guide"
+msgstr "Capire l'impronta di carbonio: Una guida per principianti"
+
+#: .\templates\blogs\10-simple-ways.html:301 .\templates\blogs\blog.html:161
+#: .\templates\blogs\corporate-social-responsibility.html:282
+#: .\templates\blogs\guide-to-carbon-certificate.html:242
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:282
+#: .\templates\blogs\top-renewable-energy-sources.html:286
+msgid "Understanding Your Carbon Footprint: A Beginner's Guide"
+msgstr "Capire l'impronta di carbonio: Una guida per principianti"
+
+#: .\templates\blogs\10-simple-ways.html:313
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:308
+#: .\templates\blogs\understanding-your-carbon-footprint.html:259
+msgid ""
+"Top Renewable Energy Sources for Home and Business\n"
+"                                Use"
+msgstr "Le migliori fonti di energia rinnovabile per la casa e le imprese\\"
+
+#: .\templates\blogs\10-simple-ways.html:315
+msgid "Top Renewable Energy Sources for Home and Business Use."
+msgstr ""
+"Le migliori fonti di energia rinnovabile per uso domestico e aziendale."
+
+#: .\templates\blogs\10-simple-ways.html:327
+#: .\templates\blogs\corporate-social-responsibility.html:308
+#: .\templates\blogs\guide-to-carbon-certificate.html:268
+#: .\templates\blogs\top-renewable-energy-sources.html:312
+#: .\templates\blogs\understanding-your-carbon-footprint.html:287
+msgid ""
+"The Importance of Carbon Offsetting: How It Works\n"
+"                                and Why It Matters"
+msgstr ""
+"L'importanza della compensazione delle emissioni di carbonio: Come funziona\n"
+"                                e perché è importante"
+
+#: .\templates\blogs\10-simple-ways.html:329
+#: .\templates\blogs\corporate-social-responsibility.html:310
+#: .\templates\blogs\guide-to-carbon-certificate.html:270
+#: .\templates\blogs\top-renewable-energy-sources.html:314
+#: .\templates\blogs\understanding-your-carbon-footprint.html:289
+msgid ""
+"The Importance of Carbon Offsetting: How It Works and Why It\n"
+"                                Matters"
+msgstr ""
+"L'importanza della compensazione delle emissioni di carbonio: Come funziona "
+"e perché è importante"
+
+#: .\templates\blogs\10-simple-ways.html:357
+#: .\templates\blogs\corporate-social-responsibility.html:338
+#: .\templates\pages\contact.html:239 .\templates\pages\faq.html:441
+#: .\templates\pages\home.html:344 .\templates\pages\pricing.html:699
+msgid ""
+"Empowering You to Track, Reduce, and Offset Carbon Emissions for a Greener "
+"Tomorrow."
+msgstr ""
+"Vi aiuterà a monitorare, ridurre e compensare le emissioni di carbonio per "
+"un domani più verde."
+
+#: .\templates\blogs\10-simple-ways.html:362
+#: .\templates\blogs\corporate-social-responsibility.html:343
+#: .\templates\blogs\guide-to-carbon-certificate.html:304
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:343
+#: .\templates\blogs\top-renewable-energy-sources.html:348
+#: .\templates\blogs\understanding-your-carbon-footprint.html:323
+#: .\templates\pages\contact.html:244 .\templates\pages\faq.html:446
+#: .\templates\pages\home.html:349 .\templates\pages\pricing.html:704
+#: .\templates\pages\privacy.html:287 .\templates\pages\terms.html:296
+msgid "Navigation"
+msgstr "Navigazione"
+
+#: .\templates\blogs\10-simple-ways.html:366
+#: .\templates\blogs\corporate-social-responsibility.html:347
+#: .\templates\blogs\guide-to-carbon-certificate.html:308
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:347
+#: .\templates\blogs\top-renewable-energy-sources.html:352
+#: .\templates\blogs\understanding-your-carbon-footprint.html:327
+#: .\templates\pages\contact.html:248 .\templates\pages\faq.html:450
+#: .\templates\pages\home.html:353 .\templates\pages\pricing.html:708
+#: .\templates\pages\privacy.html:291 .\templates\pages\terms.html:300
+msgid "Resources"
+msgstr "Risorse"
+
+#: .\templates\blogs\10-simple-ways.html:369
+#: .\templates\blogs\guide-to-carbon-certificate.html:311
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:350
+msgid "Contact"
+msgstr "Contatto"
+
+#: .\templates\blogs\10-simple-ways.html:381
+#: .\templates\blogs\corporate-social-responsibility.html:362
+#: .\templates\blogs\guide-to-carbon-certificate.html:323
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:362
+#: .\templates\blogs\top-renewable-energy-sources.html:367
+#: .\templates\blogs\understanding-your-carbon-footprint.html:342
+#: .\templates\pages\contact.html:263 .\templates\pages\faq.html:465
+#: .\templates\pages\home.html:368 .\templates\pages\pricing.html:723
+#: .\templates\pages\privacy.html:306 .\templates\pages\terms.html:315
+msgid "Follow Us"
+msgstr "Seguici"
+
+#: .\templates\blogs\10-simple-ways.html:417
+#: .\templates\blogs\corporate-social-responsibility.html:398
+#: .\templates\blogs\guide-to-carbon-certificate.html:359
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:398
+#: .\templates\blogs\top-renewable-energy-sources.html:403
+#: .\templates\blogs\understanding-your-carbon-footprint.html:378
+#: .\templates\pages\contact.html:299 .\templates\pages\faq.html:501
+#: .\templates\pages\home.html:404 .\templates\pages\pricing.html:759
+#: .\templates\pages\privacy.html:342 .\templates\pages\terms.html:351
+msgid "Subscribe to our newsletter to receive updates and exclusive offers."
+msgstr ""
+"Iscriviti alla nostra newsletter per ricevere aggiornamenti e offerte "
+"esclusive."
+
+#: .\templates\blogs\10-simple-ways.html:428
+msgid "Subscribe"
+msgstr "Iscriviti"
+
+#: .\templates\blogs\blog.html:150
+msgid "Read our post blog post for more insight"
+msgstr "Per saperne di più, leggete il nostro post sul blog"
+
+#: .\templates\blogs\blog.html:151
+msgid "Updates, insights, and stories for a climate clean world."
+msgstr ""
+"Aggiornamenti, approfondimenti e storie per un mondo pulito dal punto di "
+"vista climatico."
+
+#: .\templates\blogs\blog.html:162
+msgid "Understanding Your Carbon Footprint: A Beginner's Guide."
+msgstr "Capire l'impronta di carbonio: Una guida per principianti."
+
+#: .\templates\blogs\blog.html:170 .\templates\blogs\blog.html:171
+#: .\templates\blogs\corporate-social-responsibility.html:296
+#: .\templates\blogs\guide-to-carbon-certificate.html:256
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:296
+#: .\templates\blogs\top-renewable-energy-sources.html:300
+#: .\templates\blogs\understanding-your-carbon-footprint.html:275
+msgid "10 Simple Ways to Reduce Your Carbon Emissions at Home"
+msgstr ""
+"10 semplici modi per ridurre le emissioni di anidride carbonica a casa tua"
+
+#: .\templates\blogs\blog.html:179 .\templates\blogs\blog.html:180
+msgid "The Importance of Carbon Offsetting: How It Works and Why It Matters"
+msgstr ""
+"L'importanza della compensazione delle emissioni di carbonio: Come funziona "
+"e perché è importante"
+
+#: .\templates\blogs\blog.html:188 .\templates\blogs\blog.html:189
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:310
+#: .\templates\blogs\understanding-your-carbon-footprint.html:261
+msgid "Top Renewable Energy Sources for Home and Business Use"
+msgstr "Le migliori fonti di energia rinnovabile per la casa e le imprese"
+
+#: .\templates\blogs\blog.html:197 .\templates\blogs\blog.html:198
+msgid "Why Corporate Social Responsibility (CSR) Matters More Than Ever"
+msgstr ""
+"Perché la responsabilità sociale d'impresa (CSR) è più importante che mai"
+
+#: .\templates\blogs\blog.html:206
+msgid "A Guide to Carbon Neutral Certification"
+msgstr "Una guida alla certificazione carbon neutral"
+
+#: .\templates\blogs\blog.html:207
+msgid "Your Guide to Carbon Neutral Certification"
+msgstr "La vostra guida alla certificazione carbon neutral"
+
+#: .\templates\blogs\corporate-social-responsibility.html:151
+msgid " July"
+msgstr " Luglio"
+
+#: .\templates\blogs\corporate-social-responsibility.html:153
+msgid ""
+"Why Corporate Social Responsibility (CSR)\n"
+"        <br>Matters More Than Ever"
+msgstr ""
+"Perché la responsabilità sociale d'impresa (CSR)<br> è più importante che mai"
+
+#: .\templates\blogs\corporate-social-responsibility.html:159
+msgid ""
+"In an era marked by increasing awareness of social and\n"
+"            environmental issues, Corporate Social Responsibility (CSR) has "
+"become more than just a buzzword—it's a\n"
+"            fundamental business practice. Companies worldwide are "
+"recognizing that their responsibilities extend beyond\n"
+"            profit generation to encompass broader societal impacts"
+msgstr ""
+"In un' era caratterizzata da una crescente consapevolezza dei problemi "
+"sociali e ambientali, la Responsabilità Sociale d'Impresa (RSI) è diventata "
+"più di una semplice parola d'ordine.\n"
+". Le aziende di tutto il mondo stanno riconoscendo che le loro "
+"responsabilità vanno al di là della\n"
+"            alla generazione di profitti per includere impatti sociali più "
+"ampi"
+
+#: .\templates\blogs\corporate-social-responsibility.html:163
+msgid ""
+"T</span>his shift in perspective is not only reshaping\n"
+"            business operations but also redefining the expectations of "
+"stakeholders, including customers, employees,\n"
+"            investors, and communities. Here's why CSR matters more than "
+"ever today."
+msgstr ""
+"Q</span>uesto cambiamento di prospettiva non solo sta ridisegnando le "
+"operazioni aziendali, ma sta anche ridefinendo le aspettative degli "
+"stakeholder.\n"
+"              tra cui clienti, dipendenti, \n"
+"            investitori e comunità. Ecco perché oggi la CSR è più importante "
+"che mai."
+
+#: .\templates\blogs\corporate-social-responsibility.html:167
+msgid "Evolving Consumer Expectations"
+msgstr "Evoluzione delle aspettative dei consumatori"
+
+#: .\templates\blogs\corporate-social-responsibility.html:168
+msgid ""
+"Today's consumers are more informed and conscientious about the products "
+"and\n"
+"                services they purchase. They prefer to support brands that "
+"align with their values, particularly those\n"
+"                that demonstrate a commitment to ethical practices, "
+"sustainability, and social justice. According to\n"
+"                recent studies, a significant percentage of consumers are "
+"willing to pay more for products from\n"
+"                companies that have robust CSR policies. This growing trend "
+"means that businesses ignoring CSR risk\n"
+"                alienating a substantial portion of their customer base."
+msgstr ""
+"I consumatori di oggi sono più informati e consapevoli dei prodotti e dei "
+"servizi che acquistano. Preferiscono sostenere i marchi che si allineano ai "
+"loro valori, in particolare quelli che dimostrano un impegno verso le "
+"pratiche etiche, la sostenibilità e la giustizia sociale. Secondo studi "
+"recenti, una percentuale significativa di consumatori è disposta a pagare di "
+"più per i prodotti di aziende con solide politiche di RSI. Questa tendenza "
+"crescente significa che le aziende che ignorano la CSR rischiano di "
+"allontanare una parte sostanziale della loro clientela."
+
+#: .\templates\blogs\corporate-social-responsibility.html:177
+msgid "Attracting and Retaining Top Talent"
+msgstr "Attirare e trattenere i migliori talenti"
+
+#: .\templates\blogs\corporate-social-responsibility.html:178
+msgid ""
+"Modern employees, especially millennials and Gen Z, are looking for more "
+"than just a\n"
+"                paycheck. They seek meaningful work with companies that "
+"reflect their values and contribute positively\n"
+"                to society. Companies with strong CSR initiatives not only "
+"attract top talent but also enhance employee\n"
+"                satisfaction and retention. A motivated and engaged "
+"workforce is crucial for driving innovation and\n"
+"                achieving long-term success."
+msgstr ""
+"I dipendenti moderni, soprattutto i millennial e la generazione Z, cercano "
+"qualcosa di più di un semplice stipendio. Cercano un lavoro significativo "
+"con aziende che riflettano i loro valori e contribuiscano positivamente alla "
+"società. Le aziende con forti iniziative di CSR non solo attraggono i "
+"migliori talenti, ma migliorano anche la soddisfazione e la fidelizzazione "
+"dei dipendenti. Una forza lavoro motivata e impegnata è fondamentale per "
+"promuovere l'innovazione e raggiungere il successo a lungo termine."
+
+#: .\templates\blogs\corporate-social-responsibility.html:186
+msgid "Enhancing Brand Reputation"
+msgstr "Rafforzare la reputazione del brand"
+
+#: .\templates\blogs\corporate-social-responsibility.html:187
+msgid ""
+"A strong commitment to CSR can significantly enhance a company's "
+"reputation.\n"
+"                Positive public perception can lead to increased brand "
+"loyalty, customer retention, and a competitive\n"
+"                edge in the market. Conversely, companies that fail to "
+"address social and environmental concerns may\n"
+"                face negative publicity, consumer boycotts, and loss of "
+"trust. In an age where information spreads\n"
+"                rapidly, maintaining a positive brand image through CSR is "
+"essential"
+msgstr ""
+"Un forte impegno nella RSI può migliorare significativamente la reputazione "
+"di un'azienda. Una percezione pubblica positiva può portare a una maggiore "
+"fedeltà al marchio, alla fidelizzazione dei clienti e a un vantaggio "
+"competitivo sul mercato. Al contrario, le aziende che non affrontano le "
+"problematiche sociali e ambientali possono subire pubblicità negativa, "
+"boicottaggi da parte dei consumatori e perdita di fiducia. In un'epoca in "
+"cui le informazioni si diffondono rapidamente, è essenziale mantenere "
+"un'immagine positiva del marchio attraverso la RSI"
+
+#: .\templates\blogs\corporate-social-responsibility.html:195
+msgid "Financial Performance and Sustainability"
+msgstr "Performance finanziaria e sostenibilità"
+
+#: .\templates\blogs\corporate-social-responsibility.html:196
+msgid ""
+"Contrary to the belief that CSR is an additional cost, many companies find "
+"that\n"
+"                sustainable practices lead to significant financial "
+"benefits. Efficient resource use, waste reduction,\n"
+"                and energy savings contribute to lower operational costs. "
+"Furthermore, companies with strong CSR records\n"
+"                often enjoy better access to capital, as investors are "
+"increasingly considering environmental, social,\n"
+"                and governance (ESG) criteria in their decision-making "
+"processes."
+msgstr ""
+"Contrariamente alla convinzione che la CSR sia un costo aggiuntivo, molte "
+"aziende scoprono che le pratiche sostenibili portano a significativi "
+"benefici finanziari. L'uso efficiente delle risorse, la riduzione dei "
+"rifiuti e il risparmio energetico contribuiscono a ridurre i costi "
+"operativi. Inoltre, le aziende con una solida reputazione in termini di RSI "
+"spesso godono di un migliore accesso al capitale, in quanto gli investitori "
+"prendono sempre più in considerazione i criteri ambientali, sociali e di "
+"governance (ESG), e governance (ESG) nei loro processi decisionali."
+
+#: .\templates\blogs\corporate-social-responsibility.html:204
+msgid "Regulatory Compliance and Risk Management"
+msgstr "Conformità normativa e gestione dei rischi"
+
+#: .\templates\blogs\corporate-social-responsibility.html:205
+msgid ""
+"Governments worldwide are implementing stricter regulations to address "
+"environmental\n"
+"                and social issues. By adopting proactive CSR practices, "
+"companies can stay ahead of regulatory changes,\n"
+"                avoid legal penalties, and influence policy development. "
+"Effective CSR strategies also help in\n"
+"                identifying and mitigating risks related to environmental "
+"impact, labor practices, and corporate\n"
+"                governance, thus safeguarding the company's long-term "
+"viability."
+msgstr ""
+"I governi di tutto il mondo stanno implementando normative più severe per "
+"affrontare le questioni ambientali e sociali. Adottando pratiche di CSR "
+"proattive, le aziende possono anticipare i cambiamenti normativi, evitare "
+"sanzioni legali e influenzare lo sviluppo delle politiche. Strategie di CSR "
+"efficaci aiutano anche a identificare e mitigare i rischi legati all'impatto "
+"ambientale, alle pratiche di lavoro e alla governance aziendale, "
+"salvaguardando così la redditività a lungo termine dell'azienda."
+
+#: .\templates\blogs\corporate-social-responsibility.html:213
+msgid "The Broader Impact of CSR"
+msgstr "L'impatto più ampio della CSR"
+
+#: .\templates\blogs\corporate-social-responsibility.html:217
+msgid "Addressing Global Challenges"
+msgstr "Affrontare le difficoltà globali"
+
+#: .\templates\blogs\corporate-social-responsibility.html:218
+msgid ""
+"The world is facing critical challenges such as climate change, inequality, "
+"and\n"
+"                resource depletion. Businesses have a pivotal role to play "
+"in addressing these issues. Through CSR,\n"
+"                companies can contribute to solutions that promote "
+"sustainability, social equity, and economic\n"
+"                development. Initiatives such as reducing carbon footprints, "
+"promoting fair trade, and supporting\n"
+"                community projects can make a substantial difference"
+msgstr ""
+"Il mondo si trova ad affrontare sfide cruciali come il cambiamento "
+"climatico, la disuguaglianza e l'esaurimento delle risorse. Le imprese hanno "
+"un ruolo fondamentale nell'affrontare questi problemi. Attraverso la RSI, le "
+"aziende possono contribuire a soluzioni che promuovono la sostenibilità, "
+"l'equità sociale e lo sviluppo economico. Iniziative come la riduzione "
+"dell'impronta di carbonio, la promozione del commercio equo e solidale e il "
+"sostegno a progetti comunitari possono fare una differenza sostanziale"
+
+#: .\templates\blogs\corporate-social-responsibility.html:226
+msgid "Fostering Innovation"
+msgstr "Promozione dell'innovazione"
+
+#: .\templates\blogs\corporate-social-responsibility.html:227
+msgid ""
+"CSR encourages companies to think creatively about solving social and "
+"environmental\n"
+"                problems. This often leads to the development of innovative "
+"products, services, and business models that\n"
+"                address these challenges while opening new market "
+"opportunities. For example, companies investing in\n"
+"                renewable energy technologies not only reduce their "
+"environmental impact but also position themselves as\n"
+"                leaders in a growing industry."
+msgstr ""
+"La CSR incoraggia le aziende a pensare in modo creativo alla soluzione dei "
+"problemi sociali e ambientali. Questo spesso porta allo sviluppo di "
+"prodotti, servizi e modelli di business innovativi che affrontano queste "
+"sfide e aprono nuove opportunità di mercato. Ad esempio, le aziende che "
+"investono in tecnologie per le energie rinnovabili non solo riducono il loro "
+"impatto ambientale, ma si posizionano anche come leader in un settore in "
+"crescita."
+
+#: .\templates\blogs\corporate-social-responsibility.html:235
+msgid "Strengthening Community Relationships"
+msgstr "Rafforzamento delle relazioni comunitarie"
+
+#: .\templates\blogs\corporate-social-responsibility.html:236
+msgid ""
+"Companies that actively engage with and support their local communities "
+"build\n"
+"                stronger relationships and trust. Community-focused CSR "
+"initiatives, such as educational programs,\n"
+"                healthcare support, and local economic development projects, "
+"demonstrate a company's commitment to the\n"
+"                well-being of its stakeholders. This goodwill can translate "
+"into a loyal customer base and a supportive\n"
+"                business environment."
+msgstr ""
+"Le aziende che si impegnano attivamente e sostengono le loro comunità locali "
+"costruiscono relazioni e fiducia più forti. Le iniziative di CSR incentrate "
+"sulla comunità, come i programmi educativi, il sostegno alla sanità e i "
+"progetti di sviluppo economico locale, dimostrano l'impegno dell'azienda nei "
+"confronti del benessere dei suoi stakeholder. Questa buona volontà può "
+"tradursi in una base di clienti fedeli e in un ambiente commerciale "
+"favorevole."
+
+#: .\templates\blogs\corporate-social-responsibility.html:247
+msgid ""
+"Corporate Social Responsibility is no longer a peripheral consideration for\n"
+"                businesses; it is a core component of modern business "
+"strategy. As stakeholders increasingly prioritize\n"
+"                ethical, transparent, and sustainable practices, companies "
+"that embrace CSR will not only enhance their\n"
+"                reputation and financial performance but also contribute to "
+"a more equitable and sustainable world. By\n"
+"                integrating CSR into their operations, businesses can drive "
+"positive change and ensure long-term success\n"
+"                in a rapidly evolving landscape."
+msgstr ""
+"La Responsabilità Sociale d'Impresa non è più una considerazione periferica "
+"per le aziende, ma una componente fondamentale della moderna strategia "
+"aziendale. Poiché gli stakeholder danno sempre più priorità a pratiche "
+"etiche, trasparenti e sostenibili, le aziende che abbracciano la RSI non "
+"solo migliorano la loro reputazione e i loro risultati finanziari, ma "
+"contribuiscono anche a un mondo più equo e sostenibile. Integrando la RSI "
+"nelle loro attività, le aziende possono guidare un cambiamento positivo e "
+"garantire un successo a lungo termine in un panorama in rapida evoluzione."
+
+#: .\templates\blogs\corporate-social-responsibility.html:254
+msgid ""
+"In this new era, CSR matters more than ever. It's time for companies to step "
+"up,\n"
+"                take responsibility, and make a meaningful impact on the "
+"world."
+msgstr ""
+"In questa nuova era, la CSR è più importante che mai. È tempo che le aziende "
+"si assumano la responsabilità di fare un passo avanti e di avere un impatto "
+"significativo sul mondo."
+
+#: .\templates\blogs\corporate-social-responsibility.html:294
+#: .\templates\blogs\guide-to-carbon-certificate.html:254
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:294
+#: .\templates\blogs\top-renewable-energy-sources.html:298
+#: .\templates\blogs\understanding-your-carbon-footprint.html:273
+msgid ""
+"10 Simple Ways to Reduce Your Carbon Emissions at\n"
+"                                Home"
+msgstr ""
+"10 semplici modi per ridurre le emissioni di anidride carbonica a casa tua"
+
+#: .\templates\blogs\corporate-social-responsibility.html:409
+#: .\templates\blogs\guide-to-carbon-certificate.html:370
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:409
+#: .\templates\blogs\top-renewable-energy-sources.html:414
+#: .\templates\blogs\understanding-your-carbon-footprint.html:389
+#: .\templates\pages\contact.html:310 .\templates\pages\faq.html:512
+#: .\templates\pages\home.html:415 .\templates\pages\pricing.html:770
+#: .\templates\pages\privacy.html:353 .\templates\pages\terms.html:362
+msgid " Subscribe"
+msgstr " Iscriviti"
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:153
+msgid "A Guide to Carbon Neutral <br>Certification"
+msgstr "Una guida alla certificazione<br> carbon neutral"
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:158
+msgid ""
+"Carbon Neutral Certification is a formal recognition that a business or\n"
+"            organization has achieved net-zero carbon emissions. This means "
+"the total amount of greenhouse gases (GHGs)\n"
+"            produced by the company is equal to the amount removed or offset "
+"from the atmosphere. The certification\n"
+"            process typically involves measuring carbon emissions, "
+"implementing reduction strategies, and investing in\n"
+"            carbon offset projects"
+msgstr ""
+"La certificazione Carbon Neutral è un riconoscimento formale che un'azienda "
+"o un'organizzazione ha raggiunto emissioni nette di carbonio pari a zero. "
+"Ciò significa che la quantità totale di gas a effetto serra (GHG) prodotti "
+"dall'azienda è pari alla quantità rimossa o compensata dall'atmosfera. il "
+"processo di certificazione prevede in genere la misurazione delle emissioni "
+"di carbonio, l'implementazione di strategie di riduzione e l'investimento in "
+"progetti di carbonio"
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:163
+msgid ""
+"O</span>ne effective way to achieve this is through\n"
+"            Carbon Neutral Certification. This certification signifies that "
+"a company has achieved net-zero carbon\n"
+"            emissions, balancing the amount of carbon dioxide they release "
+"with an equivalent amount offset through\n"
+"            various initiatives"
+msgstr ""
+"U</span>n modo efficace per raggiungere questo obiettivo è la Certificazione "
+"Carbon Neutral. Questa certificazione indica che un'azienda ha raggiunto un "
+"livello netto di emissioni di carbonio pari a zero , bilanciando la quantità "
+"di anidride carbonica rilasciata con una quantità equivalente compensata "
+"attraverso varie iniziative"
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:168
+msgid "Why Carbon Neutral Certification Matters"
+msgstr "Una guida alla certificazione carbon neutral"
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:172
+#: .\templates\blogs\understanding-your-carbon-footprint.html:186
+msgid "Environmental Impact"
+msgstr "Impatto ambientale"
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:173
+msgid ""
+"Achieving carbon neutrality significantly reduces a company’s environmental\n"
+"                footprint. By balancing emissions with offsets, businesses "
+"contribute to global efforts to combat\n"
+"                climate change and mitigate its impacts."
+msgstr ""
+"Il raggiungimento della neutralità di carbonio riduce significativamente "
+"l'impronta ambientale ambientale di un'azienda. Bilanciando le emissioni con "
+"le compensazioni, le aziende contribuiscono agli sforzi globali per "
+"combattere I cambiamenti climatici e a mitigarne l'impatto."
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:179
+msgid "Competitive Advantage"
+msgstr "Vantaggio competitivo"
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:180
+msgid ""
+"Consumers and investors are increasingly favoring companies with strong\n"
+"                environmental credentials. Carbon Neutral Certification can "
+"differentiate your business from\n"
+"                competitors, enhance brand reputation, and attract eco-"
+"conscious customers and stakeholders"
+msgstr ""
+"I consumatori e gli investitori favoriscono sempre di più le aziende con "
+"forti credenziali ambientali. La certificazione Carbon Neutral può "
+"differenziare la vostra azienda dai dalla concorrenza, migliorare la "
+"reputazione del marchio e attrarre clienti e stakeholder attenti all'ambiente"
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:186
+msgid "Regulatory Compliance"
+msgstr "Conformità normativa e gestione dei rischi"
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:187
+msgid ""
+"Governments and regulatory bodies worldwide are implementing stricter "
+"environmental\n"
+"                regulations. Being carbon neutral can help businesses stay "
+"ahead of compliance requirements, avoiding\n"
+"                potential fines and sanctions."
+msgstr ""
+"I governi e gli enti normativi di tutto il mondo stanno implementando "
+"normative ambientali più severe. Essere carbon neutral può aiutare le "
+"aziende a rispettare i requisiti di conformità, evitando potenziali multe e "
+"sanzioni."
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:193
+msgid "Financial Benefits"
+msgstr "Vantaggi finanziari"
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:194
+msgid ""
+"Reducing energy consumption and improving efficiency can lead to significant "
+"cost\n"
+"                savings. Additionally, carbon offsets can provide financial "
+"returns through carbon credit markets"
+msgstr ""
+"La riduzione dei consumi energetici e il miglioramento dell'efficienza "
+"possono portare a un significativo risparmi sui costi. Inoltre, le "
+"compensazioni di carbonio possono fornire ritorni finanziari attraverso i "
+"mercati dei crediti di carbonio"
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:199
+msgid "Social Responsibility"
+msgstr "Responsabilità sociale"
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:200
+msgid ""
+"Corporate Social Responsibility (CSR) is becoming a critical component of "
+"business\n"
+"                strategy. Carbon Neutral Certification demonstrates a "
+"company’s commitment to sustainability and social\n"
+"                responsibility, fostering trust and loyalty among customers, "
+"employees, and communities."
+msgstr ""
+"La Responsabilità Sociale d'Impresa (RSI) sta diventando una componente "
+"critica della strategia aziendale. La certificazione Carbon Neutral dimostra "
+"l'impegno di un'azienda verso la sostenibilità e la responsabilità sociale, "
+"favorendo la fiducia e la fedeltà di clienti, dipendenti e comunità."
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:207
+msgid ""
+"Carbon Neutral Certification is a powerful way for businesses to demonstrate "
+"their\n"
+"                commitment to combating climate change and promoting "
+"sustainability. By understanding your carbon\n"
+"                footprint, implementing effective reduction strategies, "
+"investing in carbon offsets, and achieving\n"
+"                certification, your business can not only reduce its "
+"environmental impact but also gain a competitive\n"
+"                edge, improve financial performance, and enhance its "
+"reputation."
+msgstr ""
+"La certificazione Carbon Neutral è un modo efficace per le aziende di "
+"dimostrare il loro impegno nella lotta al cambiamento climatico e nella "
+"promozione della sostenibilità. impegno nella lotta al cambiamento climatico "
+"e nella promozione della sostenibilità. Comprendendo la propria impronta di "
+"carbonio, implementando strategie di riduzione efficaci, investendo in "
+"compensazioni di carbonio e ottenendo la certificazione, l'azienda può non "
+"solo ridurre il proprio impatto ambientale, ma anche ottenere un vantaggio "
+"competitivo, migliorare le prestazioni finanziarie e migliorare la propria "
+"reputazione."
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:213
+msgid ""
+"As global challenges related to climate change continue to intensify, the\n"
+"                importance of carbon neutrality will only grow, making now "
+"the perfect time to embark on this vital\n"
+"                journey towards a more sustainable future."
+msgstr ""
+"Con l'intensificarsi delle sfide globali legate al cambiamento climatico, "
+"l'importanza della neutralità delle emissioni di carbonio è destinata a "
+"crescere. L'importanza della neutralità delle emissioni di carbonio è "
+"destinata a crescere e questo è il momento ideale per intraprendere questo "
+"viaggio vitale verso un futuro più sostenibile. viaggio verso un futuro più "
+"sostenibile."
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:273
+msgid "Read More<"
+msgstr "Leggi di più<"
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:298
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:337
+#: .\templates\blogs\top-renewable-energy-sources.html:342
+#: .\templates\blogs\understanding-your-carbon-footprint.html:317
+#: .\templates\pages\privacy.html:281 .\templates\pages\terms.html:290
+msgid ""
+"Empowering You to Track, Reduce, and Offset Carbon Emissions for a Greener\n"
+"                    Tomorrow."
+msgstr ""
+"Vi aiuterà a monitorare, ridurre e compensare le emissioni di carbonio per "
+"un domani più verde."
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:153
+msgid ""
+"The Importance of Carbon Offsetting: <br>How It Works and Why It\n"
+"        Matters"
+msgstr ""
+"L'importanza della compensazione delle emissioni di carbonio: Come funziona "
+"e perché è importante"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:159
+msgid ""
+"As the world grapples with the urgent need to address climate change,\n"
+"            individuals, businesses, and governments are seeking ways to "
+"reduce their carbon footprints. While reducing\n"
+"            emissions directly is critical, it’s not always feasible to "
+"eliminate all carbon emissions. This is where\n"
+"            carbon offsetting comes into play. In this blog, we’ll explore "
+"the importance of carbon offsetting, how it\n"
+"            works, and why it matters in the fight against climate change."
+msgstr ""
+"Mentre il mondo è alle prese con l'urgente necessità di affrontare i "
+"cambiamenti climatici, i singoli, le aziende e i governi cercano di ridurre "
+"le loro impronte di carbonio. Sebbene la riduzione diretta delle emissioni "
+"sia fondamentale, non sempre è possibile eliminare tutte le emissioni di "
+"carbonio. È qui che entra in gioco la compensazione delle emissioni di "
+"carbonio. In questo blog analizzeremo l'importanza della compensazione delle "
+"emissioni di anidride carbonica, come funziona e perché è importante nella "
+"lotta contro il cambiamento climatico."
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:164
+msgid ""
+"C</span>arbon offsetting involves compensating for the\n"
+"            carbon dioxide (CO2) emissions you produce by investing in "
+"projects that reduce or remove an equivalent\n"
+"            amount of CO2 from the atmosphere. These projects can include "
+"reforestation, renewable energy initiatives,\n"
+"            and methane capture projects, among others. By supporting these "
+"efforts, you can balance out your own carbon\n"
+"            emissions, contributing to global climate goals"
+msgstr ""
+"L</span>a compensazione di carbonio consiste nel compensare le emissioni di "
+"anidride carbonica (CO2) prodotte investendo in progetti che riducono o "
+"rimuovono una quantità equivalente di CO2 dall'atmosfera. Questi progetti "
+"possono includere, tra gli altri, la riforestazione, le iniziative di "
+"energia rinnovabile e i progetti di cattura del metano. Sostenendo questi "
+"sforzi, potete bilanciare le vostre emissioni di anidride carbonica, "
+"contribuendo agli obiettivi climatici globali"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:170
+msgid "Calculate Your Carbon Footprint"
+msgstr "Che cos'è l'impronta di carbonio"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:171
+msgid ""
+"The first step in carbon offsetting is understanding your carbon footprint. "
+"This\n"
+"                includes the total amount of greenhouse gases you are "
+"responsible for, directly or indirectly. There are\n"
+"                various online calculators available that can help you "
+"estimate your emissions based on your lifestyle,\n"
+"                travel habits, and energy consumption"
+msgstr ""
+"Il primo passo per la compensazione delle emissioni di carbonio è la "
+"comprensione della propria impronta di carbonio. Questa comprende la "
+"quantità totale di gas a effetto serra di cui si è responsabili, "
+"direttamente o indirettamente. Sono disponibili diversi calcolatori online "
+"che possono aiutarvi a stimare le vostre emissioni in base al vostro stile "
+"di vita, alle vostre abitudini di viaggio e al vostro consumo energetico"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:178
+msgid "Choose a Carbon Offset Project"
+msgstr "Scegliete un progetto di compensazione delle emissioni di carbonio"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:179
+msgid ""
+"Once you know your carbon footprint, the next step is to choose a carbon "
+"offset\n"
+"                project to invest in. Projects vary widely, from planting "
+"trees to building wind farms. It’s essential\n"
+"                to select a project that is verified by reputable "
+"organizations to ensure it meets rigorous standards\n"
+"                for reducing or removing CO2"
+msgstr ""
+"Una volta conosciuta la propria impronta di carbonio, il passo successivo è "
+"quello di scegliere un progetto di compensazione delle emissioni di carbonio "
+"in cui investire. in cui investire. I progetti variano molto, dal piantare "
+"alberi alla costruzione di parchi eolici. È essenziale scegliere un progetto "
+"che sia verificato da organizzazioni affidabili per garantire che risponda a "
+"standard rigorosi di riduzione o rimozione di CO2"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:186
+msgid "Purchase Carbon Credits"
+msgstr "Acquistare carbon credits"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:187
+msgid ""
+"After selecting a project, you purchase carbon credits, each representing a "
+"specific\n"
+"                amount of CO2 that has been reduced or removed from the "
+"atmosphere. One carbon credit typically equals\n"
+"                one metric ton of CO2. These credits are then retired on "
+"your behalf, meaning they cannot be resold or\n"
+"                reused, ensuring the environmental benefit is real and "
+"permanent"
+msgstr ""
+"Dopo aver selezionato un progetto, si acquistano crediti di carbonio, ognuno "
+"dei quali rappresenta una specifica quantità di CO2 che è stata ridotta o "
+"rimossa dall'atmosfera. Un credito di carbonio equivale in genere a una "
+"tonnellata metrica di CO2. Questi crediti vengono poi ritirati a vostro "
+"nome, il che significa che non possono essere rivenduti o riutilizzati, "
+"assicurando che il beneficio ambientale sia reale e permanente"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:194
+msgid "Monitor and Report"
+msgstr "Monitoraggio e rapporti"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:195
+msgid ""
+"Reputable carbon offset projects provide transparency and regular reporting "
+"on the\n"
+"                progress and impact of their initiatives. This allows you to "
+"track the effectiveness of your investment\n"
+"                and ensures that your contribution is making a tangible "
+"difference"
+msgstr ""
+"I progetti di compensazione delle emissioni di anidride carbonica affidabili "
+"offrono trasparenza e relazioni periodiche sui progressi e sull'impatto "
+"delle loro iniziative. Questo vi permette di monitorare l'efficacia del "
+"vostro investimento e vi assicura che il vostro contributo stia facendo una "
+"differenza tangibile"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:201
+msgid "Why Carbon Offsetting Matters"
+msgstr "Perché la compensazione delle emissioni di carbonio è importante"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:206
+msgid "Complements Emission Reduction Efforts"
+msgstr "Completa gli sforzi per la riduzione delle emissioni"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:207
+msgid ""
+"While reducing emissions at the source is vital, it’s not always possible "
+"to\n"
+"                eliminate all carbon emissions. Carbon offsetting provides a "
+"practical solution to address the emissions\n"
+"                that remain, helping to achieve net-zero emissions goals"
+msgstr ""
+"Sebbene sia fondamentale ridurre le emissioni alla fonte, non è sempre "
+"possibile eliminare tutte le emissioni di carbonio. La compensazione delle "
+"emissioni di carbonio offre una soluzione pratica per affrontare le "
+"emissioni che rimangono, aiutando a raggiungere gli obiettivi di emissioni "
+"nette zero"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:213
+msgid "Supports Sustainable Development"
+msgstr "Sostiene lo sviluppo sostenibile"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:214
+msgid ""
+"Many carbon offset projects also contribute to sustainable development "
+"goals. For\n"
+"                example, reforestation projects can improve biodiversity, "
+"prevent soil erosion, and provide livelihoods\n"
+"                for local communities. Renewable energy projects can bring "
+"electricity to underserved regions, fostering\n"
+"                economic development and improving quality of life"
+msgstr ""
+"Molti progetti di compensazione del carbonio contribuiscono anche agli "
+"obiettivi di sviluppo sostenibile. Ad esempio, i progetti di riforestazione "
+"possono migliorare la biodiversità, prevenire l'erosione del suolo e fornire "
+"mezzi di sussistenza alle comunità locali. I progetti di energia rinnovabile "
+"possono portare elettricità a regioni poco servite, favorendo lo sviluppo "
+"economico e migliorando la qualità della vita"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:221
+msgid "Encourages Innovation"
+msgstr "Promozione dell'innovazione"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:222
+msgid ""
+"By investing in carbon offset projects, you support the development and\n"
+"                implementation of innovative technologies and practices that "
+"reduce greenhouse gas emissions. This can\n"
+"                drive broader adoption of these solutions, accelerating the "
+"transition to a low-carbon economy"
+msgstr ""
+"Investendo in progetti di compensazione delle emissioni di carbonio, "
+"sostenete lo sviluppo e l'implementazione di tecnologie e pratiche "
+"innovative che riducono le emissioni di gas serra. Ciò può favorire "
+"un'adozione più ampia di queste soluzioni, accelerando la transizione verso "
+"un'economia a basse emissioni di carbonio"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:228
+msgid "Raises Awareness and Accountability"
+msgstr "Aumenta la consapevolezza e la responsabilità"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:229
+msgid ""
+"Engaging in carbon offsetting raises awareness about the impact of our "
+"activities on\n"
+"                the environment and promotes accountability. It encourages "
+"individuals and organizations to take\n"
+"                responsibility for their carbon footprint and contribute to "
+"global climate action"
+msgstr ""
+"Impegnarsi nella compensazione delle emissioni di carbonio aumenta la "
+"consapevolezza dell'impatto delle nostre attività sull'ambiente e promuove "
+"la responsabilità. Incoraggia i singoli e le organizzazioni ad assumersi la "
+"responsabilità della propria impronta di carbonio e a contribuire all'azione "
+"globale per il clima"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:235
+msgid "Provides Immediate Climate Benefits"
+msgstr "Fornisce benefici immediati per il clima"
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:236
+msgid ""
+"While transitioning to a low-carbon lifestyle and economy takes time, "
+"carbon\n"
+"                offsetting offers immediate benefits by funding projects "
+"that are already reducing emissions. This helps\n"
+"                to mitigate climate change impacts more rapidly, buying time "
+"for longer-term solutions to be\n"
+"                implemented."
+msgstr ""
+"Mentre la transizione verso uno stile di vita e un'economia a basse "
+"emissioni di carbonio richiede tempo, la compensazione delle emissioni di "
+"carbonio offre benefici immediati offre benefici immediati finanziando "
+"progetti che stanno già riducendo le emissioni. Questo aiuta a mitigare gli "
+"impatti del cambiamento climatico più rapidamente, guadagnando tempo per "
+"l'implementazione di soluzioni a lungo termine."
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:246
+msgid ""
+"Carbon offsetting is a powerful tool in the fight against climate change. "
+"By\n"
+"                compensating for the emissions we cannot yet eliminate, we "
+"can support projects that make a real\n"
+"                difference in reducing global greenhouse gas levels. While "
+"it’s essential to continue striving for\n"
+"                direct emission reductions, carbon offsetting offers a "
+"practical and immediate way to contribute to a\n"
+"                more sustainable future."
+msgstr ""
+"La compensazione delle emissioni di carbonio è uno strumento potente nella "
+"lotta al cambiamento climatico. Compensando compensando le emissioni che non "
+"possiamo ancora eliminare, possiamo sostenere progetti che fanno davvero la "
+"differenza nella riduzione dei livelli globali di gas serra. Sebbene sia "
+"essenziale continuare a impegnarsi per la riduzione diretta delle emissioni, "
+"la compensazione delle emissioni di carbonio offre un modo pratico e "
+"immediato per contribuire a un futuro più sostenibile."
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:252
+msgid ""
+"Every action counts in the battle against climate change. By understanding "
+"the\n"
+"                importance of carbon offsetting and taking steps to offset "
+"your own emissions, you can play a crucial\n"
+"                role in protecting our planet for future generations. Let’s "
+"take responsibility, support sustainable\n"
+"                initiatives, and make a positive impact—one carbon credit at "
+"a time."
+msgstr ""
+"Ogni azione conta nella lotta contro il cambiamento climatico. Comprendendo "
+"l'importanza della compensazione delle emissioni di anidride carbonica e "
+"adottando misure per compensare le proprie emissioni, è possibile svolgere "
+"un ruolo cruciale nella protezione del nostro pianeta per le generazioni "
+"future. Assumiamoci le nostre responsabilità, sosteniamo le iniziative "
+"sostenibili e produciamo un impatto positivo, un credito di carbonio alla "
+"volta."
+
+#: .\templates\blogs\top-renewable-energy-sources.html:153
+msgid ""
+"Top Renewable Energy Sources for <br> Home and\n"
+"        Business Use"
+msgstr ""
+"Le migliori fonti di energia rinnovabile per <br>uso domestico e aziendale "
+"Uso aziendale"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:159
+msgid ""
+"As the world becomes increasingly aware of the need for\n"
+"            sustainable energy solutions, renewable energy sources are "
+"gaining traction for both home and business use.\n"
+"            Transitioning to renewable energy not only reduces carbon "
+"footprints but also leads to long-term savings and\n"
+"            energy independence."
+msgstr ""
+"Il mondo è sempre più consapevole della necessità di soluzioni energetiche "
+"sostenibili, le fonti di energia rinnovabile stanno guadagnando terreno sia "
+"per le abitazioni che per le aziende. Il passaggio alle energie rinnovabili "
+"non solo riduce l'impronta di carbonio, ma porta anche a risparmi a lungo "
+"termine e  indipendenza energetica."
+
+#: .\templates\blogs\top-renewable-energy-sources.html:163
+msgid ""
+"I</span>In this blog, we'll explore the\n"
+"            top renewable energy sources that you can harness to power your "
+"home or business."
+msgstr ""
+"I</span>n questo blog, esploreremo le fonti di energia rinnovabile che "
+"potete sfruttare per alimentare la vostra casa o la vostra azienda."
+
+#: .\templates\blogs\top-renewable-energy-sources.html:166
+msgid "Solar Energy"
+msgstr "Energia solare"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:167
+msgid ""
+"Solar energy is harnessed using photovoltaic (PV) panels that\n"
+"                convert sunlight into electricity. These panels are "
+"typically installed on rooftops or in open areas\n"
+"                with abundant sunlight. Solar energy systems can be "
+"connected to the grid, allowing you to sell excess\n"
+"                power back to the utility company, or they can be off-grid, "
+"storing energy in batteries for later use."
+msgstr ""
+"L'energia solare viene sfruttata con pannelli fotovoltaici (PV) che "
+"convertono la luce solare in elettricità. Questi pannelli sono tipicamente "
+"installati sui tetti o in aree aperte con abbondanza di luce solare. Gli "
+"impianti a energia solare possono essere collegati alla rete, consentendo di "
+"vendere l'energia in eccesso all'azienda elettrica di vendere l'energia in "
+"eccesso all'azienda elettrica, oppure possono essere off-grid, "
+"immagazzinando l'energia in batterie per un uso successivo."
+
+#: .\templates\blogs\top-renewable-energy-sources.html:171
+#: .\templates\blogs\top-renewable-energy-sources.html:188
+#: .\templates\blogs\top-renewable-energy-sources.html:205
+#: .\templates\blogs\top-renewable-energy-sources.html:221
+#: .\templates\blogs\top-renewable-energy-sources.html:237
+msgid "Benefits"
+msgstr "Vantaggi"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:173
+msgid ""
+"Renewable Resource: </span>Solar energy is a clean,\n"
+"                    renewable resource that reduces greenhouse gas emissions."
+msgstr ""
+"Risorsa rinnovabile: </span>L'energia solare è una risorsa pulita "
+"rinnovabile che riduce le emissioni di gas serra."
+
+#: .\templates\blogs\top-renewable-energy-sources.html:175
+msgid ""
+"Energy Efficiency: </span>After the initial installation\n"
+"                    cost, solar energy can significantly reduce or even "
+"eliminate electricity bills."
+msgstr ""
+"Efficienza energetica: </span>Dopo il costo iniziale dell'installazione "
+"iniziale, l'energia solare può ridurre significativamente o addirittura "
+"eliminare le bollette dell'elettricità."
+
+#: .\templates\blogs\top-renewable-energy-sources.html:178
+msgid ""
+"Scalability: </span>Solar panels require minimal maintenance\n"
+"                    and can last for 25 years or more"
+msgstr ""
+"Scalabilità: </span>I pannelli solari richiedono una manutenzione minima e "
+"possono durare 25 anni o più"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:184
+msgid "Wind Energy"
+msgstr "Energia eolica"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:185
+msgid ""
+"Wind turbines capture the kinetic energy of wind and convert it into\n"
+"                electricity. Small-scale wind turbines are suitable for "
+"residential or small business use, while larger\n"
+"                turbines are used in commercial and utility-scale wind farms"
+msgstr ""
+"Le turbine eoliche catturano l'energia cinetica del vento e la convertono in "
+"elettricità. Le turbine eoliche di piccola taglia sono adatte per l'uso "
+"residenziale o per le piccole imprese, mentre le turbine più grandi sono "
+"utilizzate nei parchi eolici commerciali e di pubblica utilità più grandi"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:190
+msgid ""
+"Renewable Resource: </span>Wind is a plentiful and\n"
+"                    inexhaustible resource."
+msgstr ""
+"Risorsa rinnovabile: </span>Il vento è una risorsa abbondante e inesauribile."
+
+#: .\templates\blogs\top-renewable-energy-sources.html:192
+msgid ""
+"Energy Efficiency: </span>Wind turbines can produce\n"
+"                    significant amounts of electricity, especially in windy "
+"areas"
+msgstr ""
+"Energy Efficiency: </span>Le turbine eoliche possono produrre quantità "
+"significative di elettricità, soprattutto nelle zone ventose"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:194
+msgid ""
+"Scalability: </span>Wind energy systems can be scaled up or\n"
+"                    down to meet specific energy needs."
+msgstr ""
+"Scalability: </span>Wind energy systems can be scaled up or down to meet "
+"specific energy needs."
+
+#: .\templates\blogs\top-renewable-energy-sources.html:200
+msgid "Hydroelectric Power"
+msgstr "Energia idroelettrica"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:202
+msgid ""
+"Hydroelectric power is generated by harnessing the energy of flowing or "
+"falling\n"
+"                water. Small-scale hydroelectric systems, also known as "
+"micro-hydro systems, can be used in homes and\n"
+"                businesses located near streams or rivers."
+msgstr ""
+"Hydroelectric power is generated by harnessing the energy of flowing or "
+"falling\n"
+"                water. Small-scale hydroelectric systems, also known as "
+"micro-hydro systems, can be used in homes and\n"
+"                businesses located near streams or rivers."
+
+#: .\templates\blogs\top-renewable-energy-sources.html:207
+msgid ""
+"Consistent Energy Source: </span>Hydroelectric power provides a steady\n"
+"                    and reliable source of energy"
+msgstr ""
+"Consistent Energy Source: </span>L'energia idroelettrica fornisce una fonte "
+"di energia costante e affidabile"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:209
+#, python-format
+msgid ""
+"High Efficiency: </span>It is one of the most efficient forms of energy\n"
+"                    production, with conversion efficiencies of up to 90%%."
+msgstr ""
+"High Efficiency: </span>È una delle forme più efficienti di produzione di "
+"energia, con rendimenti di conversione fino al 90%%."
+
+#: .\templates\blogs\top-renewable-energy-sources.html:211
+msgid ""
+"Low Operating Costs: </span>Once a hydroelectric system is installed, it "
+"has\n"
+"                    low operating and maintenance costs."
+msgstr ""
+"Low Operating Costs: </span>Una volta installato, un impianto idroelettrico "
+"ha bassi costi di gestione e manutenzione."
+
+#: .\templates\blogs\top-renewable-energy-sources.html:217
+msgid "Geothermal Energy"
+msgstr "Energia geotermica"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:218
+msgid ""
+"Geothermal energy harnesses the heat from the Earth’s core to generate "
+"electricity\n"
+"                or provide direct heating. Geothermal heat pumps can be used "
+"for heating and cooling buildings by\n"
+"                transferring heat between the ground and the building."
+msgstr ""
+"L'energia geotermica sfrutta il calore del nucleo terrestre per generare "
+"elettricità o fornire riscaldamento diretto. Le pompe di calore geotermiche "
+"possono essere utilizzate per riscaldare e raffreddare gli edifici "
+"trasferendo il calore tra il terreno e l'edificio."
+
+#: .\templates\blogs\top-renewable-energy-sources.html:223
+msgid ""
+"Consistent Energy Source: </span>Geothermal energy provides a constant\n"
+"                    and reliable energy supply"
+msgstr ""
+"Consistent Energy Source: </span>L'energia geotermica fornisce un "
+"approvvigionamento energetico costante e affidabile"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:225
+msgid ""
+"Low Emissions: </span>It produces very low levels of greenhouse gases\n"
+"                    compared to fossil fuels"
+msgstr ""
+"Low Emissions: </span>Produce livelli molto bassi di gas serra rispetto ai "
+"combustibili fossili"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:227
+msgid ""
+"Long Lifespan: </span>Geothermal systems have a long operational life, "
+"often\n"
+"                    exceeding 25 years"
+msgstr ""
+"Long Lifespan: </span>Geothermal systems have a long operational life, often "
+"exceeding 25 years"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:233
+msgid "Biomass Energy"
+msgstr "Energia da biomassa"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:234
+msgid ""
+"Biomass energy is produced from organic materials such as wood, "
+"agricultural\n"
+"                residues, and animal waste. These materials are burned or "
+"converted into biofuels to generate\n"
+"                electricity or heat"
+msgstr ""
+"L'energia da biomassa è prodotta da materiali organici come legno, residui "
+"agricoli e rifiuti animali. residui agricoli e rifiuti animali. Questi "
+"materiali vengono bruciati o convertiti in biocarburanti per generare "
+"elettricità o calore. elettricità o calore"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:239
+msgid ""
+"Renewable Resource: </span>Biomass is abundant and can be replenished\n"
+"                    quickly"
+msgstr ""
+"Renewable Resource: </span>La biomassa è abbondante e può essere reintegrata "
+"rapidamente"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:241
+msgid ""
+"Carbon Neutral: </span>When managed sustainably, biomass energy can be\n"
+"                    carbon neutral, as the CO2 released during combustion is "
+"offset by the CO2 absorbed during the\n"
+"                    growth of the biomass"
+msgstr ""
+"Carbon Neutral: </span>When managed sustainably, biomass energy can be "
+"neutrale dal punto di vista del carbonio, poiché la CO2 rilasciata durante "
+"la combustione è compensata dalla CO2 assorbita durante la crescita della "
+"biomassa"
+
+#: .\templates\blogs\top-renewable-energy-sources.html:244
+msgid ""
+"Waste Reduction: </span>Using waste materials for energy reduces landfill "
+"use\n"
+"                    and promotes recycling."
+msgstr ""
+"Waste Reduction: </span>L'utilizzo di materiali di scarto a fini energetici "
+"riduce l'uso delle discariche e promuove il riciclaggio."
+
+#: .\templates\blogs\top-renewable-energy-sources.html:251
+msgid ""
+"Transitioning to renewable energy sources is not only an environmentally "
+"responsible\n"
+"                choice but also a financially savvy one. Solar, wind, "
+"hydroelectric, geothermal, and biomass energy each\n"
+"                offer unique benefits and can be tailored to meet the "
+"specific needs of homes and businesses. By\n"
+"                investing in renewable energy, you can reduce your carbon "
+"footprint, lower energy costs, and contribute\n"
+"                to a more sustainable future."
+msgstr ""
+"Passare alle fonti di energia rinnovabili non è solo una scelta responsabile "
+"dal punto di vista ambientale, ma anche una scelta economicamente "
+"vantaggiosa. L'energia solare, eolica, idroelettrica, geotermica e da "
+"biomassa offre vantaggi unici e può essere adattata alle esigenze specifiche "
+"di case e aziende. Investendo nelle energie rinnovabili, è possibile ridurre "
+"l'impronta di carbonio, abbassare i costi energetici e contribuire a un "
+"futuro più sostenibile."
+
+#: .\templates\blogs\top-renewable-energy-sources.html:257
+msgid ""
+"Whether you’re a homeowner looking to cut utility bills or a business aiming "
+"to\n"
+"                enhance sustainability, there’s a renewable energy solution "
+"for you. Start exploring these options today\n"
+"                and join the growing movement towards clean, renewable energy"
+msgstr ""
+"Sia che siate proprietari di una casa e vogliate ridurre le bollette, sia "
+"che siate un'azienda che vuole migliorare la sostenibilità, c'è una "
+"soluzione di energia rinnovabile che fa per voi. Iniziate oggi stesso a "
+"esplorare queste opzioni e unitevi al crescente movimento verso l'energia "
+"pulita e rinnovabile"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:153
+msgid ""
+"Understanding Your Carbon Footprint: <br>A\n"
+"        Beginner's Guide"
+msgstr "Understanding Your Carbon Footprint: <Guida per i principianti"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:159
+msgid "What is a Carbon Footprint?"
+msgstr "Cos'è l'impronta di carbonio?"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:161
+msgid ""
+"A</span> carbon footprint is the\n"
+"            total amount of greenhouse gases, including carbon dioxide (CO2) "
+"and methane (CH4), that are emitted\n"
+"            directly or indirectly by an individual, organization, event, or "
+"product. These emissions are typically\n"
+"            measured in equivalent tons of CO2 (CO2e) to standardize the "
+"various gases' impacts on global warming."
+msgstr ""
+"L</span>'impronta di carbonio è la quantità totale di gas a effetto serra, "
+"tra cui l'anidride carbonica (CO2) e il metano (CH4), emessi direttamente o "
+"indirettamente da un individuo, un'organizzazione, un evento o un prodotto. "
+"Queste emissioni sono tipicamente misurate in tonnellate equivalenti di CO2 "
+"(CO2e) per standardizzare l'impatto dei vari gas sul riscaldamento globale."
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:166
+msgid "Direct Emissions"
+msgstr "Emissioni dirette"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:167
+msgid ""
+"Direct emissions are those that come from sources you control. For example, "
+"the\n"
+"                gasoline burned by your car or the natural gas used to heat "
+"your home. These are also known as \"scope 1\"\n"
+"                emissions."
+msgstr ""
+"Le emissioni dirette sono quelle che provengono da fonti controllate. Ad "
+"esempio, la benzina bruciata dalla vostra auto o il gas naturale utilizzato "
+"per riscaldare la vostra casa. Queste emissioni sono note anche come “scope "
+"1”."
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:173
+msgid "Indirect Emissions"
+msgstr "Emissioni indirette"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:174
+msgid ""
+"Indirect emissions are those produced by activities related to your "
+"consumption but\n"
+"                not directly controlled by you. For instance, the emissions "
+"from the power plants that generate the\n"
+"                electricity you use, or the emissions produced during the "
+"manufacture and transport of the goods you\n"
+"                buy. These are categorized into \"scope 2\" and \"scope 3\" "
+"emissions, depending on their nature."
+msgstr ""
+"Le emissioni indirette sono quelle prodotte da attività legate al vostro "
+"consumo ma non direttamente controllate da voi. Ad esempio, le emissioni "
+"delle centrali elettriche che generano l'elettricità che utilizzate, o le "
+"emissioni prodotte durante la produzione e il trasporto dei beni che "
+"acquistate. Queste emissioni sono classificate in “scope 2” e “scope 3”, a "
+"seconda della loro natura."
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:181
+msgid "Why Your Carbon Footprint Matters"
+msgstr "Perché l'impronta di carbonio è importante"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:182
+msgid ""
+"Understanding and managing your carbon footprint is crucial for several "
+"reasons"
+msgstr ""
+"Comprendere e gestire la propria impronta di carbonio è fondamentale per "
+"diverse ragioni"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:187
+msgid ""
+"Greenhouse gas emissions contribute to global warming and climate change, "
+"leading to\n"
+"                severe environmental consequences such as rising sea levels, "
+"extreme weather events, and loss of\n"
+"                biodiversity"
+msgstr ""
+"Le emissioni di gas a effetto serra contribuiscono al riscaldamento globale "
+"e ai cambiamenti climatici, provocando gravi conseguenze ambientali come "
+"l'innalzamento del livello del mare, eventi meteorologici estremi e la "
+"perdita di biodiversità"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:193
+msgid "Personal Responsibility"
+msgstr "Responsabilità personale"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:194
+msgid ""
+"Every individual has a role to play in mitigating climate change. By "
+"understanding\n"
+"                your carbon footprint, you can make informed choices that "
+"contribute to a healthier planet."
+msgstr ""
+"Ogni individuo ha un ruolo da svolgere nella mitigazione dei cambiamenti "
+"climatici. Comprendendo la propria impronta di carbonio, si possono fare "
+"scelte consapevoli che contribuiscono a un pianeta più sano."
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:199
+msgid "Economic Benefits"
+msgstr "Vantaggi economici"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:200
+msgid ""
+"Reducing your carbon footprint often leads to cost savings. For example,\n"
+"                energy-efficient appliances can lower your utility bills, "
+"and reducing waste can cut down on disposal\n"
+"                costs."
+msgstr ""
+"La riduzione dell'impronta di carbonio spesso porta a un risparmio "
+"economico. Ad esempio, gli elettrodomestici ad alta efficienza energetica "
+"possono ridurre le bollette e la riduzione dei rifiuti può ridurre i costi "
+"di smaltimento. costi di smaltimento."
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:206
+msgid "How to Calculate Your Carbon Footprint"
+msgstr "Come calcolare l'impronta di carbonio"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:207
+msgid ""
+"Calculating your carbon footprint involves adding up the emissions from "
+"various\n"
+"                activities in your life. Here’s a step-by-step guide"
+msgstr ""
+"Il calcolo dell'impronta di carbonio comporta la somma delle emissioni "
+"prodotte dalle varie attività della vostra vita. Ecco una guida passo passo"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:212
+msgid "Identify Major Sources"
+msgstr "Identificare le fonti principali"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:213
+msgid ""
+"Start by identifying the major sources of emissions in your daily life. "
+"These\n"
+"                typically include:"
+msgstr ""
+"Iniziate con l'identificare le principali fonti di emissioni nella vostra "
+"vita quotidiana. In genere si tratta di:"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:216
+msgid "Energy Use: </span>Electricity, heating, and cooling in your home"
+msgstr ""
+"Uso dell'energia: </span>elettricità, riscaldamento e raffreddamento della "
+"casa"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:217
+msgid "Transportation:</span> Emissions from cars, public transit, flights"
+msgstr "Trasporti:</span> Emissioni da automobili, trasporti pubblici, voli"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:218
+msgid ""
+"Food Consumption:</span> Emissions related to the production, "
+"transportation,\n"
+"                and waste of food"
+msgstr ""
+"Consumo di cibo:</span> Emissioni legate alla produzione, al trasporto e "
+"allo spreco di cibo"
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:220
+msgid ""
+"Goods and Services:</span> Emissions from the manufacturing, delivery, and\n"
+"                disposal of the products you use."
+msgstr ""
+"Beni e servizi:</span> Emissioni derivanti dalla produzione, dalla consegna "
+"e dallo smaltimento dei prodotti utilizzati."
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:227
+msgid ""
+"Understanding your carbon footprint is the first step toward making a "
+"positive\n"
+"                impact on the environment. By identifying the sources of "
+"your emissions and taking practical steps to\n"
+"                reduce them, you can contribute to the global effort to "
+"combat climate change. Remember, every small\n"
+"                change counts, and together, our collective actions can make "
+"a significant difference."
+msgstr ""
+"Conoscere la propria impronta di carbonio è il primo passo per avere un "
+"impatto positivo sull'ambiente. Identificando le fonti delle vostre "
+"emissioni e adottando misure pratiche per ridurle, potete contribuire allo "
+"sforzo globale per combattere il cambiamento climatico. Ricordate che ogni "
+"piccolo cambiamento conta e che, insieme, le nostre azioni collettive "
+"possono fare una differenza significativa."
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:232
+msgid ""
+"Start today by calculating your carbon footprint and implementing some of "
+"the\n"
+"                strategies outlined in this guide. Let’s work together "
+"towards a more sustainable future, one step at a\n"
+"                time."
+msgstr ""
+"Iniziate oggi stesso a calcolare la vostra impronta di carbonio e ad attuare "
+"alcune delle strategie descritte in questa guida. Lavoriamo insieme verso un "
+"futuro più sostenibile, un passo alla volta."
+
+#: .\templates\pages\contact.html:152
+msgid "Let's Talk"
+msgstr "Parliamo"
+
+#: .\templates\pages\contact.html:153
+msgid ""
+"Have some big idea or brand to develop and need help?\n"
+"        Then reach out we'd love to hear about your project and provide help."
+msgstr ""
+"Hai una grande idea o un brand da sviluppare e hai bisogno di aiuto Allora "
+"contattaci, saremo felici di conoscere il tuo progetto e di aiutarti."
+
+#: .\templates\pages\faq.html:149
+msgid "Frequently asked questions"
+msgstr "Domande frequenti"
+
+#: .\templates\pages\faq.html:150
+msgid "Read through some of our curated answers"
+msgstr "Leggi alcune delle nostre risposte curate"
+
+#: .\templates\pages\faq.html:159
+msgid "What is carbon footprint"
+msgstr "Che cos'è l'impronta di carbonio"
+
+#: .\templates\pages\faq.html:168
+msgid ""
+"A carbon footprint is the total amount of greenhouse gases, primarily "
+"carbon\n"
+"        dioxide, that are emitted directly or indirectly by human "
+"activities. This includes emissions from\n"
+"        transportation, energy use, production processes, and more"
+msgstr ""
+"L'impronta di carbonio è la quantità totale di gas a effetto serra, "
+"principalmente anidride carbonica, emessi direttamente o indirettamente "
+"dalle attività umane. Ciò include le emissioni derivanti dai trasporti, "
+"dall'uso dell'energia, dai processi di produzione e molto di più"
+
+#: .\templates\pages\faq.html:177
+msgid "How can our products help reduce your carbon footprint"
+msgstr ""
+"In che modo i nostri prodotti possono contribuire a ridurre la tua impronta "
+"di carbonio"
+
+#: .\templates\pages\faq.html:186
+msgid ""
+"Our products are designed to optimize energy use, integrate renewable "
+"energy\n"
+"        sources, and provide real-time data and insights. By implementing "
+"our solutions, you can significantly reduce\n"
+"        your energy consumption and carbon emissions"
+msgstr ""
+"I nostri prodotti sono progettati per ottimizzare l'uso dell'energia, "
+"integrare le fonti di energia rinnovabile e fornire dati e informazioni in "
+"tempo reale. Implementando le nostre soluzioni, è possibile ridurre in modo "
+"significativo il consumo energetico e le emissioni di anidride carbonica"
+
+#: .\templates\pages\faq.html:195
+msgid "How does Verdeia track carbon emissions"
+msgstr "Come fa Verdeia a tenere traccia delle emissioni di carbonio"
+
+#: .\templates\pages\faq.html:204
+msgid ""
+"Our app tracks carbon emissions by collecting data on your daily activities, "
+"such\n"
+"        as transportation, energy use, and consumption habits. You can input "
+"your data manually or sync it with\n"
+"        compatible devices and services for automatic tracking"
+msgstr ""
+"La nostra applicazione tiene traccia delle emissioni di anidride carbonica "
+"raccogliendo dati sulle vostre attività quotidiane, come i trasporti, l'uso "
+"di energia e le abitudini di consumo. È possibile inserire i dati "
+"manualmente o sincronizzarli con i dispositivi e i servizi compatibili per "
+"un monitoraggio automatico"
+
+#: .\templates\pages\faq.html:213
+msgid "What types of activities can I track with the app"
+msgstr "Quali tipi di attività si possono monitorare con l'app"
+
+#: .\templates\pages\faq.html:222
+msgid ""
+"You can track a wide range of activities, including driving, flying, public\n"
+"        transportation, home energy use, waste production, and even your "
+"diet. The app provides a comprehensive overview\n"
+"        of your carbon footprint."
+msgstr ""
+"È possibile tenere traccia di un'ampia varietà di attività, tra cui la "
+"guida, l'aereo, i trasporti pubblici, l'uso dell'energia domestica, la "
+"produzione di rifiuti e persino la dieta. L'applicazione fornisce una "
+"panoramica completa della vostra impronta di carbonio."
+
+#: .\templates\pages\faq.html:232
+msgid "Who can benefit from using your app"
+msgstr "Chi può beneficiare dell'utilizzo della nostra app"
+
+#: .\templates\pages\faq.html:241
+msgid ""
+"Our app is designed for both individuals and businesses of all sizes. "
+"Whether\n"
+"        you're a small business owner, a corporate entity, or an individual "
+"looking to reduce your environmental impact,\n"
+"        our app can help you track and offset your carbon emissions"
+msgstr ""
+"La nostra applicazione è pensata sia per i privati che per le aziende di "
+"ogni dimensione. Che siate una piccola impresa, un'entità aziendale o un "
+"individuo che vuole ridurre il proprio impatto ambientale, la nostra app può "
+"aiutarvi a tenere traccia e a compensare le vostre emissioni di carbonio"
+
+#: .\templates\pages\faq.html:250
+msgid "How does carbon offsetting work through your app"
+msgstr ""
+"Come funziona la compensazione delle emissioni di anidride carbonica "
+"attraverso la vostra app"
+
+#: .\templates\pages\faq.html:259
+msgid ""
+"Our app connects users with verified carbon offset projects, such as\n"
+"        reforestation, renewable energy, and conservation initiatives. Users "
+"can choose projects to support, and the app\n"
+"        facilitates the investment, ensuring that the offsets match their "
+"carbon footprint"
+msgstr ""
+"La nostra app mette in contatto gli utenti con progetti verificati di "
+"compensazione delle emissioni di carbonio, come la riforestazione, le "
+"energie rinnovabili e le iniziative di conservazione. Gli utenti possono "
+"scegliere i progetti da sostenere e l'applicazione facilita l'investimento, "
+"assicurando che le compensazioni corrispondano alla loro impronta di carbonio"
+
+#: .\templates\pages\faq.html:268
+msgid "Can the app integrate with other systems and devices"
+msgstr "L'app può integrarsi con altri sistemi e dispositivi"
+
+#: .\templates\pages\faq.html:277
+msgid ""
+"Our app can integrate with various systems and devices to automatically "
+"import\n"
+"        data, such as smart meters, fleet management systems, and other IoT "
+"devices, ensuring accurate and real-time\n"
+"        tracking."
+msgstr ""
+"La nostra app è in grado di integrarsi con diversi sistemi e dispositivi per "
+"importare automaticamente i dati, come contatori intelligenti, sistemi di "
+"gestione della flotta e altri dispositivi IoT, assicurando una tracciabilità "
+"accurata e in tempo reale. monitoraggio in tempo reale."
+
+#: .\templates\pages\faq.html:286
+msgid "How accurate is the carbon emissions tracking"
+msgstr "Quanto è preciso il tracciamento delle emissioni di carbonio"
+
+#: .\templates\pages\faq.html:295
+msgid ""
+"The app uses advanced algorithms and verified data sources to ensure high\n"
+"        accuracy in tracking carbon emissions. Regular updates and "
+"improvements are made to maintain precision and\n"
+"        reliability"
+msgstr ""
+"The app uses advanced algorithms and verified data sources to ensure high\n"
+"        accuracy in tracking carbon emissions. Regular updates and "
+"improvements are made to maintain precision and\n"
+"        reliability"
+
+#: .\templates\pages\faq.html:322
+msgid "How can I get in touch for more information or a consultation"
+msgstr "Come posso contattarvi per avere maggiori informazioni"
+
+#: .\templates\pages\faq.html:331
+msgid ""
+"You can contact us through our website's contact form, email us at\n"
+"        <a href = \"mailto:hello@verdeia.xyz\">hello@verdeia.xyz</a>, or "
+"call us. We offer free consultations to help you explore how our solutions "
+"can\n"
+"          meet your specific needs."
+msgstr ""
+"Potete contattarci tramite il modulo di contatto del nostro sito web, "
+"inviarci un'e-mail all'indirizzo <a href = “mailto:hello@verdeia."
+"xyz”>hello@verdeia.xyz</a> o telefonarci. Offriamo consultazioni gratuite "
+"per aiutarvi a capire come le nostre soluzioni possono soddisfare le vostre "
+"esigenze specifiche."
+
+#: .\templates\pages\faq.html:340
+msgid "How do I get started with the app?"
+msgstr "Come posso iniziare a usare l'app?"
+
+#: .\templates\pages\faq.html:349
+msgid ""
+"Getting started is simple. Download the app from the App Store or Google "
+"Play,\n"
+"        create an account, and start inputting your data. Our onboarding "
+"process will guide you through the initial\n"
+"        setup and usage"
+msgstr ""
+"Per iniziare è semplice. Scaricate l'applicazione dall'App Store o da Google "
+"Play, create un account e iniziate a inserire i vostri dati. Il nostro "
+"processo di onboarding vi guiderà attraverso la configurazione e l'utilizzo "
+"iniziali"
+
+#: .\templates\pages\faq.html:358
+msgid "What are the costs associated with using the app?"
+msgstr "Quali sono i costi associati all'utilizzo dell'app?"
+
+#: .\templates\pages\faq.html:367
+msgid ""
+"The app offers various subscription plans tailored to different needs, "
+"including\n"
+"        free basic features and premium plans with advanced tracking and "
+"offsetting options. Detailed pricing can be\n"
+"        found on our website."
+msgstr ""
+"L'applicazione offre vari piani di abbonamento adatti alle diverse esigenze, "
+"tra cui funzioni di base gratuite e piani premium con opzioni avanzate di "
+"tracciamento e compensazione. I prezzi dettagliati sono disponibili sul "
+"nostro sito web."
+
+#: .\templates\pages\faq.html:376
+msgid "Can the app help with regulatory compliance"
+msgstr "L'app può essere utile per la conformità normativa"
+
+#: .\templates\pages\faq.html:385
+msgid ""
+"Yes, our app can assist businesses in meeting regulatory requirements by\n"
+"        providing detailed reports and documentation of their carbon "
+"tracking and offsetting activities, which can be\n"
+"        used for compliance and audits"
+msgstr ""
+"Sì, la nostra applicazione può aiutare le aziende a soddisfare i requisiti "
+"normativi fornendo rapporti dettagliati e documentazione delle loro attività "
+"di tracciamento e compensazione delle emissioni di carbonio, che possono "
+"essere utilizzati per la conformità e gli audit"
+
+#: .\templates\pages\faq.html:394
+msgid "How do I know the offset projects are legitimate?"
+msgstr "Come faccio a sapere che i progetti di compensazione sono legittimi?"
+
+#: .\templates\pages\faq.html:403
+msgid ""
+"We partner with reputable organizations that verify and certify carbon "
+"offset\n"
+"        projects. Each project listed in our app undergoes a rigorous "
+"validation process to ensure its legitimacy and\n"
+"        impact."
+msgstr ""
+"Collaboriamo con organizzazioni affidabili che verificano e certificano i "
+"progetti di compensazione delle emissioni di carbonio. Ogni progetto "
+"elencato nella nostra applicazione è sottoposto a un rigoroso processo di "
+"convalida per garantirne la legittimità e l'impatto."
+
+#: .\templates\pages\faq.html:412
+msgid "What kind of carbon offset projects can I support through the app"
+msgstr ""
+"Che tipo di progetti di compensazione delle emissioni di carbonio posso "
+"sostenere attraverso l'app"
+
+#: .\templates\pages\faq.html:421
+msgid ""
+"Users and bussinesses can support a variety of projects, including "
+"reforestation,\n"
+"        renewable energy installations, conservation efforts, and community-"
+"based sustainability projects. All projects\n"
+"        are verified to ensure they provide real and measurable "
+"environmental benefits"
+msgstr ""
+"Gli utenti e le aziende possono sostenere una serie di progetti, tra cui la "
+"riforestazione, impianti di energia rinnovabile, sforzi di conservazione e "
+"progetti di sostenibilità basati sulla comunità. Tutti i progetti sono "
+"verificati per garantire che forniscano benefici ambientali reali e "
+"misurabili"
+
+#: .\templates\pages\home.html:151
+msgid "Change and track</span> your"
+msgstr "Modifica e tracciamento</span> della vostra"
+
+#: .\templates\pages\home.html:151
+msgid "carbon emission"
+msgstr "emissioni di carbonio"
+
+#: .\templates\pages\home.html:156
+msgid ""
+"Verdeia</span> is your guide to a journey of greener\n"
+"    tommorow<br />\n"
+"    and Empowering Your Journey to Zero Carbon"
+msgstr ""
+"Verdeia</span> è la vostra guida per un viaggio verso un domani più "
+"verde<br /> e per potenziare il vostro percorso verso l'azzeramento delle "
+"emissioni di carbonio"
+
+#: .\templates\pages\home.html:167
+msgid "Sign Up➙"
+msgstr "Iscriviti➙"
+
+#: .\templates\pages\home.html:173
+msgid "Together, we can make a <span class=\"text-green-500\">difference"
+msgstr "Insieme, possiamo fare una <span class=“text-green-500”>differenza"
+
+#: .\templates\pages\home.html:174
+msgid "Follow us lets help you reduce your carbon emissions and footprint"
+msgstr ""
+"Seguici per aiutarti a ridurre le tue emissioni di carbonio e la tua "
+"impronta ecologica"
+
+#: .\templates\pages\home.html:186
+msgid ""
+"\"The best way to offset the cabon you generate is by doing it sustainably\""
+msgstr ""
+"“Il modo migliore per ridurre il consumo di energia è farlo in modo "
+"sostenibile”."
+
+#: .\templates\pages\home.html:199
+msgid ""
+"Use our website to easily track your carbon emissions and make better\n"
+"        decisions for a <br />sustainable future."
+msgstr ""
+"Utilizzate il nostro sito web per monitorare facilmente le vostre emissioni "
+"di carbonio e prendere decisioni migliori per un futuro <br />sostenibile."
+
+#: .\templates\pages\home.html:202 .\templates\pages\home.html:214
+#: .\templates\pages\home.html:227
+msgid "Learn more"
+msgstr "Scopri di più"
+
+#: .\templates\pages\home.html:209
+msgid "Change"
+msgstr "Cambiare"
+
+#: .\templates\pages\home.html:211
+msgid ""
+"Visit our platform to learn how to decrease your carbon footprint and\n"
+"        contribute to a <br />cleaner planet."
+msgstr ""
+"Visitate la nostra piattaforma per scoprire come ridurre la vostra impronta "
+"di carbonio e contribuire a un<br /> pianeta più pulito."
+
+#: .\templates\pages\home.html:223
+msgid ""
+"We enable users globally to contribute significantly to climate action\n"
+"        and environmental<br />\n"
+"        stewardship"
+msgstr ""
+"Consentiamo agli utenti di tutto il mondo di contribuire in modo "
+"significativo all'azione per l'ambiente e alla gestione<br /> ambientale"
+
+#: .\templates\pages\home.html:237
+msgid "Your Sustainable A.I App\""
+msgstr "Your Sustainable A.I App\""
+
+#: .\templates\pages\home.html:246 .\templates\pages\pricing.html:384
+msgid "Now with Gaia"
+msgstr "Adesso con Gaia"
+
+#: .\templates\pages\home.html:250
+msgid ""
+"Add to your workspace now with all the benefits of the professional plan<br> "
+"<span\n"
+"        class=\"font-bold\">billed\n"
+"        monthly for €2.99."
+msgstr ""
+"Aggiungete subito al vostro spazio di lavoro tutti i vantaggi del piano "
+"professionale<br> <span class=“font-bold”>con pagamento mensile a 2,99 €."
+
+#: .\templates\pages\home.html:253
+msgid "Includes"
+msgstr "Include"
+
+#: .\templates\pages\home.html:255 .\templates\pages\pricing.html:391
+msgid "Personalised</span> monthly ofsetting plans"
+msgstr "Piani mensili personalizzati</span> di impostazione"
+
+#: .\templates\pages\home.html:259 .\templates\pages\pricing.html:238
+msgid ""
+"Get\n"
+"          Started"
+msgstr "Iniziamo"
+
+#: .\templates\pages\home.html:263
+msgid ""
+"Read\n"
+"          AI FAQ"
+msgstr "Leggi le FAQ sull'intelligenza artificiale"
+
+#: .\templates\pages\home.html:273
+msgid "Join a global movement.<p class=\"mt-1\"> Contribute positively."
+msgstr ""
+"Unisciti a un movimento globale.<p class=“mt-1”> Contribuisci positivamente."
+
+#: .\templates\pages\home.html:275
+msgid ""
+"Our vibrant community with your help can contribute positively to the\n"
+"    environment"
+msgstr ""
+"La nostra vivace comunità con il tuo aiuto può contribuire positivamente "
+"all'ambiente"
+
+#: .\templates\pages\home.html:279
+msgid "Volunteer now"
+msgstr "Volontari ora"
+
+#: .\templates\pages\home.html:291
+msgid ""
+"Our transparent approach ensures that every step is clear,\n"
+"      empowering individuals to make a real environmental impact"
+msgstr ""
+"Il nostro metodo trasparente assicura che ogni passo sia chiaro, consentendo "
+"ai cittadini di avere un reale impatto ambientale"
+
+#: .\templates\pages\home.html:300
+msgid "We provide full transparency in how funds are allocated,"
+msgstr "Forniamo piena trasparenza sulle modalità di assegnazione dei fondi,"
+
+#: .\templates\pages\home.html:302
+msgid ""
+"Read our blog \n"
+"          "
+msgstr "Leggete il nostro blog "
+
+#: .\templates\pages\home.html:309
+msgid "we ensure that all our projects are thoroughly vetted"
+msgstr ""
+"ci assicuriamo che tutti i nostri progetti siano sottoposti a un' "
+"approfondita verifica"
+
+#: .\templates\pages\home.html:310
+msgid "Read our manifesto"
+msgstr "Leggi il nostro manifesto"
+
+#: .\templates\pages\home.html:316
+msgid "We are against the idea of greenwashing"
+msgstr "Siamo contrari all'idea del greenwashing"
+
+#: .\templates\pages\home.html:318
+msgid "Here's why "
+msgstr "Ecco perchè "
+
+#: .\templates\pages\home.html:324
+msgid "Our platform is designed with users in mind"
+msgstr "La nostra piattaforma è stata progettata pensando agli utenti"
+
+#: .\templates\pages\home.html:325
+msgid "Read our documentation"
+msgstr "Leggete la nostra documentazione"
+
+#: .\templates\pages\login.html:17 .\templates\pages\login.html:61
+msgid "Log in"
+msgstr "Accedi"
+
+#: .\templates\pages\login.html:20
+msgid "Username"
+msgstr "Nome utente"
+
+#: .\templates\pages\login.html:55 .\templates\pages\signup.html:164
+msgid "Forgot Password?"
+msgstr "Password dimenticata?"
+
+#: .\templates\pages\login.html:63
+msgid "Don't have an account"
+msgstr "Non hai un account"
+
+#: .\templates\pages\login.html:63
+msgid "Register here"
+msgstr "Registrati qui"
+
+#: .\templates\pages\pricing.html:152
+msgid "Choose a Subscription"
+msgstr "Scegli un abbonamento"
+
+#: .\templates\pages\pricing.html:153
+msgid "Choose a plan tailored to your needs"
+msgstr "Scegliete un piano su misura per le vostre esigenze"
+
+#: .\templates\pages\pricing.html:158
+msgid "Free"
+msgstr "Gratuito"
+
+#: .\templates\pages\pricing.html:159
+msgid "Ideal for individuals who need quick access to basic features"
+msgstr "Ideale per chi ha bisogno di un accesso rapido alle funzioni di base"
+
+#: .\templates\pages\pricing.html:161
+msgid "Lifetime"
+msgstr "Tutta la vita"
+
+#: .\templates\pages\pricing.html:167 .\templates\pages\pricing.html:318
+msgid "Plan Includes"
+msgstr "Il piano include"
+
+#: .\templates\pages\pricing.html:175
+msgid "Basic carbon footprint tracking"
+msgstr "Tracciamento di base dell'impronta di carbonio"
+
+#: .\templates\pages\pricing.html:183
+msgid "Manual data entry"
+msgstr "Inserimento manuale dei dati"
+
+#: .\templates\pages\pricing.html:191
+msgid "Access to a limited selection of offset projects"
+msgstr "Accesso a una selezione limitata di progetti di compensazione"
+
+#: .\templates\pages\pricing.html:199 .\templates\pages\pricing.html:274
+msgid "Customer Support"
+msgstr "Assistenza clienti"
+
+#: .\templates\pages\pricing.html:207
+msgid "Monthly summary reports"
+msgstr "Rapporti di sintesi mensili"
+
+#: .\templates\pages\pricing.html:215
+msgid "Community support"
+msgstr "Sostegno alla comunità"
+
+#: .\templates\pages\pricing.html:223
+msgid "Access to community events"
+msgstr "Accesso agli eventi della comunità"
+
+#: .\templates\pages\pricing.html:231
+msgid "Professional <span>popular"
+msgstr "Professionale <span>popolare"
+
+#: .\templates\pages\pricing.html:232
+msgid ""
+"Ideal for individuals who who need advanced features and tools for client\n"
+"        work"
+msgstr ""
+"Ideale per le persone che necessitano di funzioni e strumenti avanzati per "
+"il lavoro con i clienti"
+
+#: .\templates\pages\pricing.html:235
+msgid "Month"
+msgstr "Mese"
+
+#: .\templates\pages\pricing.html:242
+msgid "lan Includes"
+msgstr "il piano include"
+
+#: .\templates\pages\pricing.html:250
+msgid "All features of the Free Plan"
+msgstr "Tutte le caratteristiche del piano gratuito"
+
+#: .\templates\pages\pricing.html:258
+msgid "Access to a broader range of offset projects"
+msgstr "Accesso a una gamma più ampia di progetti di compensazione"
+
+#: .\templates\pages\pricing.html:266
+msgid " Weekly summary reports"
+msgstr " Rapporti di sintesi settimanali"
+
+#: .\templates\pages\pricing.html:282
+msgid "Integration with smart meters and IoT devices"
+msgstr "Integrazione con contatori intelligenti e dispositivi IoT"
+
+#: .\templates\pages\pricing.html:290 .\templates\pages\pricing.html:374
+msgid "Customizable offset projects and contributions"
+msgstr "Progetti e contributi offset personalizzabili"
+
+#: .\templates\pages\pricing.html:298 .\templates\pages\pricing.html:366
+msgid "24/7 premium support"
+msgstr "Supporto premium 24/7"
+
+#: .\templates\pages\pricing.html:307
+msgid "Enterprise"
+msgstr "Impresa"
+
+#: .\templates\pages\pricing.html:308
+msgid ""
+"Ideal for businesses who need personalized services and security for large\n"
+"        teams."
+msgstr ""
+"Ideale per le aziende che hanno bisogno di servizi personalizzati e di "
+"sicurezza per grandi team."
+
+#: .\templates\pages\pricing.html:326
+msgid " All features of the Professional Plan"
+msgstr " Tutte le caratteristiche del Piano Professionale"
+
+#: .\templates\pages\pricing.html:334
+msgid "Full API access for integration with existing systems"
+msgstr "Accesso completo alle API per l'integrazione con i sistemi esistenti"
+
+#: .\templates\pages\pricing.html:342
+msgid "Team collaboration features"
+msgstr "Funzionalità di collaborazione in team"
+
+#: .\templates\pages\pricing.html:350
+msgid "Personalized carbon offset consulting"
+msgstr ""
+"Consulenza personalizzata per la compensazione delle emissioni di carbonio"
+
+#: .\templates\pages\pricing.html:358
+msgid "Annual sustainability audit and certification"
+msgstr "Audit e certificazione di sostenibilità annuali"
+
+#: .\templates\pages\pricing.html:388
+msgid ""
+"Add to your workspace now with all the benefits of the professional plan"
+msgstr ""
+"Aggiungete subito al vostro spazio di lavoro tutti i vantaggi del piano "
+"professionale"
+
+#: .\templates\pages\pricing.html:388
+msgid "billed monthly for €2.99"
+msgstr "addebitato mensilmente per 2,99 euro"
+
+#: .\templates\pages\pricing.html:395
+msgid ""
+"Get\n"
+"        Started"
+msgstr "Iniziamo"
+
+#: .\templates\pages\pricing.html:400
+msgid "AI FAQ"
+msgstr "FAQ sull'intelligenza artificiale"
+
+#: .\templates\pages\privacy.html:161
+msgid "Last updated:"
+msgstr "L'ultimo aggiornamento:"
+
+#: .\templates\pages\privacy.html:163 .\templates\pages\terms.html:163
+msgid "The basics"
+msgstr "I fondamenti"
+
+#: .\templates\pages\privacy.html:164
+msgid ""
+"Verdeia operates the website Verdeia.xyz (the \"Site\"). This Privacy Policy "
+"explains how we\n"
+"            collect, use, disclose, and protect your information when you "
+"visit our Site. By using the Site, you agree\n"
+"            to the collection and use of information in accordance with this "
+"policy."
+msgstr ""
+"Verdeia gestisce il sito web Verdeia.xyz. La presente Informativa sulla "
+"privacy spiega come raccogliamo, utilizziamo, divulghiamo e proteggiamo le "
+"informazioni dell'utente quando visita il nostro Sito. Utilizzando il Sito, "
+"l'utente accetta la raccolta e l'utilizzo delle informazioni in conformità "
+"con la presente informativa."
+
+#: .\templates\pages\privacy.html:167
+msgid ""
+"We reserve the right, at our sole discretion, to change or modify these "
+"Policies at any time,\n"
+"            including the right to\n"
+"            cancel or change the licenses granted by these Policies. If we "
+"do this, we will post the most current\n"
+"            version of\n"
+"            these\n"
+"            Policies on this page. We will seek to provide you with "
+"reasonable notice of any change to the Policies\n"
+"            that, in our\n"
+"            sole\n"
+"            determination, materially adversely affect your rights or your "
+"use of the Service. We may provide you with\n"
+"            this\n"
+"            notice via the Service, and/or by email to the email address "
+"associated with your account. By continuing to\n"
+"            use\n"
+"            the\n"
+"            Service after any revised Policy become effective, you agree to "
+"be bound by the new Policy"
+msgstr ""
+"Ci riserviamo il diritto, a nostra esclusiva discrezione, di cambiare o "
+"modificare queste Politiche in qualsiasi momento, compreso il diritto di "
+"annullare o modificare le licenze concesse da queste Politiche. In tal caso, "
+"pubblicheremo la versione più aggiornata delle presenti Norme su questa "
+"pagina. Cercheremo di fornire all'utente un ragionevole preavviso di "
+"qualsiasi modifica alle Politiche che, a nostro insindacabile giudizio, "
+"influisca materialmente in modo negativo sui diritti dell'utente o sull'uso "
+"del Servizio. Potremmo fornirvi questo avviso tramite il Servizio e/o via e-"
+"mail all'indirizzo di posta elettronica associato al vostro account. "
+"Continuando a utilizzare il Servizio dopo l'entrata in vigore delle nuove "
+"Norme, l'utente accetta di essere vincolato dalle nuove Norme"
+
+#: .\templates\pages\privacy.html:184
+msgid "Information We Collect"
+msgstr "Informazioni raccolte"
+
+#: .\templates\pages\privacy.html:185
+msgid ""
+"We collect several types of information to provide and improve our services "
+"to you"
+msgstr ""
+"Raccogliamo diversi tipi di informazioni per fornire e migliorare i nostri "
+"servizi all'utente"
+
+#: .\templates\pages\privacy.html:186
+msgid "Personal Information"
+msgstr "Informazioni personali"
+
+#: .\templates\pages\privacy.html:187
+msgid ""
+"While using our Site, we may ask you to provide us with certain personally "
+"identifiable\n"
+"            information that can be used to contact or identify you. "
+"Personally identifiable information may include,\n"
+"            but is not limited to:"
+msgstr ""
+"Durante l'utilizzo del nostro Sito, potremmo chiedervi di fornirci alcune "
+"informazioni di identificazione personale che possono essere utilizzate per "
+"contattarvi o identificarvi. Le informazioni di identificazione personale "
+"possono includere, a titolo esemplificativo ma non esclusivo:"
+
+#: .\templates\pages\privacy.html:191
+msgid "Name"
+msgstr "Nome"
+
+#: .\templates\pages\privacy.html:192
+msgid "Email address"
+msgstr "E-mail"
+
+#: .\templates\pages\privacy.html:193
+msgid "Address."
+msgstr "Indirizzo."
+
+#: .\templates\pages\privacy.html:194
+msgid ""
+"Usage Data</p>\n"
+"        <p>We may also collect information on how the Site is accessed and "
+"used (\"Usage Data\"). This Usage Data may\n"
+"            include information such as your computer's Internet Protocol "
+"(IP) address, browser type, browser version,\n"
+"            the pages of our Site that you visit, the time and date of your "
+"visit, the time spent on those pages, and\n"
+"            other diagnostic data."
+msgstr ""
+"Dati di utilizzo</p><p>Potremmo anche raccogliere informazioni sulle "
+"modalità di accesso e utilizzo del Sito (“Dati di utilizzo”). Questi Dati di "
+"utilizzo possono includere informazioni quali l'indirizzo IP del vostro "
+"computer, il tipo di browser, la versione del browser, le pagine del Sito "
+"visitate, l'ora e la data della visita, il tempo trascorso su tali pagine e "
+"altri dati diagnostici. altri dati diagnostici."
+
+#: .\templates\pages\privacy.html:199
+msgid ""
+"Cookies and Tracking Technologies</p>\n"
+"        <p>We use cookies and similar tracking technologies to track the "
+"activity on our Site and hold certain\n"
+"            information. Cookies are files with a small amount of data which "
+"may include an anonymous unique identifier.\n"
+"            You can instruct your browser to refuse all cookies or to "
+"indicate when a cookie is being sent. However, if\n"
+"            you do not accept cookies, you may not be able to use some "
+"portions of our Site"
+msgstr ""
+"Cookie e tecnologie di tracciamento</p> <p>Utilizziamo cookie e tecnologie "
+"di tracciamento simili per tracciare l'attività sul nostro Sito e conservare "
+"determinate informazioni. I cookie sono file contenenti una piccola quantità "
+"di dati che possono includere un identificatore univoco anonimo. L'utente "
+"può indicare al proprio browser di rifiutare tutti i cookie o di segnalare "
+"quando un cookie viene inviato. Se non accettate i cookie, tuttavia, "
+"potreste non essere in grado di utilizzare alcune parti del nostro Sito"
+
+#: .\templates\pages\privacy.html:209
+msgid "How We Use Your Information"
+msgstr "Come utilizziamo i vostri dati"
+
+#: .\templates\pages\privacy.html:210
+msgid "We use the collected data for various purposes, including to"
+msgstr "Utilizziamo i dati raccolti per vari scopi, tra cui"
+
+#: .\templates\pages\privacy.html:212
+msgid "Provide, operate, and maintain our Site"
+msgstr "Fornire, gestire e mantenere il nostro Sito"
+
+#: .\templates\pages\privacy.html:213
+msgid "Improve, personalize, and expand our Site."
+msgstr "Migliorare, personalizzare ed espandere il nostro Sito."
+
+#: .\templates\pages\privacy.html:214
+msgid "Understand and analyze how you use our Site."
+msgstr ""
+"Capire e analizzare il modo in cui gli utenti utilizzano il nostro Sito."
+
+#: .\templates\pages\privacy.html:215
+msgid "Develop new products, services, features and functionalty."
+msgstr "Sviluppare nuovi prodotti, servizi, caratteristiche e funzionalità."
+
+#: .\templates\pages\privacy.html:216
+msgid ""
+"Communicate with you, either directly or through one of our partners, "
+"including for customer\n"
+"            service, to provide you with updates and other information "
+"relating to the Site, and for marketing and\n"
+"            promotional purposes."
+msgstr ""
+"Comunicare con voi, direttamente o tramite uno dei nostri partner, anche per "
+"il servizio clienti, per fornirvi aggiornamenti e altre informazioni "
+"relative al Sito e per scopi promozionali e di marketing."
+
+#: .\templates\pages\privacy.html:219
+msgid "Process your transactions and manage your orders"
+msgstr "Elaborare le vostre transazioni e gestire i vostri ordini"
+
+#: .\templates\pages\privacy.html:220
+msgid "Send you emails and newsletters"
+msgstr "Inviarvi e-mail e newsletter"
+
+#: .\templates\pages\privacy.html:221
+msgid ""
+"Monitor and analyze trends, usage, and activities in connection with our Site"
+msgstr ""
+"Monitorare e analizzare le tendenze, l'utilizzo e le attività in relazione "
+"al nostro sito"
+
+#: .\templates\pages\privacy.html:226
+#, python-format
+msgid ""
+"Security of Your Information</p>\n"
+"        <p>We value your trust in providing us your Personal Information, "
+"thus we are striving to use commercially\n"
+"            acceptable means of protecting it. However, no method of "
+"transmission over the internet, or method of\n"
+"            electronic storage is 100%% secure and reliable, and we cannot "
+"guarantee its absolute security."
+msgstr ""
+"Sicurezza delle informazioni dell'utente</p> <p>Abbiamo apprezzato la "
+"fiducia dell'utente nel fornirci le sue informazioni personali, pertanto ci "
+"sforziamo di utilizzare mezzi commercialmente accettabili per proteggerle. "
+"Tuttavia, nessun metodo di trasmissione su Internet o di archiviazione "
+"elettronica è sicuro e affidabile al 100%% e non possiamo garantirne "
+"l'assoluta sicurezza."
+
+#: .\templates\pages\privacy.html:233
+msgid " Your Data Protection Rights"
+msgstr " Diritti di protezione dei dati"
+
+#: .\templates\pages\privacy.html:234
+msgid "Access and Update"
+msgstr "Accesso e aggiornamento"
+
+#: .\templates\pages\privacy.html:235
+msgid ""
+"You have the right to access and update your personal information stored by "
+"us. You can request a copy of\n"
+"            your personal information and update it if it is inaccurate or "
+"incomplete"
+msgstr ""
+"L'utente ha il diritto di accedere alle informazioni personali da noi "
+"conservate e di aggiornarle. Potete richiedere una copia delle vostre "
+"informazioni personali e aggiornarle se sono inaccurate o incomplete"
+
+#: .\templates\pages\privacy.html:237
+msgid "Deletion"
+msgstr "Eliminazione"
+
+#: .\templates\pages\privacy.html:238
+msgid ""
+"You have the right to request the deletion of your personal information. We "
+"will comply with such requests\n"
+"            unless we are required to retain certain information by law."
+msgstr ""
+"L'utente ha il diritto di richiedere la cancellazione dei propri dati "
+"personali. La Società darà seguito a tali richieste, a meno che non sia "
+"tenuta a conservare determinate informazioni per legge."
+
+#: .\templates\pages\privacy.html:240
+msgid " Restriction of Processing"
+msgstr " Restrizione del trattamento"
+
+#: .\templates\pages\privacy.html:241
+msgid ""
+"You have the right to request the restriction of processing of your personal "
+"information under certain\n"
+"            circumstances"
+msgstr ""
+"L'utente ha il diritto di richiedere la limitazione del trattamento dei "
+"propri dati personali in determinate circostanze"
+
+#: .\templates\pages\privacy.html:243
+msgid " Data Portability"
+msgstr " Portabilità dei dati"
+
+#: .\templates\pages\privacy.html:244
+msgid ""
+"You have the right to request that we transfer the data we have collected to "
+"another organization, or\n"
+"            directly to you, under certain conditions"
+msgstr ""
+"L'utente ha il diritto di richiedere il trasferimento dei dati raccolti a "
+"un'altra organizzazione o direttamente all'utente, a determinate condizioni"
+
+#: .\templates\pages\privacy.html:246
+msgid "Objection to Processing"
+msgstr "Obiezione al trattamento"
+
+#: .\templates\pages\privacy.html:247
+msgid ""
+"You have the right to object to our processing of your personal information "
+"under certain conditions."
+msgstr ""
+"Avete il diritto di opporvi al trattamento dei vostri dati personali da "
+"parte nostra a determinate condizioni."
+
+#: .\templates\pages\privacy.html:248
+msgid ""
+"To exercise any of these rights, please contact us using the contact details "
+"provided below"
+msgstr ""
+"Per esercitare uno qualsiasi di questi diritti, vi preghiamo di contattarci "
+"utilizzando i dettagli di contatto forniti di seguito"
+
+#: .\templates\pages\privacy.html:252 .\templates\pages\terms.html:238
+msgid "Third-Party Links"
+msgstr "Collegamenti di terze parti"
+
+#: .\templates\pages\privacy.html:253
+msgid ""
+"Our Site may contain links to third-party websites or services that are not "
+"owned or controlled by us. We\n"
+"            have no control over, and assume no responsibility for, the "
+"content, privacy policies, or practices of any\n"
+"            third-party websites or services. We strongly advise you to "
+"review the privacy policy of every site you\n"
+"            visit."
+msgstr ""
+"Il nostro Sito può contenere link a siti web o servizi di terzi che non sono "
+"di nostra proprietà o controllati da noi. Non abbiamo alcun controllo e non "
+"ci assumiamo alcuna responsabilità per il contenuto, le politiche sulla "
+"privacy o le pratiche di siti web o servizi di terzi. Consigliamo vivamente "
+"di prendere visione dell'informativa sulla privacy di ogni sito visitato."
+
+#: .\templates\pages\privacy.html:260
+msgid "Changes to This Privacy Policy"
+msgstr "Modifiche a questa Informativa sulla privacy"
+
+#: .\templates\pages\privacy.html:261
+msgid ""
+"We may update our Privacy Policy from time to time. We will notify you of "
+"any changes by posting the new\n"
+"            Privacy Policy on this page. You are advised to review this "
+"Privacy."
+msgstr ""
+"Potremmo aggiornare la nostra Informativa sulla privacy di tanto in tanto. "
+"Vi informeremo di eventuali modifiche pubblicando la nuova Informativa sulla "
+"privacy su questa pagina. Si consiglia di rivedere la presente Informativa "
+"sulla privacy."
+
+#: .\templates\pages\results.html:210 .\templates\user\home.html:259
+msgid "Your annual carbon footprint"
+msgstr "La tua impronta di carbonio annuale"
+
+#: .\templates\pages\results.html:216
+msgid "Tons CO2e"
+msgstr "Tonnellate CO2e"
+
+#: .\templates\pages\results.html:220
+#, python-format
+msgid "You're %(percentage)s%% %(sign)s average"
+msgstr "Sei %(percentage)s%% %(sign)s  media"
+
+#: .\templates\pages\results.html:236
+msgid "Sign Up today let's neutralize your emission"
+msgstr "Iscriviti oggi stesso, neutralizziamo le tue emissioni"
+
+#: .\templates\pages\signup.html:72 .\templates\pages\signup.html:171
+msgid "Sign in"
+msgstr "Accedi"
+
+#: .\templates\pages\signup.html:75
+msgid "Full Name"
+msgstr "Nome e Cognome"
+
+#: .\templates\pages\signup.html:138
+msgid "Password must contain"
+msgstr "La password deve contenere"
+
+#: .\templates\pages\signup.html:139
+msgid ""
+"At least\n"
+"              <b>one lowercase letter"
+msgstr "Almeno <b>una lettera minuscola"
+
+#: .\templates\pages\signup.html:142
+msgid ""
+"At least\n"
+"              <b>one uppercase letter"
+msgstr "Almeno <b>una lettera maiuscola"
+
+#: .\templates\pages\signup.html:145
+msgid ""
+"At least\n"
+"              <b>one number"
+msgstr "Almeno <b>un numero"
+
+#: .\templates\pages\signup.html:148
+msgid ""
+"Minimum\n"
+"              <b>8 characters"
+msgstr "Minimo <b>8 caratteri"
+
+#: .\templates\pages\signup.html:159
+msgid "Remember me"
+msgstr "Ricordati di me"
+
+#: .\templates\pages\signup.html:173
+msgid "You acknowledge that you understand and <br>agree to our"
+msgstr "L'utente dichiara di aver compreso e di <br>accettare la nostra"
+
+#: .\templates\pages\signup.html:175
+msgid " and"
+msgstr " e"
+
+#: .\templates\pages\start.html:229 .\templates\user\start.html:296
+msgid "Where do you live"
+msgstr "Dove abiti"
+
+#: .\templates\pages\start.html:509 .\templates\pages\start.html:544
+#: .\templates\pages\start.html:579 .\templates\pages\start.html:611
+#: .\templates\pages\start.html:648 .\templates\pages\start.html:684
+#: .\templates\pages\start.html:720 .\templates\pages\start.html:756
+#: .\templates\pages\start.html:794 .\templates\user\start.html:576
+#: .\templates\user\start.html:611 .\templates\user\start.html:646
+#: .\templates\user\start.html:678 .\templates\user\start.html:715
+#: .\templates\user\start.html:751 .\templates\user\start.html:787
+#: .\templates\user\start.html:823 .\templates\user\start.html:861
+msgid "Fun Fact"
+msgstr "Fatto divertente"
+
+#: .\templates\pages\start.html:510 .\templates\user\start.html:577
+msgid "Pluto is smaller than the U.S."
+msgstr "Plutone è più piccolo degli Stati Uniti."
+
+#: .\templates\pages\start.html:523 .\templates\user\start.html:590
+msgid "Do you own a car, and if so, is it fuel-efficient or electric"
+msgstr "Possiede un'auto e, se sì, è a basso consumo di carburante o elettrica"
+
+#: .\templates\pages\start.html:529 .\templates\user\start.html:596
+msgid "It's an electric car"
+msgstr "È un'auto elettrica"
+
+#: .\templates\pages\start.html:533 .\templates\user\start.html:600
+msgid "It's a combustion engine car"
+msgstr "È un'auto con motore a combustione"
+
+#: .\templates\pages\start.html:537 .\templates\user\start.html:604
+msgid "I use public transport"
+msgstr "Uso i mezzi di trasporto pubblico"
+
+#: .\templates\pages\start.html:545 .\templates\user\start.html:612
+msgid "There are an estimated 1.2 billion cars<br> in the world today"
+msgstr "Si stima che oggi nel mondo ci siano <br>1,2 miliardi di auto"
+
+#: .\templates\pages\start.html:558 .\templates\user\start.html:625
+msgid "How many kilometers do you do in a day"
+msgstr "Quanti chilometri fai in un giorno"
+
+#: .\templates\pages\start.html:572 .\templates\user\start.html:639
+msgid "more than 100 km"
+msgstr "più di 100 km"
+
+#: .\templates\pages\start.html:580 .\templates\user\start.html:647
+msgid ""
+"The average distance a person walks in their lifetime <br>is estimated to be "
+"around 70,000 miles"
+msgstr ""
+"La distanza media percorsa da una persona a piedi nel corso della sua vita "
+"<br>è stimata in circa 70.000 chilometri"
+
+#: .\templates\pages\start.html:593 .\templates\user\start.html:660
+msgid "How many people live in you house"
+msgstr "Quante persone vivono nella tua casa"
+
+#: .\templates\pages\start.html:598 .\templates\user\start.html:665
+msgid "I live alone"
+msgstr "Vivo da solo"
+
+#: .\templates\pages\start.html:601 .\templates\user\start.html:668
+msgid "3 to 5 people"
+msgstr "Da 3 a 5 persone"
+
+#: .\templates\pages\start.html:604 .\templates\user\start.html:671
+msgid "5+ people"
+msgstr "5+ persone"
+
+#: .\templates\pages\start.html:612 .\templates\user\start.html:679
+msgid "The typical homeowner stays in their <br>house for 13.2 years"
+msgstr "Il proprietario di casa tipico rimane nella sua <br>casa per 13,2 anni"
+
+#: .\templates\pages\start.html:627 .\templates\user\start.html:694
+msgid "What is the primary source of energy for your home"
+msgstr "Qual è la fonte primaria di energia per la tua casa"
+
+#: .\templates\pages\start.html:633 .\templates\user\start.html:700
+msgid "Full solar dependence"
+msgstr "Dipendenza solare totale"
+
+#: .\templates\pages\start.html:637 .\templates\user\start.html:704
+msgid "Solar and public grid dependence"
+msgstr "Dipendenza da solare e rete pubblica"
+
+#: .\templates\pages\start.html:641 .\templates\user\start.html:708
+msgid "Public grid dependence"
+msgstr "Dipendenza dalla rete pubblica"
+
+#: .\templates\pages\start.html:649 .\templates\user\start.html:716
+#, python-format
+msgid ""
+"Approximately 30%% of energy used in buildings is used<br> inefficiently or "
+"unnecessarily"
+msgstr ""
+"Circa il 30%% dell'energia utilizzata negli edifici è utilizzata in <br>modo "
+"inefficiente o non necessario"
+
+#: .\templates\pages\start.html:663 .\templates\user\start.html:730
+msgid "How do you heat or cool off your house"
+msgstr "Come fai a riscaldare o raffreddare la casa tua"
+
+#: .\templates\pages\start.html:669 .\templates\user\start.html:736
+msgid "Gas"
+msgstr "Gas"
+
+#: .\templates\pages\start.html:673 .\templates\user\start.html:740
+msgid "Electric"
+msgstr "Elettrico"
+
+#: .\templates\pages\start.html:677 .\templates\user\start.html:744
+msgid "I don't use ventilation"
+msgstr "Non utilizzo la ventilazione"
+
+#: .\templates\pages\start.html:685 .\templates\user\start.html:752
+msgid ""
+"The Romans used to heat their floors by positioning stone slabs<br> over "
+"heat sources such as fires"
+msgstr ""
+"I Romani usavano riscaldare i loro pavimenti posizionando lastre di "
+"pietra<br> sopra fonti di calore come i fuochi"
+
+#: .\templates\pages\start.html:699 .\templates\user\start.html:766
+msgid "What's your diet"
+msgstr "Qual è la tua dieta"
+
+#: .\templates\pages\start.html:705 .\templates\user\start.html:772
+msgid "vegan"
+msgstr "vegano"
+
+#: .\templates\pages\start.html:709 .\templates\user\start.html:776
+msgid "Vegetarians"
+msgstr "Vegetariano"
+
+#: .\templates\pages\start.html:713 .\templates\user\start.html:780
+msgid "Full diet"
+msgstr "Dieta integrale"
+
+#: .\templates\pages\start.html:721 .\templates\user\start.html:788
+msgid "Bananas are technically berries"
+msgstr "Le banane sono tecnicamente frutti di bosco"
+
+#: .\templates\pages\start.html:735 .\templates\user\start.html:802
+msgid "How frequent do you travel by air"
+msgstr "Con quale frequenza viaggia in aereo"
+
+#: .\templates\pages\start.html:741 .\templates\user\start.html:808
+msgid "Monthly"
+msgstr "Ogni mese"
+
+#: .\templates\pages\start.html:745 .\templates\user\start.html:812
+msgid "Twice a year"
+msgstr "Due volte all'anno"
+
+#: .\templates\pages\start.html:749 .\templates\user\start.html:816
+msgid "Rarely or Every year"
+msgstr "Raramente o ogni anno"
+
+#: .\templates\pages\start.html:757 .\templates\user\start.html:824
+msgid ""
+"Approximately, 10,000 people are killed annually from toxic<br> pollutants "
+"from airplanes."
+msgstr ""
+"Circa 10.000 persone muoiono ogni anno a causa degli inquinanti tossici<br> "
+"prodotti dagli aerei."
+
+#: .\templates\pages\start.html:772
+msgid ""
+"Are you open to adopting more sustainable <br />practices reduce\n"
+"                your carbon footprint??"
+msgstr ""
+"Siete disposti ad adottare pratiche più sostenibili <br>per ridurre la "
+"vostra impronta di carbonio?"
+
+#: .\templates\pages\start.html:779 .\templates\user\start.html:846
+msgid "Yes I do"
+msgstr "Si"
+
+#: .\templates\pages\start.html:783 .\templates\user\start.html:850
+msgid "No i don't"
+msgstr "No"
+
+#: .\templates\pages\start.html:787 .\templates\user\start.html:854
+msgid "I do not really care"
+msgstr "Non me ne frega"
+
+#: .\templates\pages\start.html:795 .\templates\user\start.html:862
+#, python-format
+msgid ""
+"Human-caused emissions of carbon dioxide need to fall 45%% by 2030 and "
+"<br>reach net-zero around 2050 to limit climate change catastrophe."
+msgstr ""
+"Le emissioni di anidride carbonica causate dall'uomo devono diminuire del "
+"45%%entro il 2030 e <br>raggiungere lo zero netto intorno al 2050 per "
+"limitare la catastrofe del cambiamento climatico."
+
+#: .\templates\pages\start.html:804 .\templates\user\start.html:871
+msgid "Back"
+msgstr "Indietro"
+
+#: .\templates\pages\start.html:806 .\templates\user\start.html:873
+msgid "Next"
+msgstr "Prossimo"
+
+#: .\templates\pages\start.html:809 .\templates\user\start.html:876
+msgid "Send"
+msgstr "Invia"
+
+#: .\templates\pages\terms.html:161
+msgid "Last updated: March"
+msgstr "L'ultimo aggiornamento: Marzo"
+
+#: .\templates\pages\terms.html:164
+msgid ""
+"Welcome to Verdeia. These Terms and Conditions govern your use of our "
+"website\n"
+"            and services. By accessing or using the Site, you agree to be "
+"bound by these Terms. If you do not agree with\n"
+"            these\n"
+"            Terms, you must not use the Site"
+msgstr ""
+"Benvenuti su Verdeia. I presenti Termini e Condizioni regolano l'utilizzo "
+"del nostro sito e dei nostri servizi. Accedendo o utilizzando il Sito, "
+"l'utente accetta di essere vincolato da queste Condizioni. Se non siete "
+"d'accordo con le presenti Condizioni, non dovete utilizzare il Sito"
+
+#: .\templates\pages\terms.html:168
+msgid ""
+"We reserve the right, at our sole discretion, to change or modify these "
+"Terms\n"
+"            at any time,\n"
+"            including the right to\n"
+"            cancel or change the licenses granted by these Terms. If we do "
+"this, we will post the most current version\n"
+"            of\n"
+"            these\n"
+"            Terms on this page. We will seek to provide you with reasonable "
+"notice of any change to the Terms that, in\n"
+"            our\n"
+"            sole\n"
+"            determination, materially adversely affect your rights or your "
+"use of the Service. We may provide you with\n"
+"            this\n"
+"            notice via the Service, and/or by email to the email address "
+"associated with your account. By continuing to\n"
+"            use\n"
+"            the\n"
+"            Service after any revised Terms become effective, you agree to "
+"be bound by the new Terms"
+msgstr ""
+"Ci riserviamo il diritto, a nostra esclusiva discrezione, di cambiare o "
+"modificare le presenti Condizioni in qualsiasi momento, compreso il diritto "
+"di annullare o modificare le licenze concesse dalle presenti Condizioni. In "
+"tal caso, pubblicheremo la versione più aggiornata dei presenti Termini su "
+"questa pagina. Cercheremo di fornire all'utente un ragionevole preavviso di "
+"qualsiasi modifica ai Termini che, a nostro insindacabile giudizio, "
+"influisca materialmente in modo negativo sui diritti dell'utente o sull'uso "
+"del Servizio. Potremmo fornirvi questo avviso tramite il Servizio e/o via e-"
+"mail all'indirizzo di posta elettronica associato al vostro account. "
+"Continuando a utilizzare il Servizio dopo l'entrata in vigore dei Termini "
+"modificati, l'utente accetta di essere vincolato dai nuovi Termini"
+
+#: .\templates\pages\terms.html:187
+msgid "Acceptance of Terms"
+msgstr "Accettazione delle condizioni"
+
+#: .\templates\pages\terms.html:188
+msgid ""
+"By accessing and using the Site, you accept and agree to be bound by these "
+"Terms and our Privacy Policy. If\n"
+"            you\n"
+"            do not agree to these Terms, please do not use the Site"
+msgstr ""
+"Accedendo e utilizzando il Sito, l'utente accetta e si impegna ad essere "
+"vincolato dai presenti Termini e dalla nostra Informativa sulla privacy. Se "
+"non accettate le presenti Condizioni, siete pregati di non utilizzare il "
+"Sito.ì"
+
+#: .\templates\pages\terms.html:194
+msgid " Changes to Terms"
+msgstr " Modifiche alle condizioni"
+
+#: .\templates\pages\terms.html:195
+msgid ""
+"We reserve the right to modify these Terms at any time. Any changes will be "
+"effective immediately upon\n"
+"            posting on\n"
+"            the Site. Your continued use of the Site following the posting "
+"of revised Terms means that you accept and\n"
+"            agree to\n"
+"            the changes"
+msgstr ""
+"Ci riserviamo il diritto di modificare le presenti Condizioni in qualsiasi "
+"momento. Eventuali modifiche avranno effetto immediato al momento della "
+"pubblicazione sul il Sito. L'uso continuato del Sito da parte dell'utente "
+"dopo la pubblicazione dei Termini modificati implica l'accettazione e il "
+"consenso alle modifiche"
+
+#: .\templates\pages\terms.html:203
+msgid "Use of the Site"
+msgstr "Uso del Sito"
+
+#: .\templates\pages\terms.html:204
+msgid "User Conduct"
+msgstr "Comportamento dell'utente"
+
+#: .\templates\pages\terms.html:205
+msgid ""
+"You agree not to use the Site for any unlawful purpose or in any way that "
+"might harm, damage, or disparage\n"
+"            any\n"
+"            other party. You are responsible for all content you post or "
+"transmit through the Site"
+msgstr ""
+"L'utente si impegna a non utilizzare il Sito per scopi illegali o in "
+"qualsiasi modo che possa danneggiare o denigrare qualsiasi altra parte. "
+"L'utente è responsabile di tutti i contenuti che pubblica o trasmette "
+"attraverso il Sito"
+
+#: .\templates\pages\terms.html:208
+msgid "Prohibited Activities"
+msgstr "Attività proibite"
+
+#: .\templates\pages\terms.html:209
+msgid "You agree not to"
+msgstr "L'utente accetta di non"
+
+#: .\templates\pages\terms.html:210
+msgid "Violate any applicable laws or regulations"
+msgstr "Violare qualsiasi legge o regolamento applicabile"
+
+#: .\templates\pages\terms.html:211
+msgid "Use the Site to harm, threaten, or harass others"
+msgstr "Utilizzare il Sito per danneggiare, minacciare o molestare altri"
+
+#: .\templates\pages\terms.html:212
+msgid "Disrupt or interfere with the security or functionality of the Site"
+msgstr "Interrompere o interferire con la sicurezza o la funzionalità del Sito"
+
+#: .\templates\pages\terms.html:213
+msgid ""
+"Impersonate any person or entity, or misrepresent your affiliation with a "
+"person or entity."
+msgstr ""
+"Impersonare qualsiasi persona o entità, o travisare la propria affiliazione "
+"con una persona o entità."
+
+#: .\templates\pages\terms.html:215
+msgid "Upload or transmit any viruses or malicious code"
+msgstr "Caricare o trasmettere virus o codici maligni"
+
+#: .\templates\pages\terms.html:219
+msgid "User Content"
+msgstr "Contenuto dell'utente"
+
+#: .\templates\pages\terms.html:220
+msgid " Ownership"
+msgstr " Proprietà"
+
+#: .\templates\pages\terms.html:221
+msgid ""
+"You retain ownership of any content you submit to the Site. By submitting "
+"content, you grant Verdeia\n"
+"            a worldwide, non-exclusive, royalty-free, transferable license "
+"to use, reproduce, distribute, prepare\n"
+"            derivative\n"
+"            works of, and display the content in connection with the Site "
+"and Verdeia's business."
+msgstr ""
+"L'utente conserva la proprietà di qualsiasi contenuto inviato al Sito. Con "
+"l'invio di contenuti, l'utente concede a Verdeia una licenza mondiale, non "
+"esclusiva, gratuita e trasferibile per l'utilizzo, la riproduzione, la "
+"distribuzione, la preparazione di opere derivate e la visualizzazione dei "
+"contenuti in relazione al Sito e all'attività di Verdeia."
+
+#: .\templates\pages\terms.html:225
+msgid "Responsibility"
+msgstr "Responsabilità"
+
+#: .\templates\pages\terms.html:226
+msgid ""
+"You are solely responsible for the content you submit and the consequences "
+"of posting or publishing it.\n"
+"            Verdeia is not responsible for any public display or misuse of "
+"your content"
+msgstr ""
+"L'utente è l'unico responsabile dei contenuti che invia e delle conseguenze "
+"della loro pubblicazione. Verdeia non è responsabile dell'esposizione "
+"pubblica o dell'uso improprio dei vostri contenuti"
+
+#: .\templates\pages\terms.html:232
+msgid "Privacy"
+msgstr "Privacy"
+
+#: .\templates\pages\terms.html:233
+msgid ""
+"Your use of the Site is also governed by our Privacy Policy. Please review "
+"the Privacy Policy to understand\n"
+"            our practices regarding the collection, use, and disclosure of "
+"your personal information"
+msgstr ""
+"L'utilizzo del Sito da parte dell'utente è regolato anche dalla nostra "
+"Informativa sulla privacy. Vi invitiamo a leggere l'Informativa sulla "
+"privacy per comprendere le nostre pratiche relative alla raccolta, all'uso e "
+"alla divulgazione delle informazioni personali dell'utente"
+
+#: .\templates\pages\terms.html:239
+msgid ""
+"The Site may contain links to third-party websites or services that are not "
+"owned or controlled by Verdeia.\n"
+"            We have no control over and assume no responsibility for the "
+"content, privacy policies, or practices of any\n"
+"            third-party websites or services. You acknowledge and agree that "
+"Verdeia is not responsible for any damage\n"
+"            or loss caused by your use of any third-party content or services"
+msgstr ""
+"Il Sito può contenere link a siti web o servizi di terzi che non sono di "
+"proprietà o controllati da Verdeia. Verdeia non ha alcun controllo e non si "
+"assume alcuna responsabilità per il contenuto, le politiche sulla privacy o "
+"le pratiche di qualsiasi sito web o servizio di terzi. L'utente riconosce e "
+"accetta che Verdeia non è responsabile per eventuali danni o perdite causati "
+"dall'utilizzo di contenuti o servizi di terzi"
+
+#: .\templates\pages\terms.html:246
+msgid " Disclaimer of Warranties"
+msgstr " Esclusione di garanzie"
+
+#: .\templates\pages\terms.html:247
+msgid ""
+"The Site is provided on an “as is” and “as available” basis. Verdia makes no "
+"representations or warranties of\n"
+"            any kind, express or implied, regarding the operation or "
+"availability of the Site or the information,\n"
+"            content, or materials included on the Site"
+msgstr ""
+"Il Sito è fornito “così com'è” e “come disponibile”. Verdia non rilascia "
+"dichiarazioni o garanzie di alcun tipo, espresse o implicite, in merito al "
+"funzionamento o alla disponibilità del Sito o alle informazioni, ai "
+"contenuti o ai materiali inclusi nel Sito"
+
+#: .\templates\pages\terms.html:253
+msgid " Limitation of Liability"
+msgstr " Limitazioni di responsabilità"
+
+#: .\templates\pages\terms.html:254
+msgid ""
+"To the fullest extent permitted by law, Verdeia shall not be liable for any "
+"damages of any kind arising from\n"
+"            your use of the Site, including but not limited to direct, "
+"indirect, incidental, punitive, and consequential\n"
+"            damage"
+msgstr ""
+"Nella misura massima consentita dalla legge, Verdeia non sarà responsabile "
+"per eventuali danni di qualsiasi tipo derivanti\n"
+" dall'utilizzo del Sito, inclusi ma non limitati a danni diretti, indiretti, "
+"incidentali, punitivi e consequenziali"
+
+#: .\templates\pages\terms.html:260
+msgid "Indemnification"
+msgstr "Indennizzo"
+
+#: .\templates\pages\terms.html:261
+msgid ""
+"You agree to indemnify, defend, and hold harmless Verdeia, its officers, "
+"directors, employees, and agents\n"
+"            from and against any claims, liabilities, damages, losses, and "
+"expenses, including reasonable attorney’s\n"
+"            fees, arising out of or in any way connected with your access to "
+"or use of the Site"
+msgstr ""
+"L'utente accetta di indennizzare, difendere e tenere indenne Verdeia, i suoi "
+"funzionari, direttori, dipendenti e agenti da e contro qualsiasi reclamo, "
+"responsabilità, danno, perdita e spesa, comprese le ragionevoli spese "
+"legali, derivanti da o in qualsiasi modo collegate all'accesso o "
+"all'utilizzo del Sito da parte dell'utente"
+
+#: .\templates\pages\terms.html:267
+msgid " Licensing and Attribution for Verdia Labs"
+msgstr " Licenze e attribuzioni per Verdia Labs"
+
+#: .\templates\pages\terms.html:268
+msgid ""
+"Some of the [icons/images/graphics] used on this website are sourced from"
+msgstr ""
+"Alcune delle [icone/immagini/grafiche] utilizzate in questo sito web "
+"provengono da"
+
+#: .\templates\pages\terms.html:269 .\templates\volunteer\plastic.html:263
+#: .\templates\volunteer\sea.html:267 .\templates\volunteer\tree.html:261
+msgid "and"
+msgstr "e"
+
+#: .\templates\pages\terms.html:270
+msgid ""
+"which are free-to-use media repositories. We are grateful for the\n"
+"            availability of these resources and have properly attributed "
+"their use in accordance with the respective\n"
+"            licensing terms."
+msgstr ""
+"che sono archivi multimediali di libero utilizzo. Siamo grati per la "
+"disponibilità di queste risorse e ne abbiamo attribuito l'uso in conformità "
+"con i rispettivi termini di licenza."
+
+#: .\templates\pages\unava.html:152
+msgid "FEATURE NOT FOUND"
+msgstr "FUNZIONE NON TROVATA"
+
+#: .\templates\pages\unava.html:153
+msgid ""
+"The feature you are looking for might have been removed<br>had its name "
+"changed or is temporarily unavailable"
+msgstr ""
+"La funzione che stai cercando potrebbe essere stata rimossa<br>ha cambiato "
+"nome o non è temporaneamente disponibile"
+
+#: .\templates\projects\capcha.html:232
+msgid ""
+"Carbon capture devices directly remove CO2 from the atmosphere or from "
+"industrial emissions, addressing the\n"
+"          root cause of climate change. This makes them a powerful tool in "
+"reducing greenhouse gas levels."
+msgstr ""
+"I dispositivi di cattura del carbonio rimuovono direttamente la CO2 "
+"dall'atmosfera o dalle emissioni industriali, affrontando la causa "
+"principale del cambiamento climatico. Questo li rende uno strumento potente "
+"per ridurre i livelli di gas serra."
+
+#: .\templates\projects\capcha.html:235 .\templates\projects\fog.html:235
+#: .\templates\projects\plant.html:235 .\templates\projects\solar.html:236
+msgid "Why we chose it"
+msgstr "Perché l'abbiamo scelto"
+
+#: .\templates\projects\capcha.html:236
+msgid ""
+"While renewable energy and energy efficiency are crucial, carbon capture\n"
+"          devices complement these efforts by dealing with emissions that "
+"are hard to eliminate, such as those from\n"
+"          industrial processes."
+msgstr ""
+"Mentre l'energia rinnovabile e l'efficienza energetica sono fondamentali, i "
+"dispositivi di cattura del carbonio completano questi sforzi affrontando le "
+"emissioni difficili da eliminare, come quelle dei processi industriali."
+
+#: .\templates\projects\capcha.html:239
+msgid "How it works?"
+msgstr "Come funziona?"
+
+#: .\templates\projects\capcha.html:240
+msgid ""
+"Carbon capture devices work by extracting CO2 from industrial emissions or\n"
+"          directly from the air. This can be done using chemical solvents, "
+"solid adsorbents, or other innovative\n"
+"          methods.Once captured, the CO2 is compressed and transported via "
+"pipelines, ships, or other means to storage\n"
+"          sites or facilities where it can be utilized.Captured CO2 can be "
+"injected into deep underground geological\n"
+"          formations, such as depleted oil and gas fields or deep saline "
+"aquifers, where it is stored securely."
+msgstr ""
+"I dispositivi di cattura del carbonio funzionano estraendo la CO2 dalle "
+"emissioni industriali o direttamente dall'aria. Una volta catturata, la CO2 "
+"viene compressa e trasportata tramite condotte, navi o altri mezzi in siti o "
+"strutture di stoccaggio dove può essere utilizzata. La CO2 catturata può "
+"essere iniettata in formazioni geologiche sotterranee profonde, come "
+"giacimenti di petrolio e gas esauriti o falde acquifere saline profonde, "
+"dove viene immagazzinata in modo sicuro."
+
+#: .\templates\projects\capcha.html:245 .\templates\projects\fog.html:245
+#: .\templates\projects\plant.html:243 .\templates\projects\solar.html:246
+msgid "Project Details"
+msgstr "Project Details"
+
+#: .\templates\projects\capcha.html:246
+msgid ""
+"Success will be measured through various metrics, including the amount of "
+"CO2\n"
+"          captured and stored, reduction in overall greenhouse gas "
+"emissions, and improvements in air quality. Regular\n"
+"          impact assessments will be conducted to ensure the initiative is "
+"on track and to make any necessary\n"
+"          adjustments."
+msgstr ""
+"Il successo sarà misurato attraverso vari parametri, tra cui la quantità di "
+"CO2 catturata e immagazzinata, la riduzione delle emissioni complessive di "
+"gas serra e il miglioramento della qualità dell'aria. Verranno condotte "
+"periodicamente\n"
+" valutazioni d'impatto periodiche per garantire che l'iniziativa sia in "
+"linea con i tempi e per apportare le modifiche necessarie."
+
+#: .\templates\projects\capcha.html:250 .\templates\projects\fog.html:249
+#: .\templates\projects\plant.html:247 .\templates\projects\solar.html:251
+msgid "Location"
+msgstr "Luogo"
+
+#: .\templates\projects\fog.html:232
+msgid ""
+"Water scarcity is a critical issue affecting millions of people worldwide. "
+"Traditional water sources are\n"
+"          increasingly unreliable due to climate change, overuse, and "
+"pollution. After thorough research and\n"
+"          consideration, I chose to fund fog and mist capture devices for "
+"several compelling reasons"
+msgstr ""
+"La scarsità d'acqua è un problema critico che riguarda milioni di persone in "
+"tutto il mondo. Le fonti idriche tradizionali sono sempre più inaffidabili a "
+"causa dei cambiamenti climatici, dell'uso eccessivo e dell'inquinamento. "
+"Dopo un'approfondita ricerca e considerazione, ho scelto di finanziare i "
+"dispositivi di cattura della nebbia e della foschia per diversi motivi "
+"imprescindibili"
+
+#: .\templates\projects\fog.html:236
+msgid ""
+"Fog and mist capture devices provide an innovative way to harvest water "
+"from\n"
+"          the atmosphere. These devices can generate clean water in arid and "
+"semi-arid regions where conventional water\n"
+"          sources are limited or non-existent."
+msgstr ""
+"I dispositivi di cattura della nebbia e della foschia rappresentano un modo "
+"innovativo per raccogliere l'acqua dall'atmosfera. Questi dispositivi "
+"possono generare acqua pulita in regioni aride e semi-aride dove le fonti "
+"d'acqua convenzionali sono limitate o inesistenti."
+
+#: .\templates\projects\fog.html:239 .\templates\projects\plant.html:239
+#: .\templates\projects\solar.html:241
+msgid "How it works"
+msgstr "Come funziona"
+
+#: .\templates\projects\fog.html:240
+msgid ""
+"The initiative involves setting up large mesh nets in fog-prone areas. "
+"These\n"
+"          nets are designed to capture and condense water droplets from the "
+"fog and mist.As fog passes through the nets,\n"
+"          water droplets accumulate and drip into collection troughs. The "
+"collected water is then channeled into storage\n"
+"          tanks or reservoirs for community use"
+msgstr ""
+"L'iniziativa prevede l'installazione di reti a maglie larghe nelle aree a "
+"rischio di nebbia. Queste reti sono progettate per catturare e condensare le "
+"gocce d'acqua dalla nebbia e dalla foschia. Quando la nebbia passa "
+"attraverso le reti, le gocce d'acqua si accumulano e gocciolano in vasche di "
+"raccolta. L'acqua raccolta viene poi convogliata in cisterne o serbatoi per "
+"essere utilizzata dalla comunità"
+
+#: .\templates\projects\fog.html:246
+msgid ""
+"The funds will be allocated to the procurement of materials, training of "
+"local\n"
+"          communities, installation, and maintenance of the devices. A "
+"portion will also be used for educational\n"
+"          outreach and awareness campaigns"
+msgstr ""
+"I fondi saranno destinati all'acquisto di materiali, alla formazione delle "
+"comunità locali, all'installazione e alla manutenzione dei dispositivi. Una "
+"parte sarà utilizzata anche per campagne educative e di sensibilizzazione"
+
+#: .\templates\projects\plant.html:232
+msgid ""
+"Trees are nature's most efficient carbon sinks. They absorb CO2 from the "
+"atmosphere and store it in their\n"
+"          biomass, helping to mitigate the greenhouse effect. A single "
+"mature tree can absorb up to 48 pounds of CO2 per\n"
+"          year, significantly reducing the amount of this harmful gas in the "
+"atmosphere"
+msgstr ""
+"Gli alberi sono i più efficienti serbatoi di carbonio della natura. "
+"Assorbono la CO2 dall'atmosfera e la immagazzinano nella loro biomassa, "
+"contribuendo a mitigare l'effetto serra. Un singolo albero maturo può "
+"assorbire fino a 48 libbre di CO2 all'anno, riducendo significativamente la "
+"quantità di questo gas nocivo nell'atmosfera"
+
+#: .\templates\projects\plant.html:236
+msgid ""
+"Tree planting is a sustainable and long-term solution. It is cost-effective\n"
+"          compared to other technological interventions and can be easily "
+"scaled to meet the needs of different regions."
+msgstr ""
+"La piantumazione di alberi è una soluzione sostenibile e a lungo termine. È "
+"economicamente vantaggioso rispetto ad altri interventi tecnologici e può "
+"essere facilmente scalato per soddisfare le esigenze di regioni diverse."
+
+#: .\templates\projects\plant.html:240
+msgid ""
+"The initiative identifies degraded and deforested lands that are ideal for\n"
+"          reforestation. This ensures that agricultural and urban lands are "
+"preserved and the most suitable areas are\n"
+"          restored"
+msgstr ""
+"L'iniziativa identifica i terreni degradati e deforestati che sono ideali "
+"per la riforestazione. In questo modo si garantisce la conservazione dei "
+"terreni agricoli e urbani e il ripristino delle aree più adatte"
+
+#: .\templates\projects\plant.html:244
+msgid ""
+"The funds will be allocated to the procurement of saplings, training of "
+"local\n"
+"          communities, and maintenance of the planted areas. A portion will "
+"also be used for educational outreach and\n"
+"          awareness campaigns"
+msgstr ""
+"I fondi saranno destinati all'acquisto di alberelli, alla formazione delle "
+"comunità locali e alla manutenzione delle aree piantate. Una parte sarà "
+"utilizzata anche per campagne educative e di sensibilizzazione"
+
+#: .\templates\projects\solar.html:233
+msgid ""
+"Investing in solar energy is one of the most impactful ways we can combat "
+"climate change and build a more\n"
+"          sustainable future for our community. By funding our solar energy "
+"initiative, you will be supporting the\n"
+"          installation of solar panels on 50 local homes and businesses over "
+"the next year"
+msgstr ""
+"Investire nell'energia solare è uno dei modi più efficaci per combattere il "
+"cambiamento climatico e costruire un futuro più sostenibile per la nostra "
+"comunità. Finanziando la nostra iniziativa sull'energia solare, sosterrete "
+"l'installazione di pannelli solari su 50 abitazioni e aziende locali nel "
+"corso del prossimo anno"
+
+#: .\templates\projects\solar.html:237
+msgid ""
+"Beyond the environmental and economic benefits, this initiative will\n"
+"          demonstrate our community's commitment to renewable energy and "
+"inspire others to follow suit. Your\n"
+"          contribution, no matter the size, will play a vital role in "
+"accelerating our transition to a clean energy\n"
+"          future. Join us in leading the way towards a healthier, more "
+"sustainable world."
+msgstr ""
+"Oltre ai benefici ambientali ed economici, questa iniziativa dimostrerà "
+"l'impegno della nostra comunità nei confronti delle energie rinnovabili e "
+"ispirerà altri a seguirne l'esempio. Il vostro contributo, indipendentemente "
+"dalla sua entità, avrà un ruolo fondamentale nell'accelerare la transizione "
+"verso un futuro di energia pulita. Unitevi a noi nel tracciare la strada "
+"verso un mondo più sano e sostenibile."
+
+#: .\templates\projects\solar.html:242
+msgid ""
+"These solar arrays will generate 2 megawatts of clean, renewable electricity "
+"-\n"
+"          enough to power over 300 homes annually. Not only will this "
+"prevent the release of 1,500 tons of carbon\n"
+"          emissions, but it will also provide significant long-term savings "
+"on electricity bills for participating\n"
+"          households and businesses"
+msgstr ""
+"Questi impianti solari genereranno 2 megawatt di elettricità pulita e "
+"rinnovabile, sufficiente ad alimentare oltre 300 abitazioni all'anno. Non "
+"solo si eviterà il rilascio di 1.500 tonnellate di emissioni di carbonio, ma "
+"si otterrà anche un significativo risparmio a lungo termine sulle bollette "
+"dell'elettricità per le famiglie e le aziende partecipanti"
+
+#: .\templates\projects\solar.html:247
+#, python-format
+msgid ""
+"In the last five years, the share of electricity generated by solar power "
+"in\n"
+"          Vietnam increased from almost zero to nearly 11%% — an amazing "
+"accomplishment. The country is quickly becoming\n"
+"          one the world's largest producers of solar power and has vowed to "
+"go net zero by 2050. But in order to achieve\n"
+"          this goal, coal must be rapidly phased out, which is why projects "
+"like this are so important."
+msgstr ""
+"Negli ultimi cinque anni, la quota di elettricità generata dall'energia "
+"solare in Vietnam è passata da quasi zero a quasi l'11%%: un risultato "
+"sorprendente. Il Paese sta rapidamente diventando uno dei maggiori "
+"produttori di energia solare al mondo e ha promesso di diventare net zero "
+"entro il 2050. Ma per raggiungere questo obiettivo, il carbone deve essere "
+"eliminato rapidamente, ed è per questo che progetti come questo sono così "
+"importanti."
+
+#: .\templates\user\event.html:225
+msgid "Volunteer"
+msgstr "Volontari ora"
+
+#: .\templates\user\event.html:226
+msgid "Events"
+msgstr "Eventi"
+
+#: .\templates\user\event.html:231
+msgid "ACTIVE EVENTS"
+msgstr "EVENTI ATTIVI"
+
+#: .\templates\user\event.html:233
+msgid "You're currently active participating in"
+msgstr "Stai partecipando attivamente a"
+
+#: .\templates\user\event.html:239
+msgid "Near"
+msgstr "Vicino"
+
+#: .\templates\user\event.html:244
+msgid "UPCOMING EVENTS"
+msgstr "EVENTI IN ARRIVO"
+
+#: .\templates\user\event.html:259 .\templates\user\event.html:291
+msgid "Organised by "
+msgstr "Organizzato da "
+
+#: .\templates\user\event.html:276
+msgid "Organised by"
+msgstr "Organizzato da"
+
+#: .\templates\user\event.html:289 .\templates\volunteer\plastic.html:227
+msgid "Cleanup exercise"
+msgstr "Esercizio di pulizia"
+
+#: .\templates\user\event.html:303 .\templates\user\home.html:284
+msgid "Organise"
+msgstr "Organizzare"
+
+#: .\templates\user\event.html:304
+msgid "Organise a volunteer events in you area"
+msgstr "Organizzare eventi di volontariato nella vostra zona"
+
+#: .\templates\user\gaia.html:287
+msgid ""
+"You are chatting with Gaia 2. AI chats may display inaccurate information."
+msgstr ""
+"Stai chattando con Gaia 2.0. Le chat dell'intelligenza artificiale "
+"potrebbero visualizzare informazioni imprecise."
+
+#: .\templates\user\home.html:217 .\templates\user\project.html:218
+msgid "Welcome"
+msgstr "Benvenuto"
+
+#: .\templates\user\home.html:226
+msgid "You're currently offsetting"
+msgstr "Al momento stai compensando"
+
+#: .\templates\user\home.html:237
+msgid "You're currently funding"
+msgstr "Attualmente stai finanziando"
+
+#: .\templates\user\home.html:239
+msgid "You're currently volunteering in"
+msgstr "Sei attualmente volontario in"
+
+#: .\templates\user\home.html:274
+msgid "Suggested for you"
+msgstr "Suggerimenti per te"
+
+#: .\templates\user\home.html:285
+msgid "Join us and organize a volunteering event on my website"
+msgstr "Unisciti a noi e organizza un evento di volontariato sul mio sito web"
+
+#: .\templates\user\home.html:296
+msgid "Update Your Emissions"
+msgstr "Aggiornare le emissioni"
+
+#: .\templates\user\home.html:297
+msgid "Update your emissions and track your other emissions"
+msgstr "Aggiornate le vostre emissioni e tenete traccia delle altre emissioni"
+
+#: .\templates\user\home.html:306
+msgid "Track Air Quality"
+msgstr "Traccia la qualità dell'aria"
+
+#: .\templates\user\home.html:307
+msgid "Too much carbon in the atmosphere can worsen breathing conditions"
+msgstr ""
+"Troppo carbonio nell'atmosfera può peggiorare le condizioni respiratorie"
+
+#: .\templates\user\home.html:318
+msgid "Our new AI companion Gaia will be your guide to a greener future"
+msgstr ""
+"La nostra nuova compagna A.I Gaia sarà la vostra guida per un futuro più "
+"verde"
+
+#: .\templates\user\profile.html:217
+msgid "My Profile"
+msgstr "Profilo"
+
+#: .\templates\user\profile.html:228
+msgid "Edit"
+msgstr "Modifica"
+
+#: .\templates\user\profile.html:240
+msgid "Settings"
+msgstr "Impostazione"
+
+#: .\templates\user\profile.html:243
+msgid "Profile Details"
+msgstr "Dettagli profilo"
+
+#: .\templates\user\profile.html:249
+msgid "Select your language"
+msgstr "Seleziona la tua lingua"
+
+#: .\templates\user\profile.html:252 .\verdeia\settings.py:126
+msgid "English"
+msgstr "Inglese"
+
+#: .\templates\user\profile.html:257
+msgid "Update your password"
+msgstr "Aggiornare la password"
+
+#: .\templates\user\profile.html:263
+msgid "Recieve notifications"
+msgstr "Ricevere le notifiche"
+
+#: .\templates\user\profile.html:270
+msgid "Set up 2FA (Two-factor authentication)"
+msgstr "Impostare 2FA (Autenticazione a due fattori)"
+
+#: .\templates\user\project.html:221
+msgid ""
+"Verdeia Labs,</span> we firmly believe our projects will help address "
+"climate change\n"
+"    by developing <span class=\"text-blue-700\">innovative</span> "
+"technologies that provide sustainable water sources and\n"
+"    integrate <span class=\"text-blue-700\">renewable</span> energy to "
+"reduce emissions"
+msgstr ""
+"Verdeia Labs,</span> crediamo fermamente che i nostri progetti "
+"contribuiranno ad affrontare il cambiamento climatico sviluppando <span "
+"class=“text-blue-700”>tecnologie innovative</span> che forniscono fonti "
+"idriche sostenibili e integrano <span class=“text-blue-700”>energia "
+"rinnovabile</span> per ridurre le emissioni"
+
+#: .\templates\user\project.html:233
+msgid ""
+"Investing in solar energy is one of the most impactful ways\n"
+"        we can combat climate change and build a more sustainable future for "
+"our community. By funding our solar energy\n"
+"        initiative, you will be supporting the installation of solar panels "
+"on 50 local homes and businesses over the\n"
+"        next year"
+msgstr ""
+"Investire nell'energia solare è uno dei modi più efficaci per combattere il "
+"cambiamento climatico e costruire un futuro più sostenibile per la nostra "
+"comunità. Finanziando la nostra iniziativa sull'energia solare, sosterrete "
+"l'installazione di pannelli solari su 50 abitazioni e aziende locali nel "
+"corso del prossimo anno"
+
+#: .\templates\user\project.html:237
+msgid "Our Sol project"
+msgstr "Il nostro progetto Sol"
+
+#: .\templates\user\project.html:237 .\templates\user\project.html:256
+msgid ""
+"click for more\n"
+"          info"
+msgstr "clicca per ulteriori informazioni"
+
+#: .\templates\user\project.html:252
+msgid ""
+"Our community has a unique opportunity to accelerate the\n"
+"        development of game-changing carbon capture technology. By funding "
+"improvements to our existing carbon capture\n"
+"        machines, you can help drive critical advancements that will "
+"dramatically increase their efficiency and impact."
+msgstr ""
+"La nostra comunità ha l'opportunità unica di accelerare lo sviluppo di una "
+"tecnologia rivoluzionaria per la cattura del carbonio. Finanziando i "
+"miglioramenti alle nostre attuali macchine per la cattura del carbonio, "
+"potete contribuire a promuovere progressi critici che ne aumenteranno "
+"drasticamente l'efficienza e l'impatto."
+
+#: .\templates\user\project.html:256
+msgid "Our Captcha project"
+msgstr "Il nostro progetto Captcha"
+
+#: .\templates\user\project.html:278
+msgid ""
+"Access to clean, reliable water is a\n"
+"      fundamental human need, yet millions of people around the world lack "
+"this basic resource. Climate change,\n"
+"      population growth, and unsustainable water use are exacerbating water "
+"scarcity, particularly in arid and semi-arid\n"
+"      regions. Traditional water infrastructure like dams and pipelines can "
+"be costly and resource-intensive, making\n"
+"      them inaccessible for many marginalized communities."
+msgstr ""
+"L'accesso all'acqua pulita e affidabile è un bisogno umano fondamentale, "
+"eppure milioni di persone in tutto il mondo non dispongono di questa risorsa "
+"di base. I cambiamenti climatici, la crescita demografica e l'uso "
+"insostenibile dell'acqua stanno aggravando la carenza idrica, soprattutto "
+"nelle regioni aride e semiaride. Le infrastrutture idriche tradizionali, "
+"come dighe e condutture, possono essere costose e richiedere molte risorse, "
+"rendendole inaccessibili per molte comunità emarginate."
+
+#: .\templates\user\project.html:283
+msgid ""
+"click for more\n"
+"        info"
+msgstr "clicca per ulteriori informazioni"
+
+#: .\templates\user\start.html:839
+msgid ""
+"Are you open to adopting more sustainable <br />practices reduce\n"
+"              your carbon footprint??"
+msgstr ""
+"Sei disposti ad adottare pratiche più sostenibili <br>per ridurre la vostra "
+"impronta di carbonio?"
+
+#: .\templates\user\update.html:232 .\templates\volunteer\organise.html:284
+msgid "Basic Information"
+msgstr "Dati di base"
+
+#: .\templates\user\update.html:234 .\templates\volunteer\organise.html:286
+msgid "Full name"
+msgstr "Nome e Cognome"
+
+#: .\templates\user\update.html:239
+msgid "About you"
+msgstr "Informazioni su di te"
+
+#: .\templates\user\update.html:246 .\templates\volunteer\organise.html:300
+msgid "Country"
+msgstr "Paese"
+
+#: .\templates\volunteer\organise.html:221
+msgid "Organise an event"
+msgstr "Organizzare un evento"
+
+#: .\templates\volunteer\organise.html:222
+msgid ""
+"If you're inspired to take action and make a tangible difference in your\n"
+"      community, we encourage you to reach out to our team to organize a "
+"volunteer event. Whether you'd like to\n"
+"      coordinate a beach cleanup, a tree planting day, or any of our other "
+"environmental initiatives, we're here to\n"
+"      support you every step of the way. Our staff will provide all the "
+"necessary resources, from supplies and equipment\n"
+"      to promotional materials, to ensure your volunteer event is a "
+"resounding success"
+msgstr ""
+"Se siete ispirati ad agire e a fare la differenza nella vostra comunità, vi "
+"invitiamo a contattare il nostro team per organizzare un evento di "
+"volontariato. comunità, vi invitiamo a contattare il nostro team per "
+"organizzare un evento di volontariato. Sia che vogliate coordinare una "
+"pulizia della spiaggia, una giornata di piantumazione di alberi o un'altra "
+"delle nostre iniziative ambientali, siamo qui per sostenervi in ogni "
+"momento. siamo qui per sostenervi in ogni fase del processo. Il nostro staff "
+"fornirà tutte le risorse necessarie, dalle forniture e attrezzature al "
+"materiale promozionale. al materiale promozionale, per garantire che il "
+"vostro evento di volontariato sia un grande successo"
+
+#: .\templates\volunteer\organise.html:285
+msgid ""
+"Provide below your correct information like your name, country, email and "
+"others"
+msgstr ""
+"Fornite qui di seguito le vostre informazioni corrette, come il nome, il "
+"paese, l'e-mail e altri dati"
+
+#: .\templates\volunteer\organise.html:293
+msgid "Title"
+msgstr "Titolo"
+
+#: .\templates\volunteer\organise.html:296
+msgid "Subject"
+msgstr "Tema"
+
+#: .\templates\volunteer\organise.html:576
+msgid "Address"
+msgstr "Indirizzo"
+
+#: .\templates\volunteer\organise.html:579
+msgid "Date"
+msgstr "Data"
+
+#: .\templates\volunteer\plastic.html:228
+msgid ""
+"Join us in taking direct action to combat the growing plastic pollution\n"
+"          crisis in our community. By volunteering for our street cleanup "
+"initiative, you'll have the opportunity to\n"
+"          make an immediate, visible impact on the health of our local "
+"environment. Each month, we organize group\n"
+"          cleanup events where volunteers fan out across neighborhoods to "
+"collect discarded plastic bottles, bags, and\n"
+"          other waste that has accumulated on sidewalks, in gutters, and "
+"along roadsides. This hands-on work not only\n"
+"          removes harmful microplastics from entering our waterways, but "
+"also beautifies public spaces and instills a\n"
+"          greater sense of community pride. "
+msgstr ""
+"Unitevi a noi nell'azione diretta per combattere la crescente crisi "
+"dell'inquinamento da plastica nella nostra comunità. Partecipando come "
+"volontari alla nostra iniziativa di pulizia delle strade, avrete "
+"l'opportunità di avere un impatto immediato e visibile sulla salute "
+"dell'ambiente locale. Ogni mese organizziamo eventi di pulizia di gruppo in "
+"cui i volontari si sparpagliano nei quartieri per raccogliere bottiglie di "
+"plastica, sacchetti e altri rifiuti accumulati sui marciapiedi, nelle "
+"grondaie e lungo i bordi delle strade. Questo lavoro pratico non solo "
+"impedisce alle microplastiche nocive di entrare nei nostri corsi d'acqua, ma "
+"abbellisce anche gli spazi pubblici e infonde un maggiore senso di orgoglio "
+"comunitario. un maggiore senso di orgoglio comunitario. "
+
+#: .\templates\volunteer\plastic.html:238 .\templates\volunteer\sea.html:237
+#: .\templates\volunteer\tree.html:236
+msgid "Volunteer with us"
+msgstr "Volontari con noi"
+
+#: .\templates\volunteer\plastic.html:239 .\templates\volunteer\sea.html:243
+#: .\templates\volunteer\tree.html:237
+msgid "Display Name"
+msgstr "Nome"
+
+#: .\templates\volunteer\plastic.html:261
+msgid ""
+"You acknowledge that you understand and\n"
+"                agree to our "
+msgstr "Lei dichiara di aver compreso e accettato la nostra "
+
+#: .\templates\volunteer\sea.html:227
+msgid ""
+"Our coastlines and oceans are drowning in a growing\n"
+"          tide of plastic pollution, and your help is urgently needed. By "
+"volunteering for our seaside cleanup\n"
+"          initiative, you can play a direct role in removing harmful waste "
+"from our local marine environments. Each\n"
+"          month, we organize group cleanup events at beaches and shorelines, "
+"where volunteers work together to collect\n"
+"          discarded plastic bottles, fishing nets, abandoned equipment, and "
+"other debris that threatens the health of\n"
+"          our precious coastal ecosystems. This hands-on work doesn't just "
+"clean up unsightly waste - it protects\n"
+"          vulnerable wildlife, prevents microplastics from entering the food "
+"chain, and preserves the natural beauty\n"
+"          that draws both residents and tourists to our shores."
+msgstr ""
+"Le nostre coste e i nostri oceani stanno annegando in una marea crescente di "
+"inquinamento da plastica e il vostro aiuto è urgente. Partecipando come "
+"volontari alla nostra iniziativa di pulizia dei mari, potrete svolgere un "
+"ruolo diretto nella rimozione dei rifiuti nocivi dagli ambienti marini "
+"locali. Ogni mese organizziamo eventi di pulizia di gruppo presso spiagge e "
+"litorali, dove i volontari lavorano insieme per raccogliere bottiglie di "
+"plastica abbandonate, reti da pesca, attrezzature abbandonate e altri "
+"detriti che minacciano la salute dei nostri preziosi ecosistemi costieri. "
+"Questo lavoro pratico non si limita a ripulire i rifiuti antiestetici, ma "
+"protegge la fauna selvatica vulnerabile, impedisce alle microplastiche di "
+"entrare nella catena alimentare e preserva la bellezza naturale che attira "
+"residenti e turisti sulle nostre coste."
+
+#: .\templates\volunteer\sea.html:238
+msgid " You can only participate in "
+msgstr " È possibile partecipare solo a "
+
+#: .\templates\volunteer\sea.html:238
+msgid ""
+"one\n"
+"                event"
+msgstr "un evento alla volta"
+
+#: .\templates\volunteer\sea.html:239
+msgid ""
+"at a time if you participate in any while signed to another it will overide "
+"the previous\n"
+"              event"
+msgstr ""
+"alla volta, se si partecipa a un evento mentre si è firmatari di un altro, "
+"questo annullerà l'evento precedente.\n"
+"evento"
+
+#: .\templates\volunteer\sea.html:265 .\templates\volunteer\tree.html:259
+msgid ""
+"You acknowledge that you understand and\n"
+"                agree to our"
+msgstr "Lei dichiara di aver compreso e accettato la nostra"
+
+#: .\templates\volunteer\tree.html:226
+msgid ""
+"As part of our comprehensive sustainability program, we're calling on\n"
+"          volunteers to join our ongoing tree planting efforts across our "
+"community. By dedicating your time to this\n"
+"          hands-on initiative, you'll not only be beautifying our "
+"neighborhoods and providing vital green spaces, but\n"
+"          also contributing to a broader environmental restoration project. "
+"The trees you help plant will work in tandem\n"
+"          with our other initiatives, like our coastal cleanup efforts and "
+"plastic waste reduction programs, to create a\n"
+"          healthier, more resilient local ecosystem. Each sapling you put in "
+"the ground will absorb carbon dioxide,\n"
+"          filter air pollutants, prevent soil erosion, and provide habitat "
+"for local wildlife"
+msgstr ""
+"Nell'ambito del nostro programma completo di sostenibilità, chiediamo ai "
+"volontari di unirsi al nostro impegno di piantare alberi in tutta la "
+"comunità. Dedicando il vostro tempo a questa iniziativa pratica, non solo "
+"abbellirete i nostri quartieri e fornirete spazi verdi vitali, ma "
+"contribuirete anche a un più ampio progetto di ripristino ambientale. Gli "
+"alberi che aiuterete a piantare lavoreranno in tandem con le nostre altre "
+"iniziative, come gli sforzi di pulizia delle coste e i programmi di "
+"riduzione dei rifiuti di plastica, per creare un ecosistema locale più sano "
+"e resistente. Ogni alberello piantato assorbirà l'anidride carbonica, "
+"filtrerà gli inquinanti atmosferici, preverrà l'erosione del suolo e fornirà "
+"un habitat alla fauna locale"
+
+#: .\user\views.py:27
+msgid "hello"
+msgstr "ciao"
+
+#: .\user\views.py:63
+msgid "Security Alert"
+msgstr "Avviso di sicurezza"
+
+#: .\user\views.py:64
+#, python-brace-format
+msgid ""
+"Hi {username},\n"
+"\n"
+"We noticed a login from \n"
+"{ip_address}\n"
+"\n"
+"If it wasn't you we strongly advice you to contact our support at "
+"hello@verdeia.xyz else you can ignore this message if it was you.\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Imaadu Tawiah\n"
+"Verdeia"
+msgstr ""
+"Ciao {username},\n"
+"\n"
+"Abbiamo notato un accesso da \n"
+"{ip_address}\n"
+"\n"
+"Se non sei stato tu, ti consigliamo vivamente di contattare il nostro "
+"supporto all'indirizzo hello@verdeia.xyz, altrimenti puoi ignorare questo "
+"messaggio se sei stato tu.\n"
+"\n"
+"Cordiali saluti,\n"
+"\n"
+"Imaadu Tawiah\n"
+"Verdeia"
+
+#: .\user\views.py:114
+msgid "Welcome to Verdeia! Let's Track Your Carbon Emissions Together"
+msgstr "Come fa Verdeia a tenere traccia delle emissioni di carbonio"
+
+#: .\user\views.py:115
+#, python-brace-format
+msgid ""
+"Hi {fullname},\n"
+"\n"
+"Welcome to Verdeia!\n"
+"\n"
+"Thank you for signing up and joining our mission to track and reduce carbon "
+"emissions. We’re excited to have you with us and look forward to helping you "
+"make a positive impact on the environment.\n"
+"\n"
+"Here’s what you can look forward to:\n"
+"\n"
+"Easy Tracking: Seamlessly track your carbon emissions from various "
+"activities.\n"
+"Personalized Insights: Receive tailored recommendations on how to reduce "
+"your carbon footprint.\n"
+"Community Support: Join a community of like-minded individuals committed to "
+"sustainability.\n"
+"\n"
+"To get started, here are a few things you can do:\n"
+"\n"
+"Complete Your Profile: Help us understand your activities better to provide "
+"more accurate tracking.\n"
+"Log Your Activities: Start inputting your daily activities to see your "
+"carbon emissions in real-time.\n"
+"Explore Our Resources: Check out tips, articles, and guides on how to live a "
+"more sustainable life.\n"
+"\n"
+"If you have any questions or need assistance, our support team is here to "
+"help. Feel free to reach out to us.\n"
+"\n"
+"Thank you once again for signing up. Together, we can make a significant "
+"difference and work towards a more sustainable future!\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Imaadu Tawiah\n"
+"Verdeia"
+msgstr ""
+"Ciao {fullname},\n"
+"\n"
+"Benvenuto su Verdeia!\n"
+"\n"
+"Grazie per esserti iscritto e per esserti unito alla nostra missione di "
+"monitorare e ridurre le emissioni di carbonio. Siamo entusiasti di averti "
+"con noi e non vediamo l'ora di aiutarti ad avere un impatto positivo "
+"sull'ambiente.\n"
+"\n"
+"Ecco cosa ti aspetta:\n"
+"\n"
+"Tracciabilità facile: Tracciare in modo semplice le emissioni di carbonio "
+"prodotte dalle varie attività.\n"
+"Approfondimenti personalizzati: Riceverete consigli personalizzati su come "
+"ridurre la vostra impronta di carbonio.\n"
+"Supporto della comunità: Entrate a far parte di una comunità di persone che "
+"la pensano come voi e che si impegnano per la sostenibilità.\n"
+"\n"
+"Per iniziare, ecco alcune cose da fare:\n"
+"\n"
+"Completare il vostro profilo: Aiutateci a capire meglio le vostre attività "
+"per fornire un monitoraggio più accurato.\n"
+"Registra le tue attività: Iniziate a inserire le vostre attività quotidiane "
+"per vedere le vostre emissioni di carbonio in tempo reale.\n"
+"Esplorare le nostre risorse: Scoprite consigli, articoli e guide su come "
+"vivere una vita più sostenibile.\n"
+"\n"
+"Se avete domande o bisogno di assistenza, il nostro team di supporto è qui "
+"per aiutarvi. Non esitate a contattarci.\n"
+"\n"
+"Grazie ancora per esservi iscritti. Insieme, possiamo fare una differenza "
+"significativa e lavorare per un futuro più sostenibile!\n"
+"\n"
+"Cordiali saluti,\n"
+"\n"
+"Imaadu Tawiah\n"
+"Verdeia"
+
+#: .\user\views.py:192 .\user\views.py:196
+msgid "below"
+msgstr "sotto"
+
+#: .\user\views.py:194
+msgid "above"
+msgstr "sopra"
+
+#: .\user\views.py:245 .\user\views.py:296 .\user\views.py:317
+#: .\user\views.py:336 .\user\views.py:357 .\user\views.py:378
+#: .\user\views.py:397 .\user\views.py:416 .\user\views.py:435
+#: .\user\views.py:454 .\user\views.py:473 .\user\views.py:492
+msgid "Thanks for subscribing to our mailing services"
+msgstr "Grazie per esservi iscritti ai nostri servizi di mailing"
+
+#: .\user\views.py:246 .\user\views.py:297 .\user\views.py:318
+#: .\user\views.py:337 .\user\views.py:358 .\user\views.py:379
+#: .\user\views.py:398 .\user\views.py:417 .\user\views.py:436
+#: .\user\views.py:455 .\user\views.py:474 .\user\views.py:493
+#, python-brace-format
+msgid ""
+"Hi {name},\n"
+"\n"
+"Thank you for subscribing to the Verdeia Newsletter!\n"
+"\n"
+"We’re thrilled to have you on board and can't wait to keep you updated with "
+"our latest news, exclusive offers, and insightful content. Your subscription "
+"means a lot to us, and we are committed to delivering value right to your "
+"inbox.\n"
+"\n"
+"Here’s what you can expect:\n"
+"\n"
+"Exclusive Updates: Be the first to know about our new products, services, "
+"and special promotions.\n"
+"In-Depth Articles: Access to valuable insights and articles from our "
+"experts.\n"
+"Community Stories: Hear from other members of our community and share your "
+"experiences.\n"
+"\n"
+"If you have any questions, feedback, or topics you'd like us to cover, "
+"please don't hesitate to reach out to us.\n"
+"\n"
+"Thank you again for joining our community. We look forward to connecting "
+"with you and providing you with the best content and offers.\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Imaadu Tawiah\n"
+"Verdeia."
+msgstr ""
+"Ciao {name},\n"
+"\n"
+"Grazie per esserti iscritto alla Newsletter di Verdeia!\n"
+"\n"
+"Siamo entusiasti di averti a bordo e non vediamo l'ora di tenerti aggiornato "
+"con le nostre ultime novità, le offerte esclusive e i contenuti più "
+"interessanti. La tua iscrizione significa molto per noi e ci impegniamo a "
+"fornire valore aggiunto direttamente nella tua casella di posta.\n"
+"\n"
+"Ecco cosa potete aspettarvi:\n"
+"\n"
+"Aggiornamenti esclusivi: Sarete i primi a conoscere i nostri nuovi prodotti, "
+"servizi e promozioni speciali.\n"
+"Articoli di approfondimento: Accesso a preziosi approfondimenti e articoli "
+"dei nostri esperti.\n"
+"Storie della comunità: Ascoltate gli altri membri della nostra comunità e "
+"condividete le vostre esperienze.\n"
+"\n"
+"Se avete domande, feedback o argomenti che vorreste fossero trattati, non "
+"esitate a contattarci.\n"
+"\n"
+"Grazie ancora per esservi uniti alla nostra comunità. Non vediamo l'ora di "
+"entrare in contatto con voi e di fornirvi i migliori contenuti e offerte.\n"
+"\n"
+"Cordiali saluti,\n"
+"\n"
+"Imaadu Tawiah\n"
+"Verdeia."
+
+#: .\user\views.py:276
+msgid "Thank You for Reaching Out to Verdeia"
+msgstr "Grazie per aver contattato Verdeia"
+
+#: .\user\views.py:277
+#, python-brace-format
+msgid ""
+"Hi {name},\n"
+"\n"
+"Thank you for contacting Verdeia!\n"
+"\n"
+"We have received your message and appreciate you taking the time to reach "
+"out to us. Our team is currently reviewing your inquiry, and we will get "
+"back to you as soon as possible.\n"
+"What to Expect:\n"
+"\n"
+"Response Time: We aim to respond to all inquiries within 24-48 hours.\n"
+"Detailed Information: Our team will provide you with the information or "
+"assistance you need based on your request.\n"
+"Follow-Up: If further information is needed, we will follow up with "
+"additional questions to ensure we address your needs thoroughly.\n"
+"\n"
+"In the meantime, if you have any urgent questions or require immediate "
+"assistance, please feel free to reach out to us directly at hello@verdeia."
+"xyz .\n"
+"\n"
+"Thank you once again for contacting us. We appreciate your patience and look "
+"forward to assisting you soon.\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Imaadu Tawiah\n"
+"Verdeia"
+msgstr ""
+"Salve {name},\n"
+"\n"
+"Grazie per aver contattato Verdeia!\n"
+"\n"
+"Abbiamo ricevuto il suo messaggio e la ringraziamo per aver trovato il tempo "
+"di contattarci. Il nostro team sta esaminando la sua richiesta e la "
+"ricontatterà al più presto.\n"
+"Cosa aspettarsi:\n"
+"\n"
+"Tempo di risposta: ci impegniamo a rispondere a tutte le richieste entro "
+"24-48 ore.\n"
+"Informazioni dettagliate: Il nostro team vi fornirà le informazioni o "
+"l'assistenza di cui avete bisogno in base alla vostra richiesta.\n"
+"Follow-up: Se sono necessarie ulteriori informazioni, vi faremo ulteriori "
+"domande per assicurarci di rispondere in modo esauriente alle vostre "
+"esigenze.\n"
+"\n"
+"Nel frattempo, se avete domande urgenti o necessitate di assistenza "
+"immediata, non esitate a contattarci direttamente all'indirizzo "
+"hello@verdeia.xyz.\n"
+"\n"
+"Grazie ancora per averci contattato. Apprezziamo la sua pazienza e ci "
+"auguriamo di poterla assistere presto.\n"
+"\n"
+"Cordiali saluti,\n"
+"\n"
+"Imaadu Tawiah\n"
+"Verdeia"
+
+#: .\user\views.py:718
+msgid "Credentials update"
+msgstr "Aggiornamento delle credenziali"
+
+#: .\user\views.py:719
+#, python-brace-format
+msgid ""
+"Hi {first_nane},\n"
+"\n"
+"We hope this message finds you well. We are writing to inform you about a "
+"potential unauthorized change in your account credentials. Our system has "
+"detected activity suggesting that your credentials may have been altered "
+"without your authorization.\n"
+"\n"
+"If you did not make any changes to your account credentials recently, we "
+"strongly advise you to take immediate action to secure your account. Please "
+"contact our support team at hello@verdiea.xyz as soon as possible to report "
+"this issue and regain control of your account.\n"
+"\n"
+"Our support team is ready to assist you in verifying your identity, "
+"investigating the unauthorized changes, and helping you reset your "
+"credentials securely.\n"
+"\n"
+"If you have recently updated your credentials and this message is no longer "
+"relevant, please disregard it. However, if you suspect any unauthorized "
+"activity on your account, we urge you to act swiftly to protect your account "
+"information.\n"
+"\n"
+"Thank you for your attention to this matter. Your account security is our "
+"top priority, and we are committed to helping you resolve this issue "
+"promptly.\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Imaadu Tawiah,\n"
+"Verdeia Labs."
+msgstr ""
+"Ciao {first_nane},\n"
+"\n"
+"speriamo che questo messaggio ti trovi bene. Ti scriviamo per informarti di "
+"una potenziale modifica non autorizzata delle credenziali del tuo account. "
+"Il nostro sistema ha rilevato attività che suggeriscono che le sue "
+"credenziali potrebbero essere state modificate senza la sua autorizzazione.\n"
+"\n"
+"Se non ha apportato modifiche alle credenziali del suo account di recente, "
+"le consigliamo vivamente di agire immediatamente per proteggere il suo "
+"account. Contattate il nostro team di assistenza all'indirizzo hello@verdiea."
+"xyz il prima possibile per segnalare questo problema e riprendere il "
+"controllo del vostro account.\n"
+"\n"
+"Il nostro team di assistenza è pronto ad assistervi per verificare la vostra "
+"identità, indagare sulle modifiche non autorizzate e aiutarvi a reimpostare "
+"le vostre credenziali in modo sicuro.\n"
+"\n"
+"Se le credenziali sono state aggiornate di recente e questo messaggio non è "
+"più pertinente, si prega di ignorarlo. Tuttavia, se sospettate un'attività "
+"non autorizzata sul vostro conto, vi invitiamo ad agire rapidamente per "
+"proteggere le informazioni del vostro conto.\n"
+"\n"
+"Vi ringraziamo per l'attenzione prestata a questo problema. La sicurezza del "
+"vostro conto è la nostra massima priorità e ci impegniamo ad aiutarvi a "
+"risolvere questo problema in tempi brevi.\n"
+"\n"
+"Cordiali saluti,\n"
+"\n"
+"Imaadu Tawiah,\n"
+"Verdeia Labs."
+
+#: .\user\views.py:971 .\user\views.py:1014 .\user\views.py:1058
+msgid "Thanks for volunteering"
+msgstr "Grazie per aver fatto volontariato"
+
+#: .\user\views.py:972 .\user\views.py:1015 .\user\views.py:1059
+#, python-brace-format
+msgid ""
+"Hi {display_name},\n"
+"\n"
+"We are thrilled to have you on board as a volunteer for Plastic removal "
+"event!\n"
+"\n"
+"Thank you for generously offering your time and effort to help make this "
+"event a success. Your support is invaluable, and we couldn’t do it without "
+"dedicated volunteers like you.\n"
+"Here’s what you can expect next:\n"
+"\n"
+"Volunteer Orientation: Join us for a brief orientation on {orientation_date} "
+"at 21:00 to go over your role and responsibilities.\n"
+"Event Day Details: Location: {volunteer_location}\n"
+"Date:{volunteer_date}\n"
+"Time:10:00.\n"
+"\n"
+"Stay Connected: We’ll keep you updated with any additional information or "
+"changes via email, so please keep an eye on your inbox.\n"
+"\n"
+"Quick Checklist:\n"
+"\n"
+"Complete Your Registration: If you haven’t already.\n"
+"Mark Your Calendar: Add the event and orientation dates to your calendar to "
+"ensure you don’t miss any important details.\n"
+"Spread the Word: Feel free to invite friends and family to join us. More "
+"volunteers always make for a merrier event!\n"
+"\n"
+"If you have any questions or need further information, don’t hesitate to "
+"reach out to us.\n"
+"\n"
+"Once again, thank you for your willingness to volunteer. Your participation "
+"will help us create an unforgettable experience at Plastic removal event.\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Imaadu Tawiah\n"
+"Verdeia"
+msgstr ""
+"Ciao {display_name},\n"
+"\n"
+"Siamo entusiasti di averti a bordo come volontario per l'evento di rimozione "
+"della plastica!\n"
+"\n"
+"Grazie per aver generosamente offerto il tuo tempo e il tuo impegno per "
+"contribuire al successo di questo evento. Il tuo sostegno è inestimabile e "
+"non potremmo farlo senza volontari impegnati come te.\n"
+"Ecco cosa vi aspetta:\n"
+"\n"
+"Orientamento dei volontari: Unisciti a noi per un breve orientamento il "
+"{orientation_date} alle ore 21:00 per illustrare il tuo ruolo e le tue "
+"responsabilità.\n"
+"Dettagli sul giorno dell'evento: Luogo: {volunteer_location}\n"
+"Data:{volunteer_date}\n"
+"Ora:10:00.\n"
+"\n"
+"Rimanete connessi: Vi terremo aggiornati con qualsiasi informazione o "
+"modifica aggiuntiva via e-mail, quindi tenete d'occhio la vostra casella di "
+"posta.\n"
+"\n"
+"Lista di controllo rapida:\n"
+"\n"
+"Completate la vostra registrazione: Se non l'avete ancora fatto.\n"
+"Segnate sul calendario: Aggiungete le date dell'evento e dell'orientamento "
+"al vostro calendario per non perdere nessun dettaglio importante.\n"
+"Diffondete la notizia: Sentitevi liberi di invitare amici e familiari a "
+"unirsi a noi. Un maggior numero di volontari rende sempre l'evento più "
+"allegro!\n"
+"\n"
+"Se avete domande o bisogno di ulteriori informazioni, non esitate a "
+"contattarci.\n"
+"\n"
+"Ancora una volta, vi ringraziamo per la vostra disponibilità a diventare "
+"volontari. La vostra partecipazione ci aiuterà a creare un'esperienza "
+"indimenticabile all'evento di rimozione della plastica.\n"
+"\n"
+"Cordiali saluti,\n"
+"\n"
+"Imaadu Tawiah\n"
+"Verdeia"
+
+#: .\user\views.py:1085
+msgid "Thank You for Organizing an Event with Us!"
+msgstr "Grazie per aver organizzato un evento con noi!"
+
+#: .\user\views.py:1087
+#, python-brace-format
+msgid ""
+"Hi {user_name},\n"
+"\n"
+"We are thrilled and grateful for your initiative to organize an event with "
+"us at Verdeia.\n"
+"\n"
+"Your enthusiasm and commitment to this event are truly inspiring. It's "
+"individuals like you who drive meaningful change and help us achieve our "
+"mission.\n"
+"What’s Next:\n"
+"\n"
+"Initial Planning: Our team will be reaching out to you shortly to discuss "
+"the details and next steps. We want to ensure we provide you with all the "
+"support and resources you need.\n"
+"Collaboration: We believe in the power of collaboration and are excited to "
+"work closely with you to bring this event to life. Your vision and ideas are "
+"invaluable to us.\n"
+"Support and Resources: We will provide you with the necessary tools, "
+"materials, and guidance to help make your event a success.\n"
+"\n"
+"If you have any immediate questions or need assistance, please don’t "
+"hesitate to reach out to us.\n"
+"\n"
+"Thank you once again for your dedication and effort in organizing this "
+"event. Together, we can create an impactful and memorable experience for "
+"everyone involved.\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Imaad Tawiah\n"
+" Verdeia"
+msgstr ""
+"Salve {user_name},\n"
+"\n"
+"Siamo entusiasti e grati per la sua iniziativa di organizzare un evento con "
+"noi alla Verdeia.\n"
+"\n"
+"Il suo entusiasmo e il suo impegno per questo evento sono davvero "
+"stimolanti. Sono le persone come lei a guidare un cambiamento significativo "
+"e ad aiutarci a realizzare la nostra missione.\n"
+"Il prossimo passo:\n"
+"\n"
+"Pianificazione iniziale: Il nostro team vi contatterà a breve per discutere "
+"i dettagli e le fasi successive. Vogliamo assicurarci di fornirvi tutto il "
+"supporto e le risorse di cui avete bisogno.\n"
+"Collaborazione: Crediamo nel potere della collaborazione e siamo entusiasti "
+"di lavorare a stretto contatto con voi per dare vita a questo evento. La "
+"vostra visione e le vostre idee sono preziose per noi.\n"
+"Supporto e risorse: Vi forniremo gli strumenti, i materiali e le indicazioni "
+"necessarie per il successo del vostro evento.\n"
+"\n"
+"Se avete domande immediate o bisogno di assistenza, non esitate a "
+"contattarci.\n"
+"\n"
+"Vi ringraziamo ancora una volta per la vostra dedizione e il vostro impegno "
+"nell'organizzazione di questo evento. Insieme, possiamo creare un'esperienza "
+"d'impatto e memorabile per tutti i partecipanti.\n"
+"\n"
+"Cordiali saluti,\n"
+"\n"
+"Imaad Tawiah\n"
+" Verdeia"
+
+#: .\verdeia\settings.py:127
+msgid "Italian"
+msgstr "Italiano"

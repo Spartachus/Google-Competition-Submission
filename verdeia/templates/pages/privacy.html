@@ -1,0 +1,367 @@
+{% extends "base.html" %} {% block content %} {% load static %}{% load i18n %}
+
+<div class="bg-blue-500">
+    <nav class="relative px-4 py-4 flex justify-between items-center bg-white text-[#051923]">
+        <a class="text-3xl font-bold leading-none" href="{% url 'home' %}">
+            <img src="{% static 'img/leaf.png' %}" class="h-10">
+
+        </a>
+        <div class="lg:hidden">
+            <button class="navbar-burger flex items-center text-[#1b4965]-600 p-3">
+                <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Mobile menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                </svg>
+            </button>
+        </div>
+        <ul
+            class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+
+            <li>
+                <a href="{% url 'pricing' %}"
+                    class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                    <img src="{% static 'img/resource.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                    <span>{% blocktrans %}Pricing{% endblocktrans %}</span>
+                </a>
+            </li>
+
+            <li class="text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                </svg>
+            </li>
+            <li>
+                <a href="https://www.reddit.com/r/Verdeia/"
+                    class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                    <img src="{% static 'img/community.png' %}" class="w-[18px] h-[18px] mr-4 ">
+
+                    <span>{% blocktrans %}Community{% endblocktrans %}</span>
+                </a>
+            </li>
+            </svg>
+            </li>
+            <li class="text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                </svg>
+            </li>
+            <li>
+                <a href="{% url 'blog' %}"
+                    class="text-black text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                    <img src="{% static 'img/blog.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li class="text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                </svg>
+            </li>
+            <li>
+                <a href="{% url 'faq' %}"
+                    class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                    <img src="{% static 'img/faq.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                    <span>FAQ</span>
+                </a>
+            </li>
+        </ul>
+        <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-black-50 hover:bg-black-100 text-lg text-black-900 font-bold rounded-xl transition duration-200"
+            href="{% url 'login' %}">{% blocktrans %}Log In{% endblocktrans %}</a>
+        <a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-lg text-black font-bold rounded-xl transition duration-200"
+            href="{% url 'gettingstarted' %}">{% blocktrans %}Get Started{% endblocktrans %}</a>
+    </nav>
+    <div class="navbar-menu relative z-50 hidden">
+        <div class="navbar-backdrop fixed inset-0 bg-black-800 opacity-25"></div>
+        <nav
+            class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+            <div class="flex items-center mb-8">
+                <a class="mr-auto text-3xl font-bold leading-none" href="{% url 'home' %}">
+                    <img src="{% static 'img/leaf.png' %}" class="h-12">
+
+                </a>
+                <button class="navbar-close">
+                    <svg class="h-6 w-6 text-black-400 cursor-pointer hover:text-black-500"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="{% url 'pricing' %}"
+                            class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                            <img src="{% static 'img/resource.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                            <span>{% blocktrans %}Pricing{% endblocktrans %}</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.reddit.com/r/Verdeia/"
+                            class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                            <img src="{% static 'img/community.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                            <span>{% blocktrans %}Community{% endblocktrans %}</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="{% url 'blog' %}"
+                            class="text-black text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                            <img src="{% static 'img/blog.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                            <span>Blog</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'faq' %}"
+                            class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                            <img src="{% static 'img/faq.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                            <span>FAQ</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="mt-auto">
+                <div class="pt-6">
+                    <a class=" lg:inline-block lg:ml-auto lg:mr-3 mt-9 px-6 bg-black-50 hover:bg-black-100 text-lg text-black-900 font-bold rounded-xl transition duration-200 
+            " href="{% url 'login' %}">{% blocktrans %}Log In{% endblocktrans %}</a>
+                    <a class=" lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-lg text-white font-bold rounded-xl transition duration-200"
+                        href="{% url 'gettingstarted' %}">{% blocktrans %}Get Started{% endblocktrans %}</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div class="text-center">
+    <div class="inline-block mt-9">
+        <a class="px-4 py-2 text-white bg-black hover:bg-blue-600 text-lg text-white font-bold rounded-xl transition duration-200 
+    " href="{% url 'privacy' %}">Privacy Policy</a>
+        <a class="px-4 py-2  text-lg text-black font-bold rounded-xl transition duration-200"
+            href="{% url 'termsconditions' %}">Terms and Conditions</a>
+    </div>
+    <p class="text-4xl font-semibold mt-12 text-gray-700">Verdeia Labs Privacy Policies</p>
+</div>
+
+<div class="max-w-4xl mx-auto text-gray-700 mt-7 text-xl">
+    <p>{% blocktrans %}Last updated:{% endblocktrans %} March 19th, 2024</p>
+    <div>
+        <p class="text-3xl font-bold text-gray-800 my-10">1. {% blocktrans %}The basics{% endblocktrans %}.</p>
+        <p>{% blocktrans %}Verdeia operates the website Verdeia.xyz (the "Site"). This Privacy Policy explains how we
+            collect, use, disclose, and protect your information when you visit our Site. By using the Site, you agree
+            to the collection and use of information in accordance with this policy.{% endblocktrans %}</p>
+        <p class="mt-3 ">{% blocktrans %}We reserve the right, at our sole discretion, to change or modify these Policies at any time,
+            including the right to
+            cancel or change the licenses granted by these Policies. If we do this, we will post the most current
+            version of
+            these
+            Policies on this page. We will seek to provide you with reasonable notice of any change to the Policies
+            that, in our
+            sole
+            determination, materially adversely affect your rights or your use of the Service. We may provide you with
+            this
+            notice via the Service, and/or by email to the email address associated with your account. By continuing to
+            use
+            the
+            Service after any revised Policy become effective, you agree to be bound by the new Policy{% endblocktrans%}</p>
+    </div>
+
+    <div>
+        <p class="text-3xl font-bold text-gray-800 my-10">2.{% blocktrans %}Information We Collect{% endblocktrans %}</p>
+        <p>{% blocktrans %}We collect several types of information to provide and improve our services to you{% endblocktrans %}:</p>
+        <p class="text-2xl font-bold text-gray-800 my-3">a. {% blocktrans %}Personal Information{% endblocktrans %}</p>
+        <p class="mt-3">{% blocktrans %}While using our Site, we may ask you to provide us with certain personally identifiable
+            information that can be used to contact or identify you. Personally identifiable information may include,
+            but is not limited to:{% endblocktrans %}</p>
+
+        <li class="mt-3 ">{% blocktrans %}Name{% endblocktrans %}.</li>
+        <li class="mt-3 ">{% blocktrans %}Email address{% endblocktrans %}.</li>
+        <li class="mt-3 ">{% blocktrans %}Address.{% endblocktrans %}</li>
+        <p class="text-2xl font-bold text-gray-800 my-3">b. {% blocktrans %}Usage Data</p>
+        <p>We may also collect information on how the Site is accessed and used ("Usage Data"). This Usage Data may
+            include information such as your computer's Internet Protocol (IP) address, browser type, browser version,
+            the pages of our Site that you visit, the time and date of your visit, the time spent on those pages, and
+            other diagnostic data.{% endblocktrans %}</p>
+        <p class="text-2xl font-bold text-gray-800 my-3">c. {% blocktrans %}Cookies and Tracking Technologies</p>
+        <p>We use cookies and similar tracking technologies to track the activity on our Site and hold certain
+            information. Cookies are files with a small amount of data which may include an anonymous unique identifier.
+            You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if
+            you do not accept cookies, you may not be able to use some portions of our Site{% endblocktrans %}.</p>
+
+    </div>
+
+
+    <div>
+        <p class="text-3xl font-bold text-gray-800 my-10">3. {% blocktrans %}How We Use Your Information{% endblocktrans %}</p>
+        <p class="mt-3 font font-bold">{% blocktrans %}We use the collected data for various purposes, including to{% endblocktrans %}:</p>
+
+        <li class="mt-3 ">{% blocktrans %}Provide, operate, and maintain our Site{% endblocktrans %}.</li>
+        <li class="mt-3 ">{% blocktrans %}Improve, personalize, and expand our Site.{% endblocktrans %}</li>
+        <li class="mt-3 ">{% blocktrans %}Understand and analyze how you use our Site.{% endblocktrans %}</li>
+        <li class="mt-3 ">{% blocktrans %}Develop new products, services, features and functionalty.{% endblocktrans %}</li>
+        <li class="mt-3 ">{% blocktrans %}Communicate with you, either directly or through one of our partners, including for customer
+            service, to provide you with updates and other information relating to the Site, and for marketing and
+            promotional purposes.{% endblocktrans %}</li>
+        <li class="mt-3 ">{% blocktrans %}Process your transactions and manage your orders{% endblocktrans %}.</li>
+        <li class="mt-3 ">{% blocktrans %}Send you emails and newsletters{% endblocktrans %}.</li>
+        <li class="mt-3 ">{% blocktrans %}Monitor and analyze trends, usage, and activities in connection with our Site{% endblocktrans %}.</li>
+
+    </div>
+
+    <div>
+        <p class="text-3xl font-bold text-gray-800 my-10">4. {% blocktrans %}Security of Your Information</p>
+        <p>We value your trust in providing us your Personal Information, thus we are striving to use commercially
+            acceptable means of protecting it. However, no method of transmission over the internet, or method of
+            electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.{% endblocktrans %}</p>
+    </div>
+
+    <div>
+        <p class="text-3xl font-bold text-gray-800 my-10">5.{% blocktrans %} Your Data Protection Rights{% endblocktrans %}</p>
+        <p class="text-2xl font-bold text-gray-800 my-3">a. {% blocktrans %}Access and Update{% endblocktrans %}</p>
+        <p>{% blocktrans %}You have the right to access and update your personal information stored by us. You can request a copy of
+            your personal information and update it if it is inaccurate or incomplete{% endblocktrans %}.</p>
+        <p class="text-2xl font-bold text-gray-800 my-3">b. {% blocktrans %}Deletion{% endblocktrans %}</p>
+        <p>{% blocktrans %}You have the right to request the deletion of your personal information. We will comply with such requests
+            unless we are required to retain certain information by law.{% endblocktrans %}</p>
+        <p class="text-2xl font-bold text-gray-800 my-3">c.{% blocktrans %} Restriction of Processing{% endblocktrans %}</p>
+        <p>{% blocktrans %}You have the right to request the restriction of processing of your personal information under certain
+            circumstances{% endblocktrans %}.</p>
+        <p class="text-2xl font-bold text-gray-800 my-3">d.{% blocktrans %} Data Portability{% endblocktrans %}</p>
+        <p>{% blocktrans %}You have the right to request that we transfer the data we have collected to another organization, or
+            directly to you, under certain conditions{% endblocktrans %}.</p>
+        <p class="text-2xl font-bold text-gray-800 my-3">e. {% blocktrans %}Objection to Processing{% endblocktrans %}</p>
+        <p>{% blocktrans %}You have the right to object to our processing of your personal information under certain conditions.{% endblocktrans %}</p>
+        <p class="mt-3">{% blocktrans %}To exercise any of these rights, please contact us using the contact details provided below{% endblocktrans %}.</p>
+    </div>
+
+    <div>
+        <p class="text-3xl font-bold text-gray-800 my-10">6. {% blocktrans %}Third-Party Links{% endblocktrans %}</p>
+        <p>{% blocktrans %}Our Site may contain links to third-party websites or services that are not owned or controlled by us. We
+            have no control over, and assume no responsibility for, the content, privacy policies, or practices of any
+            third-party websites or services. We strongly advise you to review the privacy policy of every site you
+            visit.{% endblocktrans %}</p>
+    </div>
+
+    <div>
+        <p class="text-3xl font-bold text-gray-800 my-10">8. {% blocktrans %}Changes to This Privacy Policy{% endblocktrans %}</p>
+        <p>{% blocktrans %}We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new
+            Privacy Policy on this page. You are advised to review this Privacy.{% endblocktrans %}</p>
+    </div>
+</div>
+
+<footer class="bg-[#1a1818] font-['Catamaran'] tracking-wide">
+    <div class="py-14 px-6 sm:px-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+        <div class="lg:col-span-2">
+          <a href="{% url 'home' %}"><img src="{% static 'img/leaf.png' %}" alt="logo" class="h-12 " /></a>
+          <p class="text-gray-300 text-2xl font-black mb-8">
+            Verdeia
+          </p>
+          <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+            <div >
+              <input name="next" type="hidden" value="{{ redirect_to }}">
+          
+              <select class = "border-2 border-blue-200 rounded-md w-[20%] text-center" name="language" onChange="form.submit();">
+                
+                  {% get_current_language as LANGUAGE_CODE %}
+                  {% get_available_languages as LANGUAGES %}
+                  {% get_language_info_list for LANGUAGES as languages %}
+                  {% for language in languages %}
+                  
+                      <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>              
+                        {{ language.name_local }} 
+                      </option>
+                  {% endfor %}
+              </select></div>
+          
+          </form>
+          <p class="text-gray-300 text-sm mb-3">
+            Made with ❤️ by <a href="https://www.github.com/spartachus" class="font-black text-xl">Spartachus</a>
+          </p>
+          <p class="text-gray-300 text-sm">
+            {% blocktrans %}Empowering You to Track, Reduce, and Offset Carbon Emissions for a Greener Tomorrow.{%endblocktrans %}
+          </p>
+        </div>
+  
+        <div>
+          <h4 class="text-lg font-bold mb-8 text-white">{% blocktrans %}Navigation{% endblocktrans %}</h4>
+          <ul class="space-y-4">
+            <li>
+              <a href="https://science.nasa.gov/climate-change/adaptation-mitigation/resources/"
+                class="text-gray-300 hover:text-white text-sm">{% blocktrans %}Resources{% endblocktrans %}</a>
+            </li>
+            <li>
+              <a href="{% url 'contact' %}" class="text-gray-300 hover:text-white text-sm">Contact</a>
+            </li>
+            <li>
+              <a href="{% url 'faq' %}" class="text-gray-300 hover:text-white text-sm">FAQ</a>
+            </li>
+            <li>
+              <a href="{% url 'blog' %}" class="text-gray-300 hover:text-white text-sm">Blog</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div>
+          <h4 class="text-lg font-bold mb-8 text-white">{% blocktrans %}Follow Us{% endblocktrans %}</h4>
+  
+          <ul class="flex gap-4">
+            <li>
+              <a href="https://www.instagram.com/verdeialabs/">
+                <img src="{% static 'img/instagram.png' %}" class=" w-6 h-6">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@VerdeiaLabs" class="text-gray-300 hover:text-white">
+                <img src="{% static 'img/youtube.png' %}" class=" w-6 h-6"></a>
+            </li>
+            <li>
+              <a href="https://www.reddit.com/Verdeia" class="text-gray-300 hover:text-white">
+                <img src="{% static 'img/reddit-logo.png' %}" class=" w-6 h-6">
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/VerdeiaLabs" class="text-gray-300 hover:text-white">
+                <img src = "{% static 'img/twitter.png' %}" width="20px" height="20px">
+  </a>
+            </li>
+          </ul>
+        </div>
+  
+        <div>
+          <h4 class="text-white text-lg font-bold mb-7">Subscribe</h4>
+          <p class="text-gray-300 mb-5">
+            {% blocktrans %}Subscribe to our newsletter to receive updates and exclusive offers.{% endblocktrans %}
+          </p>
+          <form action="" class="space-y-8" method="post" novalidate>
+            {% csrf_token %}
+  
+            <div class="flex">
+              <input name="mail" id="mail" type="email"
+                class="px-3 py-3 text-sm rounded-l-md w-full focus:outline-none bg-gray-50"
+                placeholder="Enter your email address" />
+              <button type="submit"
+                class="bg-gray-600 hover:bg-gray-500 text-white px-1 rounded-r-md text-sm tracking-wide transition-all">
+                {% blocktrans %} Subscribe{% endblocktrans %}
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+{% endblock %}

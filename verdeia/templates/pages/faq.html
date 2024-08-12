@@ -1,0 +1,541 @@
+{% extends "base.html" %} {% block content %} {% load static %}{% load i18n %}
+
+<div class="bg-blue-500">
+  <nav class="relative px-4 py-4 flex justify-between items-center bg-white text-[#051923]">
+    <a class="text-3xl font-bold leading-none" href="{% url 'home' %}">
+      <img src="{% static 'img/leaf.png' %}" class="h-10">
+
+    </a>
+    <div class="lg:hidden">
+      <button class="navbar-burger flex items-center text-[#1b4965]-600 p-3">
+        <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <title>Mobile menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+        </svg>
+      </button>
+    </div>
+    <ul
+      class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+
+      <li>
+        <a href="{% url 'pricing' %}"
+          class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/resource.png' %}" class="w-[18px] h-[18px] mr-4">
+
+          <span>{% blocktrans %}Pricing{% endblocktrans %}</span>
+        </a>
+      </li>
+
+      <li class="text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+        </svg>
+      </li>
+      <li>
+        <a href="https://www.reddit.com/r/Verdeia/"
+          class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/community.png' %}" class="w-[18px] h-[18px] mr-4 ">
+
+          <span>{% blocktrans %}Community{% endblocktrans %}</span>
+        </a>
+      </li>
+      </svg>
+      </li>
+      <li class="text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+        </svg>
+      </li>
+      <li>
+        <a href="{% url 'blog' %}"
+          class="text-black text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/blog.png' %}" class="w-[18px] h-[18px] mr-4">
+
+          <span>Blog</span>
+        </a>
+      </li>
+      <li class="text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+        </svg>
+      </li>
+      <li>
+        <a href="{% url 'faq' %}"
+          class="text-blue-400 text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/faq.png' %}" class="w-[18px] h-[18px] mr-4">
+
+          <span>FAQ</span>
+        </a>
+      </li>
+    </ul>
+    <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-black-50 hover:bg-black-100 text-lg text-black-900 font-bold rounded-xl transition duration-200"
+      href="{% url 'login' %}">{% blocktrans %}Log In{% endblocktrans %}</a>
+    <a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-lg text-black font-bold rounded-xl transition duration-200"
+      href="{% url 'gettingstarted' %}">{% blocktrans %}Get Started{% endblocktrans %}</a>
+  </nav>
+  <div class="navbar-menu relative z-50 hidden">
+    <div class="navbar-backdrop fixed inset-0 bg-black-800 opacity-25"></div>
+    <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+      <div class="flex items-center mb-8">
+        <a class="mr-auto text-3xl font-bold leading-none" href="{% url 'home' %}">
+          <img src="{% static 'img/leaf.png' %}" class="h-12">
+
+        </a>
+        <button class="navbar-close">
+          <svg class="h-6 w-6 text-black-400 cursor-pointer hover:text-black-500" xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+            </path>
+          </svg>
+        </button>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="{% url 'pricing' %}"
+              class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/resource.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>{% blocktrans %}Pricing{% endblocktrans %}</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.reddit.com/r/Verdeia/"
+              class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/community.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>{% blocktrans %}Community{% endblocktrans %}</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="{% url 'blog' %}"
+              class="text-black text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/blog.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>Blog</span>
+            </a>
+          </li>
+          <li>
+            <a href="{% url 'faq' %}"
+              class="text-blue-400 text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/faq.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>FAQ</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="mt-auto">
+        <div class="pt-6">
+          <a class=" lg:inline-block lg:ml-auto lg:mr-3 mt-9 px-6 bg-black-50 hover:bg-black-100 text-lg text-black-900 font-bold rounded-xl transition duration-200 
+            " href="{% url 'login' %}">{% blocktrans %}Log In{% endblocktrans %}</a>
+          <a class=" lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-lg text-white font-bold rounded-xl transition duration-200"
+            href="{% url 'gettingstarted' %}">{% blocktrans %}Get Started{% endblocktrans %}</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+<div class="text-center my-16">
+  <h2 class="text-3xl font-bold text-gray-800">🙋 {% blocktrans %}Frequently asked questions{% endblocktrans %}</h2>
+  <p class="text-lg font-bold text-gray-400">{% blocktrans %}Read through some of our curated answers{% endblocktrans %}</p>
+</div>
+
+<div class="font-[sans-serif] divide-y rounded-lg max-w-7xl mx-auto px-16 ">
+
+
+  <div role="accordion" class="faq ">
+    <div class="faq-question" onclick="toggleAnswer('answer1')">
+      <button type="button" class="w-full text-base text-left font-semibold py-6 text-gray-800 flex items-center">
+        <span class="mr-4">{% blocktrans %}What is carbon footprint{% endblocktrans %}?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 fill-current ml-auto shrink-0" viewBox="0 0 42 42">
+          <path
+            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+            data-original="#000000" />
+        </svg>
+      </button>
+    </div>
+    <div class="faq-answer py-4 hidden" id="answer1">
+      <p class="text-sm text-gray-800">{% blocktrans %}A carbon footprint is the total amount of greenhouse gases, primarily carbon
+        dioxide, that are emitted directly or indirectly by human activities. This includes emissions from
+        transportation, energy use, production processes, and more{% endblocktrans %}.</p>
+    </div>
+  </div>
+
+  <div role="accordion" class="faq">
+    <div class="faq-question" onclick="toggleAnswer('answer2')">
+      <button type="button" class="w-full text-base text-left font-semibold py-6 text-gray-800 flex items-center">
+        <span class="mr-4">{% blocktrans %}How can our products help reduce your carbon footprint{% endblocktrans %}?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 fill-current ml-auto shrink-0" viewBox="0 0 42 42">
+          <path
+            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+            data-original="#000000" />
+        </svg>
+      </button>
+    </div>
+    <div class="faq-answer py-4 hidden" id="answer2">
+      <p class="text-sm text-gray-800">{% blocktrans %}Our products are designed to optimize energy use, integrate renewable energy
+        sources, and provide real-time data and insights. By implementing our solutions, you can significantly reduce
+        your energy consumption and carbon emissions{% endblocktrans %}.</p>
+    </div>
+  </div>
+
+  <div role="accordion" class="faq">
+    <div class="faq-question" onclick="toggleAnswer('answer3')">
+      <button type="button" class="w-full text-base text-left font-semibold py-6 text-gray-800 flex items-center">
+        <span class="mr-4">{% blocktrans %}How does Verdeia track carbon emissions{% endblocktrans %}?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 fill-current ml-auto shrink-0" viewBox="0 0 42 42">
+          <path
+            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+            data-original="#000000" />
+        </svg>
+      </button>
+    </div>
+    <div class="faq-answer py-4 hidden" id="answer3">
+      <p class="text-sm text-gray-800">{% blocktrans %}Our app tracks carbon emissions by collecting data on your daily activities, such
+        as transportation, energy use, and consumption habits. You can input your data manually or sync it with
+        compatible devices and services for automatic tracking{% endblocktrans %}.</p>
+    </div>
+  </div>
+
+  <div role="accordion" class="faq">
+    <div class="faq-question" onclick="toggleAnswer('answer4')">
+      <button type="button" class="w-full text-base text-left font-semibold py-6 text-gray-800 flex items-center">
+        <span class="mr-4">{% blocktrans %}What types of activities can I track with the app{% endblocktrans %}?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 fill-current ml-auto shrink-0" viewBox="0 0 42 42">
+          <path
+            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+            data-original="#000000" />
+        </svg>
+      </button>
+    </div>
+    <div class="faq-answer py-4 hidden" id="answer4">
+      <p class="text-sm text-gray-800">{% blocktrans %}You can track a wide range of activities, including driving, flying, public
+        transportation, home energy use, waste production, and even your diet. The app provides a comprehensive overview
+        of your carbon footprint.{% endblocktrans %}</p>
+    </div>
+  </div>
+
+
+  <div role="accordion" class="faq mt-12">
+    <div class="faq-question" onclick="toggleAnswer('answer5')">
+      <button type="button" class="w-full text-base text-left font-semibold py-6 text-gray-800 flex items-center">
+        <span class="mr-4">{% blocktrans %}Who can benefit from using your app{% endblocktrans %}?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 fill-current ml-auto shrink-0" viewBox="0 0 42 42">
+          <path
+            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+            data-original="#000000" />
+        </svg>
+      </button>
+    </div>
+    <div class="faq-answer py-4 hidden" id="answer5">
+      <p class="text-sm text-gray-800">{% blocktrans %}Our app is designed for both individuals and businesses of all sizes. Whether
+        you're a small business owner, a corporate entity, or an individual looking to reduce your environmental impact,
+        our app can help you track and offset your carbon emissions{% endblocktrans %}.</p>
+    </div>
+  </div>
+
+  <div role="accordion" class="faq">
+    <div class="faq-question" onclick="toggleAnswer('answer6')">
+      <button type="button" class="w-full text-base text-left font-semibold py-6 text-gray-800 flex items-center">
+        <span class="mr-4">{% blocktrans %}How does carbon offsetting work through your app{% endblocktrans %}?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 fill-current ml-auto shrink-0" viewBox="0 0 42 42">
+          <path
+            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+            data-original="#000000" />
+        </svg>
+      </button>
+    </div>
+    <div class="faq-answer py-4 hidden" id="answer6">
+      <p class="text-sm text-gray-800">{% blocktrans %}Our app connects users with verified carbon offset projects, such as
+        reforestation, renewable energy, and conservation initiatives. Users can choose projects to support, and the app
+        facilitates the investment, ensuring that the offsets match their carbon footprint{% endblocktrans %}.</p>
+    </div>
+  </div>
+
+  <div role="accordion" class="faq">
+    <div class="faq-question" onclick="toggleAnswer('answer7')">
+      <button type="button" class="w-full text-base text-left font-semibold py-6 text-gray-800 flex items-center">
+        <span class="mr-4">{% blocktrans %}Can the app integrate with other systems and devices{% endblocktrans %}?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 fill-current ml-auto shrink-0" viewBox="0 0 42 42">
+          <path
+            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+            data-original="#000000" />
+        </svg>
+      </button>
+    </div>
+    <div class="faq-answer py-4 hidden" id="answer7">
+      <p class="text-sm text-gray-800">{% blocktrans %}Our app can integrate with various systems and devices to automatically import
+        data, such as smart meters, fleet management systems, and other IoT devices, ensuring accurate and real-time
+        tracking.{% endblocktrans %}</p>
+    </div>
+  </div>
+
+  <div role="accordion" class="faq">
+    <div class="faq-question" onclick="toggleAnswer('answer8')">
+      <button type="button" class="w-full text-base text-left font-semibold py-6 text-gray-800 flex items-center">
+        <span class="mr-4">{% blocktrans %}How accurate is the carbon emissions tracking{% endblocktrans %}?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 fill-current ml-auto shrink-0" viewBox="0 0 42 42">
+          <path
+            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+            data-original="#000000" />
+        </svg>
+      </button>
+    </div>
+    <div class="faq-answer py-4 hidden" id="answer8">
+      <p class="text-sm text-gray-800">{% blocktrans %}The app uses advanced algorithms and verified data sources to ensure high
+        accuracy in tracking carbon emissions. Regular updates and improvements are made to maintain precision and
+        reliability{% endblocktrans %}.</p>
+    </div>
+  </div>
+
+  <div role="accordion" class="faq">
+    <div class="faq-question" onclick="toggleAnswer('answer9')">
+      <button type="button" class="w-full text-base text-left font-semibold py-6 text-gray-800 flex items-center">
+        <span class="mr-4">How can businesses benefit from using your app?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 fill-current ml-auto shrink-0" viewBox="0 0 42 42">
+          <path
+            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+            data-original="#000000" />
+        </svg>
+      </button>
+    </div>
+    <div class="faq-answer py-4 hidden" id="answer9">
+      <p class="text-sm text-gray-800">Businesses can use our app to monitor and manage their carbon footprint, enhance
+        their sustainability reporting, and meet regulatory requirements. It also helps improve their corporate social
+        responsibility (CSR) profile and can lead to cost savings through more efficient resource use.</p>
+    </div>
+  </div>
+
+  <div role="accordion" class="faq mt-12">
+    <div class="faq-question" onclick="toggleAnswer('answer10')">
+      <button type="button" class="w-full text-base text-left font-semibold py-6 text-gray-800 flex items-center">
+        <span class="mr-4">{% blocktrans %}How can I get in touch for more information or a consultation{% endblocktrans %}?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 fill-current ml-auto shrink-0" viewBox="0 0 42 42">
+          <path
+            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+            data-original="#000000" />
+        </svg>
+      </button>
+    </div>
+    <div class="faq-answer py-4 hidden" id="answer10">
+      <p class="text-sm text-gray-800">{% blocktrans %}You can contact us through our website's contact form, email us at
+        <a href = "mailto:hello@verdeia.xyz">hello@verdeia.xyz</a>, or call us. We offer free consultations to help you explore how our solutions can
+          meet your specific needs.{% endblocktrans %}</p>
+    </div>
+  </div>
+
+  <div role="accordion" class="faq">
+    <div class="faq-question" onclick="toggleAnswer('answer11')">
+      <button type="button" class="w-full text-base text-left font-semibold py-6 text-gray-800 flex items-center">
+        <span class="mr-4">{% blocktrans %}How do I get started with the app?{% endblocktrans %}</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 fill-current ml-auto shrink-0" viewBox="0 0 42 42">
+          <path
+            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+            data-original="#000000" />
+        </svg>
+      </button>
+    </div>
+    <div class="faq-answer py-4 hidden" id="answer11">
+      <p class="text-sm text-gray-800">{% blocktrans %}Getting started is simple. Download the app from the App Store or Google Play,
+        create an account, and start inputting your data. Our onboarding process will guide you through the initial
+        setup and usage{% endblocktrans %}.</p>
+    </div>
+  </div>
+
+  <div role="accordion" class="faq">
+    <div class="faq-question" onclick="toggleAnswer('answer12')">
+      <button type="button" class="w-full text-base text-left font-semibold py-6 text-gray-800 flex items-center">
+        <span class="mr-4">{% blocktrans %}What are the costs associated with using the app?{% endblocktrans %}</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 fill-current ml-auto shrink-0" viewBox="0 0 42 42">
+          <path
+            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+            data-original="#000000" />
+        </svg>
+      </button>
+    </div>
+    <div class="faq-answer py-4 hidden" id="answer12">
+      <p class="text-sm text-gray-800">{% blocktrans %}The app offers various subscription plans tailored to different needs, including
+        free basic features and premium plans with advanced tracking and offsetting options. Detailed pricing can be
+        found on our website.{% endblocktrans %}</p>
+    </div>
+  </div>
+
+  <div role="accordion" class="faq mt-12">
+    <div class="faq-question" onclick="toggleAnswer('answer13')">
+      <button type="button" class="w-full text-base text-left font-semibold py-6 text-gray-800 flex items-center">
+        <span class="mr-4">{% blocktrans %}Can the app help with regulatory compliance{% endblocktrans %}?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 fill-current ml-auto shrink-0" viewBox="0 0 42 42">
+          <path
+            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+            data-original="#000000" />
+        </svg>
+      </button>
+    </div>
+    <div class="faq-answer py-4 hidden" id="answer13">
+      <p class="text-sm text-gray-800">{% blocktrans %}Yes, our app can assist businesses in meeting regulatory requirements by
+        providing detailed reports and documentation of their carbon tracking and offsetting activities, which can be
+        used for compliance and audits{% endblocktrans %}.</p>
+    </div>
+  </div>
+
+  <div role="accordion" class="faq">
+    <div class="faq-question" onclick="toggleAnswer('answer14')">
+      <button type="button" class="w-full text-base text-left font-semibold py-6 text-gray-800 flex items-center">
+        <span class="mr-4">{% blocktrans %}How do I know the offset projects are legitimate?{% endblocktrans %}</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 fill-current ml-auto shrink-0" viewBox="0 0 42 42">
+          <path
+            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+            data-original="#000000" />
+        </svg>
+      </button>
+    </div>
+    <div class="faq-answer py-4 hidden" id="answer14">
+      <p class="text-sm text-gray-800">{% blocktrans %}We partner with reputable organizations that verify and certify carbon offset
+        projects. Each project listed in our app undergoes a rigorous validation process to ensure its legitimacy and
+        impact.{% endblocktrans %}</p>
+    </div>
+  </div>
+
+  <div role="accordion" class="faq">
+    <div class="faq-question" onclick="toggleAnswer('answer15')">
+      <button type="button" class="w-full text-base text-left font-semibold py-6 text-gray-800 flex items-center">
+        <span class="mr-4">{% blocktrans %}What kind of carbon offset projects can I support through the app{% endblocktrans %}?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 fill-current ml-auto shrink-0" viewBox="0 0 42 42">
+          <path
+            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+            data-original="#000000" />
+        </svg>
+      </button>
+    </div>
+    <div class="faq-answer py-4 hidden" id="answer15">
+      <p class="text-sm text-gray-800">{% blocktrans %}Users and bussinesses can support a variety of projects, including reforestation,
+        renewable energy installations, conservation efforts, and community-based sustainability projects. All projects
+        are verified to ensure they provide real and measurable environmental benefits{% endblocktrans %}.</p>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-[#1a1818] font-['Catamaran'] tracking-wide">
+  <div class="py-14 px-6 sm:px-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+      <div class="lg:col-span-2">
+        <a href="{% url 'home' %}"><img src="{% static 'img/leaf.png' %}" alt="logo" class="h-12 " /></a>
+        <p class="text-gray-300 text-2xl font-black mb-8">
+          Verdeia
+        </p>
+        <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+          <div >
+            <input name="next" type="hidden" value="{{ redirect_to }}">
+        
+            <select class = "border-2 border-blue-200 rounded-md w-[20%] text-center" name="language" onChange="form.submit();">
+              
+                {% get_current_language as LANGUAGE_CODE %}
+                {% get_available_languages as LANGUAGES %}
+                {% get_language_info_list for LANGUAGES as languages %}
+                {% for language in languages %}
+                
+                    <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>              
+                      {{ language.name_local }} 
+                    </option>
+                {% endfor %}
+            </select></div>
+        
+        </form>
+        <p class="text-gray-300 text-sm mb-3">
+          Made with ❤️ by <a href="https://www.github.com/spartachus" class="font-black text-xl">Spartachus</a>
+        </p>
+        <p class="text-gray-300 text-sm">
+          {% blocktrans %}Empowering You to Track, Reduce, and Offset Carbon Emissions for a Greener Tomorrow.{%endblocktrans %}
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-bold mb-8 text-white">{% blocktrans %}Navigation{% endblocktrans %}</h4>
+        <ul class="space-y-4">
+          <li>
+            <a href="https://science.nasa.gov/climate-change/adaptation-mitigation/resources/"
+              class="text-gray-300 hover:text-white text-sm">{% blocktrans %}Resources{% endblocktrans %}</a>
+          </li>
+          <li>
+            <a href="{% url 'contact' %}" class="text-gray-300 hover:text-white text-sm">Contact</a>
+          </li>
+          <li>
+            <a href="{% url 'faq' %}" class="text-gray-300 hover:text-white text-sm">FAQ</a>
+          </li>
+          <li>
+            <a href="{% url 'blog' %}" class="text-gray-300 hover:text-white text-sm">Blog</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-bold mb-8 text-white">{% blocktrans %}Follow Us{% endblocktrans %}</h4>
+
+        <ul class="flex gap-4">
+          <li>
+            <a href="https://www.instagram.com/verdeialabs/">
+              <img src="{% static 'img/instagram.png' %}" class=" w-6 h-6">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@VerdeiaLabs" class="text-gray-300 hover:text-white">
+              <img src="{% static 'img/youtube.png' %}" class=" w-6 h-6"></a>
+          </li>
+          <li>
+            <a href="https://www.reddit.com/Verdeia" class="text-gray-300 hover:text-white">
+              <img src="{% static 'img/reddit-logo.png' %}" class=" w-6 h-6">
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com/VerdeiaLabs" class="text-gray-300 hover:text-white">
+              <img src = "{% static 'img/twitter.png' %}" width="20px" height="20px">
+</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white text-lg font-bold mb-7">Subscribe</h4>
+        <p class="text-gray-300 mb-5">
+          {% blocktrans %}Subscribe to our newsletter to receive updates and exclusive offers.{% endblocktrans %}
+        </p>
+        <form action="" class="space-y-8" method="post" novalidate>
+          {% csrf_token %}
+
+          <div class="flex">
+            <input name="mail" id="mail" type="email"
+              class="px-3 py-3 text-sm rounded-l-md w-full focus:outline-none bg-gray-50"
+              placeholder="Enter your email address" />
+            <button type="submit"
+              class="bg-gray-600 hover:bg-gray-500 text-white px-1 rounded-r-md text-sm tracking-wide transition-all">
+              {% blocktrans %} Subscribe{% endblocktrans %}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+  function toggleAnswer(id) {
+    var answer = document.getElementById(id);
+    if (answer.style.display === "none" || answer.style.display === "") {
+      answer.style.display = "block";
+    } else {
+      answer.style.display = "none";
+    }
+  }
+</script>
+{% endblock %}

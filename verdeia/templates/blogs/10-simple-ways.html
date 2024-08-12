@@ -1,0 +1,446 @@
+{% extends "base.html" %} {% block content %} {% load static %}{% load i18n %}
+
+<div class="bg-blue-500">
+    <nav class="relative px-4 py-4 flex justify-between items-center bg-white text-[#051923]">
+        <a class="text-3xl font-bold leading-none" href="{% url 'home' %}">
+            <img src="{% static 'img/leaf.png' %}" class="h-10">
+
+        </a>
+        <div class="lg:hidden">
+            <button class="navbar-burger flex items-center text-[#1b4965]-600 p-3">
+                <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Mobile menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                </svg>
+            </button>
+        </div>
+        <ul
+            class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+
+            <li>
+                <a href="{% url 'pricing' %}"
+                    class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                    <img src="{% static 'img/resource.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                    <span>{% blocktrans %}Pricing{% endblocktrans %}</span>
+                </a>
+            </li>
+
+            <li class="text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                </svg>
+            </li>
+            <li>
+                <a href="https://www.reddit.com/r/Verdeia/"
+                    class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                    <img src="{% static 'img/community.png' %}" class="w-[18px] h-[18px] mr-4 ">
+
+                    <span>{% blocktrans %}Community{% endblocktrans %}</span>
+                </a>
+            </li>
+            </svg>
+            </li>
+            <li class="text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                </svg>
+            </li>
+            <li>
+                <a href="{% url 'blog' %}"
+                    class="text-blue-400 text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                    <img src="{% static 'img/blog.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li class="text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                </svg>
+            </li>
+            <li>
+                <a href="{% url 'faq' %}"
+                    class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                    <img src="{% static 'img/faq.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                    <span>FAQ</span>
+                </a>
+            </li>
+        </ul>
+        <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-black-50 hover:bg-black-100 text-lg text-black-900 font-bold rounded-xl transition duration-200"
+            href="{% url 'login' %}">{% blocktrans %}Log In{% endblocktrans %}</a>
+        <a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-lg text-black font-bold rounded-xl transition duration-200"
+            href="{% url 'gettingstarted' %}">{% blocktrans %}Get Started{% endblocktrans %}</a>
+    </nav>
+    <div class="navbar-menu relative z-50 hidden">
+        <div class="navbar-backdrop fixed inset-0 bg-black-800 opacity-25"></div>
+        <nav
+            class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+            <div class="flex items-center mb-8">
+                <a class="mr-auto text-3xl font-bold leading-none" href="{% url 'home' %}">
+                    <img src="{% static 'img/leaf.png' %}" class="h-12">
+
+                </a>
+                <button class="navbar-close">
+                    <svg class="h-6 w-6 text-black-400 cursor-pointer hover:text-black-500"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="{% url 'pricing' %}"
+                            class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                            <img src="{% static 'img/resource.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                            <span>{% blocktrans %}Pricing{% endblocktrans %}</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.reddit.com/r/Verdeia/"
+                            class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                            <img src="{% static 'img/community.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                            <span>{% blocktrans %}Community{% endblocktrans %}</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="{% url 'blog' %}"
+                            class="text-blue-400 text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                            <img src="{% static 'img/blog.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                            <span>Blog</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'faq' %}"
+                            class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                            <img src="{% static 'img/faq.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                            <span>FAQ</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="mt-auto">
+                <div class="pt-6">
+                    <a class=" lg:inline-block lg:ml-auto lg:mr-3 mt-9 px-6 bg-black-50 hover:bg-black-100 text-lg text-black-900 font-bold rounded-xl transition duration-200 
+            " href="{% url 'login' %}">{% blocktrans %}Log In{% endblocktrans %}</a>
+                    <a class=" lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-lg text-white font-bold rounded-xl transition duration-200"
+                        href="{% url 'gettingstarted' %}">{% blocktrans %}Get Started{% endblocktrans %}</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div class="text-center mt-12 mx-3">
+    <time class="text-gray-500 text-xl" datetime="2064-07-03">03 {% trans 'July' %} 2064</time>
+
+    <p class="font-black text-5xl mt-4 text-gray-900">{% blocktrans %}10 Simple Ways To Reduce Your Carbon
+        <br>Emissions At Home{% endblocktrans %}</p>
+    <div class="my-12">
+        <img src="{% static 'img/blogs/test.jpg' %}" class="size-4/5 mx-auto rounded-lg" />
+    </div>
+    <div class="max-w-3xl mx-auto text-gray-900 text-justify">
+        <p class="text-2xl mb-9 font-semibold">{% blocktrans %}In today's world, reducing our carbon footprint is more
+            important than
+            ever. Each of us has the power to make a significant impact by making small, sustainable changes in our
+            daily lives.{% endblocktrans %}</p>
+        <p class="text-xl"><span class="text-7xl font-extrabold">{% blocktrans %}O</span>ur homes are a major source of
+            carbon
+            emissions, but with some thoughtful adjustments, we can significantly lower the impact. Whether you're
+            looking to save money on energy bills, live a more sustainable lifestyle, or leave a better world for future
+            generations, every small change adds up. Here are ten simple yet effective ways to reduce your carbon
+            emissions at home.{% endblocktrans %}</p>
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% blocktrans %}Switch to LED Bulbs{% endblocktrans %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}Lighting accounts for a substantial part of our energy consumption.
+                By switching to LED bulbs, you can cut down on this energy use dramatically. LED bulbs use up to 85% less energy than
+                traditional incandescent bulbs and 40% less than CFLs. Plus, they last much longer, meaning fewer
+                replacements and less waste. Start by replacing the most frequently used bulbs in your home and work
+                your way through the rest.{% endblocktrans %}</p>
+            <img src="{% static 'img/blogs/lights.jpg' %}" class="mx-auto rounded-lg mt-4" />
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% trans 'Unplug Electronics' %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}Even when turned off, many electronics continue to draw power. This
+                “phantom” energy
+                can account for up to 10% of your household energy use. To combat this, unplug devices when they’re not
+                in use or use smart power strips that cut power to devices when they’re not needed. It’s a simple step
+                that can lead to significant energy savings over time.{% endblocktrans %}</p>
+            <img src="{% static 'img/blogs/unplug.jpg' %}" class="mx-auto rounded-lg mt-4" />
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% trans 'Use Energy-Efficient Appliances' %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}When it’s time to replace old appliances, opt for models with high
+                energy efficiency
+                ratings. Look for the Energy Star label, which indicates that the appliance meets strict energy
+                efficiency guidelines. These appliances use less energy, which not only helps the environment but can
+                also lower your utility bills.{% endblocktrans %}</p>
+            <img src="{% static 'img/blogs/energy-efficient.jpg' %}" class="mx-auto rounded-lg mt-4" />
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% trans 'Install a Programmable Thermostat' %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}Heating and cooling are among the biggest energy expenses in a home.
+                A programmable
+                thermostat can help you manage this more efficiently by adjusting the temperature based on your
+                schedule. Set it to lower the heat or air conditioning when you’re asleep or away, and you’ll save
+                energy without sacrificing comfort. Smart thermostats can even learn your habits and make adjustments
+                automatically.{% endblocktrans %}</p>
+            <img src="{% static 'img/blogs/thermostat.jpg' %}" class="mx-auto rounded-lg mt-4" />
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% blocktrans %}Improve Home Insulation{% endblocktrans %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}Proper insulation is crucial for maintaining a comfortable home
+                temperature without
+                excessive heating or cooling. Check for drafts around windows and doors and seal them with
+                weatherstripping or caulk. Adding or upgrading insulation in your attic, walls, and floors can make a
+                huge difference. Double-glazed windows or thermal curtains can also help keep the heat in during winter
+                and out during summer.{% endblocktrans %}</p>
+            <img src="{% static 'img/blogs/test.jpg' %}" class="mx-auto rounded-lg mt-4" />
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% blocktrans %}Wash Clothes in Cold Water{% endblocktrans %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}Heating water for laundry is energy-intensive. Most clothes can be effectively
+                cleaned in cold water, saving you money and reducing energy use. Modern detergents are designed to work
+                well in cold water, so switch your washing machine settings and enjoy the benefits{% endblocktrans %}.</p>
+            <img src="{% static 'img/blogs/wash.jpg' %}" class="mx-auto rounded-lg mt-4" />
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% blocktrans %}Dry Clothes Naturally{% endblocktrans %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}Clothes dryers are among the most energy-consuming appliances in the home. By air
+                drying your clothes, either on a line or a drying rack, you can cut down significantly on your energy
+                use. If you must use a dryer, opt for lower heat settings and clean the lint filter regularly to
+                maintain efficiency.{% endblocktrans %}</p>
+            <img src="{% static 'img/blogs/dry.jpg' %}" class="mx-auto rounded-lg mt-4" />
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% blocktrans %}Reduce Water Usage{% endblocktrans %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}Reducing water consumption not only conserves a vital resource but also cuts down on
+                the energy needed to heat water. Install low-flow showerheads and faucet aerators to reduce water flow
+                without sacrificing pressure. Fix leaks promptly—those drips add up over time. Simple habits like taking
+                shorter showers and turning off the tap while brushing your teeth can make a big difference.{% endblocktrans %}</p>
+            <img src="{% static 'img/blogs/water.jpg' %}" class="mx-auto rounded-lg mt-4" />
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% blocktrans %}Adopt a Plant-Based Diet{% endblocktrans %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}The production of meat and dairy products generates significantly more greenhouse
+                gases than plant-based foods. By reducing your meat and dairy consumption, you can lower your carbon
+                footprint. Start by incorporating more plant-based meals into your diet. Try “Meatless Mondays” or
+                experiment with vegetarian and vegan recipes to see what you enjoy.{% endblocktrans %}</p>
+            <img src="{% static 'img/blogs/vegan.jpg' %}" class="mx-auto rounded-lg mt-4" />
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% blocktrans %}Compost Food Waste{% endblocktrans %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}When organic waste decomposes in landfills, it produces methane, a potent greenhouse
+                gas. Composting your kitchen scraps reduces methane emissions and provides nutrient-rich soil for
+                gardening. Set up a compost bin in your backyard or use a worm composting system for indoor composting.
+                Composting items like vegetable peels, coffee grounds, and eggshells can turn waste into a valuable
+                resource for your garden.{% endblocktrans %}</p>
+            <img src="{% static 'img/blogs/waste.jpg' %}" class="mx-auto rounded-lg mt-4" />
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% blocktrans %}Conclusion{% endblocktrans %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}Each of these changes might seem small on its own, but together they can add up to a
+                significant reduction in your home’s carbon emissions. By making these adjustments, you not only
+                contribute to a healthier planet but often find that you save money in the process. Start with a few
+                changes and gradually incorporate more, and you’ll be well on your way to a more sustainable lifestyle.{% endblocktrans %}
+            </p>
+            <p class="text-xl mt-4">{% blocktrans %}Remember, every step counts when it comes to protecting our environment. Let’s make
+                a difference, one small change at a time.{% endblocktrans %}</p>
+        </div>
+
+        <div class="flex flex-wrap items-center mt-6">
+            <img src="{% static 'img/stonehashira.webp' %}" class="w-10 h-10 rounded-full" />
+            <div class="ml-4 text-left">
+                <p class="text-xl font-bold">{% blocktrans %}By{% endblocktrans %} Gaia Verdeia</p>
+                <p class="text-lg text-gray-500">{% blocktrans %}Content Writer{% endblocktrans %}</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="bg-gray-100 md:px-32 px-12 py-12 ">
+        <p class="text-left font-bold text-4xl text-gray-800 mb-8">{% blocktrans %}Read More{% endblocktrans %}</p>
+        <div class="max-md:max-w-lg mx-auto">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9">
+
+                <div
+                    class="bg-gradient-to-b from-indigo-800 to-indigo-600 text-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <a href="{% url 'blog_1' %}"><img src="{% static 'img/blog_1.jpg' %}" alt="Blog Post 1"
+                            class="w-full h-64 object-cover" />
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">{% blocktrans %}Understanding Your Carbon Footprint: A Beginner's
+                                Guide{% endblocktrans %}</h3>
+                            <p class="text-lg opacity-75">{% blocktrans %}Understanding Your Carbon Footprint: A Beginner's Guide{% endblocktrans %}...</p>
+                            <a href="javascript:void(0);"
+                                class="mt-4 inline-block text-blue-200 text-lg hover:underline">{% blocktrans %}Read More{% endblocktrans %}</a>
+                        </div>
+                    </a>
+                </div>
+
+                <div
+                    class="bg-gradient-to-b from-indigo-800 to-indigo-600 text-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <a href="{% url 'blog_4' %}"><img src="{% static 'img/blog_4.jpg' %}" alt="Blog Post 1"
+                            class="w-full h-64 object-cover" />
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">{% blocktrans %}Top Renewable Energy Sources for Home and Business
+                                Use{% endblocktrans %}</h3>
+                            <p class="text-lg opacity-75">{% blocktrans %}Top Renewable Energy Sources for Home and Business Use.{% endblocktrans %}..</p>
+                            <a href="javascript:void(0);"
+                                class="mt-4 inline-block text-blue-200 text-lg hover:underline">{% blocktrans %}Read More{% endblocktrans %}</a>
+                        </div>
+                    </a>
+                </div>
+
+                <div
+                    class="bg-gradient-to-b from-teal-800 to-teal-600 text-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <a href="{% url 'blog_3' %}"><img src="{% static 'img/blog_3.jpg' %}" alt="Blog Post 3"
+                            class="w-full h-64 object-cover" />
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">{% blocktrans %}The Importance of Carbon Offsetting: How It Works
+                                and Why It Matters{% endblocktrans %}</h3>
+                            <p class="text-lg opacity-75">{% blocktrans %}The Importance of Carbon Offsetting: How It Works and Why It
+                                Matters{% endblocktrans %}...</p>
+                            <a href="javascript:void(0);"
+                                class="mt-4 inline-block text-green-200 text-lg hover:underline">{% blocktrans %}Read More{% endblocktrans %}</a>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<footer class="bg-[#1a1818] font-['Catamaran'] tracking-wide">
+    <div class="py-14 px-6 sm:px-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+        <div class="lg:col-span-2">
+          <a href="{% url 'home' %}"><img src="{% static 'img/leaf.png' %}" alt="logo" class="h-12 " /></a>
+          <p class="text-gray-300 text-2xl font-black mb-8">
+            Verdeia
+          </p>
+          <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+            <div >
+              <input name="next" type="hidden" value="{{ redirect_to }}">
+          
+              <select class = "border-2 border-blue-200 rounded-md w-[20%] text-center" name="language" onChange="form.submit();">
+                
+                  {% get_current_language as LANGUAGE_CODE %}
+                  {% get_available_languages as LANGUAGES %}
+                  {% get_language_info_list for LANGUAGES as languages %}
+                  {% for language in languages %}
+                  
+                      <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>              
+                        {{ language.name_local }} 
+                      </option>
+                  {% endfor %}
+              </select></div>
+          
+          </form>
+          <p class="text-gray-300 text-sm mb-3">
+            Made with ❤️ by <a href="https://www.github.com/spartachus" class="font-black text-xl">Spartachus</a>
+          </p>
+          <p class="text-gray-300 text-sm">
+            {% blocktrans %}Empowering You to Track, Reduce, and Offset Carbon Emissions for a Greener Tomorrow.{%endblocktrans %}
+          </p>
+        </div>
+  
+        <div>
+          <h4 class="text-lg font-bold mb-8 text-white">{% blocktrans %}Navigation{% endblocktrans %}</h4>
+          <ul class="space-y-4">
+            <li>
+              <a href="https://science.nasa.gov/climate-change/adaptation-mitigation/resources/"
+                class="text-gray-300 hover:text-white text-sm">{% blocktrans %}Resources{% endblocktrans %}</a>
+            </li>
+            <li>
+              <a href="{% url 'contact' %}" class="text-gray-300 hover:text-white text-sm">Contact</a>
+            </li>
+            <li>
+              <a href="{% url 'faq' %}" class="text-gray-300 hover:text-white text-sm">FAQ</a>
+            </li>
+            <li>
+              <a href="{% url 'blog' %}" class="text-gray-300 hover:text-white text-sm">Blog</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div>
+          <h4 class="text-lg font-bold mb-8 text-white">{% blocktrans %}Follow Us{% endblocktrans %}</h4>
+  
+          <ul class="flex gap-4">
+            <li>
+              <a href="https://www.instagram.com/verdeialabs/">
+                <img src="{% static 'img/instagram.png' %}" class=" w-6 h-6">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@VerdeiaLabs" class="text-gray-300 hover:text-white">
+                <img src="{% static 'img/youtube.png' %}" class=" w-6 h-6"></a>
+            </li>
+            <li>
+              <a href="https://www.reddit.com/Verdeia" class="text-gray-300 hover:text-white">
+                <img src="{% static 'img/reddit-logo.png' %}" class=" w-6 h-6">
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/VerdeiaLabs" class="text-gray-300 hover:text-white">
+                <img src = "{% static 'img/twitter.png' %}" width="20px" height="20px">
+  </a>
+            </li>
+          </ul>
+        </div>
+  
+        <div>
+          <h4 class="text-white text-lg font-bold mb-7">Subscribe</h4>
+          <p class="text-gray-300 mb-5">
+            {% blocktrans %}Subscribe to our newsletter to receive updates and exclusive offers.{% endblocktrans %}
+          </p>
+          <form action="" class="space-y-8" method="post" novalidate>
+            {% csrf_token %}
+  
+            <div class="flex">
+              <input name="mail" id="mail" type="email"
+                class="px-3 py-3 text-sm rounded-l-md w-full focus:outline-none bg-gray-50"
+                placeholder="Enter your email address" />
+              <button type="submit"
+                class="bg-gray-600 hover:bg-gray-500 text-white px-1 rounded-r-md text-sm tracking-wide transition-all">
+                {% blocktrans %} Subscribe{% endblocktrans %}
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+{% endblock %}

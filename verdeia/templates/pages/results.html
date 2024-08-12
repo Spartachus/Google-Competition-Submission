@@ -1,0 +1,446 @@
+{% extends "base.html" %} {% block content %} {% load static %}{% load i18n %}
+
+<div class="bg-blue-500">
+  <div class="fixed top-0 w-full ">
+    <nav class="px-2 py-2 flex justify-between items-center bg-white mb-6">
+      <a class="text-3xl font-bold leading-none" href="{% url 'home' %}">
+        <img src="{% static 'img/leaf.png' %}" class="h-10">
+
+      </a>
+      <div class="lg:hidden">
+        <button class="navbar-burger flex items-center text-blue-600 p-3">
+          <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <title>Mobile menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+          </svg>
+        </button>
+      </div>
+      <ul
+        class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-7">
+        <li>
+          <a href="{% url 'userlogged' %}" class="text-black text-base flex items-center py-2 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+              viewBox="0 0 512 512">
+              <path
+                d="M197.332 170.668h-160C16.746 170.668 0 153.922 0 133.332v-96C0 16.746 16.746 0 37.332 0h160c20.59 0 37.336 16.746 37.336 37.332v96c0 20.59-16.746 37.336-37.336 37.336zM37.332 32A5.336 5.336 0 0 0 32 37.332v96a5.337 5.337 0 0 0 5.332 5.336h160a5.338 5.338 0 0 0 5.336-5.336v-96A5.337 5.337 0 0 0 197.332 32zm160 480h-160C16.746 512 0 495.254 0 474.668v-224c0-20.59 16.746-37.336 37.332-37.336h160c20.59 0 37.336 16.746 37.336 37.336v224c0 20.586-16.746 37.332-37.336 37.332zm-160-266.668A5.337 5.337 0 0 0 32 250.668v224A5.336 5.336 0 0 0 37.332 480h160a5.337 5.337 0 0 0 5.336-5.332v-224a5.338 5.338 0 0 0-5.336-5.336zM474.668 512h-160c-20.59 0-37.336-16.746-37.336-37.332v-96c0-20.59 16.746-37.336 37.336-37.336h160c20.586 0 37.332 16.746 37.332 37.336v96C512 495.254 495.254 512 474.668 512zm-160-138.668a5.338 5.338 0 0 0-5.336 5.336v96a5.337 5.337 0 0 0 5.336 5.332h160a5.336 5.336 0 0 0 5.332-5.332v-96a5.337 5.337 0 0 0-5.332-5.336zm160-74.664h-160c-20.59 0-37.336-16.746-37.336-37.336v-224C277.332 16.746 294.078 0 314.668 0h160C495.254 0 512 16.746 512 37.332v224c0 20.59-16.746 37.336-37.332 37.336zM314.668 32a5.337 5.337 0 0 0-5.336 5.332v224a5.338 5.338 0 0 0 5.336 5.336h160a5.337 5.337 0 0 0 5.332-5.336v-224A5.336 5.336 0 0 0 474.668 32zm0 0"
+                data-original="#000000" />
+            </svg>
+            <span>Home</span>
+          </a>
+        </li>
+
+        <li class="text-black">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+          </svg>
+        </li>
+        <li>
+          <a href="{% url 'events' %}" class="text-blue-600 text-base flex items-center py-2 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+              viewBox="0 0 512 512">
+              <path
+                d="M122.39 165.78h244.87c10.49 0 19-8.51 19-19s-8.51-19-19-19H122.39c-10.49 0-19 8.51-19 19s8.51 19 19 19zm164.33 99.44c0-10.49-8.51-19-19-19H122.39c-10.49 0-19 8.51-19 19s8.51 19 19 19h145.33c10.49 0 19-8.51 19-19z"
+                data-original="#000000" />
+              <path
+                d="M486.63 323.71c2.04-22.33 3.41-48.35 3.44-78.68-.06-57.07-4.85-98.86-9.96-129.57-8.94-50.6-54.9-96.56-105.5-105.5C343.9 4.85 302.11.06 245.03 0c-57.07.06-98.87 4.85-129.58 9.96C64.86 18.9 18.9 64.86 9.96 115.46 4.85 146.17.07 187.96 0 245.03c.07 57.07 4.85 98.87 9.96 129.58 8.94 50.6 54.9 96.56 105.5 105.5 30.71 5.11 72.5 9.89 129.58 9.96 30.32-.03 56.34-1.4 78.66-3.44 19.84 15.87 45 25.37 72.38 25.37 64.02 0 115.93-51.9 115.93-115.92 0-27.38-9.5-52.54-25.37-72.37zM245.04 452.07c-45.02-.05-85.3-3.13-123.13-9.41-16.81-3.01-33.84-12.44-47.95-26.55s-23.53-31.13-26.55-47.95c-6.28-37.79-9.35-78.07-9.41-123.13.05-45.04 3.13-85.32 9.41-123.13 3.01-16.81 12.44-33.83 26.55-47.94s31.13-23.53 47.95-26.55C159.72 41.13 200 38.06 245.04 38c45.02.05 85.3 3.13 123.13 9.41 16.81 3.01 33.83 12.44 47.95 26.55 14.11 14.11 23.53 31.13 26.55 47.95 6.28 37.83 9.35 78.1 9.41 123.13-.02 16.9-.48 33.11-1.36 48.79-16.28-8.72-34.88-13.66-54.64-13.66-64.02 0-115.93 51.9-115.93 115.92 0 19.76 4.95 38.35 13.66 54.63-15.68.88-31.89 1.34-48.78 1.35zM396.08 474c-42.97 0-77.93-34.95-77.93-77.92s34.96-77.92 77.93-77.92 77.93 34.95 77.93 77.92S439.05 474 396.08 474z"
+                data-original="#000000" />
+              <path
+                d="M406.28 418.24c-2.42-.4-5.71-.78-10.2-.78s-7.78.38-10.2.78c-3.98.7-7.6 4.32-8.31 8.31-.4 2.42-.78 5.71-.78 10.2s.38 7.78.78 10.2c.7 3.98 4.32 7.6 8.31 8.31 2.42.4 5.71.78 10.2.78s7.78-.38 10.2-.78c3.98-.7 7.6-4.32 8.31-8.31.4-2.42.78-5.71.78-10.2s-.38-7.78-.78-10.2c-.7-3.98-4.32-7.6-8.31-8.31zm-10.21-12.61c10.49 0 19-8.51 19-19v-31.7c0-10.49-8.51-19-19-19s-19 8.51-19 19v31.7c0 10.49 8.51 19 19 19z"
+                data-original="#000000" />
+            </svg>
+            <span>Event</span>
+          </a>
+        </li>
+
+        <li class="text-black">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+          </svg>
+        </li>
+        <li>
+          <a href="{% url 'projects' %}" class="text-black text-base flex items-center py-2 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+              viewBox="0 0 16 16">
+              <path
+                d="M13 .5H3A2.503 2.503 0 0 0 .5 3v10A2.503 2.503 0 0 0 3 15.5h10a2.503 2.503 0 0 0 2.5-2.5V3A2.503 2.503 0 0 0 13 .5ZM14.5 13a1.502 1.502 0 0 1-1.5 1.5H3A1.502 1.502 0 0 1 1.5 13v-.793l3.5-3.5 1.647 1.647a.5.5 0 0 0 .706 0L10.5 7.207V8a.5.5 0 0 0 1 0V6a.502.502 0 0 0-.5-.5H9a.5.5 0 0 0 0 1h.793L7 9.293 5.354 7.647a.5.5 0 0 0-.707 0L1.5 10.793V3A1.502 1.502 0 0 1 3 1.5h10A1.502 1.502 0 0 1 14.5 3Z"
+                data-original="#000000" />
+            </svg>
+            <span>Projects</span>
+          </a>
+        </li>
+
+        <li class="text-black-400">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+          </svg>
+        </li>
+        <li>
+          <a href="{% url 'askgaia' %}" class="text-black text-base flex items-center rounded py-2 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke='currentColor'
+              class="w-[18px] h-[18px] mr-4" viewBox="0 0 682.667 682.667">
+              <defs>
+                <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                  <path d="M0 512h512V0H0Z" data-original="#000000" />
+                </clipPath>
+              </defs>
+              <g clip-path="url(#a)" transform="matrix(1.33 0 0 -1.33 0 682.667)">
+                <path fill="none" stroke-miterlimit="10" stroke-width="40"
+                  d="M452 444H60c-22.091 0-40-17.909-40-40v-39.446l212.127-157.782c14.17-10.54 33.576-10.54 47.746 0L492 364.554V404c0 22.091-17.909 40-40 40Z"
+                  data-original="#000000" />
+                <path
+                  d="M472 274.9V107.999c0-11.027-8.972-20-20-20H60c-11.028 0-20 8.973-20 20V274.9L0 304.652V107.999c0-33.084 26.916-60 60-60h392c33.084 0 60 26.916 60 60v196.653Z"
+                  data-original="#000000" />
+              </g>
+            </svg>
+            <span>Ask Gaia</span>
+          </a>
+        </li>
+
+
+      </ul>
+      <a class="hidden lg:inline-block lg:ml-auto font-bold lg:mr-3 py-2 px-6 bg-black-50 hover:bg-black-100 text-sm text-black-900 rounded-xl transition duration-200"
+      href="{% url 'login' %}">Log In</a>
+    <a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-black font-bold rounded-xl transition duration-200"
+      href="{% url 'gettingstarted' %}">Get Started</a>
+    </nav>
+  </div>
+  <div class="navbar-menu relative z-50 hidden">
+    <div class="navbar-backdrop fixed inset-0 bg-black-800 opacity-25"></div>
+    <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+      <div class="flex items-center mb-8">
+        <a class="mr-auto text-3xl font-bold leading-none" href="{% url 'home' %}">
+          <img src="{% static 'img/leaf.png' %}" class="h-12">
+
+        </a>
+        <button class="navbar-close">
+          <svg class="h-6 w-6 text-black-400 cursor-pointer hover:text-black-500" xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="{% url 'userlogged' %}" class="text-black text-base flex items-center px-4 py-3 transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+                viewBox="0 0 512 512">
+                <path
+                  d="M197.332 170.668h-160C16.746 170.668 0 153.922 0 133.332v-96C0 16.746 16.746 0 37.332 0h160c20.59 0 37.336 16.746 37.336 37.332v96c0 20.59-16.746 37.336-37.336 37.336zM37.332 32A5.336 5.336 0 0 0 32 37.332v96a5.337 5.337 0 0 0 5.332 5.336h160a5.338 5.338 0 0 0 5.336-5.336v-96A5.337 5.337 0 0 0 197.332 32zm160 480h-160C16.746 512 0 495.254 0 474.668v-224c0-20.59 16.746-37.336 37.332-37.336h160c20.59 0 37.336 16.746 37.336 37.336v224c0 20.586-16.746 37.332-37.336 37.332zm-160-266.668A5.337 5.337 0 0 0 32 250.668v224A5.336 5.336 0 0 0 37.332 480h160a5.337 5.337 0 0 0 5.336-5.332v-224a5.338 5.338 0 0 0-5.336-5.336zM474.668 512h-160c-20.59 0-37.336-16.746-37.336-37.332v-96c0-20.59 16.746-37.336 37.336-37.336h160c20.586 0 37.332 16.746 37.332 37.336v96C512 495.254 495.254 512 474.668 512zm-160-138.668a5.338 5.338 0 0 0-5.336 5.336v96a5.337 5.337 0 0 0 5.336 5.332h160a5.336 5.336 0 0 0 5.332-5.332v-96a5.337 5.337 0 0 0-5.332-5.336zm160-74.664h-160c-20.59 0-37.336-16.746-37.336-37.336v-224C277.332 16.746 294.078 0 314.668 0h160C495.254 0 512 16.746 512 37.332v224c0 20.59-16.746 37.336-37.332 37.336zM314.668 32a5.337 5.337 0 0 0-5.336 5.332v224a5.338 5.338 0 0 0 5.336 5.336h160a5.337 5.337 0 0 0 5.332-5.336v-224A5.336 5.336 0 0 0 474.668 32zm0 0"
+                  data-original="#000000" />
+              </svg>
+              <span>Home</span>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="{% url 'events' %}" class="text-blue-600 text-base flex items-center px-4 py-3 transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+                viewBox="0 0 512 512">
+                <path
+                  d="M122.39 165.78h244.87c10.49 0 19-8.51 19-19s-8.51-19-19-19H122.39c-10.49 0-19 8.51-19 19s8.51 19 19 19zm164.33 99.44c0-10.49-8.51-19-19-19H122.39c-10.49 0-19 8.51-19 19s8.51 19 19 19h145.33c10.49 0 19-8.51 19-19z"
+                  data-original="#000000" />
+                <path
+                  d="M486.63 323.71c2.04-22.33 3.41-48.35 3.44-78.68-.06-57.07-4.85-98.86-9.96-129.57-8.94-50.6-54.9-96.56-105.5-105.5C343.9 4.85 302.11.06 245.03 0c-57.07.06-98.87 4.85-129.58 9.96C64.86 18.9 18.9 64.86 9.96 115.46 4.85 146.17.07 187.96 0 245.03c.07 57.07 4.85 98.87 9.96 129.58 8.94 50.6 54.9 96.56 105.5 105.5 30.71 5.11 72.5 9.89 129.58 9.96 30.32-.03 56.34-1.4 78.66-3.44 19.84 15.87 45 25.37 72.38 25.37 64.02 0 115.93-51.9 115.93-115.92 0-27.38-9.5-52.54-25.37-72.37zM245.04 452.07c-45.02-.05-85.3-3.13-123.13-9.41-16.81-3.01-33.84-12.44-47.95-26.55s-23.53-31.13-26.55-47.95c-6.28-37.79-9.35-78.07-9.41-123.13.05-45.04 3.13-85.32 9.41-123.13 3.01-16.81 12.44-33.83 26.55-47.94s31.13-23.53 47.95-26.55C159.72 41.13 200 38.06 245.04 38c45.02.05 85.3 3.13 123.13 9.41 16.81 3.01 33.83 12.44 47.95 26.55 14.11 14.11 23.53 31.13 26.55 47.95 6.28 37.83 9.35 78.1 9.41 123.13-.02 16.9-.48 33.11-1.36 48.79-16.28-8.72-34.88-13.66-54.64-13.66-64.02 0-115.93 51.9-115.93 115.92 0 19.76 4.95 38.35 13.66 54.63-15.68.88-31.89 1.34-48.78 1.35zM396.08 474c-42.97 0-77.93-34.95-77.93-77.92s34.96-77.92 77.93-77.92 77.93 34.95 77.93 77.92S439.05 474 396.08 474z"
+                  data-original="#000000" />
+                <path
+                  d="M406.28 418.24c-2.42-.4-5.71-.78-10.2-.78s-7.78.38-10.2.78c-3.98.7-7.6 4.32-8.31 8.31-.4 2.42-.78 5.71-.78 10.2s.38 7.78.78 10.2c.7 3.98 4.32 7.6 8.31 8.31 2.42.4 5.71.78 10.2.78s7.78-.38 10.2-.78c3.98-.7 7.6-4.32 8.31-8.31.4-2.42.78-5.71.78-10.2s-.38-7.78-.78-10.2c-.7-3.98-4.32-7.6-8.31-8.31zm-10.21-12.61c10.49 0 19-8.51 19-19v-31.7c0-10.49-8.51-19-19-19s-19 8.51-19 19v31.7c0 10.49 8.51 19 19 19z"
+                  data-original="#000000" />
+              </svg>
+              <span>Event</span>
+            </a>
+          </li>
+          <li>
+            <a href="{% url 'projects' %}" class="text-black text-base flex items-center px-4 py-3 transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+                viewBox="0 0 16 16">
+                <path
+                  d="M13 .5H3A2.503 2.503 0 0 0 .5 3v10A2.503 2.503 0 0 0 3 15.5h10a2.503 2.503 0 0 0 2.5-2.5V3A2.503 2.503 0 0 0 13 .5ZM14.5 13a1.502 1.502 0 0 1-1.5 1.5H3A1.502 1.502 0 0 1 1.5 13v-.793l3.5-3.5 1.647 1.647a.5.5 0 0 0 .706 0L10.5 7.207V8a.5.5 0 0 0 1 0V6a.502.502 0 0 0-.5-.5H9a.5.5 0 0 0 0 1h.793L7 9.293 5.354 7.647a.5.5 0 0 0-.707 0L1.5 10.793V3A1.502 1.502 0 0 1 3 1.5h10A1.502 1.502 0 0 1 14.5 3Z"
+                  data-original="#000000" />
+              </svg>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="{% url 'askgaia' %}" class="text-black text-base flex items-center px-4 py-3 transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke='currentColor'
+                class="w-[18px] h-[18px] mr-4" viewBox="0 0 682.667 682.667">
+                <defs>
+                  <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                    <path d="M0 512h512V0H0Z" data-original="#000000" />
+                  </clipPath>
+                </defs>
+                <g clip-path="url(#a)" transform="matrix(1.33 0 0 -1.33 0 682.667)">
+                  <path fill="none" stroke-miterlimit="10" stroke-width="40"
+                    d="M452 444H60c-22.091 0-40-17.909-40-40v-39.446l212.127-157.782c14.17-10.54 33.576-10.54 47.746 0L492 364.554V404c0 22.091-17.909 40-40 40Z"
+                    data-original="#000000" />
+                  <path
+                    d="M472 274.9V107.999c0-11.027-8.972-20-20-20H60c-11.028 0-20 8.973-20 20V274.9L0 304.652V107.999c0-33.084 26.916-60 60-60h392c33.084 0 60 26.916 60 60v196.653Z"
+                    data-original="#000000" />
+                </g>
+              </svg>
+              <span>Ask Gaia</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="mt-auto">
+        <div class="pt-6">
+          <a class=" lg:inline-block lg:ml-auto lg:mr-3 mt-9 px-6 bg-black-50 hover:bg-black-100 text-sm text-black-900 font-bold rounded-xl transition duration-200 
+          " href="{% url 'login' %}">Log In</a>
+        <a class=" lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200"
+          href="{% url 'gettingstarted' %}">Get Started</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div id = "carbon-results-div" class = "max-w-sm mx-auto">
+<div>
+  <div class="flex justify-center mt-36 font-medium">
+    <p class="text-2xl">{% blocktrans %}Your annual carbon footprint{% endblocktrans %}:</p>
+  </div>
+  <div class="flex justify-center mt-8">
+    <p class="font-bold text-7xl oldstyle-nums text-green-500">{{yearly}} <span class = "text-lg">🔺</span></p>
+  </div>
+  <div class="flex justify-center mt-9 font-medium">
+    <p class="text-lg">{% blocktrans %}Tons CO2e{% endblocktrans %}</p>
+  </div>
+  <div class=" font-medium mb-6 flex justify-center">
+    <p class="text-lg oldstyle-nums">
+      {% blocktrans %}You're {{percentage}}% {{sign}} average{% endblocktrans %}
+    </p>
+  </div>
+
+        <div class="lg:size-2/4 xl:size-2/4 md:size2/4 flex justify-center m-auto">
+            <canvas id="bubbleChart1">
+            </canvas>
+        </div>
+
+
+  
+  <div class="flex justify-center"><hr class="w-80 border-gray-300" /></div>
+  
+  <div class="text-l flex justify-center font-medium my-6">
+
+    <a href="{% url 'signup' %}">
+      <p>{% blocktrans %}Sign Up today let's neutralize your emission{% endblocktrans %}</p>
+    </a>
+  </div>
+</div>
+<div class="flex justify-center mt-2 space-x-3">
+  <a href="{% url 'gettingstarted' %}">
+    <img src="{% static 'img/googledo.png' %}" alt="My image" class="h-11" />
+  </a>
+
+    <button class="block px-4 py-3 mb-3 leading-loose text-lg text-center font-semibold leading-none bg-blue-500 hover:bg-blue-700 rounded-xl"
+    id="download-button" >Download</button>
+</div>
+</div>
+
+<footer class="bg-[#1a1818] font-['Catamaran'] tracking-wide">
+  <div class="py-14 px-6 sm:px-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+      <div class="lg:col-span-2">
+        <a href="{% url 'home' %}"><img src="{% static 'img/leaf.png' %}" alt="logo" class="h-12 " /></a>
+        <p class="text-gray-300 text-2xl font-black mb-8">
+          Verdeia
+        </p>
+        <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+          <div >
+            <input name="next" type="hidden" value="{{ redirect_to }}">
+        
+            <select class = "border-2 border-blue-200 rounded-md w-[20%] text-center" name="language" onChange="form.submit();">
+              
+                {% get_current_language as LANGUAGE_CODE %}
+                {% get_available_languages as LANGUAGES %}
+                {% get_language_info_list for LANGUAGES as languages %}
+                {% for language in languages %}
+                
+                    <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>              
+                      {{ language.name_local }} 
+                    </option>
+                {% endfor %}
+            </select></div>
+        
+        </form>
+        <p class="text-gray-300 text-sm mb-3">
+          Made with ❤️ by <a href="https://www.github.com/spartachus" class="font-black text-xl">Spartachus</a>
+        </p>
+        <p class="text-gray-300 text-sm">
+          {% blocktrans %}Empowering You to Track, Reduce, and Offset Carbon Emissions for a Greener Tomorrow.{%endblocktrans %}
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-bold mb-8 text-white">{% blocktrans %}Navigation{% endblocktrans %}</h4>
+        <ul class="space-y-4">
+          <li>
+            <a href="https://science.nasa.gov/climate-change/adaptation-mitigation/resources/"
+              class="text-gray-300 hover:text-white text-sm">{% blocktrans %}Resources{% endblocktrans %}</a>
+          </li>
+          <li>
+            <a href="{% url 'contact' %}" class="text-gray-300 hover:text-white text-sm">Contact</a>
+          </li>
+          <li>
+            <a href="{% url 'faq' %}" class="text-gray-300 hover:text-white text-sm">FAQ</a>
+          </li>
+          <li>
+            <a href="{% url 'blog' %}" class="text-gray-300 hover:text-white text-sm">Blog</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-bold mb-8 text-white">{% blocktrans %}Follow Us{% endblocktrans %}</h4>
+
+        <ul class="flex gap-4">
+          <li>
+            <a href="https://www.github.com/spartachus">
+              <img src="{% static 'img/git.png' %}" class=" w-6 h-6">
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="text-gray-300 hover:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="fill-gray-300 inline hover:fill-white w-6 h-6"
+                viewBox="0 0 24 24">
+                <path fill-rule="evenodd"
+                  d="M21 5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5zm-2.5 8.2v5.3h-2.79v-4.93a1.4 1.4 0 0 0-1.4-1.4c-.77 0-1.39.63-1.39 1.4v4.93h-2.79v-8.37h2.79v1.11c.48-.78 1.47-1.3 2.32-1.3 1.8 0 3.26 1.46 3.26 3.26zM6.88 8.56a1.686 1.686 0 0 0 0-3.37 1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68zm1.39 1.57v8.37H5.5v-8.37h2.77z"
+                  clip-rule="evenodd" />
+              </svg></a>
+          </li>
+          <li>
+            <a href="mailto:abubakarimaadudeen@gmail.com" class="text-gray-300 hover:text-white">
+              <img src="{% static 'img/gm.png' %}" class=" w-6 h-6">
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="text-gray-300 hover:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="fill-gray-300 inline hover:fill-white w-6 h-6"
+                viewBox="0 0 24 24">
+                <path
+                  d="M22.92 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.83 4.5 17.72 4 16.46 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98-3.56-.18-6.73-1.89-8.84-4.48-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.9 20.29 6.16 21 8.58 21c7.88 0 12.21-6.54 12.21-12.21 0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z" />
+              </svg></a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white text-lg font-bold mb-7">Subscribe</h4>
+        <p class="text-gray-300 mb-5">
+          {% blocktrans %}Subscribe to our newsletter to receive updates and exclusive offers.{% endblocktrans %}
+        </p>
+        <form action="" class="space-y-8" method="post" novalidate>
+          {% csrf_token %}
+
+          <div class="flex">
+            <input name="mail" id="mail" type="email"
+              class="px-3 py-3 text-sm rounded-l-md w-full focus:outline-none bg-gray-50"
+              placeholder="Enter your email address" />
+            <button type="submit"
+              class="bg-gray-600 hover:bg-gray-500 text-white px-1 rounded-r-md text-sm tracking-wide transition-all">
+              {% blocktrans %} Subscribe{% endblocktrans %}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const data = {
+      datasets: [{
+        label: 'Dataset 1',
+          data: [
+              { x: 1, y: {{yearly|safe}}, r: 10 },
+
+          ],
+          backgroundColor: 'rgba(255, 99, 132, 0.6)',
+          borderColor: 'rgba(255, 99, 132, 1)',
+          borderWidth: 2,
+          label: 'Your Average',
+          hoverBackgroundColor: 'rgba(255, 99, 132, 0.8)',
+          hoverBorderColor: 'rgba(255, 99, 132, 1)',
+          hoverBorderWidth: 3,
+      },
+{
+        label: 'Dataset 2',
+          data: [
+              { x: 2, y: 4.5, r: 10 },
+
+          ],
+          backgroundColor: 'rgba(255, 165, 0,0.6)',
+          borderColor: 'rgba(255, 165, 0,1)',
+          borderWidth: 2,
+          label: 'World Average',
+          hoverBackgroundColor: 'rgba(255, 165, 0,0.8)',
+          hoverBorderColor: 'rgba(255, 165, 0,1)',
+          hoverBorderWidth: 3,
+      }],
+  };
+  const config = {
+      type: 'bubble',
+      data: data,
+      options: {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'top',
+      },
+      title: {
+        display: false,
+        text: 'Chart.js Bubble Chart'
+      }
+    }
+    ,scales: {
+      y: {
+        min: 2,
+        max: 10,
+      },x: {
+        min: 0,
+        max: 3,
+      }
+    }},
+  };
+  const myBubbleChart = 
+        new Chart(document.getElementById('bubbleChart1'), config);
+
+
+
+        // Get the div containing the carbon emissions results
+const resultsDiv = document.getElementById('carbon-results-div');
+
+// Add a click event listener to the download button
+const downloadButton = document.getElementById('download-button');
+downloadButton.addEventListener('click', () => {
+  // Use html2canvas to capture the div content as an image
+  html2canvas(resultsDiv).then((canvas) => {
+    // Convert the canvas to a data URL (base64-encoded image)
+    const dataURL = canvas.toDataURL('image/png');
+
+    // Create a temporary anchor element for the download
+    const downloadLink = document.createElement('a');
+    downloadLink.download = 'carbon-results.png';
+    downloadLink.href = dataURL;
+
+    // Append the anchor element to the DOM, click it, and then remove it
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+  });
+});
+
+</script>
+
+
+{% endblock %}

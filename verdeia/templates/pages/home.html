@@ -1,0 +1,432 @@
+{% extends "base.html" %} {% block content %} {% load static %}{% load i18n %}
+
+<div class="bg-blue-500">
+  <nav class="relative px-4 py-4 flex justify-between items-center bg-white text-[#051923]">
+    <a class="text-3xl font-bold leading-none" href="{% url 'home' %}">
+      <img src="{% static 'img/leaf.png' %}" class="h-10">
+
+    </a>
+    <div class="lg:hidden">
+      <button class="navbar-burger flex items-center text-[#1b4965]-600 p-3">
+        <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <title>Mobile menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+        </svg>
+      </button>
+    </div>
+    <ul
+      class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+
+      <li>
+        <a href="{% url 'pricing' %}"
+          class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/resource.png' %}" class="w-[18px] h-[18px] mr-4">
+
+          <span>{% blocktrans %}Pricing{% endblocktrans %}</span>
+        </a>
+      </li>
+
+      <li class="text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+        </svg>
+      </li>
+      <li>
+        <a href="https://www.reddit.com/r/Verdeia/"
+          class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/community.png' %}" class="w-[18px] h-[18px] mr-4 ">
+
+          <span>{% blocktrans %}Community{% endblocktrans %}</span>
+        </a>
+      </li>
+      </svg>
+      </li>
+      <li class="text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+        </svg>
+      </li>
+      <li>
+        <a href="{% url 'blog' %}"
+          class="text-black text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/blog.png' %}" class="w-[18px] h-[18px] mr-4">
+
+          <span>Blog</span>
+        </a>
+      </li>
+      <li class="text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+        </svg>
+      </li>
+      <li>
+        <a href="{% url 'faq' %}"
+          class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/faq.png' %}" class="w-[18px] h-[18px] mr-4">
+
+          <span>FAQ</span>
+        </a>
+      </li>
+    </ul>
+    <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-black-50 hover:bg-black-100 text-lg text-black-900 font-bold rounded-xl transition duration-200"
+      href="{% url 'login' %}">{% blocktrans %}Log In{% endblocktrans %}</a>
+    <a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-lg text-black font-bold rounded-xl transition duration-200"
+      href="{% url 'gettingstarted' %}">{% blocktrans %}Get Started{% endblocktrans %}</a>
+  </nav>
+  <div class="navbar-menu relative z-50 hidden">
+    <div class="navbar-backdrop fixed inset-0 bg-black-800 opacity-25"></div>
+    <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+      <div class="flex items-center mb-8">
+        <a class="mr-auto text-3xl font-bold leading-none" href="{% url 'home' %}">
+          <img src="{% static 'img/leaf.png' %}" class="h-12">
+
+        </a>
+        <button class="navbar-close">
+          <svg class="h-6 w-6 text-black-400 cursor-pointer hover:text-black-500" xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+            </path>
+          </svg>
+        </button>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="{% url 'pricing' %}"
+              class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/resource.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>{% blocktrans %}Pricing{% endblocktrans %}</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.reddit.com/r/Verdeia/"
+              class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/community.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>{% blocktrans %}Community{% endblocktrans %}</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="{% url 'blog' %}"
+              class="text-black text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/blog.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>Blog</span>
+            </a>
+          </li>
+          <li>
+            <a href="{% url 'faq' %}"
+              class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/faq.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>FAQ</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="mt-auto">
+        <div class="pt-6">
+          <a class=" lg:inline-block lg:ml-auto lg:mr-3 mt-9 px-6 bg-black-50 hover:bg-black-100 text-lg text-black-900 font-bold rounded-xl transition duration-200 
+            " href="{% url 'login' %}">{% blocktrans %}Log In{% endblocktrans %}</a>
+          <a class=" lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-lg text-white font-bold rounded-xl transition duration-200"
+            href="{% url 'gettingstarted' %}">{% blocktrans %}Get Started{% endblocktrans %}</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div class="flex justify-center mt-20">
+  <h1 class="text-6xl text-center sm:text-6xl font-black">
+    <span class="text-green-500">{% blocktrans %}Change and track</span> your{%endblocktrans %} <br class="my-1" />{% blocktrans %}carbon emission{%endblocktrans %}.
+  </h1>
+</div>
+<div class="flex justify-center mt-4">
+  <p class="p-3 text-center text-l sm:text-xl text-gray-600">
+    <span class="text-green-500 font-bold">{% blocktrans %}Verdeia</span> is your guide to a journey of greener
+    tommorow<br />
+    and Empowering Your Journey to Zero Carbon{% endblocktrans %}
+  </p>
+</div>
+
+<div class="flex justify-center mt-5 pt-6 space-x-3">
+  <a class="block px-4 py-3 mb-3 leading-loose text-lg text-center font-semibold text-white leading-none bg-black hover:bg-blue-700 rounded-xl"
+    href="{% url 'gettingstarted' %}">{% blocktrans %}Get Started➙{% endblocktrans %}</a>
+  <a class="block px-4 py-3 mb-3 leading-loose text-lg text-center font-bold leading-none bg-black-500 hover:bg-blue-700 rounded-xl"
+    href="{% url 'signup' %}">{% blocktrans %}Sign Up➙{% endblocktrans %}</a>
+</div>
+
+<div class=" mt-20 grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 ml-2 ">
+  <div class="lg:text-center xl:text-center max-w-sm">
+    <h1 class="text-6xl font-black">
+      {% blocktrans %}Together, we can make a <span class="text-green-500">difference{% endblocktrans %}</span></h1>
+    <p class="text-xl mt-2">{% blocktrans %}Follow us lets help you reduce your carbon emissions and footprint{%endblocktrans %}.</p>
+  </div>
+
+
+  <div class="lg:mr-4 xl:mr-4 ">
+    <img src="{% static 'img/toget.jpg' %}">
+  </div>
+</div>
+
+
+<div class="text-2xl mt-24 mb-12 mx-auto max-w-sm">
+  <p class="font-bold text-gray-800 text-center">
+    {% blocktrans %}"The best way to offset the cabon you generate is by doing it sustainably"{% endblocktrans %}
+  </p>
+
+  <p class="text-center text-2xl font-bold text-green-400 mt-2"> - Verdeia </p>
+</div>
+
+
+<div class="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 gap-x-10 gap-y-10 my-10 text-center">
+  <div class="px-6">
+    <img src="{% static 'img/pointer.png' %}" class="h-20 inline-block" />
+    <a href="{% url 'userlogged' %}" class="">
+      <p class="text-2xl font-black my-4">Track</p>
+      <p class="text-l">
+        {% blocktrans %}Use our website to easily track your carbon emissions and make better
+        decisions for a <br />sustainable future.{% endblocktrans %}
+      </p>
+      <p class="text-blue-500 text-base mt-1 font-medium">{% blocktrans %}Learn more{% endblocktrans %} →</p>
+
+    </a>
+  </div>
+  <div class="px-6">
+    <img src="{% static 'img/change.png' %}" class="h-20 inline-block" />
+    <a href="{% url 'start' %}" class="">
+      <p class="text-2xl font-black my-4">{% blocktrans %}Change{% endblocktrans %}</p>
+      <p class="text-l">
+        {% blocktrans %}Visit our platform to learn how to decrease your carbon footprint and
+        contribute to a <br />cleaner planet.{% endblocktrans %}
+      </p>
+      <p class="text-blue-500 text-base mt-1 font-medium">{% blocktrans %}Learn more{% endblocktrans %} →</p>
+
+    </a>
+  </div>
+  <div class="px-6">
+    <img src="{% static 'img/jigsaw.png' %}" class="h-20 inline-block" />
+    <a href="{% url 'projects' %}" class="">
+      <p class="text-2xl font-black my-4">Contribute</p>
+      <p class="text-l">
+        {% blocktrans %}We enable users globally to contribute significantly to climate action
+        and environmental<br />
+        stewardship{% endblocktrans %}
+      </p>
+      <p class="text-blue-500 text-base mt-1 font-medium">{% blocktrans %}Learn more{% endblocktrans %} →</p>
+
+    </a>
+  </div>
+</div>
+
+
+
+<div>
+  <h1 class="text-5xl text-center font-black mt-28">
+    "{% blocktrans %}Your Sustainable A.I App"{% endblocktrans %}
+  </h1>
+      <div class="md:flex justify-center mt-6 rounded-md">
+        <video class="rounded-lg size-3/5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300"
+           autoplay loop>
+          <source src="{% static 'img/Gaia promo.mp4' %}" type="video/mp4">
+        </video>
+      </div>
+  <div class="rounded-3xl px-2 py-2 ml-7 mt-9">
+    <p class="font-semibold">✨ {% blocktrans %}Now with Gaia{% endblocktrans %}</p>
+    <h1 class="sm:text-3xl text-2xl font-extrabold text-green-400 ">
+      Verdeia AI
+    </h1>
+    <p>{% blocktrans %}Add to your workspace now with all the benefits of the professional plan<br> <span
+        class="font-bold">billed
+        monthly for €2.99.{% endblocktrans %}</span></p>
+    <p class="mt-6 mb-1 font-bold">{% blocktrans %}Includes{% endblocktrans %}</p>
+    <p><span class="font-bold">📜 Gaia</span> - AI companion</p>
+    <p><span class="font-bold">🖋️ {% blocktrans %}Personalised</span> monthly ofsetting plans{% endblocktrans %}</p>
+    <div class="space-x-4 space-y-4 mt-2">
+      <a href="{% url 'askgaia' %}">
+        <button type="button"
+          class="px-5 py-2.5 rounded-lg text-white text-sm tracking-wider font-bold border border-current outline-none bg-blue-700 hover:bg-blue-800 active:bg-blue-700">{% blocktrans %}Get
+          Started{% endblocktrans %} →</button></a>
+      <a href="{% url 'faq' %}">
+        <button type="button"
+          class="px-5 py-2.5 rounded-lg text-sm tracking-wider font-bold border border-black outline-none bg-transparent hover:bg-black text-black hover:text-white transition-all duration-300">{% blocktrans %}Read
+          AI FAQ{% endblocktrans %}</button></a>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="text-center mt-16">
+  <h1 class="text-4xl font-black">
+    {% blocktrans %}Join a global movement.<p class="mt-1"> Contribute positively.{% endblocktrans %}</p>
+  </h1>
+  <p class="mt-2 mb-3 font-medium">{% blocktrans %}Our vibrant community with your help can contribute positively to the
+    environment{% endblocktrans %} .
+  </p>
+  <a href="{% url 'plastic' %}">
+    <p class="text-blue-500 text-base font-medium">{% blocktrans %}Volunteer now{% endblocktrans %} →</p>
+  </a> <img src="{% static 'img/faces.webp' %}" class="mx-auto mt-5" />
+
+</div>
+
+
+
+
+<div class="text-center my-36 px-3">
+  <div class=" max-w-sm">
+    <h1 class="text-5xl font-black mb-2">Verdeia's <span class="text-green-500">goals.</span></h1>
+    <p class="text-lg">
+      {% blocktrans %}Our transparent approach ensures that every step is clear,
+      empowering individuals to make a real environmental impact{% endblocktrans %}
+    </p>
+  </div>
+
+  <div class="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-x-10 gap-y-10 my-24 text-center mx-5">
+    <div class="px-3">
+      <img src="{% static 'img/money-bag.png' %}" class="h-20 inline-block" />
+      <a href="{% url 'blog' %}" class="">
+        <p class="text-l font-semibold my-4">{% blocktrans %}We provide full transparency in how funds are allocated,{%endblocktrans %}</p>
+        <p class="text-blue-500">
+          {% blocktrans %}Read our blog 
+          {% endblocktrans %}➥</p>
+      </a>
+    </div>
+    <div class="px-3">
+      <img src="{% static 'img/supervision.png' %}" class="h-20 inline-block" />
+      <a href="{% url 'blog' %}" class="">
+        <p class="text-l font-semibold my-4">{% blocktrans %}we ensure that all our projects are thoroughly vetted{% endblocktrans %}</p>
+        <p class="text-blue-500">{% blocktrans %}Read our manifesto{% endblocktrans %}➥</p>
+      </a>
+    </div>
+    <div class="px-3">
+      <img src="{% static 'img/protection.png' %}" class="h-20 inline-block" />
+      <a href="{% url 'blog' %}" class="">
+        <p class="text-l font-semibold my-4">{% blocktrans %}We are against the idea of greenwashing{% endblocktrans %}
+        </p>
+        <p class="text-blue-500">{% blocktrans %}Here's why {% endblocktrans %}➥</p>
+      </a>
+    </div>
+    <div class="px-3">
+      <img src="{% static 'img/accessibility.png' %}" class="h-20 inline-block" />
+      <a href="https://www.github.com/spartachus" class="">
+        <p class="text-l font-semibold my-4"> {% blocktrans %}Our platform is designed with users in mind{%endblocktrans %}</p>
+        <p class="text-blue-500">{% blocktrans %}Read our documentation{% endblocktrans %} ➥</p>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<footer class="bg-[#1a1818] font-['Catamaran'] tracking-wide">
+  <div class="py-14 px-6 sm:px-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+      <div class="lg:col-span-2">
+        <a href="{% url 'home' %}"><img src="{% static 'img/leaf.png' %}" alt="logo" class="h-12 " /></a>
+        <p class="text-gray-300 text-2xl font-black mb-8">
+          Verdeia
+        </p>
+        <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+          <div >
+            <input name="next" type="hidden" value="{{ redirect_to }}">
+        
+            <select class = "border-2 border-blue-200 rounded-md w-[20%] text-center" name="language" onChange="form.submit();">
+              
+                {% get_current_language as LANGUAGE_CODE %}
+                {% get_available_languages as LANGUAGES %}
+                {% get_language_info_list for LANGUAGES as languages %}
+                {% for language in languages %}
+                
+                    <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>              
+                      {{ language.name_local }} 
+                    </option>
+                {% endfor %}
+            </select></div>
+        
+        </form>
+        <p class="text-gray-300 text-sm mb-3">
+          Made with ❤️ by <a href="https://www.github.com/spartachus" class="font-black text-xl">Spartachus</a>
+        </p>
+        <p class="text-gray-300 text-sm">
+          {% blocktrans %}Empowering You to Track, Reduce, and Offset Carbon Emissions for a Greener Tomorrow.{%endblocktrans %}
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-bold mb-8 text-white">{% blocktrans %}Navigation{% endblocktrans %}</h4>
+        <ul class="space-y-4">
+          <li>
+            <a href="https://science.nasa.gov/climate-change/adaptation-mitigation/resources/"
+              class="text-gray-300 hover:text-white text-sm">{% blocktrans %}Resources{% endblocktrans %}</a>
+          </li>
+          <li>
+            <a href="{% url 'contact' %}" class="text-gray-300 hover:text-white text-sm">Contact</a>
+          </li>
+          <li>
+            <a href="{% url 'faq' %}" class="text-gray-300 hover:text-white text-sm">FAQ</a>
+          </li>
+          <li>
+            <a href="{% url 'blog' %}" class="text-gray-300 hover:text-white text-sm">Blog</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-bold mb-8 text-white">{% blocktrans %}Follow Us{% endblocktrans %}</h4>
+
+        <ul class="flex gap-4">
+          <li>
+            <a href="https://www.instagram.com/verdeialabs/">
+              <img src="{% static 'img/instagram.png' %}" class=" w-6 h-6">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@VerdeiaLabs" class="text-gray-300 hover:text-white">
+              <img src="{% static 'img/youtube.png' %}" class=" w-6 h-6"></a>
+          </li>
+          <li>
+            <a href="https://www.reddit.com/Verdeia" class="text-gray-300 hover:text-white">
+              <img src="{% static 'img/reddit-logo.png' %}" class=" w-6 h-6">
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com/VerdeiaLabs" class="text-gray-300 hover:text-white">
+              <img src = "{% static 'img/twitter.png' %}" width="20px" height="20px">
+</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white text-lg font-bold mb-7">Subscribe</h4>
+        <p class="text-gray-300 mb-5">
+          {% blocktrans %}Subscribe to our newsletter to receive updates and exclusive offers.{% endblocktrans %}
+        </p>
+        <form action="" class="space-y-8" method="post" novalidate>
+          {% csrf_token %}
+
+          <div class="flex">
+            <input name="mail" id="mail" type="email"
+              class="px-3 py-3 text-sm rounded-l-md w-full focus:outline-none bg-gray-50"
+              placeholder="Enter your email address" />
+            <button type="submit"
+              class="bg-gray-600 hover:bg-gray-500 text-white px-1 rounded-r-md text-sm tracking-wide transition-all">
+              {% blocktrans %} Subscribe{% endblocktrans %}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+{% endblock %}

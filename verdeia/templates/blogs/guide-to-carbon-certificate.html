@@ -1,0 +1,386 @@
+{% extends "base.html" %} {% block content %} {% load static %}{% load i18n %}
+
+<div class="bg-blue-500">
+    <nav class="relative px-4 py-4 flex justify-between items-center bg-white text-[#051923]">
+        <a class="text-3xl font-bold leading-none" href="{% url 'home' %}">
+            <img src="{% static 'img/leaf.png' %}" class="h-10">
+
+        </a>
+        <div class="lg:hidden">
+            <button class="navbar-burger flex items-center text-[#1b4965]-600 p-3">
+                <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Mobile menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                </svg>
+            </button>
+        </div>
+        <ul
+            class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+
+            <li>
+                <a href="{% url 'pricing' %}"
+                    class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                    <img src="{% static 'img/resource.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                    <span>{% blocktrans %}Pricing{% endblocktrans %}</span>
+                </a>
+            </li>
+
+            <li class="text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                </svg>
+            </li>
+            <li>
+                <a href="https://www.reddit.com/r/Verdeia/"
+                    class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                    <img src="{% static 'img/community.png' %}" class="w-[18px] h-[18px] mr-4 ">
+
+                    <span>{% blocktrans %}Community{% endblocktrans %}</span>
+                </a>
+            </li>
+            </svg>
+            </li>
+            <li class="text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                </svg>
+            </li>
+            <li>
+                <a href="{% url 'blog' %}"
+                    class="text-blue-400 text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                    <img src="{% static 'img/blog.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li class="text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                </svg>
+            </li>
+            <li>
+                <a href="{% url 'faq' %}"
+                    class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                    <img src="{% static 'img/faq.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                    <span>FAQ</span>
+                </a>
+            </li>
+        </ul>
+        <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-black-50 hover:bg-black-100 text-lg text-black-900 font-bold rounded-xl transition duration-200"
+            href="{% url 'login' %}">{% blocktrans %}Log In{% endblocktrans %}</a>
+        <a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-lg text-black font-bold rounded-xl transition duration-200"
+            href="{% url 'gettingstarted' %}">{% blocktrans %}Get Started{% endblocktrans %}</a>
+    </nav>
+    <div class="navbar-menu relative z-50 hidden">
+        <div class="navbar-backdrop fixed inset-0 bg-black-800 opacity-25"></div>
+        <nav
+            class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+            <div class="flex items-center mb-8">
+                <a class="mr-auto text-3xl font-bold leading-none" href="{% url 'home' %}">
+                    <img src="{% static 'img/leaf.png' %}" class="h-12">
+
+                </a>
+                <button class="navbar-close">
+                    <svg class="h-6 w-6 text-black-400 cursor-pointer hover:text-black-500"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="{% url 'pricing' %}"
+                            class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                            <img src="{% static 'img/resource.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                            <span>{% blocktrans %}Pricing{% endblocktrans %}</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.reddit.com/r/Verdeia/"
+                            class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                            <img src="{% static 'img/community.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                            <span>{% blocktrans %}Community{% endblocktrans %}</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="{% url 'blog' %}"
+                            class="text-blue-400 text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                            <img src="{% static 'img/blog.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                            <span>Blog</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'faq' %}"
+                            class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+                            <img src="{% static 'img/faq.png' %}" class="w-[18px] h-[18px] mr-4">
+
+                            <span>FAQ</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="mt-auto">
+                <div class="pt-6">
+                    <a class=" lg:inline-block lg:ml-auto lg:mr-3 mt-9 px-6 bg-black-50 hover:bg-black-100 text-lg text-black-900 font-bold rounded-xl transition duration-200 
+            " href="{% url 'login' %}">{% blocktrans %}Log In{% endblocktrans %}</a>
+                    <a class=" lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-lg text-white font-bold rounded-xl transition duration-200"
+                        href="{% url 'gettingstarted' %}">{% blocktrans %}Get Started{% endblocktrans %}</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div class="text-center mt-12 mx-3">
+    <time class="text-gray-500 text-xl" datetime="2064-07-03">03 July 2064</time>
+
+    <p class="font-black text-5xl mt-4 text-gray-900">{% blocktrans %}A Guide to Carbon Neutral <br>Certification{% endblocktrans %}</p>
+    <div class="my-12">
+        <img src="{% static 'img/blogs/test.jpg' %}" class="size-4/5 mx-auto rounded-lg" />
+    </div>
+    <div class="max-w-3xl mx-auto text-gray-900 text-justify">
+        <p class="text-2xl mb-9 font-semibold">{% blocktrans %}Carbon Neutral Certification is a formal recognition that a business or
+            organization has achieved net-zero carbon emissions. This means the total amount of greenhouse gases (GHGs)
+            produced by the company is equal to the amount removed or offset from the atmosphere. The certification
+            process typically involves measuring carbon emissions, implementing reduction strategies, and investing in
+            carbon offset projects{% endblocktrans %}.</p>
+        <p class="text-xl"><span class="text-7xl font-extrabold">{% blocktrans %}O</span>ne effective way to achieve this is through
+            Carbon Neutral Certification. This certification signifies that a company has achieved net-zero carbon
+            emissions, balancing the amount of carbon dioxide they release with an equivalent amount offset through
+            various initiatives{% endblocktrans %}.</p>
+        <div>
+            <p class="font-black text-3xl mt-6 text-gray-900">{% blocktrans %}Why Carbon Neutral Certification Matters{% endblocktrans %}?</p>
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% blocktrans %}Environmental Impact{% endblocktrans %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}Achieving carbon neutrality significantly reduces a company’s environmental
+                footprint. By balancing emissions with offsets, businesses contribute to global efforts to combat
+                climate change and mitigate its impacts.{% endblocktrans %}</p>
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% blocktrans %}Competitive Advantage{% endblocktrans %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}Consumers and investors are increasingly favoring companies with strong
+                environmental credentials. Carbon Neutral Certification can differentiate your business from
+                competitors, enhance brand reputation, and attract eco-conscious customers and stakeholders{% endblocktrans %}.</p>
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% blocktrans %}Regulatory Compliance{% endblocktrans %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}Governments and regulatory bodies worldwide are implementing stricter environmental
+                regulations. Being carbon neutral can help businesses stay ahead of compliance requirements, avoiding
+                potential fines and sanctions.{% endblocktrans %}</p>
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% blocktrans %}Financial Benefits{% endblocktrans %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}Reducing energy consumption and improving efficiency can lead to significant cost
+                savings. Additionally, carbon offsets can provide financial returns through carbon credit markets{% endblocktrans %}.</p>
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% blocktrans %}Social Responsibility{% endblocktrans %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}Corporate Social Responsibility (CSR) is becoming a critical component of business
+                strategy. Carbon Neutral Certification demonstrates a company’s commitment to sustainability and social
+                responsibility, fostering trust and loyalty among customers, employees, and communities.{% endblocktrans %}</p>
+        </div>
+
+        <div>
+            <p class="font-black text-2xl mt-6 text-gray-900">{% blocktrans %}Conclusion{% endblocktrans %}</p>
+            <p class="text-xl mt-4">{% blocktrans %}Carbon Neutral Certification is a powerful way for businesses to demonstrate their
+                commitment to combating climate change and promoting sustainability. By understanding your carbon
+                footprint, implementing effective reduction strategies, investing in carbon offsets, and achieving
+                certification, your business can not only reduce its environmental impact but also gain a competitive
+                edge, improve financial performance, and enhance its reputation.{% endblocktrans %}
+            </p>
+            <p class="text-xl mt-4"> {% blocktrans %}As global challenges related to climate change continue to intensify, the
+                importance of carbon neutrality will only grow, making now the perfect time to embark on this vital
+                journey towards a more sustainable future.{% endblocktrans %}</p>
+        </div>
+
+        <div class="flex flex-wrap items-center mt-6">
+            <img src="{% static 'img/stonehashira.webp' %}" class="w-10 h-10 rounded-full" />
+            <div class="ml-4 text-left">
+                <p class="text-xl font-bold">{% blocktrans %}By{% endblocktrans %} Gaia Verdeia</p>
+                <p class="text-lg text-gray-500">{% blocktrans %}Content Writer{% endblocktrans %}</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="bg-gray-100 md:px-32 px-12 py-12 ">
+        <p class="text-left font-bold text-4xl text-gray-800 mb-8">{% blocktrans %}Read More{% endblocktrans %}</p>
+        <div class="max-md:max-w-lg mx-auto">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9">
+
+                <div
+                    class="bg-gradient-to-b from-indigo-800 to-indigo-600 text-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <a href="{% url 'blog_1' %}"><img src="{% static 'img/blog_1.jpg' %}" alt="Blog Post 1"
+                            class="w-full h-64 object-cover" />
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">{% blocktrans %}Understanding Your Carbon Footprint: A Beginner's
+                                Guide{% endblocktrans %}</h3>
+                            <p class="text-sm opacity-75">{% blocktrans %}Understanding Your Carbon Footprint: A Beginner's Guide{% endblocktrans %}...</p>
+                            <a href="javascript:void(0);"
+                                class="mt-4 inline-block text-blue-200 text-sm hover:underline">{% blocktrans %}Read More{% endblocktrans %}</a>
+                        </div>
+                    </a>
+                </div>
+
+                <div
+                    class="bg-gradient-to-b from-purple-800 to-purple-600 text-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <a href="{% url 'blog_2' %}"><img src="{% static 'img/blog_2.jpg' %}" alt="Blog Post 2"
+                            class="w-full h-64 object-cover" />
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">{% blocktrans %}10 Simple Ways to Reduce Your Carbon Emissions at
+                                Home{% endblocktrans %}</h3>
+                            <p class="text-sm opacity-75">{% blocktrans %}10 Simple Ways to Reduce Your Carbon Emissions at Home{% endblocktrans %}...</p>
+                            <a href="javascript:void(0);"
+                                class="mt-4 inline-block text-pink-200 text-sm hover:underline">{% blocktrans %}Read More{% endblocktrans %}</a>
+                        </div>
+                    </a>
+                </div>
+
+                <div
+                    class="bg-gradient-to-b from-teal-800 to-teal-600 text-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <a href="{% url 'blog_3' %}"><img src="{% static 'img/blog_3.jpg' %}" alt="Blog Post 3"
+                            class="w-full h-64 object-cover" />
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">{% blocktrans %}The Importance of Carbon Offsetting: How It Works
+                                and Why It Matters{% endblocktrans %}</h3>
+                            <p class="text-sm opacity-75">{% blocktrans %}The Importance of Carbon Offsetting: How It Works and Why It
+                                Matters{% endblocktrans %}...</p>
+                            <a href="javascript:void(0);"
+                                class="mt-4 inline-block text-green-200 text-sm hover:underline">{% blocktrans %}Read More<{% endblocktrans %}/a>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer class="bg-[#1a1818] font-['Catamaran'] tracking-wide">
+    <div class="py-14 px-6 sm:px-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+        <div class="lg:col-span-2">
+          <a href="{% url 'home' %}"><img src="{% static 'img/leaf.png' %}" alt="logo" class="h-12 " /></a>
+          <p class="text-gray-300 text-2xl font-black mb-8">
+            Verdeia
+          </p>
+          <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+            <div >
+              <input name="next" type="hidden" value="{{ redirect_to }}">
+          
+              <select class = "border-2 border-blue-200 rounded-md w-[20%] text-center" name="language" onChange="form.submit();">
+                
+                  {% get_current_language as LANGUAGE_CODE %}
+                  {% get_available_languages as LANGUAGES %}
+                  {% get_language_info_list for LANGUAGES as languages %}
+                  {% for language in languages %}
+                  
+                      <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>              
+                        {{ language.name_local }} 
+                      </option>
+                  {% endfor %}
+              </select></div>
+          
+          </form>
+          <p class="text-gray-300 text-sm mb-3">
+            Made with ❤️ by <a href="https://www.github.com/spartachus" class="font-black text-xl">Spartachus</a>
+          </p>
+          <p class="text-gray-300 text-sm">
+            {% blocktrans %}Empowering You to Track, Reduce, and Offset Carbon Emissions for a Greener Tomorrow.{%endblocktrans %}
+          </p>
+        </div>
+  
+        <div>
+          <h4 class="text-lg font-bold mb-8 text-white">{% blocktrans %}Navigation{% endblocktrans %}</h4>
+          <ul class="space-y-4">
+            <li>
+              <a href="https://science.nasa.gov/climate-change/adaptation-mitigation/resources/"
+                class="text-gray-300 hover:text-white text-sm">{% blocktrans %}Resources{% endblocktrans %}</a>
+            </li>
+            <li>
+              <a href="{% url 'contact' %}" class="text-gray-300 hover:text-white text-sm">Contact</a>
+            </li>
+            <li>
+              <a href="{% url 'faq' %}" class="text-gray-300 hover:text-white text-sm">FAQ</a>
+            </li>
+            <li>
+              <a href="{% url 'blog' %}" class="text-gray-300 hover:text-white text-sm">Blog</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div>
+          <h4 class="text-lg font-bold mb-8 text-white">{% blocktrans %}Follow Us{% endblocktrans %}</h4>
+  
+          <ul class="flex gap-4">
+            <li>
+              <a href="https://www.instagram.com/verdeialabs/">
+                <img src="{% static 'img/instagram.png' %}" class=" w-6 h-6">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@VerdeiaLabs" class="text-gray-300 hover:text-white">
+                <img src="{% static 'img/youtube.png' %}" class=" w-6 h-6"></a>
+            </li>
+            <li>
+              <a href="https://www.reddit.com/Verdeia" class="text-gray-300 hover:text-white">
+                <img src="{% static 'img/reddit-logo.png' %}" class=" w-6 h-6">
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/VerdeiaLabs" class="text-gray-300 hover:text-white">
+                <img src = "{% static 'img/twitter.png' %}" width="20px" height="20px">
+  </a>
+            </li>
+          </ul>
+        </div>
+  
+        <div>
+          <h4 class="text-white text-lg font-bold mb-7">Subscribe</h4>
+          <p class="text-gray-300 mb-5">
+            {% blocktrans %}Subscribe to our newsletter to receive updates and exclusive offers.{% endblocktrans %}
+          </p>
+          <form action="" class="space-y-8" method="post" novalidate>
+            {% csrf_token %}
+  
+            <div class="flex">
+              <input name="mail" id="mail" type="email"
+                class="px-3 py-3 text-sm rounded-l-md w-full focus:outline-none bg-gray-50"
+                placeholder="Enter your email address" />
+              <button type="submit"
+                class="bg-gray-600 hover:bg-gray-500 text-white px-1 rounded-r-md text-sm tracking-wide transition-all">
+                {% blocktrans %} Subscribe{% endblocktrans %}
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+{% endblock %}

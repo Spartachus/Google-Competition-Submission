@@ -1,0 +1,3525 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-30 20:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\templates\blogs\10-simple-ways.html:25
+#: .\templates\blogs\10-simple-ways.html:106 .\templates\blogs\blog.html:25
+#: .\templates\blogs\blog.html:105
+#: .\templates\blogs\corporate-social-responsibility.html:25
+#: .\templates\blogs\corporate-social-responsibility.html:106
+#: .\templates\blogs\guide-to-carbon-certificate.html:25
+#: .\templates\blogs\guide-to-carbon-certificate.html:106
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:25
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:106
+#: .\templates\blogs\top-renewable-energy-sources.html:25
+#: .\templates\blogs\top-renewable-energy-sources.html:106
+#: .\templates\blogs\understanding-your-carbon-footprint.html:25
+#: .\templates\blogs\understanding-your-carbon-footprint.html:106
+#: .\templates\pages\contact.html:24 .\templates\pages\contact.html:104
+#: .\templates\pages\faq.html:25 .\templates\pages\faq.html:105
+#: .\templates\pages\home.html:25 .\templates\pages\home.html:105
+#: .\templates\pages\pricing.html:25 .\templates\pages\pricing.html:106
+#: .\templates\pages\privacy.html:25 .\templates\pages\privacy.html:106
+#: .\templates\pages\start.html:89 .\templates\pages\start.html:170
+#: .\templates\pages\terms.html:25 .\templates\pages\terms.html:106
+#: .\templates\pages\unava.html:25 .\templates\pages\unava.html:106
+msgid "Pricing"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:41
+#: .\templates\blogs\10-simple-ways.html:115 .\templates\blogs\blog.html:41
+#: .\templates\blogs\blog.html:114
+#: .\templates\blogs\corporate-social-responsibility.html:41
+#: .\templates\blogs\corporate-social-responsibility.html:115
+#: .\templates\blogs\guide-to-carbon-certificate.html:41
+#: .\templates\blogs\guide-to-carbon-certificate.html:115
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:41
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:115
+#: .\templates\blogs\top-renewable-energy-sources.html:41
+#: .\templates\blogs\top-renewable-energy-sources.html:115
+#: .\templates\blogs\understanding-your-carbon-footprint.html:41
+#: .\templates\blogs\understanding-your-carbon-footprint.html:115
+#: .\templates\pages\contact.html:40 .\templates\pages\contact.html:113
+#: .\templates\pages\faq.html:41 .\templates\pages\faq.html:114
+#: .\templates\pages\home.html:41 .\templates\pages\home.html:114
+#: .\templates\pages\pricing.html:41 .\templates\pages\pricing.html:115
+#: .\templates\pages\privacy.html:41 .\templates\pages\privacy.html:115
+#: .\templates\pages\start.html:105 .\templates\pages\start.html:179
+#: .\templates\pages\terms.html:41 .\templates\pages\terms.html:115
+#: .\templates\pages\unava.html:41 .\templates\pages\unava.html:115
+msgid "Community"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:78
+#: .\templates\blogs\10-simple-ways.html:141 .\templates\blogs\blog.html:78
+#: .\templates\blogs\blog.html:140
+#: .\templates\blogs\corporate-social-responsibility.html:78
+#: .\templates\blogs\corporate-social-responsibility.html:141
+#: .\templates\blogs\guide-to-carbon-certificate.html:78
+#: .\templates\blogs\guide-to-carbon-certificate.html:141
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:78
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:141
+#: .\templates\blogs\top-renewable-energy-sources.html:78
+#: .\templates\blogs\top-renewable-energy-sources.html:141
+#: .\templates\blogs\understanding-your-carbon-footprint.html:78
+#: .\templates\blogs\understanding-your-carbon-footprint.html:141
+#: .\templates\pages\contact.html:77 .\templates\pages\contact.html:139
+#: .\templates\pages\faq.html:78 .\templates\pages\faq.html:140
+#: .\templates\pages\home.html:78 .\templates\pages\home.html:140
+#: .\templates\pages\pricing.html:78 .\templates\pages\pricing.html:141
+#: .\templates\pages\privacy.html:78 .\templates\pages\privacy.html:141
+#: .\templates\pages\start.html:142 .\templates\pages\start.html:205
+#: .\templates\pages\terms.html:78 .\templates\pages\terms.html:141
+#: .\templates\pages\unava.html:78 .\templates\pages\unava.html:141
+msgid "Log In"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:80
+#: .\templates\blogs\10-simple-ways.html:143 .\templates\blogs\blog.html:80
+#: .\templates\blogs\blog.html:142
+#: .\templates\blogs\corporate-social-responsibility.html:80
+#: .\templates\blogs\corporate-social-responsibility.html:143
+#: .\templates\blogs\guide-to-carbon-certificate.html:80
+#: .\templates\blogs\guide-to-carbon-certificate.html:143
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:80
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:143
+#: .\templates\blogs\top-renewable-energy-sources.html:80
+#: .\templates\blogs\top-renewable-energy-sources.html:143
+#: .\templates\blogs\understanding-your-carbon-footprint.html:80
+#: .\templates\blogs\understanding-your-carbon-footprint.html:143
+#: .\templates\pages\contact.html:79 .\templates\pages\contact.html:141
+#: .\templates\pages\faq.html:80 .\templates\pages\faq.html:142
+#: .\templates\pages\home.html:80 .\templates\pages\home.html:142
+#: .\templates\pages\pricing.html:80 .\templates\pages\pricing.html:143
+#: .\templates\pages\privacy.html:80 .\templates\pages\privacy.html:143
+#: .\templates\pages\start.html:144 .\templates\pages\start.html:207
+#: .\templates\pages\terms.html:80 .\templates\pages\terms.html:143
+#: .\templates\pages\unava.html:80 .\templates\pages\unava.html:143
+msgid "Get Started"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:151
+#: .\templates\blogs\top-renewable-energy-sources.html:151
+#: .\templates\blogs\understanding-your-carbon-footprint.html:151
+msgid "July"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:153
+msgid ""
+"10 Simple Ways To Reduce Your Carbon\n"
+"        <br>Emissions At Home"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:159
+msgid ""
+"In today's world, reducing our carbon footprint is more\n"
+"            important than\n"
+"            ever. Each of us has the power to make a significant impact by "
+"making small, sustainable changes in our\n"
+"            daily lives."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:163
+msgid ""
+"O</span>ur homes are a major source of\n"
+"            carbon\n"
+"            emissions, but with some thoughtful adjustments, we can "
+"significantly lower the impact. Whether you're\n"
+"            looking to save money on energy bills, live a more sustainable "
+"lifestyle, or leave a better world for future\n"
+"            generations, every small change adds up. Here are ten simple yet "
+"effective ways to reduce your carbon\n"
+"            emissions at home."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:170
+msgid "Switch to LED Bulbs"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:171
+#, python-format
+msgid ""
+"Lighting accounts for a substantial part of our energy consumption.\n"
+"                By switching to LED bulbs, you can cut down on this energy "
+"use dramatically. LED bulbs use up to 85%% less energy than\n"
+"                traditional incandescent bulbs and 40%% less than CFLs. "
+"Plus, they last much longer, meaning fewer\n"
+"                replacements and less waste. Start by replacing the most "
+"frequently used bulbs in your home and work\n"
+"                your way through the rest."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:180
+msgid "Unplug Electronics"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:181
+#, python-format
+msgid ""
+"Even when turned off, many electronics continue to draw power. This\n"
+"                “phantom” energy\n"
+"                can account for up to 10%% of your household energy use. To "
+"combat this, unplug devices when they’re not\n"
+"                in use or use smart power strips that cut power to devices "
+"when they’re not needed. It’s a simple step\n"
+"                that can lead to significant energy savings over time."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:190
+msgid "Use Energy-Efficient Appliances"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:191
+msgid ""
+"When it’s time to replace old appliances, opt for models with high\n"
+"                energy efficiency\n"
+"                ratings. Look for the Energy Star label, which indicates "
+"that the appliance meets strict energy\n"
+"                efficiency guidelines. These appliances use less energy, "
+"which not only helps the environment but can\n"
+"                also lower your utility bills."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:200
+msgid "Install a Programmable Thermostat"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:201
+msgid ""
+"Heating and cooling are among the biggest energy expenses in a home.\n"
+"                A programmable\n"
+"                thermostat can help you manage this more efficiently by "
+"adjusting the temperature based on your\n"
+"                schedule. Set it to lower the heat or air conditioning when "
+"you’re asleep or away, and you’ll save\n"
+"                energy without sacrificing comfort. Smart thermostats can "
+"even learn your habits and make adjustments\n"
+"                automatically."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:211
+msgid "Improve Home Insulation"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:212
+msgid ""
+"Proper insulation is crucial for maintaining a comfortable home\n"
+"                temperature without\n"
+"                excessive heating or cooling. Check for drafts around "
+"windows and doors and seal them with\n"
+"                weatherstripping or caulk. Adding or upgrading insulation in "
+"your attic, walls, and floors can make a\n"
+"                huge difference. Double-glazed windows or thermal curtains "
+"can also help keep the heat in during winter\n"
+"                and out during summer."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:222
+msgid "Wash Clothes in Cold Water"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:223
+msgid ""
+"Heating water for laundry is energy-intensive. Most clothes can be "
+"effectively\n"
+"                cleaned in cold water, saving you money and reducing energy "
+"use. Modern detergents are designed to work\n"
+"                well in cold water, so switch your washing machine settings "
+"and enjoy the benefits"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:230
+msgid "Dry Clothes Naturally"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:231
+msgid ""
+"Clothes dryers are among the most energy-consuming appliances in the home. "
+"By air\n"
+"                drying your clothes, either on a line or a drying rack, you "
+"can cut down significantly on your energy\n"
+"                use. If you must use a dryer, opt for lower heat settings "
+"and clean the lint filter regularly to\n"
+"                maintain efficiency."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:239
+msgid "Reduce Water Usage"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:240
+msgid ""
+"Reducing water consumption not only conserves a vital resource but also cuts "
+"down on\n"
+"                the energy needed to heat water. Install low-flow "
+"showerheads and faucet aerators to reduce water flow\n"
+"                without sacrificing pressure. Fix leaks promptly—those drips "
+"add up over time. Simple habits like taking\n"
+"                shorter showers and turning off the tap while brushing your "
+"teeth can make a big difference."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:248
+msgid "Adopt a Plant-Based Diet"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:249
+msgid ""
+"The production of meat and dairy products generates significantly more "
+"greenhouse\n"
+"                gases than plant-based foods. By reducing your meat and "
+"dairy consumption, you can lower your carbon\n"
+"                footprint. Start by incorporating more plant-based meals "
+"into your diet. Try “Meatless Mondays” or\n"
+"                experiment with vegetarian and vegan recipes to see what you "
+"enjoy."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:257
+msgid "Compost Food Waste"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:258
+msgid ""
+"When organic waste decomposes in landfills, it produces methane, a potent "
+"greenhouse\n"
+"                gas. Composting your kitchen scraps reduces methane "
+"emissions and provides nutrient-rich soil for\n"
+"                gardening. Set up a compost bin in your backyard or use a "
+"worm composting system for indoor composting.\n"
+"                Composting items like vegetable peels, coffee grounds, and "
+"eggshells can turn waste into a valuable\n"
+"                resource for your garden."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:267
+#: .\templates\blogs\corporate-social-responsibility.html:246
+#: .\templates\blogs\guide-to-carbon-certificate.html:206
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:245
+#: .\templates\blogs\top-renewable-energy-sources.html:250
+#: .\templates\blogs\understanding-your-carbon-footprint.html:226
+msgid "Conclusion"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:268
+msgid ""
+"Each of these changes might seem small on its own, but together they can add "
+"up to a\n"
+"                significant reduction in your home’s carbon emissions. By "
+"making these adjustments, you not only\n"
+"                contribute to a healthier planet but often find that you "
+"save money in the process. Start with a few\n"
+"                changes and gradually incorporate more, and you’ll be well "
+"on your way to a more sustainable lifestyle."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:273
+msgid ""
+"Remember, every step counts when it comes to protecting our environment. "
+"Let’s make\n"
+"                a difference, one small change at a time."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:280
+#: .\templates\blogs\corporate-social-responsibility.html:261
+#: .\templates\blogs\guide-to-carbon-certificate.html:221
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:261
+#: .\templates\blogs\top-renewable-energy-sources.html:265
+#: .\templates\blogs\understanding-your-carbon-footprint.html:240
+msgid "By"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:281
+#: .\templates\blogs\corporate-social-responsibility.html:262
+#: .\templates\blogs\guide-to-carbon-certificate.html:222
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:262
+#: .\templates\blogs\top-renewable-energy-sources.html:266
+#: .\templates\blogs\understanding-your-carbon-footprint.html:241
+msgid "Content Writer"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:289
+#: .\templates\blogs\10-simple-ways.html:303
+#: .\templates\blogs\10-simple-ways.html:317
+#: .\templates\blogs\10-simple-ways.html:332 .\templates\blogs\blog.html:163
+#: .\templates\blogs\blog.html:172 .\templates\blogs\blog.html:181
+#: .\templates\blogs\blog.html:190 .\templates\blogs\blog.html:199
+#: .\templates\blogs\blog.html:208
+#: .\templates\blogs\corporate-social-responsibility.html:270
+#: .\templates\blogs\corporate-social-responsibility.html:284
+#: .\templates\blogs\corporate-social-responsibility.html:298
+#: .\templates\blogs\corporate-social-responsibility.html:313
+#: .\templates\blogs\guide-to-carbon-certificate.html:230
+#: .\templates\blogs\guide-to-carbon-certificate.html:244
+#: .\templates\blogs\guide-to-carbon-certificate.html:258
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:270
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:284
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:298
+#: .\templates\blogs\top-renewable-energy-sources.html:274
+#: .\templates\blogs\top-renewable-energy-sources.html:288
+#: .\templates\blogs\top-renewable-energy-sources.html:302
+#: .\templates\blogs\top-renewable-energy-sources.html:317
+#: .\templates\blogs\understanding-your-carbon-footprint.html:249
+#: .\templates\blogs\understanding-your-carbon-footprint.html:263
+#: .\templates\blogs\understanding-your-carbon-footprint.html:277
+#: .\templates\blogs\understanding-your-carbon-footprint.html:292
+msgid "Read More"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:299
+#: .\templates\blogs\corporate-social-responsibility.html:280
+#: .\templates\blogs\guide-to-carbon-certificate.html:240
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:280
+#: .\templates\blogs\top-renewable-energy-sources.html:284
+msgid ""
+"Understanding Your Carbon Footprint: A Beginner's\n"
+"                                Guide"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:301 .\templates\blogs\blog.html:161
+#: .\templates\blogs\corporate-social-responsibility.html:282
+#: .\templates\blogs\guide-to-carbon-certificate.html:242
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:282
+#: .\templates\blogs\top-renewable-energy-sources.html:286
+msgid "Understanding Your Carbon Footprint: A Beginner's Guide"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:313
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:308
+#: .\templates\blogs\understanding-your-carbon-footprint.html:259
+msgid ""
+"Top Renewable Energy Sources for Home and Business\n"
+"                                Use"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:315
+msgid "Top Renewable Energy Sources for Home and Business Use."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:327
+#: .\templates\blogs\corporate-social-responsibility.html:308
+#: .\templates\blogs\guide-to-carbon-certificate.html:268
+#: .\templates\blogs\top-renewable-energy-sources.html:312
+#: .\templates\blogs\understanding-your-carbon-footprint.html:287
+msgid ""
+"The Importance of Carbon Offsetting: How It Works\n"
+"                                and Why It Matters"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:329
+#: .\templates\blogs\corporate-social-responsibility.html:310
+#: .\templates\blogs\guide-to-carbon-certificate.html:270
+#: .\templates\blogs\top-renewable-energy-sources.html:314
+#: .\templates\blogs\understanding-your-carbon-footprint.html:289
+msgid ""
+"The Importance of Carbon Offsetting: How It Works and Why It\n"
+"                                Matters"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:357
+#: .\templates\blogs\corporate-social-responsibility.html:338
+#: .\templates\pages\contact.html:239 .\templates\pages\faq.html:441
+#: .\templates\pages\home.html:344 .\templates\pages\pricing.html:699
+msgid ""
+"Empowering You to Track, Reduce, and Offset Carbon Emissions for a Greener "
+"Tomorrow."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:362
+#: .\templates\blogs\corporate-social-responsibility.html:343
+#: .\templates\blogs\guide-to-carbon-certificate.html:304
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:343
+#: .\templates\blogs\top-renewable-energy-sources.html:348
+#: .\templates\blogs\understanding-your-carbon-footprint.html:323
+#: .\templates\pages\contact.html:244 .\templates\pages\faq.html:446
+#: .\templates\pages\home.html:349 .\templates\pages\pricing.html:704
+#: .\templates\pages\privacy.html:287 .\templates\pages\terms.html:296
+msgid "Navigation"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:366
+#: .\templates\blogs\corporate-social-responsibility.html:347
+#: .\templates\blogs\guide-to-carbon-certificate.html:308
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:347
+#: .\templates\blogs\top-renewable-energy-sources.html:352
+#: .\templates\blogs\understanding-your-carbon-footprint.html:327
+#: .\templates\pages\contact.html:248 .\templates\pages\faq.html:450
+#: .\templates\pages\home.html:353 .\templates\pages\pricing.html:708
+#: .\templates\pages\privacy.html:291 .\templates\pages\terms.html:300
+msgid "Resources"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:369
+#: .\templates\blogs\guide-to-carbon-certificate.html:311
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:350
+msgid "Contact"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:381
+#: .\templates\blogs\corporate-social-responsibility.html:362
+#: .\templates\blogs\guide-to-carbon-certificate.html:323
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:362
+#: .\templates\blogs\top-renewable-energy-sources.html:367
+#: .\templates\blogs\understanding-your-carbon-footprint.html:342
+#: .\templates\pages\contact.html:263 .\templates\pages\faq.html:465
+#: .\templates\pages\home.html:368 .\templates\pages\pricing.html:723
+#: .\templates\pages\privacy.html:306 .\templates\pages\terms.html:315
+msgid "Follow Us"
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:417
+#: .\templates\blogs\corporate-social-responsibility.html:398
+#: .\templates\blogs\guide-to-carbon-certificate.html:359
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:398
+#: .\templates\blogs\top-renewable-energy-sources.html:403
+#: .\templates\blogs\understanding-your-carbon-footprint.html:378
+#: .\templates\pages\contact.html:299 .\templates\pages\faq.html:501
+#: .\templates\pages\home.html:404 .\templates\pages\pricing.html:759
+#: .\templates\pages\privacy.html:342 .\templates\pages\terms.html:351
+msgid "Subscribe to our newsletter to receive updates and exclusive offers."
+msgstr ""
+
+#: .\templates\blogs\10-simple-ways.html:428
+msgid "Subscribe"
+msgstr ""
+
+#: .\templates\blogs\blog.html:150
+msgid "Read our post blog post for more insight"
+msgstr ""
+
+#: .\templates\blogs\blog.html:151
+msgid "Updates, insights, and stories for a climate clean world."
+msgstr ""
+
+#: .\templates\blogs\blog.html:162
+msgid "Understanding Your Carbon Footprint: A Beginner's Guide."
+msgstr ""
+
+#: .\templates\blogs\blog.html:170 .\templates\blogs\blog.html:171
+#: .\templates\blogs\corporate-social-responsibility.html:296
+#: .\templates\blogs\guide-to-carbon-certificate.html:256
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:296
+#: .\templates\blogs\top-renewable-energy-sources.html:300
+#: .\templates\blogs\understanding-your-carbon-footprint.html:275
+msgid "10 Simple Ways to Reduce Your Carbon Emissions at Home"
+msgstr ""
+
+#: .\templates\blogs\blog.html:179 .\templates\blogs\blog.html:180
+msgid "The Importance of Carbon Offsetting: How It Works and Why It Matters"
+msgstr ""
+
+#: .\templates\blogs\blog.html:188 .\templates\blogs\blog.html:189
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:310
+#: .\templates\blogs\understanding-your-carbon-footprint.html:261
+msgid "Top Renewable Energy Sources for Home and Business Use"
+msgstr ""
+
+#: .\templates\blogs\blog.html:197 .\templates\blogs\blog.html:198
+msgid "Why Corporate Social Responsibility (CSR) Matters More Than Ever"
+msgstr ""
+
+#: .\templates\blogs\blog.html:206
+msgid "A Guide to Carbon Neutral Certification"
+msgstr ""
+
+#: .\templates\blogs\blog.html:207
+msgid "Your Guide to Carbon Neutral Certification"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:151
+msgid " July"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:153
+msgid ""
+"Why Corporate Social Responsibility (CSR)\n"
+"        <br>Matters More Than Ever"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:159
+msgid ""
+"In an era marked by increasing awareness of social and\n"
+"            environmental issues, Corporate Social Responsibility (CSR) has "
+"become more than just a buzzword—it's a\n"
+"            fundamental business practice. Companies worldwide are "
+"recognizing that their responsibilities extend beyond\n"
+"            profit generation to encompass broader societal impacts"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:163
+msgid ""
+"T</span>his shift in perspective is not only reshaping\n"
+"            business operations but also redefining the expectations of "
+"stakeholders, including customers, employees,\n"
+"            investors, and communities. Here's why CSR matters more than "
+"ever today."
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:167
+msgid "Evolving Consumer Expectations"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:168
+msgid ""
+"Today's consumers are more informed and conscientious about the products "
+"and\n"
+"                services they purchase. They prefer to support brands that "
+"align with their values, particularly those\n"
+"                that demonstrate a commitment to ethical practices, "
+"sustainability, and social justice. According to\n"
+"                recent studies, a significant percentage of consumers are "
+"willing to pay more for products from\n"
+"                companies that have robust CSR policies. This growing trend "
+"means that businesses ignoring CSR risk\n"
+"                alienating a substantial portion of their customer base."
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:177
+msgid "Attracting and Retaining Top Talent"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:178
+msgid ""
+"Modern employees, especially millennials and Gen Z, are looking for more "
+"than just a\n"
+"                paycheck. They seek meaningful work with companies that "
+"reflect their values and contribute positively\n"
+"                to society. Companies with strong CSR initiatives not only "
+"attract top talent but also enhance employee\n"
+"                satisfaction and retention. A motivated and engaged "
+"workforce is crucial for driving innovation and\n"
+"                achieving long-term success."
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:186
+msgid "Enhancing Brand Reputation"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:187
+msgid ""
+"A strong commitment to CSR can significantly enhance a company's "
+"reputation.\n"
+"                Positive public perception can lead to increased brand "
+"loyalty, customer retention, and a competitive\n"
+"                edge in the market. Conversely, companies that fail to "
+"address social and environmental concerns may\n"
+"                face negative publicity, consumer boycotts, and loss of "
+"trust. In an age where information spreads\n"
+"                rapidly, maintaining a positive brand image through CSR is "
+"essential"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:195
+msgid "Financial Performance and Sustainability"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:196
+msgid ""
+"Contrary to the belief that CSR is an additional cost, many companies find "
+"that\n"
+"                sustainable practices lead to significant financial "
+"benefits. Efficient resource use, waste reduction,\n"
+"                and energy savings contribute to lower operational costs. "
+"Furthermore, companies with strong CSR records\n"
+"                often enjoy better access to capital, as investors are "
+"increasingly considering environmental, social,\n"
+"                and governance (ESG) criteria in their decision-making "
+"processes."
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:204
+msgid "Regulatory Compliance and Risk Management"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:205
+msgid ""
+"Governments worldwide are implementing stricter regulations to address "
+"environmental\n"
+"                and social issues. By adopting proactive CSR practices, "
+"companies can stay ahead of regulatory changes,\n"
+"                avoid legal penalties, and influence policy development. "
+"Effective CSR strategies also help in\n"
+"                identifying and mitigating risks related to environmental "
+"impact, labor practices, and corporate\n"
+"                governance, thus safeguarding the company's long-term "
+"viability."
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:213
+msgid "The Broader Impact of CSR"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:217
+msgid "Addressing Global Challenges"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:218
+msgid ""
+"The world is facing critical challenges such as climate change, inequality, "
+"and\n"
+"                resource depletion. Businesses have a pivotal role to play "
+"in addressing these issues. Through CSR,\n"
+"                companies can contribute to solutions that promote "
+"sustainability, social equity, and economic\n"
+"                development. Initiatives such as reducing carbon footprints, "
+"promoting fair trade, and supporting\n"
+"                community projects can make a substantial difference"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:226
+msgid "Fostering Innovation"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:227
+msgid ""
+"CSR encourages companies to think creatively about solving social and "
+"environmental\n"
+"                problems. This often leads to the development of innovative "
+"products, services, and business models that\n"
+"                address these challenges while opening new market "
+"opportunities. For example, companies investing in\n"
+"                renewable energy technologies not only reduce their "
+"environmental impact but also position themselves as\n"
+"                leaders in a growing industry."
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:235
+msgid "Strengthening Community Relationships"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:236
+msgid ""
+"Companies that actively engage with and support their local communities "
+"build\n"
+"                stronger relationships and trust. Community-focused CSR "
+"initiatives, such as educational programs,\n"
+"                healthcare support, and local economic development projects, "
+"demonstrate a company's commitment to the\n"
+"                well-being of its stakeholders. This goodwill can translate "
+"into a loyal customer base and a supportive\n"
+"                business environment."
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:247
+msgid ""
+"Corporate Social Responsibility is no longer a peripheral consideration for\n"
+"                businesses; it is a core component of modern business "
+"strategy. As stakeholders increasingly prioritize\n"
+"                ethical, transparent, and sustainable practices, companies "
+"that embrace CSR will not only enhance their\n"
+"                reputation and financial performance but also contribute to "
+"a more equitable and sustainable world. By\n"
+"                integrating CSR into their operations, businesses can drive "
+"positive change and ensure long-term success\n"
+"                in a rapidly evolving landscape."
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:254
+msgid ""
+"In this new era, CSR matters more than ever. It's time for companies to step "
+"up,\n"
+"                take responsibility, and make a meaningful impact on the "
+"world."
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:294
+#: .\templates\blogs\guide-to-carbon-certificate.html:254
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:294
+#: .\templates\blogs\top-renewable-energy-sources.html:298
+#: .\templates\blogs\understanding-your-carbon-footprint.html:273
+msgid ""
+"10 Simple Ways to Reduce Your Carbon Emissions at\n"
+"                                Home"
+msgstr ""
+
+#: .\templates\blogs\corporate-social-responsibility.html:409
+#: .\templates\blogs\guide-to-carbon-certificate.html:370
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:409
+#: .\templates\blogs\top-renewable-energy-sources.html:414
+#: .\templates\blogs\understanding-your-carbon-footprint.html:389
+#: .\templates\pages\contact.html:310 .\templates\pages\faq.html:512
+#: .\templates\pages\home.html:415 .\templates\pages\pricing.html:770
+#: .\templates\pages\privacy.html:353 .\templates\pages\terms.html:362
+msgid " Subscribe"
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:153
+msgid "A Guide to Carbon Neutral <br>Certification"
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:158
+msgid ""
+"Carbon Neutral Certification is a formal recognition that a business or\n"
+"            organization has achieved net-zero carbon emissions. This means "
+"the total amount of greenhouse gases (GHGs)\n"
+"            produced by the company is equal to the amount removed or offset "
+"from the atmosphere. The certification\n"
+"            process typically involves measuring carbon emissions, "
+"implementing reduction strategies, and investing in\n"
+"            carbon offset projects"
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:163
+msgid ""
+"O</span>ne effective way to achieve this is through\n"
+"            Carbon Neutral Certification. This certification signifies that "
+"a company has achieved net-zero carbon\n"
+"            emissions, balancing the amount of carbon dioxide they release "
+"with an equivalent amount offset through\n"
+"            various initiatives"
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:168
+msgid "Why Carbon Neutral Certification Matters"
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:172
+#: .\templates\blogs\understanding-your-carbon-footprint.html:186
+msgid "Environmental Impact"
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:173
+msgid ""
+"Achieving carbon neutrality significantly reduces a company’s environmental\n"
+"                footprint. By balancing emissions with offsets, businesses "
+"contribute to global efforts to combat\n"
+"                climate change and mitigate its impacts."
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:179
+msgid "Competitive Advantage"
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:180
+msgid ""
+"Consumers and investors are increasingly favoring companies with strong\n"
+"                environmental credentials. Carbon Neutral Certification can "
+"differentiate your business from\n"
+"                competitors, enhance brand reputation, and attract eco-"
+"conscious customers and stakeholders"
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:186
+msgid "Regulatory Compliance"
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:187
+msgid ""
+"Governments and regulatory bodies worldwide are implementing stricter "
+"environmental\n"
+"                regulations. Being carbon neutral can help businesses stay "
+"ahead of compliance requirements, avoiding\n"
+"                potential fines and sanctions."
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:193
+msgid "Financial Benefits"
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:194
+msgid ""
+"Reducing energy consumption and improving efficiency can lead to significant "
+"cost\n"
+"                savings. Additionally, carbon offsets can provide financial "
+"returns through carbon credit markets"
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:199
+msgid "Social Responsibility"
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:200
+msgid ""
+"Corporate Social Responsibility (CSR) is becoming a critical component of "
+"business\n"
+"                strategy. Carbon Neutral Certification demonstrates a "
+"company’s commitment to sustainability and social\n"
+"                responsibility, fostering trust and loyalty among customers, "
+"employees, and communities."
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:207
+msgid ""
+"Carbon Neutral Certification is a powerful way for businesses to demonstrate "
+"their\n"
+"                commitment to combating climate change and promoting "
+"sustainability. By understanding your carbon\n"
+"                footprint, implementing effective reduction strategies, "
+"investing in carbon offsets, and achieving\n"
+"                certification, your business can not only reduce its "
+"environmental impact but also gain a competitive\n"
+"                edge, improve financial performance, and enhance its "
+"reputation."
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:213
+msgid ""
+"As global challenges related to climate change continue to intensify, the\n"
+"                importance of carbon neutrality will only grow, making now "
+"the perfect time to embark on this vital\n"
+"                journey towards a more sustainable future."
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:273
+msgid "Read More<"
+msgstr ""
+
+#: .\templates\blogs\guide-to-carbon-certificate.html:298
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:337
+#: .\templates\blogs\top-renewable-energy-sources.html:342
+#: .\templates\blogs\understanding-your-carbon-footprint.html:317
+#: .\templates\pages\privacy.html:281 .\templates\pages\terms.html:290
+msgid ""
+"Empowering You to Track, Reduce, and Offset Carbon Emissions for a Greener\n"
+"                    Tomorrow."
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:153
+msgid ""
+"The Importance of Carbon Offsetting: <br>How It Works and Why It\n"
+"        Matters"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:159
+msgid ""
+"As the world grapples with the urgent need to address climate change,\n"
+"            individuals, businesses, and governments are seeking ways to "
+"reduce their carbon footprints. While reducing\n"
+"            emissions directly is critical, it’s not always feasible to "
+"eliminate all carbon emissions. This is where\n"
+"            carbon offsetting comes into play. In this blog, we’ll explore "
+"the importance of carbon offsetting, how it\n"
+"            works, and why it matters in the fight against climate change."
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:164
+msgid ""
+"C</span>arbon offsetting involves compensating for the\n"
+"            carbon dioxide (CO2) emissions you produce by investing in "
+"projects that reduce or remove an equivalent\n"
+"            amount of CO2 from the atmosphere. These projects can include "
+"reforestation, renewable energy initiatives,\n"
+"            and methane capture projects, among others. By supporting these "
+"efforts, you can balance out your own carbon\n"
+"            emissions, contributing to global climate goals"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:170
+msgid "Calculate Your Carbon Footprint"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:171
+msgid ""
+"The first step in carbon offsetting is understanding your carbon footprint. "
+"This\n"
+"                includes the total amount of greenhouse gases you are "
+"responsible for, directly or indirectly. There are\n"
+"                various online calculators available that can help you "
+"estimate your emissions based on your lifestyle,\n"
+"                travel habits, and energy consumption"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:178
+msgid "Choose a Carbon Offset Project"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:179
+msgid ""
+"Once you know your carbon footprint, the next step is to choose a carbon "
+"offset\n"
+"                project to invest in. Projects vary widely, from planting "
+"trees to building wind farms. It’s essential\n"
+"                to select a project that is verified by reputable "
+"organizations to ensure it meets rigorous standards\n"
+"                for reducing or removing CO2"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:186
+msgid "Purchase Carbon Credits"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:187
+msgid ""
+"After selecting a project, you purchase carbon credits, each representing a "
+"specific\n"
+"                amount of CO2 that has been reduced or removed from the "
+"atmosphere. One carbon credit typically equals\n"
+"                one metric ton of CO2. These credits are then retired on "
+"your behalf, meaning they cannot be resold or\n"
+"                reused, ensuring the environmental benefit is real and "
+"permanent"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:194
+msgid "Monitor and Report"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:195
+msgid ""
+"Reputable carbon offset projects provide transparency and regular reporting "
+"on the\n"
+"                progress and impact of their initiatives. This allows you to "
+"track the effectiveness of your investment\n"
+"                and ensures that your contribution is making a tangible "
+"difference"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:201
+msgid "Why Carbon Offsetting Matters"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:206
+msgid "Complements Emission Reduction Efforts"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:207
+msgid ""
+"While reducing emissions at the source is vital, it’s not always possible "
+"to\n"
+"                eliminate all carbon emissions. Carbon offsetting provides a "
+"practical solution to address the emissions\n"
+"                that remain, helping to achieve net-zero emissions goals"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:213
+msgid "Supports Sustainable Development"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:214
+msgid ""
+"Many carbon offset projects also contribute to sustainable development "
+"goals. For\n"
+"                example, reforestation projects can improve biodiversity, "
+"prevent soil erosion, and provide livelihoods\n"
+"                for local communities. Renewable energy projects can bring "
+"electricity to underserved regions, fostering\n"
+"                economic development and improving quality of life"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:221
+msgid "Encourages Innovation"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:222
+msgid ""
+"By investing in carbon offset projects, you support the development and\n"
+"                implementation of innovative technologies and practices that "
+"reduce greenhouse gas emissions. This can\n"
+"                drive broader adoption of these solutions, accelerating the "
+"transition to a low-carbon economy"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:228
+msgid "Raises Awareness and Accountability"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:229
+msgid ""
+"Engaging in carbon offsetting raises awareness about the impact of our "
+"activities on\n"
+"                the environment and promotes accountability. It encourages "
+"individuals and organizations to take\n"
+"                responsibility for their carbon footprint and contribute to "
+"global climate action"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:235
+msgid "Provides Immediate Climate Benefits"
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:236
+msgid ""
+"While transitioning to a low-carbon lifestyle and economy takes time, "
+"carbon\n"
+"                offsetting offers immediate benefits by funding projects "
+"that are already reducing emissions. This helps\n"
+"                to mitigate climate change impacts more rapidly, buying time "
+"for longer-term solutions to be\n"
+"                implemented."
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:246
+msgid ""
+"Carbon offsetting is a powerful tool in the fight against climate change. "
+"By\n"
+"                compensating for the emissions we cannot yet eliminate, we "
+"can support projects that make a real\n"
+"                difference in reducing global greenhouse gas levels. While "
+"it’s essential to continue striving for\n"
+"                direct emission reductions, carbon offsetting offers a "
+"practical and immediate way to contribute to a\n"
+"                more sustainable future."
+msgstr ""
+
+#: .\templates\blogs\importance-of-carbon-ofsetting.html:252
+msgid ""
+"Every action counts in the battle against climate change. By understanding "
+"the\n"
+"                importance of carbon offsetting and taking steps to offset "
+"your own emissions, you can play a crucial\n"
+"                role in protecting our planet for future generations. Let’s "
+"take responsibility, support sustainable\n"
+"                initiatives, and make a positive impact—one carbon credit at "
+"a time."
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:153
+msgid ""
+"Top Renewable Energy Sources for <br> Home and\n"
+"        Business Use"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:159
+msgid ""
+"As the world becomes increasingly aware of the need for\n"
+"            sustainable energy solutions, renewable energy sources are "
+"gaining traction for both home and business use.\n"
+"            Transitioning to renewable energy not only reduces carbon "
+"footprints but also leads to long-term savings and\n"
+"            energy independence."
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:163
+msgid ""
+"I</span>In this blog, we'll explore the\n"
+"            top renewable energy sources that you can harness to power your "
+"home or business."
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:166
+msgid "Solar Energy"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:167
+msgid ""
+"Solar energy is harnessed using photovoltaic (PV) panels that\n"
+"                convert sunlight into electricity. These panels are "
+"typically installed on rooftops or in open areas\n"
+"                with abundant sunlight. Solar energy systems can be "
+"connected to the grid, allowing you to sell excess\n"
+"                power back to the utility company, or they can be off-grid, "
+"storing energy in batteries for later use."
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:171
+#: .\templates\blogs\top-renewable-energy-sources.html:188
+#: .\templates\blogs\top-renewable-energy-sources.html:205
+#: .\templates\blogs\top-renewable-energy-sources.html:221
+#: .\templates\blogs\top-renewable-energy-sources.html:237
+msgid "Benefits"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:173
+msgid ""
+"Renewable Resource: </span>Solar energy is a clean,\n"
+"                    renewable resource that reduces greenhouse gas emissions."
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:175
+msgid ""
+"Energy Efficiency: </span>After the initial installation\n"
+"                    cost, solar energy can significantly reduce or even "
+"eliminate electricity bills."
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:178
+msgid ""
+"Scalability: </span>Solar panels require minimal maintenance\n"
+"                    and can last for 25 years or more"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:184
+msgid "Wind Energy"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:185
+msgid ""
+"Wind turbines capture the kinetic energy of wind and convert it into\n"
+"                electricity. Small-scale wind turbines are suitable for "
+"residential or small business use, while larger\n"
+"                turbines are used in commercial and utility-scale wind farms"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:190
+msgid ""
+"Renewable Resource: </span>Wind is a plentiful and\n"
+"                    inexhaustible resource."
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:192
+msgid ""
+"Energy Efficiency: </span>Wind turbines can produce\n"
+"                    significant amounts of electricity, especially in windy "
+"areas"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:194
+msgid ""
+"Scalability: </span>Wind energy systems can be scaled up or\n"
+"                    down to meet specific energy needs."
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:200
+msgid "Hydroelectric Power"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:202
+msgid ""
+"Hydroelectric power is generated by harnessing the energy of flowing or "
+"falling\n"
+"                water. Small-scale hydroelectric systems, also known as "
+"micro-hydro systems, can be used in homes and\n"
+"                businesses located near streams or rivers."
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:207
+msgid ""
+"Consistent Energy Source: </span>Hydroelectric power provides a steady\n"
+"                    and reliable source of energy"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:209
+#, python-format
+msgid ""
+"High Efficiency: </span>It is one of the most efficient forms of energy\n"
+"                    production, with conversion efficiencies of up to 90%%."
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:211
+msgid ""
+"Low Operating Costs: </span>Once a hydroelectric system is installed, it "
+"has\n"
+"                    low operating and maintenance costs."
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:217
+msgid "Geothermal Energy"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:218
+msgid ""
+"Geothermal energy harnesses the heat from the Earth’s core to generate "
+"electricity\n"
+"                or provide direct heating. Geothermal heat pumps can be used "
+"for heating and cooling buildings by\n"
+"                transferring heat between the ground and the building."
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:223
+msgid ""
+"Consistent Energy Source: </span>Geothermal energy provides a constant\n"
+"                    and reliable energy supply"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:225
+msgid ""
+"Low Emissions: </span>It produces very low levels of greenhouse gases\n"
+"                    compared to fossil fuels"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:227
+msgid ""
+"Long Lifespan: </span>Geothermal systems have a long operational life, "
+"often\n"
+"                    exceeding 25 years"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:233
+msgid "Biomass Energy"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:234
+msgid ""
+"Biomass energy is produced from organic materials such as wood, "
+"agricultural\n"
+"                residues, and animal waste. These materials are burned or "
+"converted into biofuels to generate\n"
+"                electricity or heat"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:239
+msgid ""
+"Renewable Resource: </span>Biomass is abundant and can be replenished\n"
+"                    quickly"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:241
+msgid ""
+"Carbon Neutral: </span>When managed sustainably, biomass energy can be\n"
+"                    carbon neutral, as the CO2 released during combustion is "
+"offset by the CO2 absorbed during the\n"
+"                    growth of the biomass"
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:244
+msgid ""
+"Waste Reduction: </span>Using waste materials for energy reduces landfill "
+"use\n"
+"                    and promotes recycling."
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:251
+msgid ""
+"Transitioning to renewable energy sources is not only an environmentally "
+"responsible\n"
+"                choice but also a financially savvy one. Solar, wind, "
+"hydroelectric, geothermal, and biomass energy each\n"
+"                offer unique benefits and can be tailored to meet the "
+"specific needs of homes and businesses. By\n"
+"                investing in renewable energy, you can reduce your carbon "
+"footprint, lower energy costs, and contribute\n"
+"                to a more sustainable future."
+msgstr ""
+
+#: .\templates\blogs\top-renewable-energy-sources.html:257
+msgid ""
+"Whether you’re a homeowner looking to cut utility bills or a business aiming "
+"to\n"
+"                enhance sustainability, there’s a renewable energy solution "
+"for you. Start exploring these options today\n"
+"                and join the growing movement towards clean, renewable energy"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:153
+msgid ""
+"Understanding Your Carbon Footprint: <br>A\n"
+"        Beginner's Guide"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:159
+msgid "What is a Carbon Footprint?"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:161
+msgid ""
+"A</span> carbon footprint is the\n"
+"            total amount of greenhouse gases, including carbon dioxide (CO2) "
+"and methane (CH4), that are emitted\n"
+"            directly or indirectly by an individual, organization, event, or "
+"product. These emissions are typically\n"
+"            measured in equivalent tons of CO2 (CO2e) to standardize the "
+"various gases' impacts on global warming."
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:166
+msgid "Direct Emissions"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:167
+msgid ""
+"Direct emissions are those that come from sources you control. For example, "
+"the\n"
+"                gasoline burned by your car or the natural gas used to heat "
+"your home. These are also known as \"scope 1\"\n"
+"                emissions."
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:173
+msgid "Indirect Emissions"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:174
+msgid ""
+"Indirect emissions are those produced by activities related to your "
+"consumption but\n"
+"                not directly controlled by you. For instance, the emissions "
+"from the power plants that generate the\n"
+"                electricity you use, or the emissions produced during the "
+"manufacture and transport of the goods you\n"
+"                buy. These are categorized into \"scope 2\" and \"scope 3\" "
+"emissions, depending on their nature."
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:181
+msgid "Why Your Carbon Footprint Matters"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:182
+msgid ""
+"Understanding and managing your carbon footprint is crucial for several "
+"reasons"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:187
+msgid ""
+"Greenhouse gas emissions contribute to global warming and climate change, "
+"leading to\n"
+"                severe environmental consequences such as rising sea levels, "
+"extreme weather events, and loss of\n"
+"                biodiversity"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:193
+msgid "Personal Responsibility"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:194
+msgid ""
+"Every individual has a role to play in mitigating climate change. By "
+"understanding\n"
+"                your carbon footprint, you can make informed choices that "
+"contribute to a healthier planet."
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:199
+msgid "Economic Benefits"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:200
+msgid ""
+"Reducing your carbon footprint often leads to cost savings. For example,\n"
+"                energy-efficient appliances can lower your utility bills, "
+"and reducing waste can cut down on disposal\n"
+"                costs."
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:206
+msgid "How to Calculate Your Carbon Footprint"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:207
+msgid ""
+"Calculating your carbon footprint involves adding up the emissions from "
+"various\n"
+"                activities in your life. Here’s a step-by-step guide"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:212
+msgid "Identify Major Sources"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:213
+msgid ""
+"Start by identifying the major sources of emissions in your daily life. "
+"These\n"
+"                typically include:"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:216
+msgid "Energy Use: </span>Electricity, heating, and cooling in your home"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:217
+msgid "Transportation:</span> Emissions from cars, public transit, flights"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:218
+msgid ""
+"Food Consumption:</span> Emissions related to the production, "
+"transportation,\n"
+"                and waste of food"
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:220
+msgid ""
+"Goods and Services:</span> Emissions from the manufacturing, delivery, and\n"
+"                disposal of the products you use."
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:227
+msgid ""
+"Understanding your carbon footprint is the first step toward making a "
+"positive\n"
+"                impact on the environment. By identifying the sources of "
+"your emissions and taking practical steps to\n"
+"                reduce them, you can contribute to the global effort to "
+"combat climate change. Remember, every small\n"
+"                change counts, and together, our collective actions can make "
+"a significant difference."
+msgstr ""
+
+#: .\templates\blogs\understanding-your-carbon-footprint.html:232
+msgid ""
+"Start today by calculating your carbon footprint and implementing some of "
+"the\n"
+"                strategies outlined in this guide. Let’s work together "
+"towards a more sustainable future, one step at a\n"
+"                time."
+msgstr ""
+
+#: .\templates\pages\contact.html:152
+msgid "Let's Talk"
+msgstr ""
+
+#: .\templates\pages\contact.html:153
+msgid ""
+"Have some big idea or brand to develop and need help?\n"
+"        Then reach out we'd love to hear about your project and provide help."
+msgstr ""
+
+#: .\templates\pages\faq.html:149
+msgid "Frequently asked questions"
+msgstr ""
+
+#: .\templates\pages\faq.html:150
+msgid "Read through some of our curated answers"
+msgstr ""
+
+#: .\templates\pages\faq.html:159
+msgid "What is carbon footprint"
+msgstr ""
+
+#: .\templates\pages\faq.html:168
+msgid ""
+"A carbon footprint is the total amount of greenhouse gases, primarily "
+"carbon\n"
+"        dioxide, that are emitted directly or indirectly by human "
+"activities. This includes emissions from\n"
+"        transportation, energy use, production processes, and more"
+msgstr ""
+
+#: .\templates\pages\faq.html:177
+msgid "How can our products help reduce your carbon footprint"
+msgstr ""
+
+#: .\templates\pages\faq.html:186
+msgid ""
+"Our products are designed to optimize energy use, integrate renewable "
+"energy\n"
+"        sources, and provide real-time data and insights. By implementing "
+"our solutions, you can significantly reduce\n"
+"        your energy consumption and carbon emissions"
+msgstr ""
+
+#: .\templates\pages\faq.html:195
+msgid "How does Verdeia track carbon emissions"
+msgstr ""
+
+#: .\templates\pages\faq.html:204
+msgid ""
+"Our app tracks carbon emissions by collecting data on your daily activities, "
+"such\n"
+"        as transportation, energy use, and consumption habits. You can input "
+"your data manually or sync it with\n"
+"        compatible devices and services for automatic tracking"
+msgstr ""
+
+#: .\templates\pages\faq.html:213
+msgid "What types of activities can I track with the app"
+msgstr ""
+
+#: .\templates\pages\faq.html:222
+msgid ""
+"You can track a wide range of activities, including driving, flying, public\n"
+"        transportation, home energy use, waste production, and even your "
+"diet. The app provides a comprehensive overview\n"
+"        of your carbon footprint."
+msgstr ""
+
+#: .\templates\pages\faq.html:232
+msgid "Who can benefit from using your app"
+msgstr ""
+
+#: .\templates\pages\faq.html:241
+msgid ""
+"Our app is designed for both individuals and businesses of all sizes. "
+"Whether\n"
+"        you're a small business owner, a corporate entity, or an individual "
+"looking to reduce your environmental impact,\n"
+"        our app can help you track and offset your carbon emissions"
+msgstr ""
+
+#: .\templates\pages\faq.html:250
+msgid "How does carbon offsetting work through your app"
+msgstr ""
+
+#: .\templates\pages\faq.html:259
+msgid ""
+"Our app connects users with verified carbon offset projects, such as\n"
+"        reforestation, renewable energy, and conservation initiatives. Users "
+"can choose projects to support, and the app\n"
+"        facilitates the investment, ensuring that the offsets match their "
+"carbon footprint"
+msgstr ""
+
+#: .\templates\pages\faq.html:268
+msgid "Can the app integrate with other systems and devices"
+msgstr ""
+
+#: .\templates\pages\faq.html:277
+msgid ""
+"Our app can integrate with various systems and devices to automatically "
+"import\n"
+"        data, such as smart meters, fleet management systems, and other IoT "
+"devices, ensuring accurate and real-time\n"
+"        tracking."
+msgstr ""
+
+#: .\templates\pages\faq.html:286
+msgid "How accurate is the carbon emissions tracking"
+msgstr ""
+
+#: .\templates\pages\faq.html:295
+msgid ""
+"The app uses advanced algorithms and verified data sources to ensure high\n"
+"        accuracy in tracking carbon emissions. Regular updates and "
+"improvements are made to maintain precision and\n"
+"        reliability"
+msgstr ""
+
+#: .\templates\pages\faq.html:322
+msgid "How can I get in touch for more information or a consultation"
+msgstr ""
+
+#: .\templates\pages\faq.html:331
+msgid ""
+"You can contact us through our website's contact form, email us at\n"
+"        <a href = \"mailto:hello@verdeia.xyz\">hello@verdeia.xyz</a>, or "
+"call us. We offer free consultations to help you explore how our solutions "
+"can\n"
+"          meet your specific needs."
+msgstr ""
+
+#: .\templates\pages\faq.html:340
+msgid "How do I get started with the app?"
+msgstr ""
+
+#: .\templates\pages\faq.html:349
+msgid ""
+"Getting started is simple. Download the app from the App Store or Google "
+"Play,\n"
+"        create an account, and start inputting your data. Our onboarding "
+"process will guide you through the initial\n"
+"        setup and usage"
+msgstr ""
+
+#: .\templates\pages\faq.html:358
+msgid "What are the costs associated with using the app?"
+msgstr ""
+
+#: .\templates\pages\faq.html:367
+msgid ""
+"The app offers various subscription plans tailored to different needs, "
+"including\n"
+"        free basic features and premium plans with advanced tracking and "
+"offsetting options. Detailed pricing can be\n"
+"        found on our website."
+msgstr ""
+
+#: .\templates\pages\faq.html:376
+msgid "Can the app help with regulatory compliance"
+msgstr ""
+
+#: .\templates\pages\faq.html:385
+msgid ""
+"Yes, our app can assist businesses in meeting regulatory requirements by\n"
+"        providing detailed reports and documentation of their carbon "
+"tracking and offsetting activities, which can be\n"
+"        used for compliance and audits"
+msgstr ""
+
+#: .\templates\pages\faq.html:394
+msgid "How do I know the offset projects are legitimate?"
+msgstr ""
+
+#: .\templates\pages\faq.html:403
+msgid ""
+"We partner with reputable organizations that verify and certify carbon "
+"offset\n"
+"        projects. Each project listed in our app undergoes a rigorous "
+"validation process to ensure its legitimacy and\n"
+"        impact."
+msgstr ""
+
+#: .\templates\pages\faq.html:412
+msgid "What kind of carbon offset projects can I support through the app"
+msgstr ""
+
+#: .\templates\pages\faq.html:421
+msgid ""
+"Users and bussinesses can support a variety of projects, including "
+"reforestation,\n"
+"        renewable energy installations, conservation efforts, and community-"
+"based sustainability projects. All projects\n"
+"        are verified to ensure they provide real and measurable "
+"environmental benefits"
+msgstr ""
+
+#: .\templates\pages\home.html:151
+msgid "Change and track</span> your"
+msgstr ""
+
+#: .\templates\pages\home.html:151
+msgid "carbon emission"
+msgstr ""
+
+#: .\templates\pages\home.html:156
+msgid ""
+"Verdeia</span> is your guide to a journey of greener\n"
+"    tommorow<br />\n"
+"    and Empowering Your Journey to Zero Carbon"
+msgstr ""
+
+#: .\templates\pages\home.html:167
+msgid "Sign Up➙"
+msgstr ""
+
+#: .\templates\pages\home.html:173
+msgid "Together, we can make a <span class=\"text-green-500\">difference"
+msgstr ""
+
+#: .\templates\pages\home.html:174
+msgid "Follow us lets help you reduce your carbon emissions and footprint"
+msgstr ""
+
+#: .\templates\pages\home.html:186
+msgid ""
+"\"The best way to offset the cabon you generate is by doing it sustainably\""
+msgstr ""
+
+#: .\templates\pages\home.html:199
+msgid ""
+"Use our website to easily track your carbon emissions and make better\n"
+"        decisions for a <br />sustainable future."
+msgstr ""
+
+#: .\templates\pages\home.html:202 .\templates\pages\home.html:214
+#: .\templates\pages\home.html:227
+msgid "Learn more"
+msgstr ""
+
+#: .\templates\pages\home.html:209
+msgid "Change"
+msgstr ""
+
+#: .\templates\pages\home.html:211
+msgid ""
+"Visit our platform to learn how to decrease your carbon footprint and\n"
+"        contribute to a <br />cleaner planet."
+msgstr ""
+
+#: .\templates\pages\home.html:223
+msgid ""
+"We enable users globally to contribute significantly to climate action\n"
+"        and environmental<br />\n"
+"        stewardship"
+msgstr ""
+
+#: .\templates\pages\home.html:237
+msgid "Your Sustainable A.I App\""
+msgstr ""
+
+#: .\templates\pages\home.html:246 .\templates\pages\pricing.html:384
+msgid "Now with Gaia"
+msgstr ""
+
+#: .\templates\pages\home.html:250
+msgid ""
+"Add to your workspace now with all the benefits of the professional plan<br> "
+"<span\n"
+"        class=\"font-bold\">billed\n"
+"        monthly for €2.99."
+msgstr ""
+
+#: .\templates\pages\home.html:253
+msgid "Includes"
+msgstr ""
+
+#: .\templates\pages\home.html:255 .\templates\pages\pricing.html:391
+msgid "Personalised</span> monthly ofsetting plans"
+msgstr ""
+
+#: .\templates\pages\home.html:259 .\templates\pages\pricing.html:238
+msgid ""
+"Get\n"
+"          Started"
+msgstr ""
+
+#: .\templates\pages\home.html:263
+msgid ""
+"Read\n"
+"          AI FAQ"
+msgstr ""
+
+#: .\templates\pages\home.html:273
+msgid "Join a global movement.<p class=\"mt-1\"> Contribute positively."
+msgstr ""
+
+#: .\templates\pages\home.html:275
+msgid ""
+"Our vibrant community with your help can contribute positively to the\n"
+"    environment"
+msgstr ""
+
+#: .\templates\pages\home.html:279
+msgid "Volunteer now"
+msgstr ""
+
+#: .\templates\pages\home.html:291
+msgid ""
+"Our transparent approach ensures that every step is clear,\n"
+"      empowering individuals to make a real environmental impact"
+msgstr ""
+
+#: .\templates\pages\home.html:300
+msgid "We provide full transparency in how funds are allocated,"
+msgstr ""
+
+#: .\templates\pages\home.html:302
+msgid ""
+"Read our blog \n"
+"          "
+msgstr ""
+
+#: .\templates\pages\home.html:309
+msgid "we ensure that all our projects are thoroughly vetted"
+msgstr ""
+
+#: .\templates\pages\home.html:310
+msgid "Read our manifesto"
+msgstr ""
+
+#: .\templates\pages\home.html:316
+msgid "We are against the idea of greenwashing"
+msgstr ""
+
+#: .\templates\pages\home.html:318
+msgid "Here's why "
+msgstr ""
+
+#: .\templates\pages\home.html:324
+msgid "Our platform is designed with users in mind"
+msgstr ""
+
+#: .\templates\pages\home.html:325
+msgid "Read our documentation"
+msgstr ""
+
+#: .\templates\pages\login.html:17 .\templates\pages\login.html:61
+msgid "Log in"
+msgstr ""
+
+#: .\templates\pages\login.html:20
+msgid "Username"
+msgstr ""
+
+#: .\templates\pages\login.html:55 .\templates\pages\signup.html:164
+msgid "Forgot Password?"
+msgstr ""
+
+#: .\templates\pages\login.html:63
+msgid "Don't have an account"
+msgstr ""
+
+#: .\templates\pages\login.html:63
+msgid "Register here"
+msgstr ""
+
+#: .\templates\pages\pricing.html:152
+msgid "Choose a Subscription"
+msgstr ""
+
+#: .\templates\pages\pricing.html:153
+msgid "Choose a plan tailored to your needs"
+msgstr ""
+
+#: .\templates\pages\pricing.html:158
+msgid "Free"
+msgstr ""
+
+#: .\templates\pages\pricing.html:159
+msgid "Ideal for individuals who need quick access to basic features"
+msgstr ""
+
+#: .\templates\pages\pricing.html:161
+msgid "Lifetime"
+msgstr ""
+
+#: .\templates\pages\pricing.html:167 .\templates\pages\pricing.html:318
+msgid "Plan Includes"
+msgstr ""
+
+#: .\templates\pages\pricing.html:175
+msgid "Basic carbon footprint tracking"
+msgstr ""
+
+#: .\templates\pages\pricing.html:183
+msgid "Manual data entry"
+msgstr ""
+
+#: .\templates\pages\pricing.html:191
+msgid "Access to a limited selection of offset projects"
+msgstr ""
+
+#: .\templates\pages\pricing.html:199 .\templates\pages\pricing.html:274
+msgid "Customer Support"
+msgstr ""
+
+#: .\templates\pages\pricing.html:207
+msgid "Monthly summary reports"
+msgstr ""
+
+#: .\templates\pages\pricing.html:215
+msgid "Community support"
+msgstr ""
+
+#: .\templates\pages\pricing.html:223
+msgid "Access to community events"
+msgstr ""
+
+#: .\templates\pages\pricing.html:231
+msgid "Professional <span>popular"
+msgstr ""
+
+#: .\templates\pages\pricing.html:232
+msgid ""
+"Ideal for individuals who who need advanced features and tools for client\n"
+"        work"
+msgstr ""
+
+#: .\templates\pages\pricing.html:235
+msgid "Month"
+msgstr ""
+
+#: .\templates\pages\pricing.html:242
+msgid "lan Includes"
+msgstr ""
+
+#: .\templates\pages\pricing.html:250
+msgid "All features of the Free Plan"
+msgstr ""
+
+#: .\templates\pages\pricing.html:258
+msgid "Access to a broader range of offset projects"
+msgstr ""
+
+#: .\templates\pages\pricing.html:266
+msgid " Weekly summary reports"
+msgstr ""
+
+#: .\templates\pages\pricing.html:282
+msgid "Integration with smart meters and IoT devices"
+msgstr ""
+
+#: .\templates\pages\pricing.html:290 .\templates\pages\pricing.html:374
+msgid "Customizable offset projects and contributions"
+msgstr ""
+
+#: .\templates\pages\pricing.html:298 .\templates\pages\pricing.html:366
+msgid "24/7 premium support"
+msgstr ""
+
+#: .\templates\pages\pricing.html:307
+msgid "Enterprise"
+msgstr ""
+
+#: .\templates\pages\pricing.html:308
+msgid ""
+"Ideal for businesses who need personalized services and security for large\n"
+"        teams."
+msgstr ""
+
+#: .\templates\pages\pricing.html:326
+msgid " All features of the Professional Plan"
+msgstr ""
+
+#: .\templates\pages\pricing.html:334
+msgid "Full API access for integration with existing systems"
+msgstr ""
+
+#: .\templates\pages\pricing.html:342
+msgid "Team collaboration features"
+msgstr ""
+
+#: .\templates\pages\pricing.html:350
+msgid "Personalized carbon offset consulting"
+msgstr ""
+
+#: .\templates\pages\pricing.html:358
+msgid "Annual sustainability audit and certification"
+msgstr ""
+
+#: .\templates\pages\pricing.html:388
+msgid ""
+"Add to your workspace now with all the benefits of the professional plan"
+msgstr ""
+
+#: .\templates\pages\pricing.html:388
+msgid "billed monthly for €2.99"
+msgstr ""
+
+#: .\templates\pages\pricing.html:395
+msgid ""
+"Get\n"
+"        Started"
+msgstr ""
+
+#: .\templates\pages\pricing.html:400
+msgid "AI FAQ"
+msgstr ""
+
+#: .\templates\pages\privacy.html:161
+msgid "Last updated:"
+msgstr ""
+
+#: .\templates\pages\privacy.html:163 .\templates\pages\terms.html:163
+msgid "The basics"
+msgstr ""
+
+#: .\templates\pages\privacy.html:164
+msgid ""
+"Verdeia operates the website Verdeia.xyz (the \"Site\"). This Privacy Policy "
+"explains how we\n"
+"            collect, use, disclose, and protect your information when you "
+"visit our Site. By using the Site, you agree\n"
+"            to the collection and use of information in accordance with this "
+"policy."
+msgstr ""
+
+#: .\templates\pages\privacy.html:167
+msgid ""
+"We reserve the right, at our sole discretion, to change or modify these "
+"Policies at any time,\n"
+"            including the right to\n"
+"            cancel or change the licenses granted by these Policies. If we "
+"do this, we will post the most current\n"
+"            version of\n"
+"            these\n"
+"            Policies on this page. We will seek to provide you with "
+"reasonable notice of any change to the Policies\n"
+"            that, in our\n"
+"            sole\n"
+"            determination, materially adversely affect your rights or your "
+"use of the Service. We may provide you with\n"
+"            this\n"
+"            notice via the Service, and/or by email to the email address "
+"associated with your account. By continuing to\n"
+"            use\n"
+"            the\n"
+"            Service after any revised Policy become effective, you agree to "
+"be bound by the new Policy"
+msgstr ""
+
+#: .\templates\pages\privacy.html:184
+msgid "Information We Collect"
+msgstr ""
+
+#: .\templates\pages\privacy.html:185
+msgid ""
+"We collect several types of information to provide and improve our services "
+"to you"
+msgstr ""
+
+#: .\templates\pages\privacy.html:186
+msgid "Personal Information"
+msgstr ""
+
+#: .\templates\pages\privacy.html:187
+msgid ""
+"While using our Site, we may ask you to provide us with certain personally "
+"identifiable\n"
+"            information that can be used to contact or identify you. "
+"Personally identifiable information may include,\n"
+"            but is not limited to:"
+msgstr ""
+
+#: .\templates\pages\privacy.html:191
+msgid "Name"
+msgstr ""
+
+#: .\templates\pages\privacy.html:192
+msgid "Email address"
+msgstr ""
+
+#: .\templates\pages\privacy.html:193
+msgid "Address."
+msgstr ""
+
+#: .\templates\pages\privacy.html:194
+msgid ""
+"Usage Data</p>\n"
+"        <p>We may also collect information on how the Site is accessed and "
+"used (\"Usage Data\"). This Usage Data may\n"
+"            include information such as your computer's Internet Protocol "
+"(IP) address, browser type, browser version,\n"
+"            the pages of our Site that you visit, the time and date of your "
+"visit, the time spent on those pages, and\n"
+"            other diagnostic data."
+msgstr ""
+
+#: .\templates\pages\privacy.html:199
+msgid ""
+"Cookies and Tracking Technologies</p>\n"
+"        <p>We use cookies and similar tracking technologies to track the "
+"activity on our Site and hold certain\n"
+"            information. Cookies are files with a small amount of data which "
+"may include an anonymous unique identifier.\n"
+"            You can instruct your browser to refuse all cookies or to "
+"indicate when a cookie is being sent. However, if\n"
+"            you do not accept cookies, you may not be able to use some "
+"portions of our Site"
+msgstr ""
+
+#: .\templates\pages\privacy.html:209
+msgid "How We Use Your Information"
+msgstr ""
+
+#: .\templates\pages\privacy.html:210
+msgid "We use the collected data for various purposes, including to"
+msgstr ""
+
+#: .\templates\pages\privacy.html:212
+msgid "Provide, operate, and maintain our Site"
+msgstr ""
+
+#: .\templates\pages\privacy.html:213
+msgid "Improve, personalize, and expand our Site."
+msgstr ""
+
+#: .\templates\pages\privacy.html:214
+msgid "Understand and analyze how you use our Site."
+msgstr ""
+
+#: .\templates\pages\privacy.html:215
+msgid "Develop new products, services, features and functionalty."
+msgstr ""
+
+#: .\templates\pages\privacy.html:216
+msgid ""
+"Communicate with you, either directly or through one of our partners, "
+"including for customer\n"
+"            service, to provide you with updates and other information "
+"relating to the Site, and for marketing and\n"
+"            promotional purposes."
+msgstr ""
+
+#: .\templates\pages\privacy.html:219
+msgid "Process your transactions and manage your orders"
+msgstr ""
+
+#: .\templates\pages\privacy.html:220
+msgid "Send you emails and newsletters"
+msgstr ""
+
+#: .\templates\pages\privacy.html:221
+msgid ""
+"Monitor and analyze trends, usage, and activities in connection with our Site"
+msgstr ""
+
+#: .\templates\pages\privacy.html:226
+#, python-format
+msgid ""
+"Security of Your Information</p>\n"
+"        <p>We value your trust in providing us your Personal Information, "
+"thus we are striving to use commercially\n"
+"            acceptable means of protecting it. However, no method of "
+"transmission over the internet, or method of\n"
+"            electronic storage is 100%% secure and reliable, and we cannot "
+"guarantee its absolute security."
+msgstr ""
+
+#: .\templates\pages\privacy.html:233
+msgid " Your Data Protection Rights"
+msgstr ""
+
+#: .\templates\pages\privacy.html:234
+msgid "Access and Update"
+msgstr ""
+
+#: .\templates\pages\privacy.html:235
+msgid ""
+"You have the right to access and update your personal information stored by "
+"us. You can request a copy of\n"
+"            your personal information and update it if it is inaccurate or "
+"incomplete"
+msgstr ""
+
+#: .\templates\pages\privacy.html:237
+msgid "Deletion"
+msgstr ""
+
+#: .\templates\pages\privacy.html:238
+msgid ""
+"You have the right to request the deletion of your personal information. We "
+"will comply with such requests\n"
+"            unless we are required to retain certain information by law."
+msgstr ""
+
+#: .\templates\pages\privacy.html:240
+msgid " Restriction of Processing"
+msgstr ""
+
+#: .\templates\pages\privacy.html:241
+msgid ""
+"You have the right to request the restriction of processing of your personal "
+"information under certain\n"
+"            circumstances"
+msgstr ""
+
+#: .\templates\pages\privacy.html:243
+msgid " Data Portability"
+msgstr ""
+
+#: .\templates\pages\privacy.html:244
+msgid ""
+"You have the right to request that we transfer the data we have collected to "
+"another organization, or\n"
+"            directly to you, under certain conditions"
+msgstr ""
+
+#: .\templates\pages\privacy.html:246
+msgid "Objection to Processing"
+msgstr ""
+
+#: .\templates\pages\privacy.html:247
+msgid ""
+"You have the right to object to our processing of your personal information "
+"under certain conditions."
+msgstr ""
+
+#: .\templates\pages\privacy.html:248
+msgid ""
+"To exercise any of these rights, please contact us using the contact details "
+"provided below"
+msgstr ""
+
+#: .\templates\pages\privacy.html:252 .\templates\pages\terms.html:238
+msgid "Third-Party Links"
+msgstr ""
+
+#: .\templates\pages\privacy.html:253
+msgid ""
+"Our Site may contain links to third-party websites or services that are not "
+"owned or controlled by us. We\n"
+"            have no control over, and assume no responsibility for, the "
+"content, privacy policies, or practices of any\n"
+"            third-party websites or services. We strongly advise you to "
+"review the privacy policy of every site you\n"
+"            visit."
+msgstr ""
+
+#: .\templates\pages\privacy.html:260
+msgid "Changes to This Privacy Policy"
+msgstr ""
+
+#: .\templates\pages\privacy.html:261
+msgid ""
+"We may update our Privacy Policy from time to time. We will notify you of "
+"any changes by posting the new\n"
+"            Privacy Policy on this page. You are advised to review this "
+"Privacy."
+msgstr ""
+
+#: .\templates\pages\results.html:210 .\templates\user\home.html:259
+msgid "Your annual carbon footprint"
+msgstr ""
+
+#: .\templates\pages\results.html:216
+msgid "Tons CO2e"
+msgstr ""
+
+#: .\templates\pages\results.html:220
+#, python-format
+msgid "You're %(percentage)s%% %(sign)s average"
+msgstr ""
+
+#: .\templates\pages\results.html:236
+msgid "Sign Up today let's neutralize your emission"
+msgstr ""
+
+#: .\templates\pages\signup.html:72 .\templates\pages\signup.html:171
+msgid "Sign in"
+msgstr ""
+
+#: .\templates\pages\signup.html:75
+msgid "Full Name"
+msgstr ""
+
+#: .\templates\pages\signup.html:138
+msgid "Password must contain"
+msgstr ""
+
+#: .\templates\pages\signup.html:139
+msgid ""
+"At least\n"
+"              <b>one lowercase letter"
+msgstr ""
+
+#: .\templates\pages\signup.html:142
+msgid ""
+"At least\n"
+"              <b>one uppercase letter"
+msgstr ""
+
+#: .\templates\pages\signup.html:145
+msgid ""
+"At least\n"
+"              <b>one number"
+msgstr ""
+
+#: .\templates\pages\signup.html:148
+msgid ""
+"Minimum\n"
+"              <b>8 characters"
+msgstr ""
+
+#: .\templates\pages\signup.html:159
+msgid "Remember me"
+msgstr ""
+
+#: .\templates\pages\signup.html:173
+msgid "You acknowledge that you understand and <br>agree to our"
+msgstr ""
+
+#: .\templates\pages\signup.html:175
+msgid " and"
+msgstr ""
+
+#: .\templates\pages\start.html:229 .\templates\user\start.html:296
+msgid "Where do you live"
+msgstr ""
+
+#: .\templates\pages\start.html:509 .\templates\pages\start.html:544
+#: .\templates\pages\start.html:579 .\templates\pages\start.html:611
+#: .\templates\pages\start.html:648 .\templates\pages\start.html:684
+#: .\templates\pages\start.html:720 .\templates\pages\start.html:756
+#: .\templates\pages\start.html:794 .\templates\user\start.html:576
+#: .\templates\user\start.html:611 .\templates\user\start.html:646
+#: .\templates\user\start.html:678 .\templates\user\start.html:715
+#: .\templates\user\start.html:751 .\templates\user\start.html:787
+#: .\templates\user\start.html:823 .\templates\user\start.html:861
+msgid "Fun Fact"
+msgstr ""
+
+#: .\templates\pages\start.html:510 .\templates\user\start.html:577
+msgid "Pluto is smaller than the U.S."
+msgstr ""
+
+#: .\templates\pages\start.html:523 .\templates\user\start.html:590
+msgid "Do you own a car, and if so, is it fuel-efficient or electric"
+msgstr ""
+
+#: .\templates\pages\start.html:529 .\templates\user\start.html:596
+msgid "It's an electric car"
+msgstr ""
+
+#: .\templates\pages\start.html:533 .\templates\user\start.html:600
+msgid "It's a combustion engine car"
+msgstr ""
+
+#: .\templates\pages\start.html:537 .\templates\user\start.html:604
+msgid "I use public transport"
+msgstr ""
+
+#: .\templates\pages\start.html:545 .\templates\user\start.html:612
+msgid "There are an estimated 1.2 billion cars<br> in the world today"
+msgstr ""
+
+#: .\templates\pages\start.html:558 .\templates\user\start.html:625
+msgid "How many kilometers do you do in a day"
+msgstr ""
+
+#: .\templates\pages\start.html:572 .\templates\user\start.html:639
+msgid "more than 100 km"
+msgstr ""
+
+#: .\templates\pages\start.html:580 .\templates\user\start.html:647
+msgid ""
+"The average distance a person walks in their lifetime <br>is estimated to be "
+"around 70,000 miles"
+msgstr ""
+
+#: .\templates\pages\start.html:593 .\templates\user\start.html:660
+msgid "How many people live in you house"
+msgstr ""
+
+#: .\templates\pages\start.html:598 .\templates\user\start.html:665
+msgid "I live alone"
+msgstr ""
+
+#: .\templates\pages\start.html:601 .\templates\user\start.html:668
+msgid "3 to 5 people"
+msgstr ""
+
+#: .\templates\pages\start.html:604 .\templates\user\start.html:671
+msgid "5+ people"
+msgstr ""
+
+#: .\templates\pages\start.html:612 .\templates\user\start.html:679
+msgid "The typical homeowner stays in their <br>house for 13.2 years"
+msgstr ""
+
+#: .\templates\pages\start.html:627 .\templates\user\start.html:694
+msgid "What is the primary source of energy for your home"
+msgstr ""
+
+#: .\templates\pages\start.html:633 .\templates\user\start.html:700
+msgid "Full solar dependence"
+msgstr ""
+
+#: .\templates\pages\start.html:637 .\templates\user\start.html:704
+msgid "Solar and public grid dependence"
+msgstr ""
+
+#: .\templates\pages\start.html:641 .\templates\user\start.html:708
+msgid "Public grid dependence"
+msgstr ""
+
+#: .\templates\pages\start.html:649 .\templates\user\start.html:716
+#, python-format
+msgid ""
+"Approximately 30%% of energy used in buildings is used<br> inefficiently or "
+"unnecessarily"
+msgstr ""
+
+#: .\templates\pages\start.html:663 .\templates\user\start.html:730
+msgid "How do you heat or cool off your house"
+msgstr ""
+
+#: .\templates\pages\start.html:669 .\templates\user\start.html:736
+msgid "Gas"
+msgstr ""
+
+#: .\templates\pages\start.html:673 .\templates\user\start.html:740
+msgid "Electric"
+msgstr ""
+
+#: .\templates\pages\start.html:677 .\templates\user\start.html:744
+msgid "I don't use ventilation"
+msgstr ""
+
+#: .\templates\pages\start.html:685 .\templates\user\start.html:752
+msgid ""
+"The Romans used to heat their floors by positioning stone slabs<br> over "
+"heat sources such as fires"
+msgstr ""
+
+#: .\templates\pages\start.html:699 .\templates\user\start.html:766
+msgid "What's your diet"
+msgstr ""
+
+#: .\templates\pages\start.html:705 .\templates\user\start.html:772
+msgid "vegan"
+msgstr ""
+
+#: .\templates\pages\start.html:709 .\templates\user\start.html:776
+msgid "Vegetarians"
+msgstr ""
+
+#: .\templates\pages\start.html:713 .\templates\user\start.html:780
+msgid "Full diet"
+msgstr ""
+
+#: .\templates\pages\start.html:721 .\templates\user\start.html:788
+msgid "Bananas are technically berries"
+msgstr ""
+
+#: .\templates\pages\start.html:735 .\templates\user\start.html:802
+msgid "How frequent do you travel by air"
+msgstr ""
+
+#: .\templates\pages\start.html:741 .\templates\user\start.html:808
+msgid "Monthly"
+msgstr ""
+
+#: .\templates\pages\start.html:745 .\templates\user\start.html:812
+msgid "Twice a year"
+msgstr ""
+
+#: .\templates\pages\start.html:749 .\templates\user\start.html:816
+msgid "Rarely or Every year"
+msgstr ""
+
+#: .\templates\pages\start.html:757 .\templates\user\start.html:824
+msgid ""
+"Approximately, 10,000 people are killed annually from toxic<br> pollutants "
+"from airplanes."
+msgstr ""
+
+#: .\templates\pages\start.html:772
+msgid ""
+"Are you open to adopting more sustainable <br />practices reduce\n"
+"                your carbon footprint??"
+msgstr ""
+
+#: .\templates\pages\start.html:779 .\templates\user\start.html:846
+msgid "Yes I do"
+msgstr ""
+
+#: .\templates\pages\start.html:783 .\templates\user\start.html:850
+msgid "No i don't"
+msgstr ""
+
+#: .\templates\pages\start.html:787 .\templates\user\start.html:854
+msgid "I do not really care"
+msgstr ""
+
+#: .\templates\pages\start.html:795 .\templates\user\start.html:862
+#, python-format
+msgid ""
+"Human-caused emissions of carbon dioxide need to fall 45%% by 2030 and "
+"<br>reach net-zero around 2050 to limit climate change catastrophe."
+msgstr ""
+
+#: .\templates\pages\start.html:804 .\templates\user\start.html:871
+msgid "Back"
+msgstr ""
+
+#: .\templates\pages\start.html:806 .\templates\user\start.html:873
+msgid "Next"
+msgstr ""
+
+#: .\templates\pages\start.html:809 .\templates\user\start.html:876
+msgid "Send"
+msgstr ""
+
+#: .\templates\pages\terms.html:161
+msgid "Last updated: March"
+msgstr ""
+
+#: .\templates\pages\terms.html:164
+msgid ""
+"Welcome to Verdeia. These Terms and Conditions govern your use of our "
+"website\n"
+"            and services. By accessing or using the Site, you agree to be "
+"bound by these Terms. If you do not agree with\n"
+"            these\n"
+"            Terms, you must not use the Site"
+msgstr ""
+
+#: .\templates\pages\terms.html:168
+msgid ""
+"We reserve the right, at our sole discretion, to change or modify these "
+"Terms\n"
+"            at any time,\n"
+"            including the right to\n"
+"            cancel or change the licenses granted by these Terms. If we do "
+"this, we will post the most current version\n"
+"            of\n"
+"            these\n"
+"            Terms on this page. We will seek to provide you with reasonable "
+"notice of any change to the Terms that, in\n"
+"            our\n"
+"            sole\n"
+"            determination, materially adversely affect your rights or your "
+"use of the Service. We may provide you with\n"
+"            this\n"
+"            notice via the Service, and/or by email to the email address "
+"associated with your account. By continuing to\n"
+"            use\n"
+"            the\n"
+"            Service after any revised Terms become effective, you agree to "
+"be bound by the new Terms"
+msgstr ""
+
+#: .\templates\pages\terms.html:187
+msgid "Acceptance of Terms"
+msgstr ""
+
+#: .\templates\pages\terms.html:188
+msgid ""
+"By accessing and using the Site, you accept and agree to be bound by these "
+"Terms and our Privacy Policy. If\n"
+"            you\n"
+"            do not agree to these Terms, please do not use the Site"
+msgstr ""
+
+#: .\templates\pages\terms.html:194
+msgid " Changes to Terms"
+msgstr ""
+
+#: .\templates\pages\terms.html:195
+msgid ""
+"We reserve the right to modify these Terms at any time. Any changes will be "
+"effective immediately upon\n"
+"            posting on\n"
+"            the Site. Your continued use of the Site following the posting "
+"of revised Terms means that you accept and\n"
+"            agree to\n"
+"            the changes"
+msgstr ""
+
+#: .\templates\pages\terms.html:203
+msgid "Use of the Site"
+msgstr ""
+
+#: .\templates\pages\terms.html:204
+msgid "User Conduct"
+msgstr ""
+
+#: .\templates\pages\terms.html:205
+msgid ""
+"You agree not to use the Site for any unlawful purpose or in any way that "
+"might harm, damage, or disparage\n"
+"            any\n"
+"            other party. You are responsible for all content you post or "
+"transmit through the Site"
+msgstr ""
+
+#: .\templates\pages\terms.html:208
+msgid "Prohibited Activities"
+msgstr ""
+
+#: .\templates\pages\terms.html:209
+msgid "You agree not to"
+msgstr ""
+
+#: .\templates\pages\terms.html:210
+msgid "Violate any applicable laws or regulations"
+msgstr ""
+
+#: .\templates\pages\terms.html:211
+msgid "Use the Site to harm, threaten, or harass others"
+msgstr ""
+
+#: .\templates\pages\terms.html:212
+msgid "Disrupt or interfere with the security or functionality of the Site"
+msgstr ""
+
+#: .\templates\pages\terms.html:213
+msgid ""
+"Impersonate any person or entity, or misrepresent your affiliation with a "
+"person or entity."
+msgstr ""
+
+#: .\templates\pages\terms.html:215
+msgid "Upload or transmit any viruses or malicious code"
+msgstr ""
+
+#: .\templates\pages\terms.html:219
+msgid "User Content"
+msgstr ""
+
+#: .\templates\pages\terms.html:220
+msgid " Ownership"
+msgstr ""
+
+#: .\templates\pages\terms.html:221
+msgid ""
+"You retain ownership of any content you submit to the Site. By submitting "
+"content, you grant Verdeia\n"
+"            a worldwide, non-exclusive, royalty-free, transferable license "
+"to use, reproduce, distribute, prepare\n"
+"            derivative\n"
+"            works of, and display the content in connection with the Site "
+"and Verdeia's business."
+msgstr ""
+
+#: .\templates\pages\terms.html:225
+msgid "Responsibility"
+msgstr ""
+
+#: .\templates\pages\terms.html:226
+msgid ""
+"You are solely responsible for the content you submit and the consequences "
+"of posting or publishing it.\n"
+"            Verdeia is not responsible for any public display or misuse of "
+"your content"
+msgstr ""
+
+#: .\templates\pages\terms.html:232
+msgid "Privacy"
+msgstr ""
+
+#: .\templates\pages\terms.html:233
+msgid ""
+"Your use of the Site is also governed by our Privacy Policy. Please review "
+"the Privacy Policy to understand\n"
+"            our practices regarding the collection, use, and disclosure of "
+"your personal information"
+msgstr ""
+
+#: .\templates\pages\terms.html:239
+msgid ""
+"The Site may contain links to third-party websites or services that are not "
+"owned or controlled by Verdeia.\n"
+"            We have no control over and assume no responsibility for the "
+"content, privacy policies, or practices of any\n"
+"            third-party websites or services. You acknowledge and agree that "
+"Verdeia is not responsible for any damage\n"
+"            or loss caused by your use of any third-party content or services"
+msgstr ""
+
+#: .\templates\pages\terms.html:246
+msgid " Disclaimer of Warranties"
+msgstr ""
+
+#: .\templates\pages\terms.html:247
+msgid ""
+"The Site is provided on an “as is” and “as available” basis. Verdia makes no "
+"representations or warranties of\n"
+"            any kind, express or implied, regarding the operation or "
+"availability of the Site or the information,\n"
+"            content, or materials included on the Site"
+msgstr ""
+
+#: .\templates\pages\terms.html:253
+msgid " Limitation of Liability"
+msgstr ""
+
+#: .\templates\pages\terms.html:254
+msgid ""
+"To the fullest extent permitted by law, Verdeia shall not be liable for any "
+"damages of any kind arising from\n"
+"            your use of the Site, including but not limited to direct, "
+"indirect, incidental, punitive, and consequential\n"
+"            damage"
+msgstr ""
+
+#: .\templates\pages\terms.html:260
+msgid "Indemnification"
+msgstr ""
+
+#: .\templates\pages\terms.html:261
+msgid ""
+"You agree to indemnify, defend, and hold harmless Verdeia, its officers, "
+"directors, employees, and agents\n"
+"            from and against any claims, liabilities, damages, losses, and "
+"expenses, including reasonable attorney’s\n"
+"            fees, arising out of or in any way connected with your access to "
+"or use of the Site"
+msgstr ""
+
+#: .\templates\pages\terms.html:267
+msgid " Licensing and Attribution for Verdia Labs"
+msgstr ""
+
+#: .\templates\pages\terms.html:268
+msgid ""
+"Some of the [icons/images/graphics] used on this website are sourced from"
+msgstr ""
+
+#: .\templates\pages\terms.html:269 .\templates\volunteer\plastic.html:263
+#: .\templates\volunteer\sea.html:267 .\templates\volunteer\tree.html:261
+msgid "and"
+msgstr ""
+
+#: .\templates\pages\terms.html:270
+msgid ""
+"which are free-to-use media repositories. We are grateful for the\n"
+"            availability of these resources and have properly attributed "
+"their use in accordance with the respective\n"
+"            licensing terms."
+msgstr ""
+
+#: .\templates\pages\unava.html:152
+msgid "FEATURE NOT FOUND"
+msgstr ""
+
+#: .\templates\pages\unava.html:153
+msgid ""
+"The feature you are looking for might have been removed<br>had its name "
+"changed or is temporarily unavailable"
+msgstr ""
+
+#: .\templates\projects\capcha.html:232
+msgid ""
+"Carbon capture devices directly remove CO2 from the atmosphere or from "
+"industrial emissions, addressing the\n"
+"          root cause of climate change. This makes them a powerful tool in "
+"reducing greenhouse gas levels."
+msgstr ""
+
+#: .\templates\projects\capcha.html:235 .\templates\projects\fog.html:235
+#: .\templates\projects\plant.html:235 .\templates\projects\solar.html:236
+msgid "Why we chose it"
+msgstr ""
+
+#: .\templates\projects\capcha.html:236
+msgid ""
+"While renewable energy and energy efficiency are crucial, carbon capture\n"
+"          devices complement these efforts by dealing with emissions that "
+"are hard to eliminate, such as those from\n"
+"          industrial processes."
+msgstr ""
+
+#: .\templates\projects\capcha.html:239
+msgid "How it works?"
+msgstr ""
+
+#: .\templates\projects\capcha.html:240
+msgid ""
+"Carbon capture devices work by extracting CO2 from industrial emissions or\n"
+"          directly from the air. This can be done using chemical solvents, "
+"solid adsorbents, or other innovative\n"
+"          methods.Once captured, the CO2 is compressed and transported via "
+"pipelines, ships, or other means to storage\n"
+"          sites or facilities where it can be utilized.Captured CO2 can be "
+"injected into deep underground geological\n"
+"          formations, such as depleted oil and gas fields or deep saline "
+"aquifers, where it is stored securely."
+msgstr ""
+
+#: .\templates\projects\capcha.html:245 .\templates\projects\fog.html:245
+#: .\templates\projects\plant.html:243 .\templates\projects\solar.html:246
+msgid "Project Details"
+msgstr ""
+
+#: .\templates\projects\capcha.html:246
+msgid ""
+"Success will be measured through various metrics, including the amount of "
+"CO2\n"
+"          captured and stored, reduction in overall greenhouse gas "
+"emissions, and improvements in air quality. Regular\n"
+"          impact assessments will be conducted to ensure the initiative is "
+"on track and to make any necessary\n"
+"          adjustments."
+msgstr ""
+
+#: .\templates\projects\capcha.html:250 .\templates\projects\fog.html:249
+#: .\templates\projects\plant.html:247 .\templates\projects\solar.html:251
+msgid "Location"
+msgstr ""
+
+#: .\templates\projects\fog.html:232
+msgid ""
+"Water scarcity is a critical issue affecting millions of people worldwide. "
+"Traditional water sources are\n"
+"          increasingly unreliable due to climate change, overuse, and "
+"pollution. After thorough research and\n"
+"          consideration, I chose to fund fog and mist capture devices for "
+"several compelling reasons"
+msgstr ""
+
+#: .\templates\projects\fog.html:236
+msgid ""
+"Fog and mist capture devices provide an innovative way to harvest water "
+"from\n"
+"          the atmosphere. These devices can generate clean water in arid and "
+"semi-arid regions where conventional water\n"
+"          sources are limited or non-existent."
+msgstr ""
+
+#: .\templates\projects\fog.html:239 .\templates\projects\plant.html:239
+#: .\templates\projects\solar.html:241
+msgid "How it works"
+msgstr ""
+
+#: .\templates\projects\fog.html:240
+msgid ""
+"The initiative involves setting up large mesh nets in fog-prone areas. "
+"These\n"
+"          nets are designed to capture and condense water droplets from the "
+"fog and mist.As fog passes through the nets,\n"
+"          water droplets accumulate and drip into collection troughs. The "
+"collected water is then channeled into storage\n"
+"          tanks or reservoirs for community use"
+msgstr ""
+
+#: .\templates\projects\fog.html:246
+msgid ""
+"The funds will be allocated to the procurement of materials, training of "
+"local\n"
+"          communities, installation, and maintenance of the devices. A "
+"portion will also be used for educational\n"
+"          outreach and awareness campaigns"
+msgstr ""
+
+#: .\templates\projects\plant.html:232
+msgid ""
+"Trees are nature's most efficient carbon sinks. They absorb CO2 from the "
+"atmosphere and store it in their\n"
+"          biomass, helping to mitigate the greenhouse effect. A single "
+"mature tree can absorb up to 48 pounds of CO2 per\n"
+"          year, significantly reducing the amount of this harmful gas in the "
+"atmosphere"
+msgstr ""
+
+#: .\templates\projects\plant.html:236
+msgid ""
+"Tree planting is a sustainable and long-term solution. It is cost-effective\n"
+"          compared to other technological interventions and can be easily "
+"scaled to meet the needs of different regions."
+msgstr ""
+
+#: .\templates\projects\plant.html:240
+msgid ""
+"The initiative identifies degraded and deforested lands that are ideal for\n"
+"          reforestation. This ensures that agricultural and urban lands are "
+"preserved and the most suitable areas are\n"
+"          restored"
+msgstr ""
+
+#: .\templates\projects\plant.html:244
+msgid ""
+"The funds will be allocated to the procurement of saplings, training of "
+"local\n"
+"          communities, and maintenance of the planted areas. A portion will "
+"also be used for educational outreach and\n"
+"          awareness campaigns"
+msgstr ""
+
+#: .\templates\projects\solar.html:233
+msgid ""
+"Investing in solar energy is one of the most impactful ways we can combat "
+"climate change and build a more\n"
+"          sustainable future for our community. By funding our solar energy "
+"initiative, you will be supporting the\n"
+"          installation of solar panels on 50 local homes and businesses over "
+"the next year"
+msgstr ""
+
+#: .\templates\projects\solar.html:237
+msgid ""
+"Beyond the environmental and economic benefits, this initiative will\n"
+"          demonstrate our community's commitment to renewable energy and "
+"inspire others to follow suit. Your\n"
+"          contribution, no matter the size, will play a vital role in "
+"accelerating our transition to a clean energy\n"
+"          future. Join us in leading the way towards a healthier, more "
+"sustainable world."
+msgstr ""
+
+#: .\templates\projects\solar.html:242
+msgid ""
+"These solar arrays will generate 2 megawatts of clean, renewable electricity "
+"-\n"
+"          enough to power over 300 homes annually. Not only will this "
+"prevent the release of 1,500 tons of carbon\n"
+"          emissions, but it will also provide significant long-term savings "
+"on electricity bills for participating\n"
+"          households and businesses"
+msgstr ""
+
+#: .\templates\projects\solar.html:247
+#, python-format
+msgid ""
+"In the last five years, the share of electricity generated by solar power "
+"in\n"
+"          Vietnam increased from almost zero to nearly 11%% — an amazing "
+"accomplishment. The country is quickly becoming\n"
+"          one the world's largest producers of solar power and has vowed to "
+"go net zero by 2050. But in order to achieve\n"
+"          this goal, coal must be rapidly phased out, which is why projects "
+"like this are so important."
+msgstr ""
+
+#: .\templates\user\event.html:225
+msgid "Volunteer"
+msgstr ""
+
+#: .\templates\user\event.html:226
+msgid "Events"
+msgstr ""
+
+#: .\templates\user\event.html:231
+msgid "ACTIVE EVENTS"
+msgstr ""
+
+#: .\templates\user\event.html:233
+msgid "You're currently active participating in"
+msgstr ""
+
+#: .\templates\user\event.html:239
+msgid "Near"
+msgstr ""
+
+#: .\templates\user\event.html:244
+msgid "UPCOMING EVENTS"
+msgstr ""
+
+#: .\templates\user\event.html:259 .\templates\user\event.html:291
+msgid "Organised by "
+msgstr ""
+
+#: .\templates\user\event.html:276
+msgid "Organised by"
+msgstr ""
+
+#: .\templates\user\event.html:289 .\templates\volunteer\plastic.html:227
+msgid "Cleanup exercise"
+msgstr ""
+
+#: .\templates\user\event.html:303 .\templates\user\home.html:284
+msgid "Organise"
+msgstr ""
+
+#: .\templates\user\event.html:304
+msgid "Organise a volunteer events in you area"
+msgstr ""
+
+#: .\templates\user\gaia.html:287
+msgid ""
+"You are chatting with Gaia 2. AI chats may display inaccurate information."
+msgstr ""
+
+#: .\templates\user\home.html:217 .\templates\user\project.html:218
+msgid "Welcome"
+msgstr ""
+
+#: .\templates\user\home.html:226
+msgid "You're currently offsetting"
+msgstr ""
+
+#: .\templates\user\home.html:237
+msgid "You're currently funding"
+msgstr ""
+
+#: .\templates\user\home.html:239
+msgid "You're currently volunteering in"
+msgstr ""
+
+#: .\templates\user\home.html:274
+msgid "Suggested for you"
+msgstr ""
+
+#: .\templates\user\home.html:285
+msgid "Join us and organize a volunteering event on my website"
+msgstr ""
+
+#: .\templates\user\home.html:296
+msgid "Update Your Emissions"
+msgstr ""
+
+#: .\templates\user\home.html:297
+msgid "Update your emissions and track your other emissions"
+msgstr ""
+
+#: .\templates\user\home.html:306
+msgid "Track Air Quality"
+msgstr ""
+
+#: .\templates\user\home.html:307
+msgid "Too much carbon in the atmosphere can worsen breathing conditions"
+msgstr ""
+
+#: .\templates\user\home.html:318
+msgid "Our new AI companion Gaia will be your guide to a greener future"
+msgstr ""
+
+#: .\templates\user\profile.html:217
+msgid "My Profile"
+msgstr ""
+
+#: .\templates\user\profile.html:228
+msgid "Edit"
+msgstr ""
+
+#: .\templates\user\profile.html:240
+msgid "Settings"
+msgstr ""
+
+#: .\templates\user\profile.html:243
+msgid "Profile Details"
+msgstr ""
+
+#: .\templates\user\profile.html:249
+msgid "Select your language"
+msgstr ""
+
+#: .\templates\user\profile.html:252 .\verdeia\settings.py:126
+msgid "English"
+msgstr ""
+
+#: .\templates\user\profile.html:257
+msgid "Update your password"
+msgstr ""
+
+#: .\templates\user\profile.html:263
+msgid "Recieve notifications"
+msgstr ""
+
+#: .\templates\user\profile.html:270
+msgid "Set up 2FA (Two-factor authentication)"
+msgstr ""
+
+#: .\templates\user\project.html:221
+msgid ""
+"Verdeia Labs,</span> we firmly believe our projects will help address "
+"climate change\n"
+"    by developing <span class=\"text-blue-700\">innovative</span> "
+"technologies that provide sustainable water sources and\n"
+"    integrate <span class=\"text-blue-700\">renewable</span> energy to "
+"reduce emissions"
+msgstr ""
+
+#: .\templates\user\project.html:233
+msgid ""
+"Investing in solar energy is one of the most impactful ways\n"
+"        we can combat climate change and build a more sustainable future for "
+"our community. By funding our solar energy\n"
+"        initiative, you will be supporting the installation of solar panels "
+"on 50 local homes and businesses over the\n"
+"        next year"
+msgstr ""
+
+#: .\templates\user\project.html:237
+msgid "Our Sol project"
+msgstr ""
+
+#: .\templates\user\project.html:237 .\templates\user\project.html:256
+msgid ""
+"click for more\n"
+"          info"
+msgstr ""
+
+#: .\templates\user\project.html:252
+msgid ""
+"Our community has a unique opportunity to accelerate the\n"
+"        development of game-changing carbon capture technology. By funding "
+"improvements to our existing carbon capture\n"
+"        machines, you can help drive critical advancements that will "
+"dramatically increase their efficiency and impact."
+msgstr ""
+
+#: .\templates\user\project.html:256
+msgid "Our Captcha project"
+msgstr ""
+
+#: .\templates\user\project.html:278
+msgid ""
+"Access to clean, reliable water is a\n"
+"      fundamental human need, yet millions of people around the world lack "
+"this basic resource. Climate change,\n"
+"      population growth, and unsustainable water use are exacerbating water "
+"scarcity, particularly in arid and semi-arid\n"
+"      regions. Traditional water infrastructure like dams and pipelines can "
+"be costly and resource-intensive, making\n"
+"      them inaccessible for many marginalized communities."
+msgstr ""
+
+#: .\templates\user\project.html:283
+msgid ""
+"click for more\n"
+"        info"
+msgstr ""
+
+#: .\templates\user\start.html:839
+msgid ""
+"Are you open to adopting more sustainable <br />practices reduce\n"
+"              your carbon footprint??"
+msgstr ""
+
+#: .\templates\user\update.html:232 .\templates\volunteer\organise.html:284
+msgid "Basic Information"
+msgstr ""
+
+#: .\templates\user\update.html:234 .\templates\volunteer\organise.html:286
+msgid "Full name"
+msgstr ""
+
+#: .\templates\user\update.html:239
+msgid "About you"
+msgstr ""
+
+#: .\templates\user\update.html:246 .\templates\volunteer\organise.html:300
+msgid "Country"
+msgstr ""
+
+#: .\templates\volunteer\organise.html:221
+msgid "Organise an event"
+msgstr ""
+
+#: .\templates\volunteer\organise.html:222
+msgid ""
+"If you're inspired to take action and make a tangible difference in your\n"
+"      community, we encourage you to reach out to our team to organize a "
+"volunteer event. Whether you'd like to\n"
+"      coordinate a beach cleanup, a tree planting day, or any of our other "
+"environmental initiatives, we're here to\n"
+"      support you every step of the way. Our staff will provide all the "
+"necessary resources, from supplies and equipment\n"
+"      to promotional materials, to ensure your volunteer event is a "
+"resounding success"
+msgstr ""
+
+#: .\templates\volunteer\organise.html:285
+msgid ""
+"Provide below your correct information like your name, country, email and "
+"others"
+msgstr ""
+
+#: .\templates\volunteer\organise.html:293
+msgid "Title"
+msgstr ""
+
+#: .\templates\volunteer\organise.html:296
+msgid "Subject"
+msgstr ""
+
+#: .\templates\volunteer\organise.html:576
+msgid "Address"
+msgstr ""
+
+#: .\templates\volunteer\organise.html:579
+msgid "Date"
+msgstr ""
+
+#: .\templates\volunteer\plastic.html:228
+msgid ""
+"Join us in taking direct action to combat the growing plastic pollution\n"
+"          crisis in our community. By volunteering for our street cleanup "
+"initiative, you'll have the opportunity to\n"
+"          make an immediate, visible impact on the health of our local "
+"environment. Each month, we organize group\n"
+"          cleanup events where volunteers fan out across neighborhoods to "
+"collect discarded plastic bottles, bags, and\n"
+"          other waste that has accumulated on sidewalks, in gutters, and "
+"along roadsides. This hands-on work not only\n"
+"          removes harmful microplastics from entering our waterways, but "
+"also beautifies public spaces and instills a\n"
+"          greater sense of community pride. "
+msgstr ""
+
+#: .\templates\volunteer\plastic.html:238 .\templates\volunteer\sea.html:237
+#: .\templates\volunteer\tree.html:236
+msgid "Volunteer with us"
+msgstr ""
+
+#: .\templates\volunteer\plastic.html:239 .\templates\volunteer\sea.html:243
+#: .\templates\volunteer\tree.html:237
+msgid "Display Name"
+msgstr ""
+
+#: .\templates\volunteer\plastic.html:261
+msgid ""
+"You acknowledge that you understand and\n"
+"                agree to our "
+msgstr ""
+
+#: .\templates\volunteer\sea.html:227
+msgid ""
+"Our coastlines and oceans are drowning in a growing\n"
+"          tide of plastic pollution, and your help is urgently needed. By "
+"volunteering for our seaside cleanup\n"
+"          initiative, you can play a direct role in removing harmful waste "
+"from our local marine environments. Each\n"
+"          month, we organize group cleanup events at beaches and shorelines, "
+"where volunteers work together to collect\n"
+"          discarded plastic bottles, fishing nets, abandoned equipment, and "
+"other debris that threatens the health of\n"
+"          our precious coastal ecosystems. This hands-on work doesn't just "
+"clean up unsightly waste - it protects\n"
+"          vulnerable wildlife, prevents microplastics from entering the food "
+"chain, and preserves the natural beauty\n"
+"          that draws both residents and tourists to our shores."
+msgstr ""
+
+#: .\templates\volunteer\sea.html:238
+msgid " You can only participate in "
+msgstr ""
+
+#: .\templates\volunteer\sea.html:238
+msgid ""
+"one\n"
+"                event"
+msgstr ""
+
+#: .\templates\volunteer\sea.html:239
+msgid ""
+"at a time if you participate in any while signed to another it will overide "
+"the previous\n"
+"              event"
+msgstr ""
+
+#: .\templates\volunteer\sea.html:265 .\templates\volunteer\tree.html:259
+msgid ""
+"You acknowledge that you understand and\n"
+"                agree to our"
+msgstr ""
+
+#: .\templates\volunteer\tree.html:226
+msgid ""
+"As part of our comprehensive sustainability program, we're calling on\n"
+"          volunteers to join our ongoing tree planting efforts across our "
+"community. By dedicating your time to this\n"
+"          hands-on initiative, you'll not only be beautifying our "
+"neighborhoods and providing vital green spaces, but\n"
+"          also contributing to a broader environmental restoration project. "
+"The trees you help plant will work in tandem\n"
+"          with our other initiatives, like our coastal cleanup efforts and "
+"plastic waste reduction programs, to create a\n"
+"          healthier, more resilient local ecosystem. Each sapling you put in "
+"the ground will absorb carbon dioxide,\n"
+"          filter air pollutants, prevent soil erosion, and provide habitat "
+"for local wildlife"
+msgstr ""
+
+#: .\user\views.py:27
+msgid "hello"
+msgstr ""
+
+#: .\user\views.py:63
+msgid "Security Alert"
+msgstr ""
+
+#: .\user\views.py:64
+#, python-brace-format
+msgid ""
+"Hi {username},\n"
+"\n"
+"We noticed a login from \n"
+"{ip_address}\n"
+"\n"
+"If it wasn't you we strongly advice you to contact our support at "
+"hello@verdeia.xyz else you can ignore this message if it was you.\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Imaadu Tawiah\n"
+"Verdeia"
+msgstr ""
+
+#: .\user\views.py:114
+msgid "Welcome to Verdeia! Let's Track Your Carbon Emissions Together"
+msgstr ""
+
+#: .\user\views.py:115
+#, python-brace-format
+msgid ""
+"Hi {fullname},\n"
+"\n"
+"Welcome to Verdeia!\n"
+"\n"
+"Thank you for signing up and joining our mission to track and reduce carbon "
+"emissions. We’re excited to have you with us and look forward to helping you "
+"make a positive impact on the environment.\n"
+"\n"
+"Here’s what you can look forward to:\n"
+"\n"
+"Easy Tracking: Seamlessly track your carbon emissions from various "
+"activities.\n"
+"Personalized Insights: Receive tailored recommendations on how to reduce "
+"your carbon footprint.\n"
+"Community Support: Join a community of like-minded individuals committed to "
+"sustainability.\n"
+"\n"
+"To get started, here are a few things you can do:\n"
+"\n"
+"Complete Your Profile: Help us understand your activities better to provide "
+"more accurate tracking.\n"
+"Log Your Activities: Start inputting your daily activities to see your "
+"carbon emissions in real-time.\n"
+"Explore Our Resources: Check out tips, articles, and guides on how to live a "
+"more sustainable life.\n"
+"\n"
+"If you have any questions or need assistance, our support team is here to "
+"help. Feel free to reach out to us.\n"
+"\n"
+"Thank you once again for signing up. Together, we can make a significant "
+"difference and work towards a more sustainable future!\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Imaadu Tawiah\n"
+"Verdeia"
+msgstr ""
+
+#: .\user\views.py:192 .\user\views.py:196
+msgid "below"
+msgstr ""
+
+#: .\user\views.py:194
+msgid "above"
+msgstr ""
+
+#: .\user\views.py:245 .\user\views.py:296 .\user\views.py:317
+#: .\user\views.py:336 .\user\views.py:357 .\user\views.py:378
+#: .\user\views.py:397 .\user\views.py:416 .\user\views.py:435
+#: .\user\views.py:454 .\user\views.py:473 .\user\views.py:492
+msgid "Thanks for subscribing to our mailing services"
+msgstr ""
+
+#: .\user\views.py:246 .\user\views.py:297 .\user\views.py:318
+#: .\user\views.py:337 .\user\views.py:358 .\user\views.py:379
+#: .\user\views.py:398 .\user\views.py:417 .\user\views.py:436
+#: .\user\views.py:455 .\user\views.py:474 .\user\views.py:493
+#, python-brace-format
+msgid ""
+"Hi {name},\n"
+"\n"
+"Thank you for subscribing to the Verdeia Newsletter!\n"
+"\n"
+"We’re thrilled to have you on board and can't wait to keep you updated with "
+"our latest news, exclusive offers, and insightful content. Your subscription "
+"means a lot to us, and we are committed to delivering value right to your "
+"inbox.\n"
+"\n"
+"Here’s what you can expect:\n"
+"\n"
+"Exclusive Updates: Be the first to know about our new products, services, "
+"and special promotions.\n"
+"In-Depth Articles: Access to valuable insights and articles from our "
+"experts.\n"
+"Community Stories: Hear from other members of our community and share your "
+"experiences.\n"
+"\n"
+"If you have any questions, feedback, or topics you'd like us to cover, "
+"please don't hesitate to reach out to us.\n"
+"\n"
+"Thank you again for joining our community. We look forward to connecting "
+"with you and providing you with the best content and offers.\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Imaadu Tawiah\n"
+"Verdeia."
+msgstr ""
+
+#: .\user\views.py:276
+msgid "Thank You for Reaching Out to Verdeia"
+msgstr ""
+
+#: .\user\views.py:277
+#, python-brace-format
+msgid ""
+"Hi {name},\n"
+"\n"
+"Thank you for contacting Verdeia!\n"
+"\n"
+"We have received your message and appreciate you taking the time to reach "
+"out to us. Our team is currently reviewing your inquiry, and we will get "
+"back to you as soon as possible.\n"
+"What to Expect:\n"
+"\n"
+"Response Time: We aim to respond to all inquiries within 24-48 hours.\n"
+"Detailed Information: Our team will provide you with the information or "
+"assistance you need based on your request.\n"
+"Follow-Up: If further information is needed, we will follow up with "
+"additional questions to ensure we address your needs thoroughly.\n"
+"\n"
+"In the meantime, if you have any urgent questions or require immediate "
+"assistance, please feel free to reach out to us directly at hello@verdeia."
+"xyz .\n"
+"\n"
+"Thank you once again for contacting us. We appreciate your patience and look "
+"forward to assisting you soon.\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Imaadu Tawiah\n"
+"Verdeia"
+msgstr ""
+
+#: .\user\views.py:718
+msgid "Credentials update"
+msgstr ""
+
+#: .\user\views.py:719
+#, python-brace-format
+msgid ""
+"Hi {first_nane},\n"
+"\n"
+"We hope this message finds you well. We are writing to inform you about a "
+"potential unauthorized change in your account credentials. Our system has "
+"detected activity suggesting that your credentials may have been altered "
+"without your authorization.\n"
+"\n"
+"If you did not make any changes to your account credentials recently, we "
+"strongly advise you to take immediate action to secure your account. Please "
+"contact our support team at hello@verdiea.xyz as soon as possible to report "
+"this issue and regain control of your account.\n"
+"\n"
+"Our support team is ready to assist you in verifying your identity, "
+"investigating the unauthorized changes, and helping you reset your "
+"credentials securely.\n"
+"\n"
+"If you have recently updated your credentials and this message is no longer "
+"relevant, please disregard it. However, if you suspect any unauthorized "
+"activity on your account, we urge you to act swiftly to protect your account "
+"information.\n"
+"\n"
+"Thank you for your attention to this matter. Your account security is our "
+"top priority, and we are committed to helping you resolve this issue "
+"promptly.\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Imaadu Tawiah,\n"
+"Verdeia Labs."
+msgstr ""
+
+#: .\user\views.py:971 .\user\views.py:1014 .\user\views.py:1058
+msgid "Thanks for volunteering"
+msgstr ""
+
+#: .\user\views.py:972 .\user\views.py:1015 .\user\views.py:1059
+#, python-brace-format
+msgid ""
+"Hi {display_name},\n"
+"\n"
+"We are thrilled to have you on board as a volunteer for Plastic removal "
+"event!\n"
+"\n"
+"Thank you for generously offering your time and effort to help make this "
+"event a success. Your support is invaluable, and we couldn’t do it without "
+"dedicated volunteers like you.\n"
+"Here’s what you can expect next:\n"
+"\n"
+"Volunteer Orientation: Join us for a brief orientation on {orientation_date} "
+"at 21:00 to go over your role and responsibilities.\n"
+"Event Day Details: Location: {volunteer_location}\n"
+"Date:{volunteer_date}\n"
+"Time:10:00.\n"
+"\n"
+"Stay Connected: We’ll keep you updated with any additional information or "
+"changes via email, so please keep an eye on your inbox.\n"
+"\n"
+"Quick Checklist:\n"
+"\n"
+"Complete Your Registration: If you haven’t already.\n"
+"Mark Your Calendar: Add the event and orientation dates to your calendar to "
+"ensure you don’t miss any important details.\n"
+"Spread the Word: Feel free to invite friends and family to join us. More "
+"volunteers always make for a merrier event!\n"
+"\n"
+"If you have any questions or need further information, don’t hesitate to "
+"reach out to us.\n"
+"\n"
+"Once again, thank you for your willingness to volunteer. Your participation "
+"will help us create an unforgettable experience at Plastic removal event.\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Imaadu Tawiah\n"
+"Verdeia"
+msgstr ""
+
+#: .\user\views.py:1085
+msgid "Thank You for Organizing an Event with Us!"
+msgstr ""
+
+#: .\user\views.py:1087
+#, python-brace-format
+msgid ""
+"Hi {user_name},\n"
+"\n"
+"We are thrilled and grateful for your initiative to organize an event with "
+"us at Verdeia.\n"
+"\n"
+"Your enthusiasm and commitment to this event are truly inspiring. It's "
+"individuals like you who drive meaningful change and help us achieve our "
+"mission.\n"
+"What’s Next:\n"
+"\n"
+"Initial Planning: Our team will be reaching out to you shortly to discuss "
+"the details and next steps. We want to ensure we provide you with all the "
+"support and resources you need.\n"
+"Collaboration: We believe in the power of collaboration and are excited to "
+"work closely with you to bring this event to life. Your vision and ideas are "
+"invaluable to us.\n"
+"Support and Resources: We will provide you with the necessary tools, "
+"materials, and guidance to help make your event a success.\n"
+"\n"
+"If you have any immediate questions or need assistance, please don’t "
+"hesitate to reach out to us.\n"
+"\n"
+"Thank you once again for your dedication and effort in organizing this "
+"event. Together, we can create an impactful and memorable experience for "
+"everyone involved.\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Imaad Tawiah\n"
+" Verdeia"
+msgstr ""
+
+#: .\verdeia\settings.py:127
+msgid "Italian"
+msgstr ""

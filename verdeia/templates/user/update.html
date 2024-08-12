@@ -1,0 +1,527 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+{% load i18n %}
+<div class="bg-blue-500">
+  <div class="fixed top-0 w-full">
+    <nav class="px-2 py-2 flex justify-between items-center bg-white mb-2">
+      <a class="text-3xl font-bold leading-none" href="{% url 'home' %}">
+        <img src="{% static 'img/leaf.png' %}" class="h-10">
+
+      </a>
+      <div class="lg:hidden">
+        <button class="navbar-burger flex items-center text-blue-600 p-3">
+          <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <title>Mobile menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+          </svg>
+        </button>
+      </div>
+      <ul
+        class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-7">
+        <li>
+          <a href="{% url 'userlogged' %}" class="text-black text-base flex items-center py-2 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+              viewBox="0 0 512 512">
+              <path
+                d="M197.332 170.668h-160C16.746 170.668 0 153.922 0 133.332v-96C0 16.746 16.746 0 37.332 0h160c20.59 0 37.336 16.746 37.336 37.332v96c0 20.59-16.746 37.336-37.336 37.336zM37.332 32A5.336 5.336 0 0 0 32 37.332v96a5.337 5.337 0 0 0 5.332 5.336h160a5.338 5.338 0 0 0 5.336-5.336v-96A5.337 5.337 0 0 0 197.332 32zm160 480h-160C16.746 512 0 495.254 0 474.668v-224c0-20.59 16.746-37.336 37.332-37.336h160c20.59 0 37.336 16.746 37.336 37.336v224c0 20.586-16.746 37.332-37.336 37.332zm-160-266.668A5.337 5.337 0 0 0 32 250.668v224A5.336 5.336 0 0 0 37.332 480h160a5.337 5.337 0 0 0 5.336-5.332v-224a5.338 5.338 0 0 0-5.336-5.336zM474.668 512h-160c-20.59 0-37.336-16.746-37.336-37.332v-96c0-20.59 16.746-37.336 37.336-37.336h160c20.586 0 37.332 16.746 37.332 37.336v96C512 495.254 495.254 512 474.668 512zm-160-138.668a5.338 5.338 0 0 0-5.336 5.336v96a5.337 5.337 0 0 0 5.336 5.332h160a5.336 5.336 0 0 0 5.332-5.332v-96a5.337 5.337 0 0 0-5.332-5.336zm160-74.664h-160c-20.59 0-37.336-16.746-37.336-37.336v-224C277.332 16.746 294.078 0 314.668 0h160C495.254 0 512 16.746 512 37.332v224c0 20.59-16.746 37.336-37.332 37.336zM314.668 32a5.337 5.337 0 0 0-5.336 5.332v224a5.338 5.338 0 0 0 5.336 5.336h160a5.337 5.337 0 0 0 5.332-5.336v-224A5.336 5.336 0 0 0 474.668 32zm0 0"
+                data-original="#000000" />
+            </svg>
+            <span>Home</span>
+          </a>
+        </li>
+
+        <li class="text-black">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+          </svg>
+        </li>
+        <li>
+          <a href="{% url 'events' %}" class="text-black text-base flex items-center py-2 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+              viewBox="0 0 512 512">
+              <path
+                d="M122.39 165.78h244.87c10.49 0 19-8.51 19-19s-8.51-19-19-19H122.39c-10.49 0-19 8.51-19 19s8.51 19 19 19zm164.33 99.44c0-10.49-8.51-19-19-19H122.39c-10.49 0-19 8.51-19 19s8.51 19 19 19h145.33c10.49 0 19-8.51 19-19z"
+                data-original="#000000" />
+              <path
+                d="M486.63 323.71c2.04-22.33 3.41-48.35 3.44-78.68-.06-57.07-4.85-98.86-9.96-129.57-8.94-50.6-54.9-96.56-105.5-105.5C343.9 4.85 302.11.06 245.03 0c-57.07.06-98.87 4.85-129.58 9.96C64.86 18.9 18.9 64.86 9.96 115.46 4.85 146.17.07 187.96 0 245.03c.07 57.07 4.85 98.87 9.96 129.58 8.94 50.6 54.9 96.56 105.5 105.5 30.71 5.11 72.5 9.89 129.58 9.96 30.32-.03 56.34-1.4 78.66-3.44 19.84 15.87 45 25.37 72.38 25.37 64.02 0 115.93-51.9 115.93-115.92 0-27.38-9.5-52.54-25.37-72.37zM245.04 452.07c-45.02-.05-85.3-3.13-123.13-9.41-16.81-3.01-33.84-12.44-47.95-26.55s-23.53-31.13-26.55-47.95c-6.28-37.79-9.35-78.07-9.41-123.13.05-45.04 3.13-85.32 9.41-123.13 3.01-16.81 12.44-33.83 26.55-47.94s31.13-23.53 47.95-26.55C159.72 41.13 200 38.06 245.04 38c45.02.05 85.3 3.13 123.13 9.41 16.81 3.01 33.83 12.44 47.95 26.55 14.11 14.11 23.53 31.13 26.55 47.95 6.28 37.83 9.35 78.1 9.41 123.13-.02 16.9-.48 33.11-1.36 48.79-16.28-8.72-34.88-13.66-54.64-13.66-64.02 0-115.93 51.9-115.93 115.92 0 19.76 4.95 38.35 13.66 54.63-15.68.88-31.89 1.34-48.78 1.35zM396.08 474c-42.97 0-77.93-34.95-77.93-77.92s34.96-77.92 77.93-77.92 77.93 34.95 77.93 77.92S439.05 474 396.08 474z"
+                data-original="#000000" />
+              <path
+                d="M406.28 418.24c-2.42-.4-5.71-.78-10.2-.78s-7.78.38-10.2.78c-3.98.7-7.6 4.32-8.31 8.31-.4 2.42-.78 5.71-.78 10.2s.38 7.78.78 10.2c.7 3.98 4.32 7.6 8.31 8.31 2.42.4 5.71.78 10.2.78s7.78-.38 10.2-.78c3.98-.7 7.6-4.32 8.31-8.31.4-2.42.78-5.71.78-10.2s-.38-7.78-.78-10.2c-.7-3.98-4.32-7.6-8.31-8.31zm-10.21-12.61c10.49 0 19-8.51 19-19v-31.7c0-10.49-8.51-19-19-19s-19 8.51-19 19v31.7c0 10.49 8.51 19 19 19z"
+                data-original="#000000" />
+            </svg>
+            <span>Event</span>
+          </a>
+        </li>
+
+        <li class="text-black">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+          </svg>
+        </li>
+        <li>
+          <a href="{% url 'projects' %}" class="text-black text-base flex items-center py-2 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+              viewBox="0 0 16 16">
+              <path
+                d="M13 .5H3A2.503 2.503 0 0 0 .5 3v10A2.503 2.503 0 0 0 3 15.5h10a2.503 2.503 0 0 0 2.5-2.5V3A2.503 2.503 0 0 0 13 .5ZM14.5 13a1.502 1.502 0 0 1-1.5 1.5H3A1.502 1.502 0 0 1 1.5 13v-.793l3.5-3.5 1.647 1.647a.5.5 0 0 0 .706 0L10.5 7.207V8a.5.5 0 0 0 1 0V6a.502.502 0 0 0-.5-.5H9a.5.5 0 0 0 0 1h.793L7 9.293 5.354 7.647a.5.5 0 0 0-.707 0L1.5 10.793V3A1.502 1.502 0 0 1 3 1.5h10A1.502 1.502 0 0 1 14.5 3Z"
+                data-original="#000000" />
+            </svg>
+            <span>Projects</span>
+          </a>
+        </li>
+
+        <li class="text-black-400">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+          </svg>
+        </li>
+        <li>
+          <a href="{% url 'askgaia' %}" class="text-black text-base flex items-center rounded py-2 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke='currentColor'
+              class="w-[18px] h-[18px] mr-4" viewBox="0 0 682.667 682.667">
+              <defs>
+                <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                  <path d="M0 512h512V0H0Z" data-original="#000000" />
+                </clipPath>
+              </defs>
+              <g clip-path="url(#a)" transform="matrix(1.33 0 0 -1.33 0 682.667)">
+                <path fill="none" stroke-miterlimit="10" stroke-width="40"
+                  d="M452 444H60c-22.091 0-40-17.909-40-40v-39.446l212.127-157.782c14.17-10.54 33.576-10.54 47.746 0L492 364.554V404c0 22.091-17.909 40-40 40Z"
+                  data-original="#000000" />
+                <path
+                  d="M472 274.9V107.999c0-11.027-8.972-20-20-20H60c-11.028 0-20 8.973-20 20V274.9L0 304.652V107.999c0-33.084 26.916-60 60-60h392c33.084 0 60 26.916 60 60v196.653Z"
+                  data-original="#000000" />
+              </g>
+            </svg>
+            <span>Ask Gaia</span>
+          </a>
+        </li>
+
+
+      </ul>
+      <a class="hidden lg:inline-block" href="{% url 'profile' %}">
+        <div class="flex flex-wrap items-center cursor-pointer border border-blue-500 rounded-full px-2 py-1">
+          <img src="{% static 'img/profile.jpeg' %}" class="w-8 h-8 rounded-full border-2 border-white" />
+          <div class="ml-4">
+            <p class="text-base text-blue-600">{{ user.username }}</p>
+            <p class="text-xs text-blue-300 mr-2">{{tier}}</p>
+          </div>
+        </div>
+      </a>
+    </nav>
+  </div>
+  <div class="navbar-menu relative z-50 hidden">
+    <div class="navbar-backdrop fixed inset-0 bg-black-800 opacity-25"></div>
+    <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+      <div class="flex items-center mb-8">
+        <a class="mr-auto text-3xl font-bold leading-none" href="{% url 'home' %}">
+          <img src="{% static 'img/leaf.png' %}" class="h-12">
+
+        </a>
+        <button class="navbar-close">
+          <svg class="h-6 w-6 text-black-400 cursor-pointer hover:text-black-500" xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div>
+        <ul>
+          <li>-
+            <a href="{% url 'userlogged' %}" class="text-black text-base flex items-center px-4 py-3 transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+                viewBox="0 0 512 512">
+                <path
+                  d="M197.332 170.668h-160C16.746 170.668 0 153.922 0 133.332v-96C0 16.746 16.746 0 37.332 0h160c20.59 0 37.336 16.746 37.336 37.332v96c0 20.59-16.746 37.336-37.336 37.336zM37.332 32A5.336 5.336 0 0 0 32 37.332v96a5.337 5.337 0 0 0 5.332 5.336h160a5.338 5.338 0 0 0 5.336-5.336v-96A5.337 5.337 0 0 0 197.332 32zm160 480h-160C16.746 512 0 495.254 0 474.668v-224c0-20.59 16.746-37.336 37.332-37.336h160c20.59 0 37.336 16.746 37.336 37.336v224c0 20.586-16.746 37.332-37.336 37.332zm-160-266.668A5.337 5.337 0 0 0 32 250.668v224A5.336 5.336 0 0 0 37.332 480h160a5.337 5.337 0 0 0 5.336-5.332v-224a5.338 5.338 0 0 0-5.336-5.336zM474.668 512h-160c-20.59 0-37.336-16.746-37.336-37.332v-96c0-20.59 16.746-37.336 37.336-37.336h160c20.586 0 37.332 16.746 37.332 37.336v96C512 495.254 495.254 512 474.668 512zm-160-138.668a5.338 5.338 0 0 0-5.336 5.336v96a5.337 5.337 0 0 0 5.336 5.332h160a5.336 5.336 0 0 0 5.332-5.332v-96a5.337 5.337 0 0 0-5.332-5.336zm160-74.664h-160c-20.59 0-37.336-16.746-37.336-37.336v-224C277.332 16.746 294.078 0 314.668 0h160C495.254 0 512 16.746 512 37.332v224c0 20.59-16.746 37.336-37.332 37.336zM314.668 32a5.337 5.337 0 0 0-5.336 5.332v224a5.338 5.338 0 0 0 5.336 5.336h160a5.337 5.337 0 0 0 5.332-5.336v-224A5.336 5.336 0 0 0 474.668 32zm0 0"
+                  data-original="#000000" />
+              </svg>
+              <span>Home</span>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="{% url 'events' %}" class="text-black text-base flex items-center px-4 py-3 transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+                viewBox="0 0 512 512">
+                <path
+                  d="M122.39 165.78h244.87c10.49 0 19-8.51 19-19s-8.51-19-19-19H122.39c-10.49 0-19 8.51-19 19s8.51 19 19 19zm164.33 99.44c0-10.49-8.51-19-19-19H122.39c-10.49 0-19 8.51-19 19s8.51 19 19 19h145.33c10.49 0 19-8.51 19-19z"
+                  data-original="#000000" />
+                <path
+                  d="M486.63 323.71c2.04-22.33 3.41-48.35 3.44-78.68-.06-57.07-4.85-98.86-9.96-129.57-8.94-50.6-54.9-96.56-105.5-105.5C343.9 4.85 302.11.06 245.03 0c-57.07.06-98.87 4.85-129.58 9.96C64.86 18.9 18.9 64.86 9.96 115.46 4.85 146.17.07 187.96 0 245.03c.07 57.07 4.85 98.87 9.96 129.58 8.94 50.6 54.9 96.56 105.5 105.5 30.71 5.11 72.5 9.89 129.58 9.96 30.32-.03 56.34-1.4 78.66-3.44 19.84 15.87 45 25.37 72.38 25.37 64.02 0 115.93-51.9 115.93-115.92 0-27.38-9.5-52.54-25.37-72.37zM245.04 452.07c-45.02-.05-85.3-3.13-123.13-9.41-16.81-3.01-33.84-12.44-47.95-26.55s-23.53-31.13-26.55-47.95c-6.28-37.79-9.35-78.07-9.41-123.13.05-45.04 3.13-85.32 9.41-123.13 3.01-16.81 12.44-33.83 26.55-47.94s31.13-23.53 47.95-26.55C159.72 41.13 200 38.06 245.04 38c45.02.05 85.3 3.13 123.13 9.41 16.81 3.01 33.83 12.44 47.95 26.55 14.11 14.11 23.53 31.13 26.55 47.95 6.28 37.83 9.35 78.1 9.41 123.13-.02 16.9-.48 33.11-1.36 48.79-16.28-8.72-34.88-13.66-54.64-13.66-64.02 0-115.93 51.9-115.93 115.92 0 19.76 4.95 38.35 13.66 54.63-15.68.88-31.89 1.34-48.78 1.35zM396.08 474c-42.97 0-77.93-34.95-77.93-77.92s34.96-77.92 77.93-77.92 77.93 34.95 77.93 77.92S439.05 474 396.08 474z"
+                  data-original="#000000" />
+                <path
+                  d="M406.28 418.24c-2.42-.4-5.71-.78-10.2-.78s-7.78.38-10.2.78c-3.98.7-7.6 4.32-8.31 8.31-.4 2.42-.78 5.71-.78 10.2s.38 7.78.78 10.2c.7 3.98 4.32 7.6 8.31 8.31 2.42.4 5.71.78 10.2.78s7.78-.38 10.2-.78c3.98-.7 7.6-4.32 8.31-8.31.4-2.42.78-5.71.78-10.2s-.38-7.78-.78-10.2c-.7-3.98-4.32-7.6-8.31-8.31zm-10.21-12.61c10.49 0 19-8.51 19-19v-31.7c0-10.49-8.51-19-19-19s-19 8.51-19 19v31.7c0 10.49 8.51 19 19 19z"
+                  data-original="#000000" />
+              </svg>
+              <span>Event</span>
+            </a>
+          </li>
+          <li>
+            <a href="{% url 'projects' %}" class="text-black text-base flex items-center px-4 py-3 transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+                viewBox="0 0 16 16">
+                <path
+                  d="M13 .5H3A2.503 2.503 0 0 0 .5 3v10A2.503 2.503 0 0 0 3 15.5h10a2.503 2.503 0 0 0 2.5-2.5V3A2.503 2.503 0 0 0 13 .5ZM14.5 13a1.502 1.502 0 0 1-1.5 1.5H3A1.502 1.502 0 0 1 1.5 13v-.793l3.5-3.5 1.647 1.647a.5.5 0 0 0 .706 0L10.5 7.207V8a.5.5 0 0 0 1 0V6a.502.502 0 0 0-.5-.5H9a.5.5 0 0 0 0 1h.793L7 9.293 5.354 7.647a.5.5 0 0 0-.707 0L1.5 10.793V3A1.502 1.502 0 0 1 3 1.5h10A1.502 1.502 0 0 1 14.5 3Z"
+                  data-original="#000000" />
+              </svg>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="{% url 'askgaia' %}" class="text-black text-base flex items-center px-4 py-3 transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke='currentColor'
+                class="w-[18px] h-[18px] mr-4" viewBox="0 0 682.667 682.667">
+                <defs>
+                  <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                    <path d="M0 512h512V0H0Z" data-original="#000000" />
+                  </clipPath>
+                </defs>
+                <g clip-path="url(#a)" transform="matrix(1.33 0 0 -1.33 0 682.667)">
+                  <path fill="none" stroke-miterlimit="10" stroke-width="40"
+                    d="M452 444H60c-22.091 0-40-17.909-40-40v-39.446l212.127-157.782c14.17-10.54 33.576-10.54 47.746 0L492 364.554V404c0 22.091-17.909 40-40 40Z"
+                    data-original="#000000" />
+                  <path
+                    d="M472 274.9V107.999c0-11.027-8.972-20-20-20H60c-11.028 0-20 8.973-20 20V274.9L0 304.652V107.999c0-33.084 26.916-60 60-60h392c33.084 0 60 26.916 60 60v196.653Z"
+                    data-original="#000000" />
+                </g>
+              </svg>
+              <span>Ask Gaia</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <a href="{% url 'profile' %}">
+        <div class="mt-auto">
+          <div class="pt-5">
+            <div class="flex flex-wrap items-center cursor-pointer border border-blue-600 rounded-full px-2 py-1">
+              <img src="{% static 'img/profile.jpeg' %}" class="w-8 h-8 rounded-full border-2 border-white" />
+              <div class="ml-3">
+                <p class="text-base text-blue-600">{{ user.username }}</p>
+                <p class="text-sm text-blue-300">{{tier}}</p>
+              </div>
+            </div>
+          </div>
+      </a>
+    </nav>
+  </div>
+</div>
+
+<div class="max-w-4xl mx-auto pl-4 py-6 rounded mt-16">
+  <div class="flex mx-2">
+    <img src="{% static 'img/profile.jpeg' %}" class="w-32 h-32 rounded-full border-2 border-white" />
+    <div class="pl-3 pt-3">
+      <p class="capitalize text-3xl font-bold my-2">{{user.first_name}} {{user.last_name}}</p>
+      <p class="text-gray-500 text-lg">{{user.email}}</p>
+    </div>
+  </div>
+</div>
+
+<div class="max-w-xl mx-auto">
+  <div class="mx-3">
+    <form method="post">
+      {% csrf_token %}
+      <p class = "text-3xl font-bold">{% blocktrans %}Basic Information{% endblocktrans %}</p>
+      <p>Provide below your correct information like your name, country, email and others.</p>
+      <p class = "my-4 font-semibold">{% blocktrans %}Full name{% endblocktrans %}</p>
+      <div class ="mb-2"><input value="{{user.first_name}}" type="text" placeholder="First name *" name="fname"
+          class="text-left border-2 border-blue-200 rounded-md px-2 py-1 w-full" required></div>
+      <div ><input value="{{user.last_name}}" type="text" placeholder="Last name *" name="lname"
+          class="text-left border-2 border-blue-200 rounded-md px-2 py-1 w-full" required></div>
+      <p class = "my-4 font-semibold">{% blocktrans %}About you{% endblocktrans %}</p>
+      <div ><textarea  placeholder="Bio*" name="about"
+          class="caret-green-500 resize-none  text-left border-2 border-blue-200 rounded-md px-2 py-1 w-full"
+          required rows="3" maxlength="100"></textarea></div>
+      <p class = "my-4 font-semibold">E-mail</p>
+      <div ><input value="{{user.email}}" type="email" placeholder="E-mail" name="mail"
+          class="text-left border-2 border-blue-200 rounded-md px-2 py-1 w-full" required></div>
+      <p class = "my-4 font-semibold">{% blocktrans %}Country{% endblocktrans %}</p>
+      <div>
+        <select name="country" class="text-left border-2 px-2 py-1 w-full border-blue-200 rounded-md">
+          <option value="United States">United States</option>
+          <option value="Afghanistan">Afghanistan</option>
+          <option value="Albania">Albania</option>
+          <option value="Algeria">Algeria</option>
+          <option value="American Samoa">American Samoa</option>
+          <option value="Andorra">Andorra</option>
+          <option value="Angola">Angola</option>
+          <option value="Anguilla">Anguilla</option>
+          <option value="Antartica">Antarctica</option>
+          <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+          <option value="Argentina">Argentina</option>
+          <option value="Armenia">Armenia</option>
+          <option value="Aruba">Aruba</option>
+          <option value="Australia">Australia</option>
+          <option value="Austria">Austria</option>
+          <option value="Azerbaijan">Azerbaijan</option>
+          <option value="Bahamas">Bahamas</option>
+          <option value="Bahrain">Bahrain</option>
+          <option value="Bangladesh">Bangladesh</option>
+          <option value="Barbados">Barbados</option>
+          <option value="Belarus">Belarus</option>
+          <option value="Belgium">Belgium</option>
+          <option value="Belize">Belize</option>
+          <option value="Benin">Benin</option>
+          <option value="Bermuda">Bermuda</option>
+          <option value="Bhutan">Bhutan</option>
+          <option value="Bolivia">Bolivia</option>
+          <option value="Bosnia and Herzegowina">
+            Bosnia and Herzegowina
+          </option>
+          <option value="Botswana">Botswana</option>
+          <option value="Bouvet Island">Bouvet Island</option>
+          <option value="Brazil">Brazil</option>
+          <option value="British Indian Ocean Territory">
+            British Indian Ocean Territory
+          </option>
+          <option value="Brunei Darussalam">Brunei Darussalam</option>
+          <option value="Bulgaria">Bulgaria</option>
+          <option value="Burkina Faso">Burkina Faso</option>
+          <option value="Burundi">Burundi</option>
+          <option value="Cambodia">Cambodia</option>
+          <option value="Cameroon">Cameroon</option>
+          <option value="Canada">Canada</option>
+          <option value="Cape Verde">Cape Verde</option>
+          <option value="Cayman Islands">Cayman Islands</option>
+          <option value="Central African Republic">
+            Central African Republic
+          </option>
+          <option value="Chad">Chad</option>
+          <option value="Chile">Chile</option>
+          <option value="China">China</option>
+          <option value="Christmas Island">Christmas Island</option>
+          <option value="Cocos Islands">Cocos (Keeling) Islands</option>
+          <option value="Colombia">Colombia</option>
+          <option value="Comoros">Comoros</option>
+          <option value="Congo">Congo</option>
+          <option value="Congo">Congo, the Democratic Republic of the</option>
+          <option value="Cook Islands">Cook Islands</option>
+          <option value="Costa Rica">Costa Rica</option>
+          <option value="Cota D'Ivoire">Cote d'Ivoire</option>
+          <option value="Croatia">Croatia (Hrvatska)</option>
+          <option value="Cuba">Cuba</option>
+          <option value="Cyprus">Cyprus</option>
+          <option value="Czech Republic">Czech Republic</option>
+          <option value="Denmark">Denmark</option>
+          <option value="Djibouti">Djibouti</option>
+          <option value="Dominica">Dominica</option>
+          <option value="Dominican Republic">Dominican Republic</option>
+          <option value="East Timor">East Timor</option>
+          <option value="Ecuador">Ecuador</option>
+          <option value="Egypt">Egypt</option>
+          <option value="El Salvador">El Salvador</option>
+          <option value="Equatorial Guinea">Equatorial Guinea</option>
+          <option value="Eritrea">Eritrea</option>
+          <option value="Estonia">Estonia</option>
+          <option value="Ethiopia">Ethiopia</option>
+          <option value="Falkland Islands">
+            Falkland Islands (Malvinas)
+          </option>
+          <option value="Faroe Islands">Faroe Islands</option>
+          <option value="Fiji">Fiji</option>
+          <option value="Finland">Finland</option>
+          <option value="France">France</option>
+          <option value="France Metropolitan">France, Metropolitan</option>
+          <option value="French Guiana">French Guiana</option>
+          <option value="French Polynesia">French Polynesia</option>
+          <option value="French Southern Territories">
+            French Southern Territories
+          </option>
+          <option value="Gabon">Gabon</option>
+          <option value="Gambia">Gambia</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Germany">Germany</option>
+          <option value="Ghana">Ghana</option>
+          <option value="Gibraltar">Gibraltar</option>
+          <option value="Greece">Greece</option>
+          <option value="Greenland">Greenland</option>
+          <option value="Grenada">Grenada</option>
+          <option value="Guadeloupe">Guadeloupe</option>
+          <option value="Guam">Guam</option>
+          <option value="Guatemala">Guatemala</option>
+          <option value="Guinea">Guinea</option>
+          <option value="Guinea-Bissau">Guinea-Bissau</option>
+          <option value="Guyana">Guyana</option>
+          <option value="Haiti">Haiti</option>
+          <option value="Heard and McDonald Islands">
+            Heard and Mc Donald Islands
+          </option>
+          <option value="Holy See">Holy See (Vatican City State)</option>
+          <option value="Honduras">Honduras</option>
+          <option value="Hong Kong">Hong Kong</option>
+          <option value="Hungary">Hungary</option>
+          <option value="Iceland">Iceland</option>
+          <option value="India">India</option>
+          <option value="Indonesia">Indonesia</option>
+          <option value="Iran">Iran (Islamic Republic of)</option>
+          <option value="Iraq">Iraq</option>
+          <option value="Ireland">Ireland</option>
+          <option value="Israel">Israel</option>
+          <option value="Italy">Italy</option>
+          <option value="Jamaica">Jamaica</option>
+          <option value="Japan">Japan</option>
+          <option value="Jordan">Jordan</option>
+          <option value="Kazakhstan">Kazakhstan</option>
+          <option value="Kenya">Kenya</option>
+          <option value="Kiribati">Kiribati</option>
+          <option value="Democratic People's Republic of Korea">
+            Korea, Democratic People's Republic of
+          </option>
+          <option value="Korea">Korea, Republic of</option>
+          <option value="Kuwait">Kuwait</option>
+          <option value="Kyrgyzstan">Kyrgyzstan</option>
+          <option value="Lao">Lao People's Democratic Republic</option>
+          <option value="Latvia">Latvia</option>
+          <option value="Lebanon">Lebanon</option>
+          <option value="Lesotho">Lesotho</option>
+          <option value="Liberia">Liberia</option>
+          <option value="Libyan Arab Jamahiriya">
+            Libyan Arab Jamahiriya
+          </option>
+          <option value="Liechtenstein">Liechtenstein</option>
+          <option value="Lithuania">Lithuania</option>
+          <option value="Luxembourg">Luxembourg</option>
+          <option value="Macau">Macau</option>
+          <option value="Macedonia">
+            Macedonia, The Former Yugoslav Republic of
+          </option>
+          <option value="Madagascar">Madagascar</option>
+          <option value="Malawi">Malawi</option>
+          <option value="Malaysia">Malaysia</option>
+          <option value="Maldives">Maldives</option>
+          <option value="Mali">Mali</option>
+          <option value="Malta">Malta</option>
+          <option value="Marshall Islands">Marshall Islands</option>
+          <option value="Martinique">Martinique</option>
+          <option value="Mauritania">Mauritania</option>
+          <option value="Mauritius">Mauritius</option>
+          <option value="Mayotte">Mayotte</option>
+          <option value="Mexico">Mexico</option>
+          <option value="Micronesia">Micronesia, Federated States of</option>
+          <option value="Moldova">Moldova, Republic of</option>
+          <option value="Monaco">Monaco</option>
+          <option value="Mongolia">Mongolia</option>
+          <option value="Montserrat">Montserrat</option>
+          <option value="Morocco">Morocco</option>
+          <option value="Mozambique">Mozambique</option>
+          <option value="Myanmar">Myanmar</option>
+          <option value="Namibia">Namibia</option>
+          <option value="Nauru">Nauru</option>
+          <option value="Nepal">Nepal</option>
+          <option value="Netherlands">Netherlands</option>
+          <option value="Netherlands Antilles">Netherlands Antilles</option>
+          <option value="New Caledonia">New Caledonia</option>
+          <option value="New Zealand">New Zealand</option>
+          <option value="Nicaragua">Nicaragua</option>
+          <option value="Niger">Niger</option>
+          <option value="Nigeria">Nigeria</option>
+          <option value="Niue">Niue</option>
+          <option value="Norfolk Island">Norfolk Island</option>
+          <option value="Northern Mariana Islands">
+            Northern Mariana Islands
+          </option>
+          <option value="Norway">Norway</option>
+          <option value="Oman">Oman</option>
+          <option value="Pakistan">Pakistan</option>
+          <option value="Palau">Palau</option>
+          <option value="Panama">Panama</option>
+          <option value="Papua New Guinea">Papua New Guinea</option>
+          <option value="Paraguay">Paraguay</option>
+          <option value="Peru">Peru</option>
+          <option value="Philippines">Philippines</option>
+          <option value="Pitcairn">Pitcairn</option>
+          <option value="Poland">Poland</option>
+          <option value="Portugal">Portugal</option>
+          <option value="Puerto Rico">Puerto Rico</option>
+          <option value="Qatar">Qatar</option>
+          <option value="Reunion">Reunion</option>
+          <option value="Romania">Romania</option>
+          <option value="Russia">Russian Federation</option>
+          <option value="Rwanda">Rwanda</option>
+          <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+          <option value="Saint Lucia">Saint LUCIA</option>
+          <option value="Saint Vincent">
+            Saint Vincent and the Grenadines
+          </option>
+          <option value="Samoa">Samoa</option>
+          <option value="San Marino">San Marino</option>
+          <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+          <option value="Saudi Arabia">Saudi Arabia</option>
+          <option value="Senegal">Senegal</option>
+          <option value="Seychelles">Seychelles</option>
+          <option value="Sierra">Sierra Leone</option>
+          <option value="Singapore">Singapore</option>
+          <option value="Slovakia">Slovakia (Slovak Republic)</option>
+          <option value="Slovenia">Slovenia</option>
+          <option value="Solomon Islands">Solomon Islands</option>
+          <option value="Somalia">Somalia</option>
+          <option value="South Africa">South Africa</option>
+          <option value="South Georgia">
+            South Georgia and the South Sandwich Islands
+          </option>
+          <option value="Span">Spain</option>
+          <option value="Sri Lanka">Sri Lanka</option>
+          <option value="St. Helena">St. Helena</option>
+          <option value="St. Pierre and Miguelon">
+            St. Pierre and Miquelon
+          </option>
+          <option value="Sudan">Sudan</option>
+          <option value="Suriname">Suriname</option>
+          <option value="Svalbard">Svalbard and Jan Mayen Islands</option>
+          <option value="Swaziland">Swaziland</option>
+          <option value="Sweden">Sweden</option>
+          <option value="Switzerland">Switzerland</option>
+          <option value="Syria">Syrian Arab Republic</option>
+          <option value="Taiwan">Taiwan, Province of China</option>
+          <option value="Tajikistan">Tajikistan</option>
+          <option value="Tanzania">Tanzania, United Republic of</option>
+          <option value="Thailand">Thailand</option>
+          <option value="Togo">Togo</option>
+          <option value="Tokelau">Tokelau</option>
+          <option value="Tonga">Tonga</option>
+          <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+          <option value="Tunisia">Tunisia</option>
+          <option value="Turkey">Turkey</option>
+          <option value="Turkmenistan">Turkmenistan</option>
+          <option value="Turks and Caicos">Turks and Caicos Islands</option>
+          <option value="Tuvalu">Tuvalu</option>
+          <option value="Uganda">Uganda</option>
+          <option value="Ukraine">Ukraine</option>
+          <option value="United Arab Emirates">United Arab Emirates</option>
+          <option value="United Kingdom">United Kingdom</option>
+          <option value="United States Minor Outlying Islands">
+            United States Minor Outlying Islands
+          </option>
+          <option value="Uruguay">Uruguay</option>
+          <option value="Uzbekistan">Uzbekistan</option>
+          <option value="Vanuatu">Vanuatu</option>
+          <option value="Venezuela">Venezuela</option>
+          <option value="Vietnam">Viet Nam</option>
+          <option value="Virgin Islands (British)">
+            Virgin Islands (British)
+          </option>
+          <option value="Virgin Islands (U.S)">Virgin Islands (U.S.)</option>
+          <option value="Wallis and Futana Islands">
+            Wallis and Futuna Islands
+          </option>
+          <option value="Western Sahara">Western Sahara</option>
+          <option value="Yemen">Yemen</option>
+          <option value="Serbia">Serbia</option>
+          <option value="Zambia">Zambia</option>
+          <option value="Zimbabwe">Zimbabwe</option>
+        </select>
+      </div>
+      <button type="submit" class = "rounded-xl my-4 border bg-green-300 px-3 py-1">Submit</button>
+    </form>
+  </div>
+</div>
+
+{% endblock %}

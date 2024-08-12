@@ -1,0 +1,156 @@
+{% extends "base.html" %} {% block content %} {% load static %}{% load i18n %}
+<div class="bg-blue-500">
+  <nav class="relative px-4 py-4 flex justify-between items-center bg-white text-[#051923]">
+    <a class="text-3xl font-bold leading-none" href="{% url 'home' %}">
+      <img src="{% static 'img/leaf.png' %}" class="h-10">
+
+    </a>
+    <div class="lg:hidden">
+      <button class="navbar-burger flex items-center text-[#1b4965]-600 p-3">
+        <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <title>Mobile menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+        </svg>
+      </button>
+    </div>
+    <ul
+      class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+
+      <li>
+        <a href="{% url 'pricing' %}"
+          class="text-[#051923] text-l flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/resource.png' %}" class="w-[18px] h-[18px] mr-4">
+
+          <span>Pricing</span>
+        </a>
+      </li>
+
+      <li class="text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+        </svg>
+      </li>
+      <li>
+        <a href="https://www.reddit.com/r/Verdeia/"
+          class="text-[#051923] text-sm flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/community.png' %}" class="w-[18px] h-[18px] mr-4 ">
+
+          <span>Community</span>
+        </a>
+      </li>
+      </svg>
+      </li>
+      <li class="text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+        </svg>
+      </li>
+      <li>
+        <a href="{% url 'blog' %}"
+          class="text-[#051923] text-l flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/blog.png' %}" class="w-[18px] h-[18px] mr-4">
+
+          <span>Blog</span>
+        </a>
+      </li>
+      <li class="text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+        </svg>
+      </li>
+      <li>
+        <a href="{% url 'faq' %}"
+          class="text-[#051923] text-l flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/faq.png' %}" class="w-[18px] h-[18px] mr-4">
+
+          <span>FAQ</span>
+        </a>
+      </li>
+    </ul>
+    <a class="hidden lg:inline-block lg:ml-auto font-extrabold lg:mr-3 py-2 px-6 bg-black-50 hover:bg-black-100 text-sm text-black-900 rounded-xl transition duration-200"
+      href="{% url 'login' %}">Log In</a>
+    <a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-black font-bold rounded-xl transition duration-200"
+      href="{% url 'gettingstarted' %}">Get Started</a>
+  </nav>
+  <div class="navbar-menu relative z-50 hidden">
+    <div class="navbar-backdrop fixed inset-0 bg-black-800 opacity-25"></div>
+    <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+      <div class="flex items-center mb-8">
+        <a class="mr-auto text-3xl font-bold leading-none" href="{% url 'home' %}">
+          <img src="{% static 'img/leaf.png' %}" class="h-12">
+
+        </a>
+        <button class="navbar-close">
+          <svg class="h-6 w-6 text-black-400 cursor-pointer hover:text-black-500" xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="{% url 'pricing' %}"
+              class="text-[#051923] text-l flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/resource.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>Pricing</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.reddit.com/r/Verdeia/"
+              class="text-[#051923] text-l flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/community.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>Community</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="{% url 'blog' %}"
+              class="text-[#051923] text-sm flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/blog.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>Blog</span>
+            </a>
+          </li>
+          <li>
+            <a href="{% url 'faq' %}"
+              class="text-[#051923] text-l flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/faq.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>FAQ</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="mt-auto">
+        <div class="pt-6">
+          <a class=" lg:inline-block lg:ml-auto lg:mr-3 mt-9 px-6 bg-black-50 hover:bg-black-100 text-sm text-black-900 font-bold rounded-xl transition duration-200 
+          " href="{% url 'login' %}">Log In</a>
+        <a class=" lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200"
+          href="{% url 'gettingstarted' %}">Get Started</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div class = "text-center mt-20">
+  <p class = "text-9xl font-black">Oops!</p>
+  <p class= "text-3xl font-semibold mt-6 mb-3">400 - PAGE NOT FOUND</p>
+  <p>The page you are looking for might have been removed<br>had its name changed or is temporarily unavailable</p>
+  <a class="mt-6 lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200"
+  href="{% url 'home' %}">GO HOME</a>
+</div>
+
+
+{% endblock %}

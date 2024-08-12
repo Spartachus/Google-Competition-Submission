@@ -1,0 +1,302 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+{% load i18n %}
+
+<div class="bg-blue-500">
+  <div class="fixed top-0 w-full ">
+    <nav class="px-2 py-2 flex justify-between items-center bg-white mb-6">
+      <a class="text-3xl font-bold leading-none" href="{% url 'home' %}">
+        <img src="{% static 'img/leaf.png' %}" class="h-10">
+
+      </a>
+      <div class="lg:hidden">
+        <button class="navbar-burger flex items-center text-blue-600 p-3">
+          <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <title>Mobile menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+          </svg>
+        </button>
+      </div>
+      <ul
+        class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-7">
+        <li>
+          <a href="{% url 'userlogged' %}" class="text-black text-base flex items-center py-2 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+              viewBox="0 0 512 512">
+              <path
+                d="M197.332 170.668h-160C16.746 170.668 0 153.922 0 133.332v-96C0 16.746 16.746 0 37.332 0h160c20.59 0 37.336 16.746 37.336 37.332v96c0 20.59-16.746 37.336-37.336 37.336zM37.332 32A5.336 5.336 0 0 0 32 37.332v96a5.337 5.337 0 0 0 5.332 5.336h160a5.338 5.338 0 0 0 5.336-5.336v-96A5.337 5.337 0 0 0 197.332 32zm160 480h-160C16.746 512 0 495.254 0 474.668v-224c0-20.59 16.746-37.336 37.332-37.336h160c20.59 0 37.336 16.746 37.336 37.336v224c0 20.586-16.746 37.332-37.336 37.332zm-160-266.668A5.337 5.337 0 0 0 32 250.668v224A5.336 5.336 0 0 0 37.332 480h160a5.337 5.337 0 0 0 5.336-5.332v-224a5.338 5.338 0 0 0-5.336-5.336zM474.668 512h-160c-20.59 0-37.336-16.746-37.336-37.332v-96c0-20.59 16.746-37.336 37.336-37.336h160c20.586 0 37.332 16.746 37.332 37.336v96C512 495.254 495.254 512 474.668 512zm-160-138.668a5.338 5.338 0 0 0-5.336 5.336v96a5.337 5.337 0 0 0 5.336 5.332h160a5.336 5.336 0 0 0 5.332-5.332v-96a5.337 5.337 0 0 0-5.332-5.336zm160-74.664h-160c-20.59 0-37.336-16.746-37.336-37.336v-224C277.332 16.746 294.078 0 314.668 0h160C495.254 0 512 16.746 512 37.332v224c0 20.59-16.746 37.336-37.332 37.336zM314.668 32a5.337 5.337 0 0 0-5.336 5.332v224a5.338 5.338 0 0 0 5.336 5.336h160a5.337 5.337 0 0 0 5.332-5.336v-224A5.336 5.336 0 0 0 474.668 32zm0 0"
+                data-original="#000000" />
+            </svg>
+            <span>Home</span>
+          </a>
+        </li>
+
+        <li class="text-black">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+          </svg>
+        </li>
+        <li>
+          <a href="{% url 'events' %}" class="text-blue-600 text-base flex items-center py-2 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+              viewBox="0 0 512 512">
+              <path
+                d="M122.39 165.78h244.87c10.49 0 19-8.51 19-19s-8.51-19-19-19H122.39c-10.49 0-19 8.51-19 19s8.51 19 19 19zm164.33 99.44c0-10.49-8.51-19-19-19H122.39c-10.49 0-19 8.51-19 19s8.51 19 19 19h145.33c10.49 0 19-8.51 19-19z"
+                data-original="#000000" />
+              <path
+                d="M486.63 323.71c2.04-22.33 3.41-48.35 3.44-78.68-.06-57.07-4.85-98.86-9.96-129.57-8.94-50.6-54.9-96.56-105.5-105.5C343.9 4.85 302.11.06 245.03 0c-57.07.06-98.87 4.85-129.58 9.96C64.86 18.9 18.9 64.86 9.96 115.46 4.85 146.17.07 187.96 0 245.03c.07 57.07 4.85 98.87 9.96 129.58 8.94 50.6 54.9 96.56 105.5 105.5 30.71 5.11 72.5 9.89 129.58 9.96 30.32-.03 56.34-1.4 78.66-3.44 19.84 15.87 45 25.37 72.38 25.37 64.02 0 115.93-51.9 115.93-115.92 0-27.38-9.5-52.54-25.37-72.37zM245.04 452.07c-45.02-.05-85.3-3.13-123.13-9.41-16.81-3.01-33.84-12.44-47.95-26.55s-23.53-31.13-26.55-47.95c-6.28-37.79-9.35-78.07-9.41-123.13.05-45.04 3.13-85.32 9.41-123.13 3.01-16.81 12.44-33.83 26.55-47.94s31.13-23.53 47.95-26.55C159.72 41.13 200 38.06 245.04 38c45.02.05 85.3 3.13 123.13 9.41 16.81 3.01 33.83 12.44 47.95 26.55 14.11 14.11 23.53 31.13 26.55 47.95 6.28 37.83 9.35 78.1 9.41 123.13-.02 16.9-.48 33.11-1.36 48.79-16.28-8.72-34.88-13.66-54.64-13.66-64.02 0-115.93 51.9-115.93 115.92 0 19.76 4.95 38.35 13.66 54.63-15.68.88-31.89 1.34-48.78 1.35zM396.08 474c-42.97 0-77.93-34.95-77.93-77.92s34.96-77.92 77.93-77.92 77.93 34.95 77.93 77.92S439.05 474 396.08 474z"
+                data-original="#000000" />
+              <path
+                d="M406.28 418.24c-2.42-.4-5.71-.78-10.2-.78s-7.78.38-10.2.78c-3.98.7-7.6 4.32-8.31 8.31-.4 2.42-.78 5.71-.78 10.2s.38 7.78.78 10.2c.7 3.98 4.32 7.6 8.31 8.31 2.42.4 5.71.78 10.2.78s7.78-.38 10.2-.78c3.98-.7 7.6-4.32 8.31-8.31.4-2.42.78-5.71.78-10.2s-.38-7.78-.78-10.2c-.7-3.98-4.32-7.6-8.31-8.31zm-10.21-12.61c10.49 0 19-8.51 19-19v-31.7c0-10.49-8.51-19-19-19s-19 8.51-19 19v31.7c0 10.49 8.51 19 19 19z"
+                data-original="#000000" />
+            </svg>
+            <span>Event</span>
+          </a>
+        </li>
+
+        <li class="text-black">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+          </svg>
+        </li>
+        <li>
+          <a href="{% url 'projects' %}" class="text-black text-base flex items-center py-2 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+              viewBox="0 0 16 16">
+              <path
+                d="M13 .5H3A2.503 2.503 0 0 0 .5 3v10A2.503 2.503 0 0 0 3 15.5h10a2.503 2.503 0 0 0 2.5-2.5V3A2.503 2.503 0 0 0 13 .5ZM14.5 13a1.502 1.502 0 0 1-1.5 1.5H3A1.502 1.502 0 0 1 1.5 13v-.793l3.5-3.5 1.647 1.647a.5.5 0 0 0 .706 0L10.5 7.207V8a.5.5 0 0 0 1 0V6a.502.502 0 0 0-.5-.5H9a.5.5 0 0 0 0 1h.793L7 9.293 5.354 7.647a.5.5 0 0 0-.707 0L1.5 10.793V3A1.502 1.502 0 0 1 3 1.5h10A1.502 1.502 0 0 1 14.5 3Z"
+                data-original="#000000" />
+            </svg>
+            <span>Projects</span>
+          </a>
+        </li>
+
+        <li class="text-black-400">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+          </svg>
+        </li>
+        <li>
+          <a href="{% url 'askgaia' %}" class="text-black text-base flex items-center rounded py-2 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke='currentColor'
+              class="w-[18px] h-[18px] mr-4" viewBox="0 0 682.667 682.667">
+              <defs>
+                <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                  <path d="M0 512h512V0H0Z" data-original="#000000" />
+                </clipPath>
+              </defs>
+              <g clip-path="url(#a)" transform="matrix(1.33 0 0 -1.33 0 682.667)">
+                <path fill="none" stroke-miterlimit="10" stroke-width="40"
+                  d="M452 444H60c-22.091 0-40-17.909-40-40v-39.446l212.127-157.782c14.17-10.54 33.576-10.54 47.746 0L492 364.554V404c0 22.091-17.909 40-40 40Z"
+                  data-original="#000000" />
+                <path
+                  d="M472 274.9V107.999c0-11.027-8.972-20-20-20H60c-11.028 0-20 8.973-20 20V274.9L0 304.652V107.999c0-33.084 26.916-60 60-60h392c33.084 0 60 26.916 60 60v196.653Z"
+                  data-original="#000000" />
+              </g>
+            </svg>
+            <span>Ask Gaia</span>
+          </a>
+        </li>
+
+
+      </ul>
+      <a class="hidden lg:inline-block" href="{% url 'profile' %}">
+        <div class="flex flex-wrap items-center cursor-pointer border border-blue-500 rounded-full px-2 py-1">
+          <img src="{% static 'img/profile.jpeg' %}" class="w-8 h-8 rounded-full border-2 border-white" />
+          <div class="ml-4">
+            <p class="text-base text-blue-600">{{ user.username }}</p>
+            <p class="text-xs text-blue-300 mr-2">{{user_tier}}</p>
+          </div>
+        </div>
+      </a>
+    </nav>
+  </div>
+  <div class="navbar-menu relative z-50 hidden">
+    <div class="navbar-backdrop fixed inset-0 bg-black-800 opacity-25"></div>
+    <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+      <div class="flex items-center mb-8">
+        <a class="mr-auto text-3xl font-bold leading-none" href="{% url 'home' %}">
+          <img src="{% static 'img/leaf.png' %}" class="h-12">
+
+        </a>
+        <button class="navbar-close">
+          <svg class="h-6 w-6 text-black-400 cursor-pointer hover:text-black-500" xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="{% url 'userlogged' %}" class="text-black text-base flex items-center px-4 py-3 transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+                viewBox="0 0 512 512">
+                <path
+                  d="M197.332 170.668h-160C16.746 170.668 0 153.922 0 133.332v-96C0 16.746 16.746 0 37.332 0h160c20.59 0 37.336 16.746 37.336 37.332v96c0 20.59-16.746 37.336-37.336 37.336zM37.332 32A5.336 5.336 0 0 0 32 37.332v96a5.337 5.337 0 0 0 5.332 5.336h160a5.338 5.338 0 0 0 5.336-5.336v-96A5.337 5.337 0 0 0 197.332 32zm160 480h-160C16.746 512 0 495.254 0 474.668v-224c0-20.59 16.746-37.336 37.332-37.336h160c20.59 0 37.336 16.746 37.336 37.336v224c0 20.586-16.746 37.332-37.336 37.332zm-160-266.668A5.337 5.337 0 0 0 32 250.668v224A5.336 5.336 0 0 0 37.332 480h160a5.337 5.337 0 0 0 5.336-5.332v-224a5.338 5.338 0 0 0-5.336-5.336zM474.668 512h-160c-20.59 0-37.336-16.746-37.336-37.332v-96c0-20.59 16.746-37.336 37.336-37.336h160c20.586 0 37.332 16.746 37.332 37.336v96C512 495.254 495.254 512 474.668 512zm-160-138.668a5.338 5.338 0 0 0-5.336 5.336v96a5.337 5.337 0 0 0 5.336 5.332h160a5.336 5.336 0 0 0 5.332-5.332v-96a5.337 5.337 0 0 0-5.332-5.336zm160-74.664h-160c-20.59 0-37.336-16.746-37.336-37.336v-224C277.332 16.746 294.078 0 314.668 0h160C495.254 0 512 16.746 512 37.332v224c0 20.59-16.746 37.336-37.332 37.336zM314.668 32a5.337 5.337 0 0 0-5.336 5.332v224a5.338 5.338 0 0 0 5.336 5.336h160a5.337 5.337 0 0 0 5.332-5.336v-224A5.336 5.336 0 0 0 474.668 32zm0 0"
+                  data-original="#000000" />
+              </svg>
+              <span>Home</span>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="{% url 'events' %}" class="text-blue-600 text-base flex items-center px-4 py-3 transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+                viewBox="0 0 512 512">
+                <path
+                  d="M122.39 165.78h244.87c10.49 0 19-8.51 19-19s-8.51-19-19-19H122.39c-10.49 0-19 8.51-19 19s8.51 19 19 19zm164.33 99.44c0-10.49-8.51-19-19-19H122.39c-10.49 0-19 8.51-19 19s8.51 19 19 19h145.33c10.49 0 19-8.51 19-19z"
+                  data-original="#000000" />
+                <path
+                  d="M486.63 323.71c2.04-22.33 3.41-48.35 3.44-78.68-.06-57.07-4.85-98.86-9.96-129.57-8.94-50.6-54.9-96.56-105.5-105.5C343.9 4.85 302.11.06 245.03 0c-57.07.06-98.87 4.85-129.58 9.96C64.86 18.9 18.9 64.86 9.96 115.46 4.85 146.17.07 187.96 0 245.03c.07 57.07 4.85 98.87 9.96 129.58 8.94 50.6 54.9 96.56 105.5 105.5 30.71 5.11 72.5 9.89 129.58 9.96 30.32-.03 56.34-1.4 78.66-3.44 19.84 15.87 45 25.37 72.38 25.37 64.02 0 115.93-51.9 115.93-115.92 0-27.38-9.5-52.54-25.37-72.37zM245.04 452.07c-45.02-.05-85.3-3.13-123.13-9.41-16.81-3.01-33.84-12.44-47.95-26.55s-23.53-31.13-26.55-47.95c-6.28-37.79-9.35-78.07-9.41-123.13.05-45.04 3.13-85.32 9.41-123.13 3.01-16.81 12.44-33.83 26.55-47.94s31.13-23.53 47.95-26.55C159.72 41.13 200 38.06 245.04 38c45.02.05 85.3 3.13 123.13 9.41 16.81 3.01 33.83 12.44 47.95 26.55 14.11 14.11 23.53 31.13 26.55 47.95 6.28 37.83 9.35 78.1 9.41 123.13-.02 16.9-.48 33.11-1.36 48.79-16.28-8.72-34.88-13.66-54.64-13.66-64.02 0-115.93 51.9-115.93 115.92 0 19.76 4.95 38.35 13.66 54.63-15.68.88-31.89 1.34-48.78 1.35zM396.08 474c-42.97 0-77.93-34.95-77.93-77.92s34.96-77.92 77.93-77.92 77.93 34.95 77.93 77.92S439.05 474 396.08 474z"
+                  data-original="#000000" />
+                <path
+                  d="M406.28 418.24c-2.42-.4-5.71-.78-10.2-.78s-7.78.38-10.2.78c-3.98.7-7.6 4.32-8.31 8.31-.4 2.42-.78 5.71-.78 10.2s.38 7.78.78 10.2c.7 3.98 4.32 7.6 8.31 8.31 2.42.4 5.71.78 10.2.78s7.78-.38 10.2-.78c3.98-.7 7.6-4.32 8.31-8.31.4-2.42.78-5.71.78-10.2s-.38-7.78-.78-10.2c-.7-3.98-4.32-7.6-8.31-8.31zm-10.21-12.61c10.49 0 19-8.51 19-19v-31.7c0-10.49-8.51-19-19-19s-19 8.51-19 19v31.7c0 10.49 8.51 19 19 19z"
+                  data-original="#000000" />
+              </svg>
+              <span>Event</span>
+            </a>
+          </li>
+          <li>
+            <a href="{% url 'projects' %}" class="text-black text-base flex items-center px-4 py-3 transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
+                viewBox="0 0 16 16">
+                <path
+                  d="M13 .5H3A2.503 2.503 0 0 0 .5 3v10A2.503 2.503 0 0 0 3 15.5h10a2.503 2.503 0 0 0 2.5-2.5V3A2.503 2.503 0 0 0 13 .5ZM14.5 13a1.502 1.502 0 0 1-1.5 1.5H3A1.502 1.502 0 0 1 1.5 13v-.793l3.5-3.5 1.647 1.647a.5.5 0 0 0 .706 0L10.5 7.207V8a.5.5 0 0 0 1 0V6a.502.502 0 0 0-.5-.5H9a.5.5 0 0 0 0 1h.793L7 9.293 5.354 7.647a.5.5 0 0 0-.707 0L1.5 10.793V3A1.502 1.502 0 0 1 3 1.5h10A1.502 1.502 0 0 1 14.5 3Z"
+                  data-original="#000000" />
+              </svg>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="{% url 'askgaia' %}" class="text-black text-base flex items-center px-4 py-3 transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke='currentColor'
+                class="w-[18px] h-[18px] mr-4" viewBox="0 0 682.667 682.667">
+                <defs>
+                  <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                    <path d="M0 512h512V0H0Z" data-original="#000000" />
+                  </clipPath>
+                </defs>
+                <g clip-path="url(#a)" transform="matrix(1.33 0 0 -1.33 0 682.667)">
+                  <path fill="none" stroke-miterlimit="10" stroke-width="40"
+                    d="M452 444H60c-22.091 0-40-17.909-40-40v-39.446l212.127-157.782c14.17-10.54 33.576-10.54 47.746 0L492 364.554V404c0 22.091-17.909 40-40 40Z"
+                    data-original="#000000" />
+                  <path
+                    d="M472 274.9V107.999c0-11.027-8.972-20-20-20H60c-11.028 0-20 8.973-20 20V274.9L0 304.652V107.999c0-33.084 26.916-60 60-60h392c33.084 0 60 26.916 60 60v196.653Z"
+                    data-original="#000000" />
+                </g>
+              </svg>
+              <span>Ask Gaia</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <a href="{% url 'profile' %}">
+        <div class="mt-auto">
+          <div class="pt-5">
+            <div class="flex flex-wrap items-center cursor-pointer border border-blue-600 rounded-full px-2 py-1">
+              <img src="{% static 'img/profile.jpeg' %}" class="w-8 h-8 rounded-full border-2 border-white" />
+              <div class="ml-3">
+                <p class="text-base text-blue-600">{{ user.username }}</p>
+                <p class="text-sm text-blue-300">{{user_tier}}</p>
+              </div>
+            </div>
+          </div>
+      </a>
+    </nav>
+  </div>
+</div>
+
+<div class="bg-white mt-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 gap-y-10 md:grid-cols-2 gap-x-12">
+      <div class="text-left">
+        <img src="{% static 'img/projectrecycle.jpg' %}" alt=""
+          class="inline rounded-lg lg:w-10/12 w-full object-cover" />
+      </div>
+      <div>
+        <h2 class="text-[#333] text-4xl font-extrabold mb-6">{% blocktrans %}Cleanup exercise{% endblocktrans %}</h2>
+        <p class="text-base text-gray-500 mb-4">{% blocktrans %}Join us in taking direct action to combat the growing plastic pollution
+          crisis in our community. By volunteering for our street cleanup initiative, you'll have the opportunity to
+          make an immediate, visible impact on the health of our local environment. Each month, we organize group
+          cleanup events where volunteers fan out across neighborhoods to collect discarded plastic bottles, bags, and
+          other waste that has accumulated on sidewalks, in gutters, and along roadsides. This hands-on work not only
+          removes harmful microplastics from entering our waterways, but also beautifies public spaces and instills a
+          greater sense of community pride. {% endblocktrans %}</p>
+
+          <div>
+            <p class="font-bold text-[#333] text-lg mt-2">{% blocktrans %}Location{% endblocktrans %}</p>
+            <p class = "text-gray-500">{{volunteer_location}}</p>
+            <p class="font-bold text-[#333] text-lg mt-2">{% blocktrans %}Event Date{% endblocktrans %}</p>
+            <p class = "text-gray-500">{{volunteer_date}}</p>
+            <p class="font-bold text-[#333] text-lg mt-2">{% blocktrans %}Event Organiser{% endblocktrans %}</p>
+            <p class = "text-gray-500">{{event_organiser}}</p>
+            <p class="font-bold text-[#333] text-lg mt-2">{% blocktrans %}Event Signees{% endblocktrans %}</p>
+            <p class = "text-gray-500">#{{members}} people already signed</p>
+          </div>
+            {% if user_events %}
+            <div class = "mt-5 font-medium text-lg">
+              <p>You are already Volunteering in This Event</p>
+              <form method="post">
+                {% csrf_token %}
+              <button type="submit" name = "delete"
+                class="inline-block mt-2 px-4 py-1 bg-green-500 text-white text-base font-medium rounded-md hover:bg-green-600">Leave</button>
+              </form>
+            
+              </div>
+          {% else %}
+  
+          <div class="space-y-6 mt-4 max-w-md mx-auto">
+            <div>
+  
+              <form method="post">
+                {% csrf_token %} <label class="mb-2 text-sm text-black block">{% blocktrans %}Display Name{% endblocktrans %}</label>
+                <div class="relative flex items-center">
+  
+                  <input type='text' placeholder='Enter name' name="name" required
+                    class="pr-4 pl-14 py-3 text-sm text-black rounded bg-white border border-gray-400 w-full outline-[#333]" />
+  
+                  <div class="absolute left-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" fill="#bbb" viewBox="0 0 512 512">
+                      <path
+                        d="M437.02 74.981C388.667 26.629 324.38 0 256 0S123.333 26.629 74.98 74.981C26.629 123.333 0 187.62 0 256s26.629 132.667 74.98 181.019C123.333 485.371 187.62 512 256 512s132.667-26.629 181.02-74.981C485.371 388.667 512 324.38 512 256s-26.629-132.667-74.98-181.019zM256 482c-66.869 0-127.037-29.202-168.452-75.511C113.223 338.422 178.948 290 256 290c-49.706 0-90-40.294-90-90s40.294-90 90-90 90 40.294 90 90-40.294 90-90 90c77.052 0 142.777 48.422 168.452 116.489C383.037 452.798 322.869 482 256 482z"
+                        data-original="#000000"></path>
+                    </svg>
+                  </div>
+                </div>
+  
+            </div>
+  
+            <div>
+  
+              <div class="flex items-center mt-4">
+                <input id="checkbox1" type="checkbox" required
+                  class="w-4 h-4 mr-3 focus:ring-1 focus:ring-offset-slate-200 focus:ring-offset-4 focus:ring-[#007bff]" />
+                <label for="checkbox1" class="text-sm">{% blocktrans %}You acknowledge that you understand and
+                  agree to our{% endblocktrans %} <a href="{% url 'privacy' %}" class="text-blue-600 font-semibold">Safety Policies</a>
+                  {% blocktrans %}and{% endblocktrans %} <a href="{% url 'termsconditions' %}" class="text-blue-600 font-semibold">Terms &
+                    Conditions</a></label>
+              </div>
+  
+              <button type="submit" name = "add"
+                class="inline-block mt-6 px-4 py-1 bg-green-500 text-white text-base font-medium rounded-md hover:bg-green-600">Volunteer</button>
+              </form>
+            </div>
+          </div>
+          {% endif %}
+        </div>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}

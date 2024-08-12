@@ -1,0 +1,319 @@
+{% extends "base.html" %} {% block content %} {% load static %}{% load i18n %}
+<div class="bg-blue-500">
+  <nav class="relative px-4 py-4 flex justify-between items-center bg-white text-[#051923]">
+    <a class="text-3xl font-bold leading-none" href="{% url 'home' %}">
+      <img src="{% static 'img/leaf.png' %}" class="h-10">
+
+    </a>
+    <div class="lg:hidden">
+      <button class="navbar-burger flex items-center text-[#1b4965]-600 p-3">
+        <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <title>Mobile menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+        </svg>
+      </button>
+    </div>
+    <ul
+      class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+
+      <li>
+        <a href="{% url 'pricing' %}"
+          class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/resource.png' %}" class="w-[18px] h-[18px] mr-4">
+
+          <span>{% blocktrans %}Pricing{% endblocktrans %}</span>
+        </a>
+      </li>
+
+      <li class="text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+        </svg>
+      </li>
+      <li>
+        <a href="https://www.reddit.com/r/Verdeia/"
+          class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/community.png' %}" class="w-[18px] h-[18px] mr-4 ">
+
+          <span>{% blocktrans %}Community{% endblocktrans %}</span>
+        </a>
+      </li>
+      </svg>
+      </li>
+      <li class="text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+        </svg>
+      </li>
+      <li>
+        <a href="{% url 'blog' %}"
+          class="text-black text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/blog.png' %}" class="w-[18px] h-[18px] mr-4">
+
+          <span>Blog</span>
+        </a>
+      </li>
+      <li class="text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+        </svg>
+      </li>
+      <li>
+        <a href="{% url 'faq' %}"
+          class="text-[#051923] text-lg flex items-center py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+          <img src="{% static 'img/faq.png' %}" class="w-[18px] h-[18px] mr-4">
+
+          <span>FAQ</span>
+        </a>
+      </li>
+    </ul>
+    <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-black-50 hover:bg-black-100 text-lg text-black-900 font-bold rounded-xl transition duration-200"
+      href="{% url 'login' %}">{% blocktrans %}Log In{% endblocktrans %}</a>
+    <a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-lg text-black font-bold rounded-xl transition duration-200"
+      href="{% url 'gettingstarted' %}">{% blocktrans %}Get Started{% endblocktrans %}</a>
+  </nav>
+  <div class="navbar-menu relative z-50 hidden">
+    <div class="navbar-backdrop fixed inset-0 bg-black-800 opacity-25"></div>
+    <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+      <div class="flex items-center mb-8">
+        <a class="mr-auto text-3xl font-bold leading-none" href="{% url 'home' %}">
+          <img src="{% static 'img/leaf.png' %}" class="h-12">
+
+        </a>
+        <button class="navbar-close">
+          <svg class="h-6 w-6 text-black-400 cursor-pointer hover:text-black-500" xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+            </path>
+          </svg>
+        </button>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="{% url 'pricing' %}"
+              class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/resource.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>{% blocktrans %}Pricing{% endblocktrans %}</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.reddit.com/r/Verdeia/"
+              class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/community.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>{% blocktrans %}Community{% endblocktrans %}</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="{% url 'blog' %}"
+              class="text-black text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/blog.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>Blog</span>
+            </a>
+          </li>
+          <li>
+            <a href="{% url 'faq' %}"
+              class="text-[#051923] text-lg flex items-center px-4 py-3 transition-all font-semibold transition-all font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-blue-500">
+              <img src="{% static 'img/faq.png' %}" class="w-[18px] h-[18px] mr-4">
+
+              <span>FAQ</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="mt-auto">
+        <div class="pt-6">
+          <a class=" lg:inline-block lg:ml-auto lg:mr-3 mt-9 px-6 bg-black-50 hover:bg-black-100 text-lg text-black-900 font-bold rounded-xl transition duration-200 
+            " href="{% url 'login' %}">{% blocktrans %}Log In{% endblocktrans %}</a>
+          <a class=" lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-lg text-white font-bold rounded-xl transition duration-200"
+            href="{% url 'gettingstarted' %}">{% blocktrans %}Get Started{% endblocktrans %}</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div class="mt-9 mb-10">
+  <div
+    class="grid sm:grid-cols-2 items-start gap-14 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md font-[sans-serif]">
+    <div>
+      <h1 class="text-gray-800 text-3xl font-extrabold">{% blocktrans %}Let's Talk{% endblocktrans %}</h1>
+      <p class="text-sm text-gray-500 mt-4">{% blocktrans %}Have some big idea or brand to develop and need help?
+        Then reach out we'd love to hear about your project and provide help.{% endblocktrans %}</p>
+
+      <div class="mt-12">
+        <h2 class="text-gray-800 text-base font-bold">Email</h2>
+        <ul class="mt-4">
+          <li class="flex items-center">
+            <div class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
+                viewBox="0 0 479.058 479.058">
+                <path
+                  d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
+                  data-original="#000000" />
+              </svg>
+            </div>
+            <a href="mailto:hello@verdeia.xyz" class="text-[#007bff] text-sm ml-4">
+              <small class="block">Mail</small>
+              <strong>hello@verdeia.xyz</strong>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="mt-12">
+        <h2 class="text-gray-800 text-base font-bold">Socials</h2>
+
+        <ul class="flex mt-4 space-x-4">
+          <li class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+            <a href="https://www.youtube.com/@VerdeiaLabs">
+              <img src = "{% static 'img/youtube.png' %}" width="20px" height="20px">
+            </a>
+          </li>
+          <li class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+            <a href="https://www.x.com/VerdeiaLabs">
+              <img src = "{% static 'img/twitter.png' %}" width="20px" height="20px">
+            </a>
+          </li>
+          <li class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+            <a href="https://www.instagram.com/verdeialabs/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff' viewBox="0 0 24 24">
+                <path
+                  d="M12 9.3a2.7 2.7 0 1 0 0 5.4 2.7 2.7 0 0 0 0-5.4Zm0-1.8a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm5.85-.225a1.125 1.125 0 1 1-2.25 0 1.125 1.125 0 0 1 2.25 0ZM12 4.8c-2.227 0-2.59.006-3.626.052-.706.034-1.18.128-1.618.299a2.59 2.59 0 0 0-.972.633 2.601 2.601 0 0 0-.634.972c-.17.44-.265.913-.298 1.618C4.805 9.367 4.8 9.714 4.8 12c0 2.227.006 2.59.052 3.626.034.705.128 1.18.298 1.617.153.392.333.674.632.972.303.303.585.484.972.633.445.172.918.267 1.62.3.993.047 1.34.052 3.626.052 2.227 0 2.59-.006 3.626-.052.704-.034 1.178-.128 1.617-.298.39-.152.674-.333.972-.632.304-.303.485-.585.634-.972.171-.444.266-.918.299-1.62.047-.993.052-1.34.052-3.626 0-2.227-.006-2.59-.052-3.626-.034-.704-.128-1.18-.299-1.618a2.619 2.619 0 0 0-.633-.972 2.595 2.595 0 0 0-.972-.634c-.44-.17-.914-.265-1.618-.298-.993-.047-1.34-.052-3.626-.052ZM12 3c2.445 0 2.75.009 3.71.054.958.045 1.61.195 2.185.419A4.388 4.388 0 0 1 19.49 4.51c.457.45.812.994 1.038 1.595.222.573.373 1.227.418 2.185.042.96.054 1.265.054 3.71 0 2.445-.009 2.75-.054 3.71-.045.958-.196 1.61-.419 2.185a4.395 4.395 0 0 1-1.037 1.595 4.44 4.44 0 0 1-1.595 1.038c-.573.222-1.227.373-2.185.418-.96.042-1.265.054-3.71.054-2.445 0-2.75-.009-3.71-.054-.958-.045-1.61-.196-2.185-.419A4.402 4.402 0 0 1 4.51 19.49a4.414 4.414 0 0 1-1.037-1.595c-.224-.573-.374-1.227-.419-2.185C3.012 14.75 3 14.445 3 12c0-2.445.009-2.75.054-3.71s.195-1.61.419-2.185A4.392 4.392 0 0 1 4.51 4.51c.45-.458.994-.812 1.595-1.037.574-.224 1.226-.374 2.185-.419C9.25 3.012 9.555 3 12 3Z">
+                </path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <form class="ml-auo space-y-4">
+      <input type='text' placeholder='Name' name="name"
+        class="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-blue-500" />
+      <input type='email' placeholder='Email' name="mail"
+        class="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-blue-500" />
+      <input type='text' placeholder='Subject' name="subject"
+        class="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-blue-500" />
+      <textarea placeholder='Message' rows="6" name="message"
+        class="w-full text-gray-800 rounded-md px-4 border text-sm pt-2.5 outline-blue-500"></textarea>
+      <button type='submit'
+        class="text-white bg-blue-500 hover:bg-blue-600 rounded-md text-sm px-4 py-3 w-full !mt-6">Send</button>
+    </form>
+  </div>
+</div>
+
+<footer class="bg-[#1a1818] font-['Catamaran'] tracking-wide">
+  <div class="py-14 px-6 sm:px-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+      <div class="lg:col-span-2">
+        <a href="{% url 'home' %}"><img src="{% static 'img/leaf.png' %}" alt="logo" class="h-12 " /></a>
+        <p class="text-gray-300 text-2xl font-black mb-8">
+          Verdeia
+        </p>
+        <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+          <div >
+            <input name="next" type="hidden" value="{{ redirect_to }}">
+        
+            <select class = "border-2 border-blue-200 rounded-md w-[20%] text-center" name="language" onChange="form.submit();">
+              
+                {% get_current_language as LANGUAGE_CODE %}
+                {% get_available_languages as LANGUAGES %}
+                {% get_language_info_list for LANGUAGES as languages %}
+                {% for language in languages %}
+                
+                    <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>              
+                      {{ language.name_local }} 
+                    </option>
+                {% endfor %}
+            </select></div>
+        
+        </form>
+        <p class="text-gray-300 text-sm mb-3">
+          Made with ❤️ by <a href="https://www.github.com/spartachus" class="font-black text-xl">Spartachus</a>
+        </p>
+        <p class="text-gray-300 text-sm">
+          {% blocktrans %}Empowering You to Track, Reduce, and Offset Carbon Emissions for a Greener Tomorrow.{%endblocktrans %}
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-bold mb-8 text-white">{% blocktrans %}Navigation{% endblocktrans %}</h4>
+        <ul class="space-y-4">
+          <li>
+            <a href="https://science.nasa.gov/climate-change/adaptation-mitigation/resources/"
+              class="text-gray-300 hover:text-white text-sm">{% blocktrans %}Resources{% endblocktrans %}</a>
+          </li>
+          <li>
+            <a href="{% url 'contact' %}" class="text-gray-300 hover:text-white text-sm">Contact</a>
+          </li>
+          <li>
+            <a href="{% url 'faq' %}" class="text-gray-300 hover:text-white text-sm">FAQ</a>
+          </li>
+          <li>
+            <a href="{% url 'blog' %}" class="text-gray-300 hover:text-white text-sm">Blog</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-bold mb-8 text-white">{% blocktrans %}Follow Us{% endblocktrans %}</h4>
+
+        <ul class="flex gap-4">
+          <li>
+            <a href="https://www.instagram.com/verdeialabs/">
+              <img src="{% static 'img/instagram.png' %}" class=" w-6 h-6">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@VerdeiaLabs" class="text-gray-300 hover:text-white">
+              <img src="{% static 'img/youtube.png' %}" class=" w-6 h-6"></a>
+          </li>
+          <li>
+            <a href="https://www.reddit.com/Verdeia" class="text-gray-300 hover:text-white">
+              <img src="{% static 'img/reddit-logo.png' %}" class=" w-6 h-6">
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com/VerdeiaLabs" class="text-gray-300 hover:text-white">
+              <img src = "{% static 'img/twitter.png' %}" width="20px" height="20px">
+</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white text-lg font-bold mb-7">Subscribe</h4>
+        <p class="text-gray-300 mb-5">
+          {% blocktrans %}Subscribe to our newsletter to receive updates and exclusive offers.{% endblocktrans %}
+        </p>
+        <form action="" class="space-y-8" method="post" novalidate>
+          {% csrf_token %}
+
+          <div class="flex">
+            <input name="mail" id="mail" type="email"
+              class="px-3 py-3 text-sm rounded-l-md w-full focus:outline-none bg-gray-50"
+              placeholder="Enter your email address" />
+            <button type="submit"
+              class="bg-gray-600 hover:bg-gray-500 text-white px-1 rounded-r-md text-sm tracking-wide transition-all">
+              {% blocktrans %} Subscribe{% endblocktrans %}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+{% endblock %}
